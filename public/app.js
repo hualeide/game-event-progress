@@ -785,7 +785,7 @@ function render() {
     `进行中 ${liveN}`,
     `预告 ${prevN}`,
   ];
-  if (soonN) parts.push(`将截止 `);
+  if (soonN) parts.push(`将截止 ${soonN}`);
   if (fuzzyN) parts.push(`估时 ${fuzzyN}`);
   if (upd) parts.push(`更新 ${upd}`);
   if (state.query.trim()) parts.unshift(`搜「${state.query.trim()}」`);
