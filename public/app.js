@@ -631,6 +631,7 @@ function openDetail(gameId, eventId) {
     ${jump ? `<a class="primary" href="${jump}" target="_blank" rel="noopener">${primaryLabel}</a>` : ""}
     ${wikiBtn}
     ${toolBtns}
+    <button type="button" class="ghost" data-copy-link>复制链接</button>
     <button type="button" class="ghost" data-close-detail>返回</button>`;
 
   if (wiki?.url || tools.length) {
@@ -884,6 +885,24 @@ $("#games").addEventListener("keydown", (e) => {
 
 $("#detail").addEventListener("click", (e) => {
   if (e.target.closest("[data-close-detail]")) closeDetail();
+  const copyBtn = e.target.closest("[data-copy-link]");
+  if (copyBtn) {
+    const url = location.href.split("#")[0] + location.hash;
+    const done = () => {
+      const prev = copyBtn.textContent;
+      copyBtn.textContent = "已复制";
+      setTimeout(() => {
+        copyBtn.textContent = prev;
+      }, 1200);
+    };
+    if (navigator.clipboard?.writeText) {
+      navigator.clipboard.writeText(url).then(done).catch(() => {
+        prompt("复制链接", url);
+      });
+    } else {
+      prompt("复制链接", url);
+    }
+  }
 });
 
 window.addEventListener("keydown", (e) => {
