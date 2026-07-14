@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-14T23:53:41.697836+08:00",
+  "fetchedAt": "2026-07-15T00:19:42.303897+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -51,8 +51,8 @@
       "start": "2026-07-02T16:00:00+08:00",
       "end": "2026-07-16T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天4时",
-      "progress": 91.3,
+      "remain": "剩1天3时",
+      "progress": 91.5,
       "days": {
         "elapsedDays": 12.3,
         "remainDays": 1.2,
@@ -111,8 +111,8 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天4时",
-      "progress": 67.4,
+      "remain": "剩2天3时",
+      "progress": 67.7,
       "days": {
         "elapsedDays": 4.5,
         "remainDays": 2.2,
@@ -146,8 +146,8 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天4时",
-      "progress": 39.5,
+      "remain": "剩8天3时",
+      "progress": 39.6,
       "days": {
         "elapsedDays": 5.3,
         "remainDays": 8.2,
@@ -182,8 +182,8 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天4时",
-      "progress": 32.9,
+      "remain": "剩9天3时",
+      "progress": 33.0,
       "days": {
         "elapsedDays": 4.5,
         "remainDays": 9.2,

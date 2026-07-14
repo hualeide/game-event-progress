@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-14T23:53:43.643108+08:00",
+  "fetchedAt": "2026-07-15T00:19:42.300864+08:00",
   "timezone": "Asia/Shanghai",
   "count": 15,
   "notes": [
@@ -56,8 +56,8 @@
       "start": "2026-07-02T04:00:00+08:00",
       "end": "2026-07-16T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天10时",
-      "progress": 90.0,
+      "remain": "剩1天9时",
+      "progress": 90.2,
       "days": {
         "elapsedDays": 12.8,
         "remainDays": 1.4,
@@ -92,8 +92,8 @@
       "start": "2026-07-02T14:00:00+08:00",
       "end": "2026-07-16T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天10时",
-      "progress": 89.7,
+      "remain": "剩1天9时",
+      "progress": 89.9,
       "days": {
         "elapsedDays": 12.4,
         "remainDays": 1.4,
@@ -128,8 +128,8 @@
       "start": "2026-07-03T00:00:00+08:00",
       "end": "2026-07-24T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 55.6,
+      "remain": "剩9天13时",
+      "progress": 55.7,
       "days": {
         "elapsedDays": 12.0,
         "remainDays": 9.6,
@@ -170,8 +170,8 @@
       "start": "2026-07-03T14:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天4时",
-      "progress": 42.9,
+      "remain": "剩15天3时",
+      "progress": 43.0,
       "days": {
         "elapsedDays": 11.4,
         "remainDays": 15.2,
@@ -260,7 +260,7 @@
       "start": "2026-07-24T00:00:00+08:00",
       "end": "2026-07-30T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
@@ -296,7 +296,7 @@
       "start": "2026-07-30T00:00:00+08:00",
       "end": "2026-08-13T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "15天后",
+      "remain": "14天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
