@@ -781,7 +781,10 @@ function render() {
   $("#meta").textContent = parts.join(" · ");
   const updatedEl = $("#updatedAt");
   if (updatedEl) {
-    updatedEl.textContent = upd ? `数据更新于 ${upd}` : "本地预览";
+    if (!upd) updatedEl.textContent = "本地预览";
+    else if (state.status?.fetchOk === false)
+      updatedEl.textContent = `数据更新于 ${upd} · 部分源失败`;
+    else updatedEl.textContent = `数据更新于 ${upd}`;
   }
   const emptyEl = $("#empty");
   if (emptyEl) {

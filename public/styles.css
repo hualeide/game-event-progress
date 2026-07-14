@@ -130,6 +130,9 @@ html, body {
   font-family: "JetBrains Mono", monospace;
   color: #6f685c;
   white-space: nowrap;
+  max-width: min(280px, 48vw);
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .toolbar {
