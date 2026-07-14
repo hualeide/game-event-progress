@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-15T02:30:05.881075+08:00",
+  "fetchedAt": "2026-07-15T03:42:47.256895+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -51,11 +51,11 @@
       "start": "2026-07-02T16:00:00+08:00",
       "end": "2026-07-16T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天1时",
-      "progress": 92.1,
+      "remain": "剩1天",
+      "progress": 92.5,
       "days": {
-        "elapsedDays": 12.4,
-        "remainDays": 1.1,
+        "elapsedDays": 12.5,
+        "remainDays": 1.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -111,11 +111,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天1时",
-      "progress": 69.1,
+      "remain": "剩2天",
+      "progress": 69.8,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 2.1,
+        "elapsedDays": 4.7,
+        "remainDays": 2.0,
         "totalDays": 6.7
       },
       "hasSchedule": true,
@@ -146,11 +146,11 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天1时",
-      "progress": 40.3,
+      "remain": "剩8天",
+      "progress": 40.7,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 8.1,
+        "elapsedDays": 5.5,
+        "remainDays": 8.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -182,11 +182,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天1时",
-      "progress": 33.7,
+      "remain": "剩9天",
+      "progress": 34.1,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 9.1,
+        "elapsedDays": 4.7,
+        "remainDays": 9.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -222,9 +222,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 6.6,
+        "remainDays": 6.5,
         "totalDays": 8.0,
-        "untilStartDays": 6.6
+        "untilStartDays": 6.5
       },
       "hasSchedule": true,
       "kind": "preview",

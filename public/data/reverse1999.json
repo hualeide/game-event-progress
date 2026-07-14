@@ -1,13 +1,12 @@
 {
   "game": "重返未来：1999",
   "source": "https://1999.leiting.com/",
-  "fetchedAt": "2026-07-15T02:31:16.937240+08:00",
+  "fetchedAt": "2026-07-15T03:43:58.877291+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 2,
   "notes": [
     "官网链 8 条",
-    "官网封面: timed out",
     "补《原子之心》联动预告 7/23（估时）"
   ],
   "events": [
@@ -15,7 +14,7 @@
       "id": "r1999-atomic-heart",
       "title": "×《原子之心》联动版本",
       "header": "金属剧作分析 · 双子限定招募",
-      "banner": "",
+      "banner": "./covers/r1999-home-588465af.jpg",
       "link": "https://1999.leiting.com/",
       "start": "2026-07-23T05:00:00+08:00",
       "end": "2026-08-13T04:59:00+08:00",
@@ -38,7 +37,7 @@
       "id": "r1999-lake-ripple",
       "title": "卡池「湖的涟漪」",
       "header": "自选六星保底卡池",
-      "banner": "",
+      "banner": "./covers/r1999-home-588465af.jpg",
       "link": "https://1999.leiting.com/",
       "start": "2026-07-23T05:00:00+08:00",
       "end": "2026-08-13T04:59:00+08:00",
