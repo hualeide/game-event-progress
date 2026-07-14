@@ -868,6 +868,14 @@ $("#detail").addEventListener("click", (e) => {
 
 window.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && !$("#detail").classList.contains("hidden")) closeDetail();
+  // Ctrl/Cmd+K 聚焦搜索
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+    const search = $("#search");
+    if (!search) return;
+    e.preventDefault();
+    search.focus();
+    search.select();
+  }
 });
 
 window.addEventListener("hashchange", () => {
