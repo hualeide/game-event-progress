@@ -1021,24 +1021,32 @@ def fetch_hearthstone() -> dict[str, Any]:
                 # 在正文中找日期句前后的活动名
                 idx = text.find(raw[:20]) if raw else -1
                 if idx >= 0:
-                    snip = text[max(0, idx - 40) : idx + len(raw) + 40]
-                    qm = re.search(r"[「\"“]([^」\"”]{2,24})[」\"”]", snip)
+                    snip = text[max(0, idx - 60) : idx + len(raw) + 80]
+                    qm = re.search(r"[「\"“]([^」\"”]{2,20})[」\"”]", snip)
                     if qm:
                         ctx = qm.group(1)
-                    elif re.search(r"乱斗|酒馆|皮肤|合集|商城|追赶|试用", snip):
+                    else:
                         km = re.search(
-                            r"(乱斗|酒馆战棋|英雄皮肤|超级合集|战网商城|追赶包|试用卡牌|异画)[^，。]{0,12}",
+                            r"(酒馆乱斗|乱斗|酒馆战棋|神话英雄皮肤|英雄皮肤|超级合集|"
+                            r"战网商城|神秘礼物|追赶包|试用卡牌|异画卡牌|异画|宠物乐园|"
+                            r"翡翠梦境|迷宫系统|奖励路线)[^，。！!\n]{0,6}",
                             snip,
                         )
                         if km:
-                            ctx = km.group(0)[:20]
+                            ctx = km.group(0)
+                ctx = re.sub(r"\s+", "", ctx or "")
+                ctx = re.sub(r"(将于|并于|会在).*$", "", ctx)
+                ctx = re.sub(r"[！!。．].*$", "", ctx)
+                if len(ctx) > 16 or re.search(r"该活动|二合一|结束后", ctx):
+                    ctx = ""
+                span = f"{rs.month}/{rs.day}-{re_.month}/{re_.day}"
                 lab = (r.get("label") or "").strip()
                 if ctx:
-                    sub_title = f"{ctx}（{rs.month}/{rs.day}-{re_.month}/{re_.day}）"
-                elif lab and lab != "活动时间":
-                    sub_title = f"{lab}（{rs.month}/{rs.day}起）"
+                    sub_title = f"{ctx}（{span}）"
+                elif lab and lab not in ("活动时间", "估时") and len(lab) <= 12:
+                    sub_title = f"{lab}（{span}）"
                 else:
-                    sub_title = f"限时活动 {rs.month}/{rs.day}-{re_.month}/{re_.day}"
+                    sub_title = f"限时活动（{span}）"
                 ev = build_event(
                     cid=f"{safe_hash(link)}-{ri}",
                     title=sub_title,

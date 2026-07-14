@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-07-15T00:21:45.727087+08:00",
+  "fetchedAt": "2026-07-15T00:56:35.624336+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 7,
@@ -17,7 +17,7 @@
       "end": "2026-07-28T00:59:00+08:00",
       "status": "进行中",
       "remain": "剩13天",
-      "progress": 53.5,
+      "progress": 53.6,
       "days": {
         "elapsedDays": 15.0,
         "remainDays": 13.0,
@@ -47,10 +47,10 @@
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
       "remain": "剩14天3时",
-      "progress": 31.8,
+      "progress": 31.9,
       "days": {
         "elapsedDays": 6.6,
-        "remainDays": 14.2,
+        "remainDays": 14.1,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -89,10 +89,10 @@
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
       "remain": "剩14天3时",
-      "progress": 31.8,
+      "progress": 31.9,
       "days": {
         "elapsedDays": 6.6,
-        "remainDays": 14.2,
+        "remainDays": 14.1,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -111,18 +111,18 @@
     },
     {
       "id": "13fabe93-2",
-      "title": "战网商城领取免费神秘奖励！ \n （7/1-8/5）",
-      "header": "战网商城领取免费神秘奖励！ \n （7/1-8/5）",
+      "title": "战网商城领取免费神秘（7/1-8/5）",
+      "header": "战网商城领取免费神秘（7/1-8/5）",
       "banner": "./covers/hs-13fabe93-258f0896.jpg",
       "link": "https://hs.blizzard.cn/news/24287396/index.html",
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-08-05T04:00:00+08:00",
       "status": "进行中",
       "remain": "剩21天3时",
-      "progress": 39.1,
+      "progress": 39.2,
       "days": {
         "elapsedDays": 13.6,
-        "remainDays": 21.2,
+        "remainDays": 21.1,
         "totalDays": 34.8
       },
       "hasSchedule": true,
@@ -141,8 +141,8 @@
     },
     {
       "id": "13fabe93-1",
-      "title": "英雄皮肤将于7月29日该活动结束（7/29-8/5）",
-      "header": "英雄皮肤将于7月29日该活动结束（7/29-8/5）",
+      "title": "英雄皮肤（7/29-8/5）",
+      "header": "英雄皮肤（7/29-8/5）",
       "banner": "./covers/hs-13fabe93-258f0896.jpg",
       "link": "https://hs.blizzard.cn/news/24287396/index.html",
       "start": "2026-07-29T10:00:00+08:00",
@@ -152,7 +152,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.2,
+        "remainDays": 21.1,
         "totalDays": 6.8
       },
       "hasSchedule": true,
@@ -171,8 +171,8 @@
     },
     {
       "id": "13fabe93-3",
-      "title": "二合一（7/15-8/9）",
-      "header": "二合一（7/15-8/9）",
+      "title": "限时活动（7/15-8/9）",
+      "header": "限时活动（7/15-8/9）",
       "banner": "./covers/hs-13fabe93-258f0896.jpg",
       "link": "https://hs.blizzard.cn/news/24287396/index.html",
       "start": "2026-07-15T10:00:00+08:00",
@@ -182,7 +182,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.2,
+        "remainDays": 25.1,
         "totalDays": 24.8
       },
       "hasSchedule": true,
@@ -201,8 +201,8 @@
     },
     {
       "id": "13fabe93-4",
-      "title": "限时活动 7/29-8/19",
-      "header": "限时活动 7/29-8/19",
+      "title": "翡翠梦境（7/29-8/19）",
+      "header": "翡翠梦境（7/29-8/19）",
       "banner": "./covers/hs-13fabe93-258f0896.jpg",
       "link": "https://hs.blizzard.cn/news/24287396/index.html",
       "start": "2026-07-29T10:00:00+08:00",
@@ -212,7 +212,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 35.2,
+        "remainDays": 35.1,
         "totalDays": 20.8
       },
       "hasSchedule": true,

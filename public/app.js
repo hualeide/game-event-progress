@@ -534,7 +534,7 @@ function gameRowHtml(game, payload) {
       <button type="button" class="game-bar" data-toggle="${game.id}" aria-expanded="${!collapsed}">
         <img class="game-icon" src="${game.icon}" alt="${game.name}" onerror="this.src='./icons/custom.svg'" />
         <div class="game-name">${game.name}<small>${game.en}</small></div>
-        <span class="game-count">${total}</span>
+        <span class="game-count ${total === 0 ? "is-zero" : ""}">${total}</span>
         <svg class="chev" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>

@@ -516,6 +516,13 @@ body.is-loading .games {
   place-items: center;
   font-family: "JetBrains Mono", monospace;
 }
+.game-count.is-zero {
+  background: rgba(255, 255, 255, 0.08);
+  color: #7a7468;
+}
+.game-row {
+  scroll-margin-top: 120px;
+}
 .chev {
   width: 20px;
   height: 20px;
