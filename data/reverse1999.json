@@ -1,0 +1,60 @@
+{
+  "game": "重返未来：1999",
+  "source": "https://1999.leiting.com/",
+  "fetchedAt": "2026-07-14T23:54:22.043202+08:00",
+  "timezone": "Asia/Shanghai",
+  "pending": false,
+  "count": 2,
+  "notes": [
+    "官网链 8 条",
+    "补《原子之心》联动预告 7/23（估时）"
+  ],
+  "events": [
+    {
+      "id": "r1999-atomic-heart",
+      "title": "×《原子之心》联动版本",
+      "header": "金属剧作分析 · 双子限定招募",
+      "banner": "./covers/r1999-home-588465af.jpg",
+      "link": "https://1999.leiting.com/",
+      "start": "2026-07-23T05:00:00+08:00",
+      "end": "2026-08-13T04:59:00+08:00",
+      "status": "即将开始",
+      "remain": "8天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 29.2,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "7/23 全球同步联动（估时，以官网为准）"
+    },
+    {
+      "id": "r1999-lake-ripple",
+      "title": "卡池「湖的涟漪」",
+      "header": "自选六星保底卡池",
+      "banner": "./covers/r1999-home-588465af.jpg",
+      "link": "https://1999.leiting.com/",
+      "start": "2026-07-23T05:00:00+08:00",
+      "end": "2026-08-13T04:59:00+08:00",
+      "status": "即将开始",
+      "remain": "8天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 29.2,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "联动版本同期卡池（估时）"
+    }
+  ]
+}

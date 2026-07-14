@@ -1,0 +1,108 @@
+{
+  "games": {
+    "arknights": {
+      "wiki": { "name": "PRTS", "url": "https://prts.wiki/" },
+      "tools": [
+        { "name": "MAA", "url": "https://github.com/MaaAssistantArknights/MaaAssistantArknights", "desc": "日常一键长草" },
+        { "name": "速通", "url": "https://github.com/AegirTech/ArkLights", "desc": "安卓全自动托管" }
+      ]
+    },
+    "endfield": {
+      "wiki": { "name": "终末地Wiki", "url": "https://endfield.wiki.gg/zh/" },
+      "tools": [
+        { "name": "MaaEnd", "url": "https://maaend.com/", "desc": "终末地小助手" },
+        { "name": "ok-ef", "url": "https://github.com/AliceJump/ok-end-field", "desc": "ok-script 自动化" }
+      ]
+    },
+    "bluearchive": {
+      "wiki": { "name": "BAWiki", "url": "https://bluearchive.wiki/" },
+      "tools": [
+        { "name": "BAAH", "url": "https://github.com/sanmusen214/BAAH", "desc": "国服/B服每日" },
+        { "name": "BAAS", "url": "https://github.com/pur1fying/blue_archive_auto_script", "desc": "总力战/挂机" }
+      ]
+    },
+    "genshin": {
+      "wiki": { "name": "原神Wiki", "url": "https://wiki.biligame.com/ys/" },
+      "tools": [
+        { "name": "BetterGI", "url": "https://github.com/babalae/better-genshin-impact", "desc": "更好的原神" },
+        { "name": "ok-gi", "url": "https://github.com/ok-oldking/ok-genshin-impact", "desc": "后台一条龙" }
+      ]
+    },
+    "starrail": {
+      "wiki": { "name": "星铁Wiki", "url": "https://wiki.biligame.com/sr/" },
+      "tools": [
+        { "name": "三月七", "url": "https://github.com/moesnow/March7thAssistant", "desc": "全自动日常" },
+        { "name": "模拟宇宙", "url": "https://github.com/CHNZYX/Auto_Simulated_Universe", "desc": "宇宙自动化" }
+      ]
+    },
+    "zzz": {
+      "wiki": { "name": "绝区零Wiki", "url": "https://wiki.biligame.com/zzz/" },
+      "tools": [
+        { "name": "一条龙", "url": "https://github.com/OneDragon-Anything/ZenlessZoneZero-OneDragon", "desc": "日常/空洞/闪避" }
+      ]
+    },
+    "wuwa": {
+      "wiki": { "name": "鸣潮Wiki", "url": "https://wiki.kurobbs.com/mc/home" },
+      "tools": [
+        { "name": "ok-ww", "url": "https://github.com/ok-oldking/ok-wuthering-waves", "desc": "战斗/声骸/日常" },
+        { "name": "Haiyu", "url": "https://github.com/BlameTwo/Haiyu", "desc": "库洛启动器" }
+      ]
+    },
+    "azurlane": {
+      "wiki": { "name": "碧蓝Wiki", "url": "https://wiki.biligame.com/blhx/" },
+      "tools": [
+        { "name": "Alas", "url": "https://github.com/LmeSzinc/AzurLaneAutoScript", "desc": "碧蓝航线自动化" }
+      ]
+    },
+    "nikke": {
+      "wiki": { "name": "NIKKE Wiki", "url": "https://www.gamekee.com/nikke/" },
+      "tools": [
+        { "name": "MDA", "url": "https://github.com/1204244136/MDA", "desc": "NIKKE 小助手" },
+        { "name": "DoroHelper", "url": "https://github.com/1204244136/DoroHelper", "desc": "PC 日常清理" }
+      ]
+    },
+    "reverse1999": {
+      "wiki": { "name": "1999 Wiki", "url": "https://res1999.huijiwiki.com/" },
+      "tools": [
+        { "name": "M9A", "url": "https://github.com/MAA1999/M9A", "desc": "1999 小助手" }
+      ]
+    },
+    "ptn": {
+      "wiki": { "name": "无期Wiki", "url": "https://wiki.biligame.com/ptn/" },
+      "tools": [
+        { "name": "MBCCtools", "url": "https://github.com/quietlysnow/MBCCtools", "desc": "无期迷途小助手" }
+      ]
+    },
+    "snowbreak": {
+      "wiki": { "name": "尘白Wiki", "url": "https://wiki.biligame.com/snowbreak/" },
+      "tools": [
+        { "name": "MAA_SnowBreak", "url": "https://github.com/overflow65537/MAA_SnowBreak", "desc": "尘白每日" }
+      ]
+    },
+    "gfl2": {
+      "wiki": { "name": "少前2 Wiki", "url": "https://gf2.exilium.wiki/" },
+      "tools": [
+        { "name": "ok-gf2", "url": "https://github.com/AliceJump/ok-gf2", "desc": "PC 一键收菜" },
+        { "name": "MaaGF2", "url": "https://github.com/DarkLingYun/MaaGF2Exilium", "desc": "追放自动化" }
+      ]
+    },
+    "pvz2": {
+      "wiki": { "name": "PVZ Wiki", "url": "https://plantsvszombies.fandom.com/zh/wiki/" },
+      "tools": [
+        { "name": "MaaPVZ", "url": "https://github.com/Maa-Assistant-PVZ-The-best/MAAPVZ", "desc": "植物大战僵尸2" }
+      ]
+    },
+    "hearthstone": {
+      "wiki": { "name": "炉石Wiki", "url": "https://hearthstone.fandom.com/zh/wiki/" },
+      "tools": []
+    },
+    "naraka": {
+      "wiki": { "name": "永劫官网", "url": "https://www.yjwujian.cn/" },
+      "tools": []
+    },
+    "delta": {
+      "wiki": { "name": "三角洲官网", "url": "https://df.qq.com/" },
+      "tools": []
+    }
+  }
+}

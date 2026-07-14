@@ -1,0 +1,53 @@
+name: Update game events
+
+on:
+  schedule:
+    # 每 6 小时（UTC）= 北京时间 02/08/14/20 点附近
+    - cron: "15 0,6,12,18 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-events
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch + audit + publish
+        run: python scripts/update.py --jobs 2 --timeout 300
+        continue-on-error: true
+        id: update
+
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.json public/data/*.json public/covers || true
+          if git diff --staged --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "chore: auto-update event data $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+
+      - name: Fail job if hard audit issues
+        if: steps.update.outcome == 'failure'
+        run: |
+          echo "update.py failed — check data/audit-report.json / fetch-summary.json"
+          exit 1

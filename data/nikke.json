@@ -1,0 +1,106 @@
+{
+  "game": "胜利女神：NIKKE",
+  "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
+  "fetchedAt": "2026-07-14T23:54:06.097042+08:00",
+  "timezone": "Asia/Shanghai",
+  "pending": false,
+  "count": 4,
+  "notes": [
+    "GameKee nikke server=19 · 4 条",
+    "国服 GameKee 日历滞后，当前用外服进行中活动（时段接近）"
+  ],
+  "events": [
+    {
+      "id": "7512",
+      "title": "【新网页活动】NIKKE POP! ISLAND！",
+      "header": "【新网页活动】NIKKE POP! ISLAND！",
+      "banner": "./covers/nikke-7512-51b27615.jpg",
+      "link": "https://www.gamekee.com/nikke/712582.html",
+      "start": "2026-07-10T00:00:00+08:00",
+      "end": "2026-07-23T00:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩8天",
+      "progress": 38.4,
+      "days": {
+        "elapsedDays": 5.0,
+        "remainDays": 8.0,
+        "totalDays": 13.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "web",
+      "allRanges": [],
+      "summary": "【新网页活动】NIKKE POP! ISLAND！"
+    },
+    {
+      "id": "7457",
+      "title": "【大型支线】WAVE TO YOU",
+      "header": "【大型支线】WAVE TO YOU",
+      "banner": "./covers/nikke-7457-52a49f87.png",
+      "link": "https://www.gamekee.com/nikke/710995.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩8天4时",
+      "progress": 61.4,
+      "days": {
+        "elapsedDays": 13.0,
+        "remainDays": 8.2,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【大型支线】WAVE TO YOU"
+    },
+    {
+      "id": "7458",
+      "title": "【转盘】Shell Princess",
+      "header": "【转盘】Shell Princess",
+      "banner": "./covers/nikke-7458-74df2a9c.png",
+      "link": "https://www.gamekee.com/nikke/710630.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩8天4时",
+      "progress": 61.4,
+      "days": {
+        "elapsedDays": 13.0,
+        "remainDays": 8.2,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【转盘】Shell Princess"
+    },
+    {
+      "id": "7459",
+      "title": "【pass】SEA LIZZIE PASS",
+      "header": "【pass】SEA LIZZIE PASS",
+      "banner": "./covers/nikke-7459-8f6088e9.png",
+      "link": "https://www.gamekee.com/nikke/710630.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T04:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩8天5时",
+      "progress": 61.3,
+      "days": {
+        "elapsedDays": 13.0,
+        "remainDays": 8.2,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【pass】SEA LIZZIE PASS"
+    }
+  ]
+}

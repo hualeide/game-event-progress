@@ -1,0 +1,38 @@
+{
+  "game": "尘白禁区",
+  "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=0&status=0 + https://www.cbjq.com/api.php?op=search_api&action=get_article_list&catid=7131&page=1&num=12&order_by=inputtime",
+  "fetchedAt": "2026-07-14T23:54:15.327149+08:00",
+  "timezone": "Asia/Shanghai",
+  "pending": false,
+  "count": 1,
+  "notes": [
+    "GameKee snow server=0 · 0 条",
+    "官网公告栏目未更新到 3.7/4.0，先用 GameKee",
+    "补 4.0「空都演绎」预告（7/16 起，估时）"
+  ],
+  "events": [
+    {
+      "id": "snow-4.0-preview",
+      "title": "4.0 周年庆「空都演绎」",
+      "header": "4.0 周年庆版本即将开启",
+      "banner": "./covers/snow-4-0-8451ec96.jpg",
+      "link": "https://www.cbjq.com/",
+      "start": "2026-07-16T10:00:00+08:00",
+      "end": "2026-08-27T04:00:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 43.2,
+        "totalDays": 41.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "周年庆大版本（估时，以官网为准）"
+    }
+  ]
+}

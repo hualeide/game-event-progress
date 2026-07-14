@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local caches / probes
+data/cache/
+data/_*.json
+scripts/_*.json
+scripts/_*.html
+scripts/_*.txt
+scripts/_audit_out.txt
+*.log
+
+# Node (optional)
+node_modules/
+
+# Codegraph / Cursor local
+.codegraph/
+.cursor/
+
+# Pipeline artifacts (keep status.json)
+data/audit-report.json
+data/fetch-summary.json
+data/update-*.log
+

@@ -1,0 +1,233 @@
+{
+  "game": "炉石传说",
+  "source": "https://hs.blizzard.cn/news",
+  "fetchedAt": "2026-07-14T23:54:26.718365+08:00",
+  "timezone": "Asia/Shanghai",
+  "pending": false,
+  "count": 7,
+  "notes": [],
+  "events": [
+    {
+      "id": "23e5df41",
+      "title": "“逃离紫罗兰监狱”奖励路线更新",
+      "header": "“逃离紫罗兰监狱”奖励路线更新",
+      "banner": "./covers/hs-23e5df41-d5bfe956.jpg",
+      "link": "https://hs.blizzard.cn/news/24286285/index.html",
+      "start": "2026-06-30T00:59:00+08:00",
+      "end": "2026-07-28T00:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天1时",
+      "progress": 53.4,
+      "days": {
+        "elapsedDays": 15.0,
+        "remainDays": 13.0,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-06-30T00:59:00+08:00",
+          "end": "2026-07-28T00:59:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "“逃离紫罗兰监狱”奖励路线更新"
+    },
+    {
+      "id": "01aaf364",
+      "title": "试用卡牌结束后的下一步",
+      "header": "试用卡牌结束后的下一步",
+      "banner": "./covers/hs-01aaf364-17b07d2f.jpg",
+      "link": "https://hs.blizzard.cn/news/24280282/index.html",
+      "start": "2026-07-08T10:00:00+08:00",
+      "end": "2026-07-29T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩14天4时",
+      "progress": 31.7,
+      "days": {
+        "elapsedDays": 6.6,
+        "remainDays": 14.2,
+        "totalDays": 20.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-08T10:00:00+08:00",
+          "end": "2026-07-29T04:00:00+08:00",
+          "raw": "7月8日至7月29日"
+        },
+        {
+          "label": "活动时间",
+          "start": "2026-07-08T10:00:00+08:00",
+          "end": "2026-08-05T04:00:00+08:00",
+          "raw": "\n \n 7月8日至8月5日"
+        },
+        {
+          "label": "活动时间",
+          "start": "2026-07-29T10:00:00+08:00",
+          "end": "2026-08-05T04:00:00+08:00",
+          "raw": " \n 7月29日至8月5日"
+        }
+      ],
+      "summary": "试用卡牌结束后的下一步"
+    },
+    {
+      "id": "13fabe93-0",
+      "title": "迷宫系统（7/8-7/29）",
+      "header": "迷宫系统（7/8-7/29）",
+      "banner": "./covers/hs-13fabe93-258f0896.jpg",
+      "link": "https://hs.blizzard.cn/news/24287396/index.html",
+      "start": "2026-07-08T10:00:00+08:00",
+      "end": "2026-07-29T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩14天4时",
+      "progress": 31.7,
+      "days": {
+        "elapsedDays": 6.6,
+        "remainDays": 14.2,
+        "totalDays": 20.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-08T10:00:00+08:00",
+          "end": "2026-07-29T04:00:00+08:00",
+          "raw": " \n \n 7月8日至7月29日"
+        }
+      ],
+      "summary": "36.0补丁说明"
+    },
+    {
+      "id": "13fabe93-2",
+      "title": "战网商城领取免费神秘奖励！ \n （7/1-8/5）",
+      "header": "战网商城领取免费神秘奖励！ \n （7/1-8/5）",
+      "banner": "./covers/hs-13fabe93-258f0896.jpg",
+      "link": "https://hs.blizzard.cn/news/24287396/index.html",
+      "start": "2026-07-01T10:00:00+08:00",
+      "end": "2026-08-05T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩21天4时",
+      "progress": 39.1,
+      "days": {
+        "elapsedDays": 13.6,
+        "remainDays": 21.2,
+        "totalDays": 34.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-01T10:00:00+08:00",
+          "end": "2026-08-05T04:00:00+08:00",
+          "raw": " \n 7月1日至8月5日"
+        }
+      ],
+      "summary": "36.0补丁说明"
+    },
+    {
+      "id": "13fabe93-1",
+      "title": "英雄皮肤将于7月29日该活动结束（7/29-8/5）",
+      "header": "英雄皮肤将于7月29日该活动结束（7/29-8/5）",
+      "banner": "./covers/hs-13fabe93-258f0896.jpg",
+      "link": "https://hs.blizzard.cn/news/24287396/index.html",
+      "start": "2026-07-29T10:00:00+08:00",
+      "end": "2026-08-05T04:00:00+08:00",
+      "status": "即将开始",
+      "remain": "14天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 21.2,
+        "totalDays": 6.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-29T10:00:00+08:00",
+          "end": "2026-08-05T04:00:00+08:00",
+          "raw": " \n \n 7月29日至8月5日"
+        }
+      ],
+      "summary": "36.0补丁说明"
+    },
+    {
+      "id": "13fabe93-3",
+      "title": "二合一（7/15-8/9）",
+      "header": "二合一（7/15-8/9）",
+      "banner": "./covers/hs-13fabe93-258f0896.jpg",
+      "link": "https://hs.blizzard.cn/news/24287396/index.html",
+      "start": "2026-07-15T10:00:00+08:00",
+      "end": "2026-08-09T04:00:00+08:00",
+      "status": "即将开始",
+      "remain": "10小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 25.2,
+        "totalDays": 24.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-15T10:00:00+08:00",
+          "end": "2026-08-09T04:00:00+08:00",
+          "raw": "7月15日至8月9日"
+        }
+      ],
+      "summary": "36.0补丁说明"
+    },
+    {
+      "id": "13fabe93-4",
+      "title": "限时活动 7/29-8/19",
+      "header": "限时活动 7/29-8/19",
+      "banner": "./covers/hs-13fabe93-258f0896.jpg",
+      "link": "https://hs.blizzard.cn/news/24287396/index.html",
+      "start": "2026-07-29T10:00:00+08:00",
+      "end": "2026-08-19T04:00:00+08:00",
+      "status": "即将开始",
+      "remain": "14天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 35.2,
+        "totalDays": 20.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-07-29T10:00:00+08:00",
+          "end": "2026-08-19T04:00:00+08:00",
+          "raw": " \n \n 7月29日至8月19日"
+        }
+      ],
+      "summary": "36.0补丁说明"
+    }
+  ]
+}

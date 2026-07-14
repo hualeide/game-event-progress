@@ -1,0 +1,219 @@
+{
+  "game": "鸣潮",
+  "pending": false,
+  "fetchedAt": "2026-07-14T23:53:51.588259+08:00",
+  "count": 9,
+  "events": [
+    {
+      "id": "wuwa-5110-悲鸣行动无音危机",
+      "title": "悲鸣行动：无音危机",
+      "header": "悲鸣行动：无音危机·战斗活动",
+      "banner": "./covers/wuwa-5110-01c92c1b63-0c27a6e6.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-11T10:00:00+08:00",
+      "end": "2026-08-19T11:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩35天12时",
+      "progress": 9.2,
+      "days": {
+        "elapsedDays": 3.6,
+        "remainDays": 35.5,
+        "totalDays": 39.1
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-虚域危局象限延展",
+      "title": "虚域危局・象限延展",
+      "header": "虚域危局・象限延展·危机情景挑战活动",
+      "banner": "./covers/wuwa-5110-7d619a1a75-c0d8f868.webp",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-30T10:00:00+08:00",
+      "end": "2026-08-19T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 35.2,
+        "totalDays": 19.7
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-牵翎祈万声",
+      "title": "牵翎祈万声",
+      "header": "牵翎祈万声·唤取",
+      "banner": "./covers/wuwa-5110-fa148851de-694638fd.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-10T04:00:00+08:00",
+      "end": "2026-08-19T11:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩35天12时",
+      "progress": 12.0,
+      "days": {
+        "elapsedDays": 4.8,
+        "remainDays": 35.5,
+        "totalDays": 40.3
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-斟雨祝荷风",
+      "title": "斟雨祝荷风",
+      "header": "斟雨祝荷风·唤取",
+      "banner": "./covers/wuwa-5110-44f09860fd-3ad9991b.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-10T04:00:00+08:00",
+      "end": "2026-08-19T11:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩35天12时",
+      "progress": 12.0,
+      "days": {
+        "elapsedDays": 4.8,
+        "remainDays": 35.5,
+        "totalDays": 40.3
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-天之苍苍",
+      "title": "天之苍苍",
+      "header": "天之苍苍·唤取",
+      "banner": "./covers/wuwa-5110-34d301e281-694638fd.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-10T04:00:00+08:00",
+      "end": "2026-08-19T11:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩35天12时",
+      "progress": 12.0,
+      "days": {
+        "elapsedDays": 4.8,
+        "remainDays": 35.5,
+        "totalDays": 40.3
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-栖霞饮露",
+      "title": "栖霞饮露",
+      "header": "栖霞饮露·唤取",
+      "banner": "./covers/wuwa-5110-bd44a87c98-3ad9991b.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-10T04:00:00+08:00",
+      "end": "2026-08-19T11:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩35天12时",
+      "progress": 12.0,
+      "days": {
+        "elapsedDays": 4.8,
+        "remainDays": 35.5,
+        "totalDays": 40.3
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-再续光影瞬息",
+      "title": "再续・光影瞬息",
+      "header": "再续・光影瞬息·战斗拍照活动",
+      "banner": "./covers/wuwa-5110-e24fe846a4-0c27a6e6.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-16T10:00:00+08:00",
+      "end": "2026-08-06T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 22.2,
+        "totalDays": 20.7
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-秘玉寻踪记",
+      "title": "秘玉寻踪记",
+      "header": "秘玉寻踪记·网页活动",
+      "banner": "./covers/wuwa-5110-ff89206882-2705a612.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-07-30T10:00:00+08:00",
+      "end": "2026-08-13T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 29.4,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "web",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5110-呜呜企划新旅",
+      "title": "呜呜企划・新旅",
+      "header": "呜呜企划・新旅·限时委托活动",
+      "banner": "./covers/wuwa-5110-a70e41956d-c5fb2be8.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
+      "start": "2026-08-06T04:00:00+08:00",
+      "end": "2026-08-19T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "22天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 35.2,
+        "totalDays": 13.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": ""
+    }
+  ],
+  "source": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json",
+  "notes": [
+    "封面：独立公告 > Fandom 角色/武器图 > GameKee 系列图；不用版本总图凑数"
+  ]
+}

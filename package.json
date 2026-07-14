@@ -1,0 +1,14 @@
+{
+  "name": "game-event-progress",
+  "private": true,
+  "version": "0.2.0",
+  "description": "多游戏活动进度：抓取官方公告，进度卡片展示，可静态部署",
+  "scripts": {
+    "update": "python scripts/update.py",
+    "fetch": "python scripts/fetch_all.py",
+    "audit": "python scripts/audit.py",
+    "publish": "python scripts/publish_data.py",
+    "start": "python -m http.server 5173",
+    "dev": "python scripts/publish_data.py && python -m http.server 5173"
+  }
+}
