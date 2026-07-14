@@ -884,8 +884,14 @@ body.is-loading .games {
 .empty {
   text-align: center;
   color: var(--muted);
-  padding: 40px 12px;
+  padding: 28px 16px;
+  margin: 8px 0;
   font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.02);
 }
 .hidden { display: none !important; }
 
