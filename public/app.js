@@ -1034,6 +1034,21 @@ $("#btnExpandAll")?.addEventListener("click", () => {
   render();
 });
 
+const toTop = $("#toTop");
+const topSticky = document.querySelector(".top-sticky");
+window.addEventListener(
+  "scroll",
+  () => {
+    const y = window.scrollY || 0;
+    if (toTop) toTop.classList.toggle("hidden", y < 420);
+    if (topSticky) topSticky.classList.toggle("is-scrolled", y > 8);
+  },
+  { passive: true }
+);
+toTop?.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
 applyFilterUI();
 renderPicker();
 loadAll().catch((err) => {

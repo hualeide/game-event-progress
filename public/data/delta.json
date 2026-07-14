@@ -1,12 +1,41 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-15T00:22:14.156015+08:00",
+  "fetchedAt": "2026-07-15T00:25:46.603480+08:00",
   "timezone": "Asia/Shanghai",
-  "pending": true,
-  "count": 0,
-  "notes": [
-    "Remote end closed connection without response"
-  ],
-  "events": []
+  "pending": false,
+  "count": 1,
+  "notes": [],
+  "events": [
+    {
+      "id": "2782702201042160096",
+      "title": "全新「裂变赛季」，现已上线！",
+      "header": "全新「裂变赛季」，现已上线！",
+      "banner": "./covers/delta-kv-791a1812.jpg",
+      "link": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=2782702201042160096",
+      "start": "2026-07-15T10:00:00+08:00",
+      "end": "2026-08-29T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "9小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 45.4,
+        "totalDays": 45.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "赛季周期（估）",
+          "start": "2026-07-15T10:00:00+08:00",
+          "end": "2026-08-29T10:00:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "《三角洲行动》全新「裂变赛季」，现已上线！"
+    }
+  ]
 }
