@@ -375,5 +375,25 @@ def build_event(
 
 def write_events(path: Path, payload: dict[str, Any]) -> None:
     DATA.mkdir(parents=True, exist_ok=True)
+    new_events = payload.get("events") or []
+    # 抓取偶发空结果时，保留上一份有效数据，避免定时任务把页面刷空
+    if path.exists() and not new_events and payload.get("pending"):
+        try:
+            old = json.loads(path.read_text(encoding="utf-8-sig"))
+            old_events = old.get("events") or []
+            if old_events:
+                notes = list(payload.get("notes") or [])
+                notes.append(f"抓取为空，保留旧数据 {len(old_events)} 条")
+                payload = {
+                    **payload,
+                    "pending": False,
+                    "count": len(old_events),
+                    "events": old_events,
+                    "notes": notes,
+                    "keptPrevious": True,
+                }
+                print(f"[keep] {path.name} 抓取为空，保留旧 {len(old_events)} 条")
+        except Exception:
+            pass
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok] 写入 {path} · {payload.get('count', len(payload.get('events', [])))} 条")
