@@ -114,7 +114,14 @@ function fmtUpdated(iso) {
   const day = String(d.getDate()).padStart(2, "0");
   const h = String(d.getHours()).padStart(2, "0");
   const min = String(d.getMinutes()).padStart(2, "0");
-  return `${m}/${day} ${h}:${min}`;
+  const abs = `${m}/${day} ${h}:${min}`;
+  const mins = Math.round((Date.now() - d.getTime()) / 60000);
+  if (mins < 0) return abs;
+  if (mins < 1) return `${abs} · 刚刚`;
+  if (mins < 60) return `${abs} · ${mins}分钟前`;
+  const hours = Math.round(mins / 60);
+  if (hours < 24) return `${abs} · ${hours}小时前`;
+  return abs;
 }
 
 function endingSoon(ev) {
@@ -792,10 +799,16 @@ function render() {
   $("#meta").textContent = parts.join(" · ");
   const updatedEl = $("#updatedAt");
   if (updatedEl) {
-    if (!upd) updatedEl.textContent = "本地预览";
-    else if (state.status?.fetchOk === false)
+    if (!upd) {
+      updatedEl.textContent = "本地预览";
+      updatedEl.removeAttribute("title");
+    } else if (state.status?.fetchOk === false) {
       updatedEl.textContent = `数据更新于 ${upd} · 部分源失败`;
-    else updatedEl.textContent = `数据更新于 ${upd}`;
+      updatedEl.title = state.status?.updatedAt || "";
+    } else {
+      updatedEl.textContent = `数据更新于 ${upd}`;
+      updatedEl.title = state.status?.updatedAt || "";
+    }
   }
   const emptyEl = $("#empty");
   if (emptyEl) {
