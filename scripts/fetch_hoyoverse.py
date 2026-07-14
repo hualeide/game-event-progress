@@ -150,7 +150,13 @@ def fetch_starrail_banners(now: datetime, notes: list[str]) -> list[dict]:
         name = (b.get("name") or "").strip()
         if not name:
             name = " / ".join(names[:3]) if names else "活动跃迁"
-        header = f"跃迁·{name}"
+        # 日历多为英文名：有角色名单时优先用名单做短标题
+        if names and (not name or re.search(r"[A-Za-z]{3,}", name)):
+            short = " / ".join(names[:2])
+            header = f"跃迁·{short}"
+        else:
+            header = f"跃迁·{name}"
+        title = header
         icon = ""
         for c in chars + cones:
             if c.get("icon"):
@@ -163,7 +169,7 @@ def fetch_starrail_banners(now: datetime, notes: list[str]) -> list[dict]:
         out.append(
             build_event(
                 cid=str(cid),
-                title=header,
+                title=title,
                 header=header,
                 banner=banner,
                 link="https://sr.mihoyo.com/",
