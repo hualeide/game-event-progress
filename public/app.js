@@ -706,6 +706,10 @@ function renderPicker() {
   root.innerHTML = `
     <div class="picker-bar">
       <span class="picker-hint">勾选显示 · ↑↓ 调整主列表顺序</span>
+      <span class="picker-actions">
+        <button type="button" class="linkish" data-pick-all>全选</button>
+        <button type="button" class="linkish" data-pick-none>最少保留1个</button>
+      </span>
     </div>
     <div class="picker-grid">
       ${games
@@ -928,6 +932,24 @@ $("#gamePicker").addEventListener("change", (e) => {
 });
 
 $("#gamePicker").addEventListener("click", (e) => {
+  if (e.target.closest("[data-pick-all]")) {
+    e.preventDefault();
+    state.enabled = allGames().map((g) => g.id);
+    persist();
+    renderPicker();
+    render();
+    return;
+  }
+  if (e.target.closest("[data-pick-none]")) {
+    e.preventDefault();
+    // 至少保留当前第一个已启用，避免空列表
+    const keep = state.enabled[0] || DEFAULT_ENABLED[0];
+    state.enabled = [keep];
+    persist();
+    renderPicker();
+    render();
+    return;
+  }
   const move = e.target.closest("[data-move]");
   if (move) {
     e.preventDefault();

@@ -313,6 +313,23 @@ body.is-loading .games {
   color: #8a8378;
   letter-spacing: 0.02em;
 }
+.picker-actions {
+  display: inline-flex;
+  gap: 10px;
+  margin-left: auto;
+}
+.linkish {
+  border: 0;
+  background: transparent;
+  color: #c4b89a;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.linkish:hover { color: var(--accent-2); }
 .picker-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
