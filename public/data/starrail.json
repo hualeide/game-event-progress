@@ -1,7 +1,7 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-07-15T00:19:58.870443+08:00",
+  "fetchedAt": "2026-07-15T02:30:17.219705+08:00",
   "timezone": "Asia/Shanghai",
   "count": 13,
   "notes": [
@@ -25,11 +25,11 @@
       "start": "2026-05-26T14:30:00+08:00",
       "end": "2026-07-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5小时",
-      "progress": 99.5,
+      "remain": "剩3小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 49.4,
-        "remainDays": 0.2,
+        "elapsedDays": 49.5,
+        "remainDays": 0.1,
         "totalDays": 49.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-05-28T12:00:00+08:00",
       "end": "2026-07-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5小时",
-      "progress": 99.5,
+      "remain": "剩3小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 47.5,
-        "remainDays": 0.2,
+        "elapsedDays": 47.6,
+        "remainDays": 0.1,
         "totalDays": 47.8
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩40天3时",
-      "progress": 12.0,
+      "remain": "剩40天1时",
+      "progress": 12.2,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 40.2,
+        "elapsedDays": 5.6,
+        "remainDays": 40.1,
         "totalDays": 45.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天5时",
-      "progress": 7.6,
+      "remain": "剩42天3时",
+      "progress": 7.8,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 42.2,
+        "elapsedDays": 3.6,
+        "remainDays": 42.1,
         "totalDays": 45.7
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天5时",
-      "progress": 5.5,
+      "remain": "剩42天3时",
+      "progress": 5.7,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 42.2,
+        "elapsedDays": 2.6,
+        "remainDays": 42.1,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -133,18 +133,18 @@
     },
     {
       "id": "sr-banner-83",
-      "title": "跃迁·Sparxie / Dan Heng • Permansor Terrae / Evernight",
-      "header": "跃迁·Sparxie / Dan Heng • Permansor Terrae / Evernight",
+      "title": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
+      "header": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
       "banner": "./covers/starrail-sr-banner-83-b7dbb478.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "7小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.8,
+        "remainDays": 21.7,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -156,18 +156,18 @@
     },
     {
       "id": "sr-banner-84",
-      "title": "跃迁·Dazzled by a Flowery World / Though Worlds Apart / To Evernight's Stars",
-      "header": "跃迁·Dazzled by a Flowery World / Though Worlds Apart / To Evernight's Stars",
+      "title": "跃迁·Dazzled by a Flowery World / Though Worlds Apart",
+      "header": "跃迁·Dazzled by a Flowery World / Though Worlds Apart",
       "banner": "./covers/starrail-sr-banner-84-588ef445.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "7小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.8,
+        "remainDays": 21.7,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -179,18 +179,18 @@
     },
     {
       "id": "sr-banner-87",
-      "title": "跃迁·Himeko • Nova / Moze / Hanya",
-      "header": "跃迁·Himeko • Nova / Moze / Hanya",
+      "title": "跃迁·Himeko • Nova / Moze",
+      "header": "跃迁·Himeko • Nova / Moze",
       "banner": "./covers/starrail-sr-banner-87-6527b615.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "7小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 41.9,
+        "remainDays": 41.8,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -202,18 +202,18 @@
     },
     {
       "id": "sr-banner-88",
-      "title": "跃迁·A Star That Lights the Night / After the Charmony Fall / Under the Blue Sky",
-      "header": "跃迁·A Star That Lights the Night / After the Charmony Fall / Under the Blue Sky",
+      "title": "跃迁·A Star That Lights the Night / After the Charmony Fall",
+      "header": "跃迁·A Star That Lights the Night / After the Charmony Fall",
       "banner": "./covers/starrail-sr-banner-88-7cd7b4db.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "7小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 41.9,
+        "remainDays": 41.8,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -236,7 +236,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.7,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -259,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.7,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -271,8 +271,8 @@
     },
     {
       "id": "sr-banner-85",
-      "title": "跃迁·Cerydra / Anaxa / Aventurine",
-      "header": "跃迁·Cerydra / Anaxa / Aventurine",
+      "title": "跃迁·Cerydra / Anaxa",
+      "header": "跃迁·Cerydra / Anaxa",
       "banner": "./covers/starrail-sr-banner-85-a2e1df7f.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-08-05T19:00:00+08:00",
@@ -282,7 +282,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 41.9,
+        "remainDays": 41.8,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -294,8 +294,8 @@
     },
     {
       "id": "sr-banner-86",
-      "title": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames / Inherently Unjust Destiny",
-      "header": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames / Inherently Unjust Destiny",
+      "title": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames",
+      "header": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames",
       "banner": "./covers/starrail-sr-banner-86-84a225fc.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-08-05T19:00:00+08:00",
@@ -305,7 +305,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 41.9,
+        "remainDays": 41.8,
         "totalDays": 20.1
       },
       "hasSchedule": true,
