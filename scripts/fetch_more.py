@@ -955,9 +955,9 @@ def fetch_hearthstone() -> dict[str, Any]:
         title = re.sub(r"\s+", " ", title)
         if not title or title in ("炉石传说", "炉石传说官网"):
             continue
-        # 电竞/商城/客服类不进日历
+        # 电竞/商城/客服/攻略引导类不进日历
         if re.search(
-            r"电竞|观赛|公开赛|精英挑战|报名|直播间|商城|客服|官网$",
+            r"电竞|观赛|公开赛|精英挑战|报名|直播间|客服|官网$|结束后的下一步|阵容公布",
             title,
         ):
             continue

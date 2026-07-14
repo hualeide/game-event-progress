@@ -1,10 +1,10 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-07-15T03:44:23.107050+08:00",
+  "fetchedAt": "2026-07-15T04:26:30.735580+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 7,
+  "count": 6,
   "notes": [],
   "events": [
     {
@@ -16,8 +16,8 @@
       "start": "2026-06-30T00:59:00+08:00",
       "end": "2026-07-28T00:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天21时",
-      "progress": 54.0,
+      "remain": "剩12天20时",
+      "progress": 54.1,
       "days": {
         "elapsedDays": 15.1,
         "remainDays": 12.9,
@@ -38,48 +38,6 @@
       "summary": "“逃离紫罗兰监狱”奖励路线更新"
     },
     {
-      "id": "01aaf364",
-      "title": "试用卡牌结束后的下一步",
-      "header": "试用卡牌结束后的下一步",
-      "banner": "./covers/hs-01aaf364-17b07d2f.jpg",
-      "link": "https://hs.blizzard.cn/news/24280282/index.html",
-      "start": "2026-07-08T10:00:00+08:00",
-      "end": "2026-07-29T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩14天",
-      "progress": 32.5,
-      "days": {
-        "elapsedDays": 6.7,
-        "remainDays": 14.0,
-        "totalDays": 20.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-07-08T10:00:00+08:00",
-          "end": "2026-07-29T04:00:00+08:00",
-          "raw": "7月8日至7月29日"
-        },
-        {
-          "label": "活动时间",
-          "start": "2026-07-08T10:00:00+08:00",
-          "end": "2026-08-05T04:00:00+08:00",
-          "raw": "\n \n 7月8日至8月5日"
-        },
-        {
-          "label": "活动时间",
-          "start": "2026-07-29T10:00:00+08:00",
-          "end": "2026-08-05T04:00:00+08:00",
-          "raw": " \n 7月29日至8月5日"
-        }
-      ],
-      "summary": "试用卡牌结束后的下一步"
-    },
-    {
       "id": "13fabe93-0",
       "title": "迷宫系统（7/8-7/29）",
       "header": "迷宫系统（7/8-7/29）",
@@ -88,10 +46,10 @@
       "start": "2026-07-08T10:00:00+08:00",
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩14天",
-      "progress": 32.5,
+      "remain": "剩13天23时",
+      "progress": 32.6,
       "days": {
-        "elapsedDays": 6.7,
+        "elapsedDays": 6.8,
         "remainDays": 14.0,
         "totalDays": 20.8
       },
@@ -118,10 +76,10 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-08-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天",
-      "progress": 39.5,
+      "remain": "剩20天23时",
+      "progress": 39.6,
       "days": {
-        "elapsedDays": 13.7,
+        "elapsedDays": 13.8,
         "remainDays": 21.0,
         "totalDays": 34.8
       },
@@ -178,7 +136,7 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-09T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "6小时后",
+      "remain": "5小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,

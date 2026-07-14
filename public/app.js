@@ -765,11 +765,13 @@ function render() {
 
   let liveN = 0;
   let prevN = 0;
+  let fuzzyN = 0;
   for (const g of games) {
-    const events = state.byGame[g.id]?.events || g.events || [];
+    const events = matchQueryEvents(state.byGame[g.id]?.events || g.events || []);
     const { live, preview } = splitEvents(events);
     liveN += live.length;
     prevN += preview.length;
+    fuzzyN += [...live, ...preview].filter((e) => e.fuzzy).length;
   }
   const catHint = CAT_ORDER.filter((k) => state.cats[k])
     .map((k) => catLabel(k))
@@ -780,6 +782,7 @@ function render() {
     `进行中 ${liveN}`,
     `预告 ${prevN}`,
   ];
+  if (fuzzyN) parts.push(`估时 ${fuzzyN}`);
   if (upd) parts.push(`更新 ${upd}`);
   if (state.query.trim()) parts.unshift(`搜「${state.query.trim()}」`);
   $("#meta").textContent = parts.join(" · ");
