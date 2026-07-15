@@ -1,7 +1,7 @@
 {
   "game": "重返未来：1999",
   "source": "https://1999.leiting.com/",
-  "fetchedAt": "2026-07-15T12:57:37.192878+08:00",
+  "fetchedAt": "2026-07-15T13:31:10.977925+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 2,
@@ -23,7 +23,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.7,
+        "remainDays": 28.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -46,7 +46,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.7,
+        "remainDays": 28.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
