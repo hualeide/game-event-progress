@@ -22,7 +22,6 @@ import {
 } from "./format.js";
 import { ensureGameLoaded, loadGame } from "./data.js";
 import { tryOpenFromHash } from "./detail.js";
-import { renderSidebar } from "./sidebar.js";
 import { renderStatusBar } from "./status.js";
 
 export function toolsHtml(game, { compact = false } = {}) {
@@ -399,7 +398,6 @@ function updateMeta() {
     emptyEl.classList.toggle("hidden", !showEmpty);
   }
 
-  renderSidebar();
   updateHero();
   // 懒加载中不抢状态条；仅首屏 boot / 硬错误时改写
   if (document.body.classList.contains("is-loading")) {

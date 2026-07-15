@@ -111,21 +111,26 @@ body::before {
   position: relative;
   z-index: 1;
   display: flex;
+  justify-content: center;
   min-height: 100vh;
   max-width: none;
   margin: 0;
   padding: 0;
   gap: 0;
 }
+.app--no-sidebar {
+  width: 100%;
+}
 
 /* ——— 主壳 ——— */
 .content.app-shell {
   flex: 1;
   min-width: 0;
+  width: min(1440px, 100%);
   display: flex;
   flex-direction: column;
   gap: 14px;
-  margin: 16px 18px 22px 0;
+  margin: 16px auto 22px;
   padding: 18px 20px 28px;
   max-width: 1440px;
   background: var(--bg-panel);
@@ -315,18 +320,24 @@ body::before {
   display: flex;
   align-items: center;
   gap: 12px;
+  min-width: 0;
 }
-.topbar-main .brand-mark,
-.sidebar-brand .brand-mark {
+.topbar-main .brand-mark {
   width: 10px;
-  height: 40px;
+  height: 44px;
   border-radius: 3px;
   background: linear-gradient(180deg, var(--accent-primary), var(--accent-secondary));
   box-shadow: 0 0 22px var(--accent-glow);
   flex-shrink: 0;
 }
-.topbar-main .brand-name {
+.topbar-main .brand-kicker {
   margin: 0;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  color: var(--accent-primary);
+}
+.topbar-main .brand-name {
+  margin: 2px 0 0;
   font-size: clamp(20px, 3vw, 28px);
   font-weight: 700;
   color: var(--text-strong);
@@ -347,19 +358,6 @@ body::before {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.sidebar-toggle,
-.mobile-game-select { display: none; }
-.mobile-game-select select {
-  max-width: 42vw;
-  border: 1px solid rgba(80, 200, 255, 0.2);
-  background: rgba(0, 0, 0, 0.28);
-  color: var(--text-strong);
-  border-radius: 10px;
-  padding: 7px 10px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
 .hero {
   position: relative;
   overflow: hidden;
@@ -941,33 +939,16 @@ body::before {
 /* ——— 响应式 ——— */
 @media (max-width: 1280px) {
   .content.app-shell {
-    margin: 12px;
+    margin: 12px auto;
     border-radius: 18px;
   }
 }
 
 @media (max-width: 1100px) {
-  .sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    transform: translateX(-105%);
-    transition: transform 0.22s var(--ease-hud);
-    box-shadow: 12px 0 40px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(180deg, rgba(12, 18, 42, 0.98) 0%, rgba(4, 5, 16, 0.99) 100%);
-  }
-  body.sidebar-open .sidebar { transform: translateX(0); }
-  .sidebar-close {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .sidebar-toggle,
-  .mobile-game-select { display: inline-flex; }
-  .desk-brand { display: none; }
   .content.app-shell {
     margin: 10px;
     padding: 12px 12px 22px;
+    width: auto;
   }
   .hero {
     grid-template-columns: auto 1fr;

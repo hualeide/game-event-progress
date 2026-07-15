@@ -82,10 +82,8 @@
 - 外轮廓：暗色 `border` + 1px accent `outline` 明确热区
 - Accent：`.card--accent-blue|violet|warm|orange|red|teal|pink`
 
-### Sidebar
-深蓝→黑渐变；激活项左侧 4px 亮条 + inset glow。
-
-**未来计划（非遗漏）**：平板改为 **icon 精简侧栏**；当前 ≤1100 统一用抽屉 collapse，避免半成品交互。
+### 游戏导航
+**已移除左侧 Sidebar**。游戏显隐/排序通过顶栏「管理」面板；浏览依赖主列表游戏行折叠与搜索。
 
 ## 响应式 / 截图
 
