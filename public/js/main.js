@@ -22,17 +22,56 @@ import {
   visibleGames,
 } from "./render.js";
 import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js";
+import {
+  closeMobileSidebar,
+  renderSidebar,
+  setActiveGame,
+  setSidebarFilter,
+  toggleMobileSidebar,
+} from "./sidebar.js";
+import { renderStatusBar } from "./status.js";
+
+async function focusGameNav(gameId) {
+  if (!gameId) return;
+  setActiveGame(gameId);
+  if (!state.enabled.includes(gameId)) {
+    state.enabled.push(gameId);
+    persist();
+    render();
+    renderPicker();
+  }
+  await expandAndLoad(gameId);
+  const row = document.querySelector(`#games .game-row[data-game="${gameId}"]`);
+  if (row) {
+    row.scrollIntoView({ behavior: "smooth", block: "start" });
+    row.classList.add("is-focus");
+    setTimeout(() => row.classList.remove("is-focus"), 1200);
+  }
+  closeMobileSidebar();
+}
 
 async function boot() {
   $("#meta").textContent = "加载中…";
   document.body.classList.add("is-loading");
+  renderStatusBar({ loading: true });
   renderSkeleton();
-  await loadRemoteConfig();
-  await Promise.all([loadGamesMeta(), loadStatus()]);
-  document.body.classList.remove("is-loading");
-  applyFilterUI();
-  renderPicker();
-  render();
+  renderSidebar();
+  try {
+    await loadRemoteConfig();
+    await Promise.all([loadGamesMeta(), loadStatus()]);
+    document.body.classList.remove("is-loading");
+    applyFilterUI();
+    renderPicker();
+    render();
+    renderStatusBar({});
+  } catch (err) {
+    document.body.classList.remove("is-loading");
+    renderStatusBar({
+      error: String(err.message || err || "加载失败"),
+      onRetry: () => boot(),
+    });
+    throw err;
+  }
 }
 
 $("#games").addEventListener("click", (e) => {
@@ -86,7 +125,10 @@ $("#detail").addEventListener("click", (e) => {
 });
 
 window.addEventListener("keydown", (e) => {
-  if (e.key === "Escape" && !$("#detail").classList.contains("hidden")) closeDetail();
+  if (e.key === "Escape") {
+    if (!$("#detail").classList.contains("hidden")) closeDetail();
+    else if (document.body.classList.contains("sidebar-open")) closeMobileSidebar();
+  }
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
     const search = $("#search");
     if (!search) return;
@@ -290,6 +332,23 @@ $("#btnRefresh").addEventListener("click", () => {
   boot().catch((err) => {
     $("#meta").textContent = String(err.message || err);
   });
+});
+
+$("#sidebarNav")?.addEventListener("click", (e) => {
+  const btn = e.target.closest(".sidebar-item[data-game]");
+  if (!btn) return;
+  focusGameNav(btn.dataset.game).catch(() => {});
+});
+
+$("#sidebarSearch")?.addEventListener("input", (e) => {
+  setSidebarFilter(e.target.value || "");
+});
+
+$("#btnSidebar")?.addEventListener("click", () => toggleMobileSidebar());
+$("#btnSidebarClose")?.addEventListener("click", () => closeMobileSidebar());
+$("#sidebarScrim")?.addEventListener("click", () => closeMobileSidebar());
+$("#mobileGameSelect")?.addEventListener("change", (e) => {
+  focusGameNav(e.target.value).catch(() => {});
 });
 
 const searchInput = $("#search");

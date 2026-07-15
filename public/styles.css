@@ -1,14 +1,14 @@
 :root {
-  --bg: #07090d;
-  --row: #10151e;
-  --line: rgba(255, 255, 255, 0.08);
-  --text: #f3f0e8;
-  --muted: #8a8376;
-  --accent: #f0c41a;
-  --accent-2: #ffe06a;
-  --panel: #ebe6dc;
-  --panel-2: #d7d0c2;
-  --ink: #15171c;
+  --bg: #0b1220;
+  --row: #121a2b;
+  --line: rgba(148, 163, 184, 0.22);
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #22d3ee;
+  --accent-2: #67e8f9;
+  --panel: #1d2948;
+  --panel-2: #162033;
+  --ink: #0b1220;
   --ark: #f0c41a;
   --ba: #7eb6ff;
   --ef: #9ad7c2;
@@ -17,6 +17,16 @@
   --zz: #ff6b6b;
   --ww: #7dd3c0;
   --al: #5b8def;
+  --nikke: #e879a9;
+  --r1999: #c4a1ff;
+  --ptn: #8bb8ff;
+  --snow: #9ec9ff;
+  --gfl2: #ff9b6a;
+  --hs: #f0a35e;
+  --pvz: #7dce6a;
+  --naraka: #ff7a6e;
+  --delta: #6ad0a0;
+  --custom: #94a3b8;
   --live: #3ecf7a;
   --live-ink: #062012;
   --preview: #6aa8ff;
@@ -60,21 +70,7 @@ html, body {
   max-width: 1400px;
   margin: 0 auto;
 }
-.top-sticky {
-  position: sticky;
-  top: 0;
-  z-index: 40;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 10px 0 12px;
-  margin: -4px 0 0;
-  background:
-    linear-gradient(180deg, rgba(10, 13, 19, 0.96) 60%, rgba(10, 13, 19, 0.88));
-  backdrop-filter: blur(14px) saturate(1.2);
-  -webkit-backdrop-filter: blur(14px) saturate(1.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
+/* .top-sticky 样式由 hud.css 的 .topbar 接管 */
 
 .sr-only {
   position: absolute;

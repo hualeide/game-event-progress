@@ -5,9 +5,16 @@
   --g-bar-bg: transparent;
   --g-radius: 14px;
   --g-mark: "";
+  --accent: var(--g-accent, #22d3ee);
+  --accent-muted: color-mix(in srgb, var(--g-accent, #22d3ee) 55%, #0b1220);
+  --accent-glow: color-mix(in srgb, var(--g-accent, #22d3ee) 35%, transparent);
   position: relative;
   border-radius: var(--g-radius);
   isolation: isolate;
+}
+.game-row.is-focus {
+  outline: 2px solid color-mix(in srgb, var(--g-accent, var(--accent)) 55%, transparent);
+  outline-offset: 2px;
 }
 /* 角标极淡，避免花哨水印感 */
 .game-row::after {

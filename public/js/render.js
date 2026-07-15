@@ -22,6 +22,8 @@ import {
 } from "./format.js";
 import { ensureGameLoaded, loadGame } from "./data.js";
 import { tryOpenFromHash } from "./detail.js";
+import { renderSidebar } from "./sidebar.js";
+import { renderStatusBar } from "./status.js";
 
 export function toolsHtml(game, { compact = false } = {}) {
   const wiki = wikiFor(game);
@@ -317,10 +319,23 @@ function updateMeta() {
     emptyEl.textContent = state.query.trim()
       ? "没有匹配的游戏或活动"
       : games.length === 0
-        ? "请先在「游戏」里勾选要显示的游戏"
+        ? "请先在「管理」里勾选要显示的游戏"
         : "当前筛选下没有活动";
     const showEmpty = games.length === 0 || (anyReady && liveN + prevN === 0 && games.every((g) => state.loadState[g.id] === "ready"));
     emptyEl.classList.toggle("hidden", !showEmpty);
+  }
+
+  renderSidebar();
+  // 懒加载中不抢状态条；仅首屏 boot / 硬错误时改写
+  if (document.body.classList.contains("is-loading")) {
+    renderStatusBar({ loading: true });
+  } else if (games.some((g) => state.loadState[g.id] === "error")) {
+    renderStatusBar({
+      error: "部分游戏数据加载失败，可点刷新重试",
+      onRetry: () => $("#btnRefresh")?.click(),
+    });
+  } else {
+    renderStatusBar({});
   }
 }
 
