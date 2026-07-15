@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="多游戏活动进度：作战、卡池、网页活动一览，自动抓取官方公告解析起止时间。" />
-  <meta name="theme-color" content="#0b1220" />
+  <meta name="theme-color" content="#040510" />
   <meta property="og:title" content="活动进度" />
   <meta property="og:description" content="多游戏进行中的活动与卡池进度" />
   <meta property="og:type" content="website" />
@@ -13,19 +13,20 @@
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&family=Noto+Sans+SC:wght@500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=20260715hud2" />
-  <link rel="stylesheet" href="./themes.css?v=20260715hud2" />
-  <link rel="stylesheet" href="./hud.css?v=20260715hud2" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+SC:wght@500;700;900&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css?v=20260715v3" />
+  <link rel="stylesheet" href="./themes.css?v=20260715v3" />
+  <link rel="stylesheet" href="./hud.css?v=20260715v3" />
 </head>
 <body>
+  <div class="hud-orbit" aria-hidden="true"></div>
   <div class="app" id="app">
     <aside class="sidebar" id="sidebar" aria-label="游戏导航">
       <div class="sidebar-head">
         <div class="sidebar-brand">
           <span class="brand-mark" aria-hidden="true"></span>
           <div class="brand-text">
-            <p class="brand-kicker">GAME EVENT</p>
+            <p class="brand-kicker">OPS BRIEFING</p>
             <h1 class="brand-name">活动进度</h1>
           </div>
         </div>
@@ -39,7 +40,7 @@
       <p class="sidebar-foot">静态 JSON · 官方/公开源</p>
     </aside>
 
-    <div class="content">
+    <div class="content app-shell">
       <header class="topbar top-sticky">
         <div class="topbar-main">
           <button type="button" class="btn ghost sidebar-toggle" id="btnSidebar" aria-label="打开游戏列表" aria-expanded="false">游戏</button>
@@ -54,27 +55,47 @@
               <p class="brand-tag">多游戏作战 · 卡池 · 网页活动</p>
             </div>
           </div>
-          <p class="updated" id="updatedAt">加载中…</p>
+          <p class="updated metric" id="updatedAt">加载中…</p>
         </div>
 
-        <div class="toolbar">
-          <div class="toolbar-left">
+        <section class="hero" id="heroBanner" aria-label="热点活动">
+          <div class="hero__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="1.5" opacity="0.45"/>
+              <path d="M24 10v14l10 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="24" cy="24" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="hero__copy">
+            <p class="hero__kicker">HOT BRIEF</p>
+            <h2 class="hero__title" id="heroTitle">同步战报中…</h2>
+            <p class="hero__desc" id="heroDesc">加载各游戏活动数据后，将在此显示即将截止或进行中的重点条目。</p>
+          </div>
+          <button type="button" class="hero__cta btn-outline" id="heroCta" disabled>查看活动详情</button>
+        </section>
+
+        <div class="filter-stack">
+          <div class="filter-row filter-row--primary">
             <label class="search-wrap">
               <span class="sr-only">搜索</span>
               <input type="search" id="search" placeholder="搜索游戏 / 活动…  (/ 或 Ctrl+K)" autocomplete="off" />
             </label>
-            <span class="meta" id="meta">加载中…</span>
+            <div class="filters filters--tags" id="filters">
+              <label class="chip"><input type="checkbox" data-cat="combat" checked /> 作战</label>
+              <label class="chip"><input type="checkbox" data-cat="gacha" checked /> 卡池</label>
+              <label class="chip"><input type="checkbox" data-cat="web" checked /> 网页</label>
+              <label class="chip"><input type="checkbox" data-cat="event" checked /> 活动</label>
+              <label class="chip subtle" title="隐藏当前筛选下无活动的游戏"><input type="checkbox" id="hideEmpty" checked /> 藏空</label>
+            </div>
           </div>
-          <div class="filters" id="filters">
-            <label class="chip"><input type="checkbox" data-cat="combat" checked /> 作战</label>
-            <label class="chip"><input type="checkbox" data-cat="gacha" checked /> 卡池</label>
-            <label class="chip"><input type="checkbox" data-cat="web" checked /> 网页</label>
-            <label class="chip"><input type="checkbox" data-cat="event" checked /> 活动</label>
-            <label class="chip subtle" title="隐藏当前筛选下无活动的游戏"><input type="checkbox" id="hideEmpty" checked /> 藏空</label>
-            <button type="button" id="btnFoldAll" class="btn ghost desk-only" title="全部折叠">折叠</button>
-            <button type="button" id="btnExpandAll" class="btn ghost desk-only" title="全部展开">展开</button>
-            <button type="button" id="btnGames" class="btn ghost" title="显示/自定义游戏">管理</button>
-            <button type="button" id="btnRefresh" class="btn accent-button" title="重新加载数据">刷新</button>
+          <div class="filter-row filter-row--secondary">
+            <span class="meta" id="meta">加载中…</span>
+            <div class="filter-actions">
+              <button type="button" id="btnFoldAll" class="btn ghost desk-only" title="全部折叠">折叠</button>
+              <button type="button" id="btnExpandAll" class="btn ghost desk-only" title="全部展开">展开</button>
+              <button type="button" id="btnGames" class="btn ghost" title="显示/自定义游戏">管理</button>
+              <button type="button" id="btnRefresh" class="btn accent-button" title="重新加载数据">刷新</button>
+            </div>
           </div>
         </div>
       </header>
