@@ -41,17 +41,26 @@ export function renderStatusBar(opts = {}) {
 
   if (opts.loading) {
     el.innerHTML = `<div class="status status--loading">
-      <span class="status-icon"><span class="spinner" aria-hidden="true"></span></span>
-      <span class="status-desc">正在获取数据…</span>
+      <div class="status__icon"><span class="spinner" aria-hidden="true"></span></div>
+      <div class="status__body">
+        <p class="status__title">链路同步中</p>
+        <p class="status__desc">正在获取各游戏活动数据…</p>
+      </div>
+      <div class="status__meta"><span>来源 · —</span><time>—</time></div>
     </div>`;
     return;
   }
 
   if (opts.error) {
     el.innerHTML = `<div class="status status--error">
-      <span class="status-icon" aria-hidden="true">!</span>
-      <span class="status-desc">${opts.error}</span>
-      <button type="button" class="retry" data-status-retry>重试</button>
+      <div class="status__icon" aria-hidden="true">!</div>
+      <div class="status__body">
+        <p class="status__title">数据链路异常</p>
+        <p class="status__desc">${opts.error}</p>
+      </div>
+      <div class="status__meta">
+        <button type="button" class="retry" data-status-retry>重试</button>
+      </div>
     </div>`;
     const btn = el.querySelector("[data-status-retry]");
     if (btn && opts.onRetry) btn.addEventListener("click", opts.onRetry, { once: true });
@@ -63,20 +72,22 @@ export function renderStatusBar(opts = {}) {
   const failed = st?.fetchOk === false;
   const soft = Number(st?.auditSoft || 0);
   const hard = Number(st?.auditHard || 0);
-  const cls = failed || hard > 0 ? "status--warn" : "status--success";
+  const cls = failed || hard > 0 ? "status--warning" : "status--success";
   const sourceHint = failed ? "部分数据源失败" : "官方公告 / 公开日历";
   const timeHint = upd || "本地预览";
   const auditHint = hard || soft ? `审计 硬${hard}/软${soft}` : "";
-  const msg = st?.message || "";
+  const msg = st?.message || "战报通道正常";
 
   el.innerHTML = `<div class="status ${cls}">
-    <span class="status-icon"><span class="dot" aria-hidden="true"></span></span>
-    <span class="status-desc">
-      <strong>${sourceHint}</strong>
-      ${msg ? `<span class="status-msg">${msg}</span>` : ""}
-      ${auditHint ? `<span class="status-msg">${auditHint}</span>` : ""}
-    </span>
-    <span class="status-badges">${sourceMixBadges()}</span>
-    <time class="status-time" title="${st?.updatedAt || ""}">同步 ${timeHint}</time>
+    <div class="status__icon"><span class="dot" aria-hidden="true"></span></div>
+    <div class="status__body">
+      <p class="status__title">${sourceHint}</p>
+      <p class="status__desc">${msg}${auditHint ? ` · ${auditHint}` : ""}</p>
+      <div class="status-badges">${sourceMixBadges()}</div>
+    </div>
+    <div class="status__meta">
+      <span>来源 · 混合</span>
+      <time class="metric" title="${st?.updatedAt || ""}">${timeHint}</time>
+    </div>
   </div>`;
 }

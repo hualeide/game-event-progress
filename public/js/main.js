@@ -351,6 +351,15 @@ $("#mobileGameSelect")?.addEventListener("change", (e) => {
   focusGameNav(e.target.value).catch(() => {});
 });
 
+$("#heroCta")?.addEventListener("click", () => {
+  const btn = $("#heroCta");
+  if (!btn || btn.disabled) return;
+  const { gameId, eventId } = btn.dataset;
+  if (gameId && eventId) openDetail(gameId, eventId);
+});
+
+// TODO(ui): 约每 30s 数据刷新时触发 HUD 扫描线动画（需接入定时刷新钩子）
+
 const searchInput = $("#search");
 if (searchInput) {
   let searchTimer = 0;

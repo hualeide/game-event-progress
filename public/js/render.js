@@ -52,6 +52,27 @@ function cardSubline(ev, live) {
   return "";
 }
 
+const ACCENT_BY_GAME = {
+  ark: "card--accent-warm",
+  ef: "card--accent-teal",
+  ba: "card--accent-blue",
+  gi: "card--accent-blue",
+  sr: "card--accent-orange",
+  zz: "card--accent-red",
+  ww: "card--accent-teal",
+  al: "card--accent-blue",
+  nikke: "card--accent-pink",
+  r1999: "card--accent-violet",
+  ptn: "card--accent-blue",
+  snow: "card--accent-blue",
+  gfl2: "card--accent-orange",
+  hs: "card--accent-orange",
+  pvz: "card--accent-teal",
+  naraka: "card--accent-red",
+  delta: "card--accent-teal",
+  custom: "card--accent-blue",
+};
+
 export function cardHtml(game, ev) {
   const live = liveStats(ev);
   const name = shortName(ev);
@@ -65,6 +86,8 @@ export function cardHtml(game, ev) {
   const sub = cardSubline(ev, live);
   const jump = jumpUrl(ev);
   const web = isWebEvent(ev);
+  const soon = endingSoon(ev);
+  const accent = ACCENT_BY_GAME[game.accent] || "card--accent-blue";
   const coverInner = src
     ? `<img class="cover-blur" src="${src}" alt="" aria-hidden="true" loading="lazy" />
        <img class="cover-img" src="${src}" alt="${name}" loading="lazy"
@@ -79,37 +102,87 @@ export function cardHtml(game, ev) {
         : "";
   const fuzzy = ev.fuzzy ? `<span class="badge fuzzy">估时</span>` : "";
   return `
-  <article class="card ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${endingSoon(ev) ? "is-soon" : ""}" title="${live.tip || ""} · 点击查看详情"
+  <article class="card briefing-card ${accent} ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${soon ? "is-soon" : ""}" title="${live.tip || ""} · 点击查看详情"
     data-event-id="${eid}" data-game-id="${game.id}" data-cat="${cat}" tabindex="0" role="button">
+    <header class="card-ribbon">
+      <img class="card-ribbon__icon" src="${game.icon}" alt="" onerror="this.src='./icons/custom.svg'" />
+      <span class="card-ribbon__game">${game.name}</span>
+      <span class="chip pill badge-cat cat-${cat}">${catLabel(cat)}</span>
+    </header>
     <div class="cover ${src ? "" : "cover-fallback"}">
       ${coverInner}
       <span class="badge ${kindClass}">${stateText}</span>
-      <span class="badge-cat cat-${cat}">${catLabel(cat)}</span>
       ${fuzzy}
       ${jumpBtn}
     </div>
-    <div class="bar">
-      <p class="bar-title">${name}${endingSoon(ev) ? `<em class="soon-tag">将截止</em>` : ""}</p>
+    <div class="bar briefing-body">
+      <p class="bar-title">${name}${soon ? `<em class="soon-tag">将截止</em>` : ""}</p>
       ${sub ? `<p class="bar-sub">${sub}</p>` : ""}
-      <div class="remain ${kindClass} ${endingSoon(ev) ? "soon" : ""}">
-        ${live.remain}
-        <small>${endingSoon(ev) ? "将截止" : stateText}</small>
+      <div class="briefing-grid">
+        <div class="remain ${kindClass} ${soon ? "soon" : ""}">
+          <span class="metric">${live.remain}</span>
+          <small>${soon ? "将截止" : stateText}</small>
+        </div>
+        <div class="mid">
+          <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
+            <div class="track-ticks" aria-hidden="true"></div>
+            <div class="fill" style="width:${live.pct.toFixed(1)}%"></div>
+          </div>
+          <div class="pct-row">
+            <span class="pct-num metric">${live.pct.toFixed(0)}%</span>
+          </div>
+        </div>
       </div>
-      <div class="mid">
-        <div class="dates">
-          <span class="date-cell"><em>始</em><b>${fmtDate(ev.start)}</b></span>
-          <span class="date-cell end"><em>终</em><b>${fmtDate(ev.end)}</b></span>
-        </div>
-        <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
-          <div class="track-ticks" aria-hidden="true"></div>
-          <div class="fill" style="width:${live.pct.toFixed(1)}%"></div>
-        </div>
-        <div class="pct-row">
-          <span class="pct-num">${live.pct.toFixed(0)}%</span>
-        </div>
+      <div class="dates dates--foot">
+        <span class="date-cell"><em>开始</em><b class="metric">${fmtDate(ev.start)}</b></span>
+        <span class="date-cell end"><em>截止</em><b class="metric">${fmtDate(ev.end)}</b></span>
       </div>
     </div>
   </article>`;
+}
+
+/** 更新顶部热点横幅 */
+export function updateHero() {
+  const titleEl = $("#heroTitle");
+  const descEl = $("#heroDesc");
+  const cta = $("#heroCta");
+  if (!titleEl || !descEl || !cta) return;
+
+  let best = null;
+  for (const g of visibleGames()) {
+    if (state.loadState[g.id] !== "ready") continue;
+    const events = matchQueryEvents(state.byGame[g.id]?.events || []);
+    const { live, preview } = splitEvents(events);
+    for (const ev of [...live, ...preview]) {
+      const stats = liveStats(ev);
+      const score = endingSoon(ev) ? 0 : stats.status === "进行中" ? 1 : 2;
+      const end = Date.parse(ev.end || "") || Infinity;
+      if (!best || score < best.score || (score === best.score && end < best.end)) {
+        best = { game: g, ev, score, end, stats };
+      }
+    }
+  }
+
+  if (!best) {
+    titleEl.textContent = "暂无热点战报";
+    descEl.textContent = "调整筛选或等待数据加载后，将显示即将截止的重点活动。";
+    cta.disabled = true;
+    cta.dataset.gameId = "";
+    cta.dataset.eventId = "";
+    return;
+  }
+
+  const name = shortName(best.ev);
+  const soon = endingSoon(best.ev);
+  titleEl.textContent = `${best.game.name} · ${name}`;
+  descEl.textContent = soon
+    ? `将截止 · 剩余 ${best.stats.remain} · ${best.stats.tip || catLabel(eventCategory(best.ev))}`
+    : `${best.stats.status} · 剩余 ${best.stats.remain} · ${cardSubline(best.ev, best.stats) || catLabel(eventCategory(best.ev))}`;
+  const eid = String(best.ev.id || `${best.game.id}-${name}`);
+  eventIndex.set(eid, { game: best.game, ev: best.ev });
+  cta.disabled = false;
+  cta.dataset.gameId = best.game.id;
+  cta.dataset.eventId = eid;
 }
 
 function gamesById() {
@@ -327,6 +400,7 @@ function updateMeta() {
   }
 
   renderSidebar();
+  updateHero();
   // 懒加载中不抢状态条；仅首屏 boot / 硬错误时改写
   if (document.body.classList.contains("is-loading")) {
     renderStatusBar({ loading: true });
