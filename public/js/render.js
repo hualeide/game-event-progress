@@ -97,10 +97,11 @@ export function cardHtml(game, ev) {
       </div>
       <div class="mid">
         <div class="dates">
-          <span><em>起</em>${fmtDate(ev.start)}</span>
-          <span><em>止</em>${fmtDate(ev.end)}</span>
+          <span class="date-cell"><em>始</em><b>${fmtDate(ev.start)}</b></span>
+          <span class="date-cell end"><em>终</em><b>${fmtDate(ev.end)}</b></span>
         </div>
         <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
+          <div class="track-ticks" aria-hidden="true"></div>
           <div class="fill" style="width:${live.pct.toFixed(1)}%"></div>
         </div>
         <div class="pct-row">

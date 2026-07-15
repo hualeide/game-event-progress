@@ -40,14 +40,17 @@ export function renderStatusBar(opts = {}) {
   if (!el) return;
 
   if (opts.loading) {
-    el.innerHTML = `<div class="status loading"><span class="spinner" aria-hidden="true"></span>正在获取数据…</div>`;
+    el.innerHTML = `<div class="status status--loading">
+      <span class="status-icon"><span class="spinner" aria-hidden="true"></span></span>
+      <span class="status-desc">正在获取数据…</span>
+    </div>`;
     return;
   }
 
   if (opts.error) {
-    el.innerHTML = `<div class="status error">
-      <span aria-hidden="true">!</span>
-      <span>${opts.error}</span>
+    el.innerHTML = `<div class="status status--error">
+      <span class="status-icon" aria-hidden="true">!</span>
+      <span class="status-desc">${opts.error}</span>
       <button type="button" class="retry" data-status-retry>重试</button>
     </div>`;
     const btn = el.querySelector("[data-status-retry]");
@@ -60,15 +63,20 @@ export function renderStatusBar(opts = {}) {
   const failed = st?.fetchOk === false;
   const soft = Number(st?.auditSoft || 0);
   const hard = Number(st?.auditHard || 0);
-  const cls = failed || hard > 0 ? "warn" : "success";
+  const cls = failed || hard > 0 ? "status--warn" : "status--success";
   const sourceHint = failed ? "部分数据源失败" : "官方公告 / 公开日历";
-  const timeHint = upd ? `最后同步 ${upd}` : "尚未写入 status.json（本地预览）";
-  const auditHint = hard || soft ? ` · 审计 硬${hard}/软${soft}` : "";
-  const msg = st?.message ? ` · ${st.message}` : "";
+  const timeHint = upd || "本地预览";
+  const auditHint = hard || soft ? `审计 硬${hard}/软${soft}` : "";
+  const msg = st?.message || "";
 
   el.innerHTML = `<div class="status ${cls}">
-    <span class="dot" aria-hidden="true"></span>
-    <span>来源：${sourceHint} · ${timeHint}${auditHint}${msg}</span>
+    <span class="status-icon"><span class="dot" aria-hidden="true"></span></span>
+    <span class="status-desc">
+      <strong>${sourceHint}</strong>
+      ${msg ? `<span class="status-msg">${msg}</span>` : ""}
+      ${auditHint ? `<span class="status-msg">${auditHint}</span>` : ""}
+    </span>
     <span class="status-badges">${sourceMixBadges()}</span>
+    <time class="status-time" title="${st?.updatedAt || ""}">同步 ${timeHint}</time>
   </div>`;
 }
