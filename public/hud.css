@@ -586,7 +586,8 @@ body::after {
 }
 
 /* ——— 状态条 ——— */
-.status-bar { min-height: 48px; }
+.status-bar { min-height: 0; }
+.status-bar:empty { display: none; }
 .status {
   position: relative;
   overflow: hidden;
