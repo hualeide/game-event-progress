@@ -1,11 +1,14 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-15T16:38:50.322715+08:00",
+  "fetchedAt": "2026-07-15T22:11:57.808299+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
-  "notes": [],
+  "notes": [
+    "Remote end closed connection without response",
+    "抓取为空，保留旧数据 1 条"
+  ],
   "events": [
     {
       "id": "2782702201042160096",
@@ -37,5 +40,6 @@
       ],
       "summary": "《三角洲行动》全新「裂变赛季」，现已上线！"
     }
-  ]
+  ],
+  "keptPrevious": true
 }
