@@ -288,7 +288,18 @@
   border-color: color-mix(in srgb, var(--g-accent) 45%, transparent);
 }
 .game-row .fill {
-  background: linear-gradient(90deg, color-mix(in srgb, var(--g-accent) 70%, #2bb86a), var(--live));
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--g-accent) 60%, #1a8f4e),
+    color-mix(in srgb, var(--g-accent) 35%, var(--live))
+  );
+}
+.game-row .card.is-soon .fill {
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--g-accent) 35%, #c47a20),
+    var(--warn, #e8a23a)
+  );
 }
 .game-row .card {
   border-color: color-mix(in srgb, var(--g-accent) 18%, rgba(255, 255, 255, 0.06));

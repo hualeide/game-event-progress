@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-07-15T11:34:51.595591+08:00",
+  "fetchedAt": "2026-07-15T12:57:04.694573+08:00",
   "count": 9,
   "events": [
     {
@@ -13,8 +13,8 @@
       "start": "2026-07-11T10:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩35天",
-      "progress": 10.4,
+      "remain": "剩34天23时",
+      "progress": 10.5,
       "days": {
         "elapsedDays": 4.1,
         "remainDays": 35.0,
@@ -40,7 +40,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 34.7,
+        "remainDays": 34.6,
         "totalDays": 19.7
       },
       "hasSchedule": true,
@@ -59,10 +59,10 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩35天",
-      "progress": 13.2,
+      "remain": "剩34天23时",
+      "progress": 13.3,
       "days": {
-        "elapsedDays": 5.3,
+        "elapsedDays": 5.4,
         "remainDays": 35.0,
         "totalDays": 40.3
       },
@@ -82,10 +82,10 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩35天",
-      "progress": 13.2,
+      "remain": "剩34天23时",
+      "progress": 13.3,
       "days": {
-        "elapsedDays": 5.3,
+        "elapsedDays": 5.4,
         "remainDays": 35.0,
         "totalDays": 40.3
       },
@@ -105,10 +105,10 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩35天",
-      "progress": 13.2,
+      "remain": "剩34天23时",
+      "progress": 13.3,
       "days": {
-        "elapsedDays": 5.3,
+        "elapsedDays": 5.4,
         "remainDays": 35.0,
         "totalDays": 40.3
       },
@@ -128,10 +128,10 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩35天",
-      "progress": 13.2,
+      "remain": "剩34天23时",
+      "progress": 13.3,
       "days": {
-        "elapsedDays": 5.3,
+        "elapsedDays": 5.4,
         "remainDays": 35.0,
         "totalDays": 40.3
       },
@@ -146,16 +146,16 @@
       "id": "wuwa-5110-再续光影瞬息",
       "title": "再续・光影瞬息",
       "header": "再续・光影瞬息·战斗拍照活动",
-      "banner": "./covers/wuwa-5110-e24fe846a4-0c27a6e6.jpg",
+      "banner": "",
       "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "22小时后",
+      "remain": "21小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 21.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -201,7 +201,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 34.7,
+        "remainDays": 34.6,
         "totalDays": 13.0
       },
       "hasSchedule": true,

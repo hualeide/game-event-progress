@@ -8,6 +8,7 @@
   python scripts/update.py --jobs 3
   python scripts/update.py --skip-fetch   # 只审计+发布
   python scripts/update.py --strict      # 软警告也失败
+  python scripts/update.py --dry-run     # 只抓不写
 """
 
 from __future__ import annotations
@@ -64,6 +65,7 @@ def main() -> int:
     ap.add_argument("--skip-audit", action="store_true")
     ap.add_argument("--strict", action="store_true")
     ap.add_argument("--only", type=str, default="")
+    ap.add_argument("--dry-run", action="store_true", help="抓取+审计，不写盘/不发布")
     args = ap.parse_args()
 
     t0 = time.time()
@@ -73,6 +75,8 @@ def main() -> int:
         extra = [f"--jobs={args.jobs}", f"--timeout={args.timeout}"]
         if args.only:
             extra.append(f"--only={args.only}")
+        if args.dry_run:
+            extra.append("--dry-run")
         code = run_py("fetch_all.py", extra)
         fetch_ok = code == 0
         if not fetch_ok:
@@ -91,6 +95,11 @@ def main() -> int:
             print("[warn] 存在硬问题，仍发布当前数据供排查")
         elif code == 1 and args.strict:
             print("[warn] 严格模式：存在软警告")
+
+    if args.dry_run:
+        print("[dry-run] 跳过 publish / status")
+        print(f"[done] {time.time() - t0:.1f}s · dry-run")
+        return 0 if fetch_ok and audit_hard == 0 else 1
 
     pub_code = run_py("publish_data.py")
     write_status(

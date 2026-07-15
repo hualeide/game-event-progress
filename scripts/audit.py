@@ -8,6 +8,7 @@ import argparse
 import json
 import sys
 from collections import Counter
+from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -15,6 +16,9 @@ from common import DATA, is_bare_announce, now_cn  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT = ROOT / "data" / "audit-report.json"
+PUBLIC_DATA = ROOT / "public" / "data"
+# 起止漂移超过该阈值记软警告
+DRIFT_HOURS = 48
 
 
 def audit(data_dir: Path | None = None) -> dict:
@@ -109,6 +113,50 @@ def audit(data_dir: Path | None = None) -> dict:
             issues.append(
                 {"game": p.stem, "code": "NO_GACHA", "detail": f"events={len(evs)}", "soft": True}
             )
+
+        # 与上一份已发布数据比漂移（同 id）
+        prev_path = PUBLIC_DATA / p.name
+        if prev_path.exists() and evs:
+            try:
+                prev = json.loads(prev_path.read_text(encoding="utf-8-sig"))
+                prev_map = {
+                    str(e.get("id")): e
+                    for e in (prev.get("events") or [])
+                    if e.get("id")
+                }
+                drifted = []
+                for e in evs:
+                    eid = str(e.get("id") or "")
+                    old = prev_map.get(eid)
+                    if not old or not e.get("start") or not old.get("start"):
+                        continue
+                    try:
+                        ds = abs(
+                            datetime.fromisoformat(str(e["start"]))
+                            - datetime.fromisoformat(str(old["start"]))
+                        )
+                        de = abs(
+                            datetime.fromisoformat(str(e["end"]))
+                            - datetime.fromisoformat(str(old["end"]))
+                        ) if e.get("end") and old.get("end") else timedelta(0)
+                    except Exception:
+                        continue
+                    if ds > timedelta(hours=DRIFT_HOURS) or de > timedelta(hours=DRIFT_HOURS):
+                        drifted.append(
+                            f"{(e.get('header') or e.get('title') or eid)[:24]} "
+                            f"Δstart={ds.total_seconds()/3600:.0f}h"
+                        )
+                if drifted:
+                    issues.append(
+                        {
+                            "game": p.stem,
+                            "code": "SCHEDULE_DRIFT",
+                            "detail": drifted[:6],
+                            "soft": True,
+                        }
+                    )
+            except Exception:
+                pass
 
     # Wiki 元数据
     meta_path = data_dir / "games-meta.json"

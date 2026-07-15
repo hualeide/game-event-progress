@@ -847,6 +847,7 @@ def fetch_reverse1999() -> dict[str, Any]:
     collab_start = datetime(2026, 7, 23, 5, 0, tzinfo=TZ)
     collab_end = datetime(2026, 8, 13, 4, 59, tzinfo=TZ)
     site_cover = ""
+    site_covers: list[str] = []
     try:
         home = http_get(
             "https://1999.leiting.com/",
@@ -858,8 +859,23 @@ def fetch_reverse1999() -> dict[str, Any]:
             re.I,
         )
         pics = [u for u in pics if not re.search(r"logo|icon", u, re.I)]
-        if pics:
-            site_cover = cache_cover("r1999-home", pics[0], "https://1999.leiting.com/")
+        for i, pu in enumerate(pics[:6]):
+            c = cache_cover(f"r1999-home-{i}", pu, "https://1999.leiting.com/")
+            if not c:
+                continue
+            # 跳过过小的图标/装饰图
+            try:
+                sz = (Path("public") / c.lstrip("./")).stat().st_size
+            except OSError:
+                sz = 0
+            if sz and sz < 40000:
+                continue
+            site_covers.append(c)
+        if not site_covers and pics:
+            c = cache_cover("r1999-home", pics[0], "https://1999.leiting.com/")
+            if c:
+                site_covers.append(c)
+        site_cover = site_covers[0] if site_covers else ""
     except Exception as e:
         notes.append(f"官网封面: {e}")
 
@@ -870,7 +886,7 @@ def fetch_reverse1999() -> dict[str, Any]:
                     cid="r1999-atomic-heart",
                     title="×《原子之心》联动版本",
                     header="金属剧作分析 · 双子限定招募",
-                    banner=site_cover or "",
+                    banner=site_covers[0] if site_covers else site_cover or "",
                     link="https://1999.leiting.com/",
                     start=collab_start,
                     end=collab_end,
@@ -886,7 +902,7 @@ def fetch_reverse1999() -> dict[str, Any]:
                     cid="r1999-lake-ripple",
                     title="卡池「湖的涟漪」",
                     header="自选六星保底卡池",
-                    banner=site_cover or "",
+                    banner=site_covers[1] if len(site_covers) > 1 else "",
                     link="https://1999.leiting.com/",
                     start=collab_start,
                     end=collab_end,
@@ -1000,12 +1016,18 @@ def fetch_hearthstone() -> dict[str, Any]:
         end = datetime.fromisoformat(primary["end"])
         if end < now - timedelta(days=2):
             continue
-        imgs = re.findall(
-            r'(?:src|data-src)=["\'](https?://[^"\']+\.(?:png|jpg|jpeg|webp))["\']',
-            page,
-            re.I,
-        )
-        pic = next((u for u in imgs if not re.search(r"logo|icon|avatar|emoji", u, re.I)), imgs[0] if imgs else "")
+        imgs = [
+            u
+            for u in re.findall(
+                r'(?:src|data-src)=["\'](https?://[^"\']+\.(?:png|jpg|jpeg|webp))["\']',
+                page,
+                re.I,
+            )
+            if not re.search(r"logo|icon|avatar|emoji|sprite|1x1", u, re.I)
+        ]
+        # 去重保序
+        imgs = list(dict.fromkeys(imgs))
+        pic = imgs[0] if imgs else ""
         banner = cache_cover(f"hs-{safe_hash(link)}", pic, "https://hs.blizzard.cn/") if pic else ""
         # 补丁说明：正文里多段活动窗口 → 拆成独立条目
         if re.search(r"补丁说明", title) and len(ranges) >= 2:
@@ -1047,11 +1069,18 @@ def fetch_hearthstone() -> dict[str, Any]:
                     sub_title = f"{lab}（{span}）"
                 else:
                     sub_title = f"限时活动（{span}）"
+                # 多段活动尽量用不同配图；图不够则只给首条封面，避免五张同图
+                sub_pic = imgs[ri] if ri < len(imgs) else ""
+                sub_banner = (
+                    cache_cover(f"hs-{safe_hash(link)}-{ri}", sub_pic, "https://hs.blizzard.cn/")
+                    if sub_pic
+                    else (banner if ri == 0 else "")
+                )
                 ev = build_event(
                     cid=f"{safe_hash(link)}-{ri}",
                     title=sub_title,
                     header=sub_title,
-                    banner=banner or pic,
+                    banner=sub_banner,
                     link=link,
                     start=rs,
                     end=re_,

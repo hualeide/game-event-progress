@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 from datetime import datetime, timedelta, timezone
 from html import unescape
@@ -336,6 +337,7 @@ def build_event(
     fuzzy: bool = False,
     summary: str = "",
     category: str | None = None,
+    body: str = "",
 ) -> dict[str, Any]:
     now = now_cn()
     st = status_of(start, end, now)
@@ -351,7 +353,7 @@ def build_event(
             "totalDays": round(total, 1),
         }
     cat = category or guess_category(title, header)
-    return {
+    out: dict[str, Any] = {
         "id": cid,
         "title": title,
         "header": header or title,
@@ -371,6 +373,44 @@ def build_event(
         # 无正文时留空，前端不展示假「说明」
         "summary": summary or "",
     }
+    if body:
+        out["body"] = body
+    return out
+
+
+# 由 update.py / fetch_all.py --dry-run 设置（子进程读环境变量）
+DRY_RUN = os.environ.get("GEP_DRY_RUN", "").strip() in ("1", "true", "yes")
+
+
+def validate_payload(payload: dict[str, Any], *, path: Path | None = None) -> list[str]:
+    """抓取结果最低限度校验，返回问题列表（空=通过）。"""
+    errs: list[str] = []
+    if not isinstance(payload, dict):
+        return ["payload 不是 dict"]
+    evs = payload.get("events")
+    if not isinstance(evs, list):
+        errs.append("缺少 events 列表")
+        return errs
+    if payload.get("count") is not None and int(payload["count"]) != len(evs):
+        errs.append(f"count={payload.get('count')} 与 events 长度 {len(evs)} 不一致")
+    for i, e in enumerate(evs):
+        if not isinstance(e, dict):
+            errs.append(f"events[{i}] 非对象")
+            continue
+        if not (e.get("title") or e.get("header")):
+            errs.append(f"events[{i}] 缺 title/header")
+        if e.get("hasSchedule"):
+            if not e.get("start") or not e.get("end"):
+                errs.append(f"events[{i}] hasSchedule 但缺 start/end")
+            else:
+                try:
+                    s = datetime.fromisoformat(str(e["start"]))
+                    en = datetime.fromisoformat(str(e["end"]))
+                    if en <= s:
+                        errs.append(f"events[{i}] end<=start")
+                except Exception:
+                    errs.append(f"events[{i}] 时间无法解析")
+    return errs
 
 
 def write_events(path: Path, payload: dict[str, Any]) -> None:
@@ -395,5 +435,17 @@ def write_events(path: Path, payload: dict[str, Any]) -> None:
                 print(f"[keep] {path.name} 抓取为空，保留旧 {len(old_events)} 条")
         except Exception:
             pass
+    problems = validate_payload(payload, path=path)
+    if problems:
+        for p in problems[:8]:
+            print(f"[validate] {path.name}: {p}")
+        if len(problems) > 8:
+            print(f"[validate] …共 {len(problems)} 项")
+    if DRY_RUN:
+        print(
+            f"[dry-run] 跳过写入 {path.name} · "
+            f"{payload.get('count', len(payload.get('events', [])))} 条"
+        )
+        return
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok] 写入 {path} · {payload.get('count', len(payload.get('events', [])))} 条")

@@ -369,13 +369,14 @@ def resolve_banner(
     # 4) 作战主活动：版本 KV 兜底（只给 combat，避免所有卡同一张）
     if category == "combat" and version_banner:
         return version_banner
-    # 5) 拍照/系列活动：用 GameKee「光影」等模糊命中，仍无则用版本 KV（优于空白）
-    if category == "event" and ("光影" in name or "瞬息" in name):
+    # 5) 拍照/系列活动：GameKee 系列图；不用版本 KV（避免和主作战同图）
+    if category == "event" and ("光影" in name or "瞬息" in name or "拍照" in name):
         for title, pic in gk_rows:
-            if "光影" in title or "瞬息" in title:
+            if "光影" in title or "瞬息" in title or "拍照" in title or "留影" in title:
                 return pic
-        if version_banner:
-            return version_banner
+        img = fandom_pageimage("光影瞬息") or fandom_pageimage("战斗拍照")
+        if img:
+            return img
     return ""
 
 
@@ -559,8 +560,6 @@ def main() -> int:
         # 作战主活动独占版本 KV；拍照系列「光影瞬息」无独立图时允许用版本 KV
         vb = ""
         if e["name"] == combat_fallback_name:
-            vb = raw_vb
-        elif e["category"] == "event" and ("光影" in e["name"] or "瞬息" in e["name"]):
             vb = raw_vb
         remote = resolve_banner(
             name=e["name"],

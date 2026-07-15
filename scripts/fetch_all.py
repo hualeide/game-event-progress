@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import subprocess
 import sys
 import time
@@ -28,6 +29,7 @@ SCRIPTS = [
 
 def run_one(script: str, timeout: int) -> dict:
     t0 = time.time()
+    env = os.environ.copy()
     try:
         r = subprocess.run(
             [sys.executable, str(ROOT / script)],
@@ -37,6 +39,7 @@ def run_one(script: str, timeout: int) -> dict:
             encoding="utf-8",
             errors="replace",
             timeout=timeout,
+            env=env,
         )
         out = (r.stdout or "")[-4000:]
         err = (r.stderr or "")[-2000:]
@@ -70,7 +73,12 @@ def main() -> int:
     ap.add_argument("--jobs", type=int, default=1, help="并行数（默认串行更稳）")
     ap.add_argument("--timeout", type=int, default=240, help="单脚本超时秒")
     ap.add_argument("--only", type=str, default="", help="逗号分隔脚本名过滤")
+    ap.add_argument("--dry-run", action="store_true", help="只抓取校验，不写 data/*.json")
     args = ap.parse_args()
+
+    if args.dry_run:
+        os.environ["GEP_DRY_RUN"] = "1"
+        print("[fetch_all] DRY_RUN：不写入 data/")
 
     scripts = SCRIPTS
     if args.only:
