@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-16T11:37:10.967185+08:00",
+  "fetchedAt": "2026-07-16T16:34:24.625549+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -75,11 +75,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 89.8,
+      "remain": "剩11小时",
+      "progress": 92.9,
       "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 0.7,
+        "elapsedDays": 6.2,
+        "remainDays": 0.5,
         "totalDays": 6.7
       },
       "hasSchedule": true,
@@ -110,11 +110,11 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天16时",
-      "progress": 50.5,
+      "remain": "剩6天11时",
+      "progress": 52.0,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 6.7,
+        "elapsedDays": 7.0,
+        "remainDays": 6.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -146,11 +146,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 43.8,
+      "remain": "剩7天11时",
+      "progress": 45.3,
       "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 7.7,
+        "elapsedDays": 6.2,
+        "remainDays": 7.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -159,6 +159,42 @@
       "playable": false,
       "category": "gacha",
       "fuzzy": false
+    },
+    {
+      "id": "3366",
+      "title": "常驻标准寻访 限时出率上升",
+      "header": "「常驻标准寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-3366.jpg",
+      "link": "uniwebview://move?target=recruit&param1=DOUBLE_75_0_2",
+      "updatedAt": "2026-07-13T17:03:21+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-07-16T16:00:00+08:00",
+          "end": "2026-07-30T03:59:00+08:00",
+          "raw": "displayTime=2026-07-16"
+        }
+      ],
+      "summary": "卡池「常驻标准寻访」",
+      "textPreview": "",
+      "start": "2026-07-16T16:00:00+08:00",
+      "end": "2026-07-30T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天11时",
+      "progress": 0.2,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 13.5,
+        "totalDays": 13.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260713/0ab0c90bddf65efb6291ecf6d8f87e10.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     },
     {
       "id": "4858-f0",
@@ -182,55 +218,18 @@
       "start": "2026-07-21T16:00:00+08:00",
       "end": "2026-07-29T16:00:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.2,
+        "remainDays": 5.0,
         "totalDays": 8.0,
-        "untilStartDays": 5.2
+        "untilStartDays": 5.0
       },
       "hasSchedule": true,
       "kind": "preview",
       "playable": true,
       "category": "combat",
-      "fuzzy": true
-    },
-    {
-      "id": "3366",
-      "title": "常驻标准寻访 限时出率上升",
-      "header": "「常驻标准寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-3366.jpg",
-      "link": "uniwebview://move?target=recruit&param1=DOUBLE_75_0_2",
-      "updatedAt": "2026-07-13T17:03:21+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-07-16T16:00:00+08:00",
-          "end": "2026-07-30T03:59:00+08:00",
-          "raw": "displayTime=2026-07-16"
-        }
-      ],
-      "summary": "卡池「常驻标准寻访」",
-      "textPreview": "",
-      "start": "2026-07-16T16:00:00+08:00",
-      "end": "2026-07-30T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.2,
-        "totalDays": 13.5,
-        "untilStartDays": 0.2
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260713/0ab0c90bddf65efb6291ecf6d8f87e10.jpg",
-      "playable": false,
-      "category": "gacha",
       "fuzzy": true
     },
     {

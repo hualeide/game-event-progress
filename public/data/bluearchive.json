@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-15T22:09:28.705923+08:00",
+  "fetchedAt": "2026-07-16T16:34:24.623386+08:00",
   "timezone": "Asia/Shanghai",
   "count": 15,
   "notes": [
@@ -48,78 +48,6 @@
   ],
   "events": [
     {
-      "id": "1842",
-      "title": "【预告】限时活动：沙勒总决算",
-      "header": "「沙勒总决算」",
-      "banner": "./covers/ba-1842-1a4c322e.png",
-      "link": "https://bluearchive-cn.com/news/1842",
-      "start": "2026-07-02T04:00:00+08:00",
-      "end": "2026-07-16T09:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 96.5,
-      "days": {
-        "elapsedDays": 13.8,
-        "remainDays": 0.5,
-        "totalDays": 14.2
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 活动持续时间",
-          "start": "2026-07-02T04:00:00+08:00",
-          "end": "2026-07-16T09:59:00+08:00",
-          "raw": " • 活动持续时间：07月02日 04:00 ~ 07月16日 09:59"
-        },
-        {
-          "label": "• 商店兑换时间",
-          "start": "2026-07-02T04:00:00+08:00",
-          "end": "2026-07-23T13:59:00+08:00",
-          "raw": " • 商店兑换时间：07月02日 04:00 ~ 07月23日 13:59"
-        }
-      ],
-      "summary": "“欢迎连接【什亭之箱】，老师。” \n 限时活动：沙勒总决算即将开启！完成活动可获得互动家具以及秘仪之书碎片等奖励。 \n  \n ■ 活动时间 \n • 活动持续时间：07月02日 04:00 ~ 07月16日 09:59 \n • 商店兑换时间：07月02日 04:00 ~ 07月23日 13:59 \n  \n ■ 参加条件 …"
-    },
-    {
-      "id": "1849",
-      "title": "【预告】限时活动：异饼危机",
-      "header": "「异饼危机」",
-      "banner": "./covers/ba-1849-43a94d72.png",
-      "link": "https://bluearchive-cn.com/news/1849",
-      "start": "2026-07-02T14:00:00+08:00",
-      "end": "2026-07-16T09:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 96.4,
-      "days": {
-        "elapsedDays": 13.3,
-        "remainDays": 0.5,
-        "totalDays": 13.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 活动持续时间",
-          "start": "2026-07-02T14:00:00+08:00",
-          "end": "2026-07-16T09:59:00+08:00",
-          "raw": " • 活动持续时间：07月02日 14:00 ~ 07月16日 09:59"
-        },
-        {
-          "label": "• 商店和奖励兑换开放时间",
-          "start": "2026-07-02T14:00:00+08:00",
-          "end": "2026-07-23T13:59:00+08:00",
-          "raw": " • 商店和奖励兑换开放时间：07月02日 14:00 ~ 07月23日 13:59"
-        }
-      ],
-      "summary": "朱莉在打工时，接到了制作松饼的任务！ \n 令人惊讶的是，她真的做出了看似美味的松饼！ \n 然而就在这些松饼中，有某种东西开始觉醒…… \n  \n ■ 活动时间 \n • 活动持续时间：07月02日 14:00 ~ 07月16日 09:59 \n • 商店和奖励兑换开放时间：07月02日 14:00 ~ 07月23日 13:5…"
-    },
-    {
       "id": "1831",
       "title": "【预告】大决战：格里高利 • 室内战",
       "header": "「大决战·格里高利 • 室内战」",
@@ -128,11 +56,11 @@
       "start": "2026-07-03T00:00:00+08:00",
       "end": "2026-07-24T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天15时",
-      "progress": 59.9,
+      "remain": "剩7天21时",
+      "progress": 63.4,
       "days": {
-        "elapsedDays": 12.9,
-        "remainDays": 8.7,
+        "elapsedDays": 13.7,
+        "remainDays": 7.9,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -170,11 +98,11 @@
       "start": "2026-07-03T14:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天5时",
-      "progress": 46.4,
+      "remain": "剩13天11时",
+      "progress": 49.3,
       "days": {
-        "elapsedDays": 12.3,
-        "remainDays": 14.2,
+        "elapsedDays": 13.1,
+        "remainDays": 13.5,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -199,16 +127,16 @@
       "link": "https://bluearchive-cn.com/news/1865",
       "start": "2026-07-16T04:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "5小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天11时",
+      "progress": 7.5,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.2,
+        "elapsedDays": 0.5,
+        "remainDays": 6.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "event",
       "allRanges": [
@@ -230,11 +158,11 @@
       "start": "2026-07-23T04:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.2,
+        "remainDays": 13.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -260,11 +188,11 @@
       "start": "2026-07-24T00:00:00+08:00",
       "end": "2026-07-30T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "8天后",
+      "remain": "7天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 13.9,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -296,11 +224,11 @@
       "start": "2026-07-30T00:00:00+08:00",
       "end": "2026-08-13T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.7,
+        "remainDays": 27.9,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -344,11 +272,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -374,11 +302,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -404,11 +332,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -434,11 +362,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -464,11 +392,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -494,11 +422,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -524,11 +452,11 @@
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.7,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -544,6 +472,78 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【晨起霏微 香几重】即将开启！在本次招募中，3★成员\"明里（新年）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 07月16日 维护结束后 ~ 07月30日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“堇（打工）、莱依、泉（新年）、晴奈（新年）、风…"
+    },
+    {
+      "id": "1842",
+      "title": "【预告】限时活动：沙勒总决算",
+      "header": "「沙勒总决算」",
+      "banner": "./covers/ba-1842-1a4c322e.png",
+      "link": "https://bluearchive-cn.com/news/1842",
+      "start": "2026-07-02T04:00:00+08:00",
+      "end": "2026-07-16T09:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 14.2,
+        "remainDays": 0.0,
+        "totalDays": 14.2
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 活动持续时间",
+          "start": "2026-07-02T04:00:00+08:00",
+          "end": "2026-07-16T09:59:00+08:00",
+          "raw": " • 活动持续时间：07月02日 04:00 ~ 07月16日 09:59"
+        },
+        {
+          "label": "• 商店兑换时间",
+          "start": "2026-07-02T04:00:00+08:00",
+          "end": "2026-07-23T13:59:00+08:00",
+          "raw": " • 商店兑换时间：07月02日 04:00 ~ 07月23日 13:59"
+        }
+      ],
+      "summary": "“欢迎连接【什亭之箱】，老师。” \n 限时活动：沙勒总决算即将开启！完成活动可获得互动家具以及秘仪之书碎片等奖励。 \n  \n ■ 活动时间 \n • 活动持续时间：07月02日 04:00 ~ 07月16日 09:59 \n • 商店兑换时间：07月02日 04:00 ~ 07月23日 13:59 \n  \n ■ 参加条件 …"
+    },
+    {
+      "id": "1849",
+      "title": "【预告】限时活动：异饼危机",
+      "header": "「异饼危机」",
+      "banner": "./covers/ba-1849-43a94d72.png",
+      "link": "https://bluearchive-cn.com/news/1849",
+      "start": "2026-07-02T14:00:00+08:00",
+      "end": "2026-07-16T09:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 13.8,
+        "remainDays": 0.0,
+        "totalDays": 13.8
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 活动持续时间",
+          "start": "2026-07-02T14:00:00+08:00",
+          "end": "2026-07-16T09:59:00+08:00",
+          "raw": " • 活动持续时间：07月02日 14:00 ~ 07月16日 09:59"
+        },
+        {
+          "label": "• 商店和奖励兑换开放时间",
+          "start": "2026-07-02T14:00:00+08:00",
+          "end": "2026-07-23T13:59:00+08:00",
+          "raw": " • 商店和奖励兑换开放时间：07月02日 14:00 ~ 07月23日 13:59"
+        }
+      ],
+      "summary": "朱莉在打工时，接到了制作松饼的任务！ \n 令人惊讶的是，她真的做出了看似美味的松饼！ \n 然而就在这些松饼中，有某种东西开始觉醒…… \n  \n ■ 活动时间 \n • 活动持续时间：07月02日 14:00 ~ 07月16日 09:59 \n • 商店和奖励兑换开放时间：07月02日 14:00 ~ 07月23日 13:5…"
     }
   ]
 }

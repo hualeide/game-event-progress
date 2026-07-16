@@ -1,13 +1,13 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-07-16T03:36:58.198399+08:00",
+  "fetchedAt": "2026-07-16T16:34:48.822473+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 13,
+  "count": 14,
   "notes": [
+    "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
     "跳过 4.4版本「鸣笛于归寂之时」版本更新说明",
     "跳过 4.4版本游戏优化及已知问题说明",
-    "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
     "跳过 鸣笛于归寂之时丨4.4版本攻略征集活动",
     "跳过 「银河铁道之夜」主题绘画征集活动已开启！",
     "跳过 「有奖问卷」完成问卷可获得50星琼~",
@@ -26,11 +26,11 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩39天",
-      "progress": 14.5,
+      "remain": "剩38天11时",
+      "progress": 15.7,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 39.0,
+        "elapsedDays": 7.1,
+        "remainDays": 38.5,
         "totalDays": 45.6
       },
       "hasSchedule": true,
@@ -49,11 +49,11 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩41天2时",
-      "progress": 10.1,
+      "remain": "剩40天13时",
+      "progress": 11.3,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 41.1,
+        "elapsedDays": 5.1,
+        "remainDays": 40.6,
         "totalDays": 45.7
       },
       "hasSchedule": true,
@@ -72,11 +72,11 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩41天2时",
-      "progress": 8.1,
+      "remain": "剩40天13时",
+      "progress": 9.3,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 41.1,
+        "elapsedDays": 4.1,
+        "remainDays": 40.6,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -95,11 +95,11 @@
       "start": "2026-07-15T12:00:00+08:00",
       "end": "2026-07-22T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天8时",
-      "progress": 9.3,
+      "remain": "剩5天19时",
+      "progress": 17.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 6.3,
+        "elapsedDays": 1.2,
+        "remainDays": 5.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -118,11 +118,11 @@
       "start": "2026-07-15T18:00:00+08:00",
       "end": "2026-07-22T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天20时",
-      "progress": 6.4,
+      "remain": "剩5天7时",
+      "progress": 15.1,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 5.8,
+        "elapsedDays": 0.9,
+        "remainDays": 5.3,
         "totalDays": 6.2
       },
       "hasSchedule": true,
@@ -133,6 +133,29 @@
       "summary": "4.4版本游戏工具更新一览"
     },
     {
+      "id": "1370",
+      "title": "EP：「下一站」",
+      "header": "「EP：「下一站」」",
+      "banner": "./covers/starrail-1370-ba66b3f1.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-16T12:00:00+08:00",
+      "end": "2026-07-20T00:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩3天7时",
+      "progress": 5.5,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 3.3,
+        "totalDays": 3.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "EP：「下一站」"
+    },
+    {
       "id": "sr-banner-83",
       "title": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
       "header": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
@@ -141,11 +164,11 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天15时",
-      "progress": 3.4,
+      "remain": "剩20天2时",
+      "progress": 6.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 20.6,
+        "elapsedDays": 1.3,
+        "remainDays": 20.1,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -164,11 +187,11 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天15时",
-      "progress": 3.4,
+      "remain": "剩20天2时",
+      "progress": 6.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 20.6,
+        "elapsedDays": 1.3,
+        "remainDays": 20.1,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -187,11 +210,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩40天18时",
-      "progress": 1.8,
+      "remain": "剩40天5时",
+      "progress": 3.1,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 40.8,
+        "elapsedDays": 1.3,
+        "remainDays": 40.2,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -210,11 +233,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩40天18时",
-      "progress": 1.8,
+      "remain": "剩40天5时",
+      "progress": 3.1,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 40.8,
+        "elapsedDays": 1.3,
+        "remainDays": 40.2,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -237,7 +260,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.6,
+        "remainDays": 29.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -260,7 +283,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.6,
+        "remainDays": 29.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -283,7 +306,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 40.8,
+        "remainDays": 40.2,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -306,7 +329,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 40.8,
+        "remainDays": 40.2,
         "totalDays": 20.1
       },
       "hasSchedule": true,

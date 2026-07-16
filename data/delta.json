@@ -1,7 +1,7 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-16T11:39:43.046728+08:00",
+  "fetchedAt": "2026-07-16T16:37:19.557514+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
@@ -16,11 +16,11 @@
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-30T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩44天22时",
-      "progress": 0.2,
+      "remain": "剩44天17时",
+      "progress": 0.6,
       "days": {
-        "elapsedDays": 0.1,
-        "remainDays": 44.9,
+        "elapsedDays": 0.3,
+        "remainDays": 44.7,
         "totalDays": 45.0
       },
       "hasSchedule": true,
