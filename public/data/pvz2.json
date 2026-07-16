@@ -1,7 +1,7 @@
 {
   "game": "植物大战僵尸2",
   "source": "https://pvz2.hrgame.com.cn/news/list/1",
-  "fetchedAt": "2026-07-16T03:37:48.068195+08:00",
+  "fetchedAt": "2026-07-16T11:38:32.653349+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
@@ -29,11 +29,11 @@
       "start": "2026-07-08T00:00:00+08:00",
       "end": "2026-08-07T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天20时",
-      "progress": 27.2,
+      "remain": "剩21天12时",
+      "progress": 28.3,
       "days": {
-        "elapsedDays": 8.2,
-        "remainDays": 21.8,
+        "elapsedDays": 8.5,
+        "remainDays": 21.5,
         "totalDays": 30.0
       },
       "hasSchedule": true,
