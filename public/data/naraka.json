@@ -1,10 +1,10 @@
 {
   "game": "永劫无间",
   "source": "https://www.yjwujian.cn/news/",
-  "fetchedAt": "2026-07-16T16:37:12.336306+08:00",
+  "fetchedAt": "2026-07-16T22:26:07.234252+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 2,
+  "count": 3,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-06-30T10:00:00+08:00",
       "end": "2026-07-21T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天17时",
-      "progress": 77.5,
+      "remain": "剩4天11时",
+      "progress": 78.7,
       "days": {
-        "elapsedDays": 16.3,
-        "remainDays": 4.7,
+        "elapsedDays": 16.5,
+        "remainDays": 4.5,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-07-28T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天11时",
-      "progress": 57.1,
+      "remain": "剩11天5时",
+      "progress": 58.0,
       "days": {
-        "elapsedDays": 15.3,
-        "remainDays": 11.5,
+        "elapsedDays": 15.5,
+        "remainDays": 11.2,
         "totalDays": 26.8
       },
       "hasSchedule": true,
@@ -66,6 +66,36 @@
         }
       ],
       "summary": "【特权网吧】共赴五载约，福满聚窟洲！永劫无间五周年庆来啦"
+    },
+    {
+      "id": "cceea91f",
+      "title": "满江红遗珍玄机赛季公告",
+      "header": "满江红遗珍玄机赛季公告",
+      "banner": "./covers/naraka-cceea91f-24bfc2b9.png",
+      "link": "https://www.yjwujian.cn/news/update/20260716/33456_1308001.html",
+      "start": "2026-07-16T10:00:00+08:00",
+      "end": "2026-08-06T10:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天11时",
+      "progress": 2.5,
+      "days": {
+        "elapsedDays": 0.5,
+        "remainDays": 20.5,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动周期（估）",
+          "start": "2026-07-16T10:00:00+08:00",
+          "end": "2026-08-06T10:00:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "满江红遗珍玄机赛季公告"
     }
   ]
 }
