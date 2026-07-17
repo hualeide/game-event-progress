@@ -1,18 +1,18 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-07-17T11:37:01.699375+08:00",
+  "fetchedAt": "2026-07-17T16:28:37.162814+08:00",
   "timezone": "Asia/Shanghai",
   "count": 9,
   "notes": [
     "下次版本维护估：2026-07-16T06:00:00+08:00",
+    "1167 跳过：「向渊行」版本创作征集活动进行中",
     "2656 跳过：「协议邀约：重归」网页活动说明",
+    "6090 跳过：《云·终末地》安卓＆iOS端不限量测试已开启",
     "1169 跳过：官方漫画《溯始先声：孤芳》上线",
     "0424 跳过：「向渊行」版本预下载与更新预告",
     "7219 跳过：「向渊行」核心章节版本研发通讯",
-    "6091 跳过：鹰角启动器游戏实时数据面板已上线！",
-    "2658 跳过：【2026年07月01日】封禁处理公示",
-    "0425 跳过：「危机合约 重燃测试作战」内容更新说明"
+    "6091 跳过：鹰角启动器游戏实时数据面板已上线！"
   ],
   "events": [
     {
@@ -24,7 +24,7 @@
       "start": "2026-08-09T11:59:00+08:00",
       "end": "2026-07-16T06:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": null,
       "hasSchedule": true,
@@ -52,11 +52,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 37.0,
+        "remainDays": 36.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -111,16 +111,16 @@
       "id": "9335-combat-丰碑留名兽犼",
       "title": "「丰碑留名·兽犼」",
       "header": "「丰碑留名·兽犼」",
-      "banner": "./covers/ef-combat-9335-abe0697cce-5b368cef.jpg",
+      "banner": "./covers/ef-combat-9335-abe0697cce-11c90853.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-06T12:00:00+08:00",
       "end": "2026-08-20T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "20天后",
+      "remain": "19天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.7,
+        "remainDays": 33.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -148,11 +148,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "13天后",
+      "remain": "12天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.7,
+        "remainDays": 26.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -180,11 +180,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "13天后",
+      "remain": "12天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.7,
+        "remainDays": 26.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -248,11 +248,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 37.0,
+        "remainDays": 36.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -280,11 +280,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 37.0,
+        "remainDays": 36.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -312,11 +312,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 37.0,
+        "remainDays": 36.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
