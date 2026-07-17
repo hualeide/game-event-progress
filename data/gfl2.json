@@ -1,101 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-17T16:29:24.976066+08:00",
+  "fetchedAt": "2026-07-17T22:04:30.923955+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 3,
+  "count": 0,
   "notes": [],
-  "events": [
-    {
-      "id": "1949",
-      "title": "【限时活动】「艾莫易购」即将开启！",
-      "header": "【限时活动】「艾莫易购」即将开启！",
-      "banner": "./covers/gfl2-1949-87db32c5.png",
-      "link": "https://gf2-cn.sunborngame.com/news/1949",
-      "start": "2026-07-10T05:00:00+08:00",
-      "end": "2026-07-20T04:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2天12时",
-      "progress": 74.8,
-      "days": {
-        "elapsedDays": 7.5,
-        "remainDays": 2.5,
-        "totalDays": 10.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "尊敬的指挥官，全新活动【艾莫易购】即将开启。",
-          "start": "2026-07-10T05:00:00+08:00",
-          "end": "2026-07-20T04:59:00+08:00",
-          "raw": "尊敬的指挥官，全新活动【艾莫易购】即将开启。\n7月10日5:00~7月20日4:59"
-        }
-      ],
-      "summary": "【限时活动】「艾莫易购」即将开启！"
-    },
-    {
-      "id": "1952",
-      "title": "【限时玩法】「拓界征途」即将开启！",
-      "header": "【限时玩法】「拓界征途」即将开启！",
-      "banner": "./covers/gfl2-1952-1bd93018.png",
-      "link": "https://gf2-cn.sunborngame.com/news/1952",
-      "start": "2026-07-14T05:00:00+08:00",
-      "end": "2026-08-04T04:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩17天12时",
-      "progress": 16.6,
-      "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 17.5,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "尊敬的指挥官，新一期【拓界征途】活动即将开启。",
-          "start": "2026-07-14T05:00:00+08:00",
-          "end": "2026-08-04T04:59:00+08:00",
-          "raw": "尊敬的指挥官，新一期【拓界征途】活动即将开启。\n7月14日5:00~8月4日4:59"
-        }
-      ],
-      "summary": "【限时玩法】「拓界征途」即将开启！"
-    },
-    {
-      "id": "1953",
-      "title": "【限时活动】「情报补给」即将开启！",
-      "header": "【限时活动】「情报补给」即将开启！",
-      "banner": "./covers/gfl2-1953-a6c962c1.png",
-      "link": "https://gf2-cn.sunborngame.com/news/1953",
-      "start": "2026-07-18T05:00:00+08:00",
-      "end": "2026-07-23T04:59:00+08:00",
-      "status": "即将开始",
-      "remain": "12小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 5.5,
-        "totalDays": 5.0
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "尊敬的指挥官，【情报补给】活动即将开启。",
-          "start": "2026-07-18T05:00:00+08:00",
-          "end": "2026-07-23T04:59:00+08:00",
-          "raw": "尊敬的指挥官，【情报补给】活动即将开启。\n7月18日05:00~7月23日4:59"
-        }
-      ],
-      "summary": "【限时活动】「情报补给」即将开启！"
-    }
-  ]
+  "events": []
 }
