@@ -1,7 +1,7 @@
 {
   "game": "无期迷途",
   "source": "https://wqmt.aisnogames.com/api/news?page=1&pageSize=30",
-  "fetchedAt": "2026-07-19T21:54:22.316052+08:00",
+  "fetchedAt": "2026-07-20T03:33:11.566726+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 5,
@@ -16,11 +16,11 @@
       "start": "2026-07-11T04:00:00+08:00",
       "end": "2026-07-25T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 62.5,
+      "remain": "剩5天",
+      "progress": 64.2,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 5.3,
+        "elapsedDays": 9.0,
+        "remainDays": 5.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-12T04:00:00+08:00",
       "end": "2026-07-26T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天6时",
-      "progress": 55.3,
+      "remain": "剩6天",
+      "progress": 57.0,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 6.3,
+        "elapsedDays": 8.0,
+        "remainDays": 6.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-14T04:00:00+08:00",
       "end": "2026-07-28T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天6时",
-      "progress": 41.0,
+      "remain": "剩8天",
+      "progress": 42.7,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 8.3,
+        "elapsedDays": 6.0,
+        "remainDays": 8.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-07-15T04:00:00+08:00",
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天6时",
-      "progress": 33.9,
+      "remain": "剩9天",
+      "progress": 35.6,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 9.3,
+        "elapsedDays": 5.0,
+        "remainDays": 9.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -136,11 +136,11 @@
       "start": "2026-07-17T04:00:00+08:00",
       "end": "2026-07-31T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.6,
+      "remain": "剩11天",
+      "progress": 21.3,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.0,
+        "remainDays": 11.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
