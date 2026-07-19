@@ -1,7 +1,7 @@
 {
   "game": "尘白禁区",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=0&status=0 + https://www.cbjq.com/api.php?op=search_api&action=get_article_list&catid=7131&page=1&num=12&order_by=inputtime",
-  "fetchedAt": "2026-07-19T16:33:53.092738+08:00",
+  "fetchedAt": "2026-07-19T21:54:15.306178+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
@@ -20,11 +20,11 @@
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-27T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩38天11时",
-      "progress": 7.8,
+      "remain": "剩38天6时",
+      "progress": 8.4,
       "days": {
-        "elapsedDays": 3.3,
-        "remainDays": 38.5,
+        "elapsedDays": 3.5,
+        "remainDays": 38.3,
         "totalDays": 41.8
       },
       "hasSchedule": true,

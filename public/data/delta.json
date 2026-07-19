@@ -1,13 +1,11 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-19T16:36:49.225659+08:00",
+  "fetchedAt": "2026-07-19T21:57:44.120849+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
-  "notes": [
-    "11393521362139399214: Remote end closed connection without response"
-  ],
+  "notes": [],
   "events": [
     {
       "id": "2782702201042160096",
@@ -18,11 +16,11 @@
       "start": "2026-07-19T10:00:00+08:00",
       "end": "2026-09-02T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩44天17时",
-      "progress": 0.6,
+      "remain": "剩44天12时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 44.7,
+        "elapsedDays": 0.5,
+        "remainDays": 44.5,
         "totalDays": 45.0
       },
       "hasSchedule": true,
