@@ -1,7 +1,7 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-20T03:33:18.893288+08:00",
+  "fetchedAt": "2026-07-20T12:05:49.453111+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 3,
@@ -16,11 +16,11 @@
       "start": "2026-07-18T18:00:00+08:00",
       "end": "2026-08-01T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天14时",
-      "progress": 10.0,
+      "remain": "剩12天5时",
+      "progress": 12.5,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.6,
+        "elapsedDays": 1.8,
+        "remainDays": 12.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-19T18:00:00+08:00",
       "end": "2026-08-02T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天14时",
-      "progress": 2.8,
+      "remain": "剩13天5时",
+      "progress": 5.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 13.6,
+        "elapsedDays": 0.8,
+        "remainDays": 13.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-19T18:30:00+08:00",
       "end": "2026-08-02T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩13天14时",
-      "progress": 2.7,
+      "remain": "剩13天6时",
+      "progress": 5.2,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 13.6,
+        "elapsedDays": 0.7,
+        "remainDays": 13.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
