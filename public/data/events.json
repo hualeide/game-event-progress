@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-20T12:04:36.416684+08:00",
+  "fetchedAt": "2026-07-20T17:33:55.159645+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -13,10 +13,10 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "1073 寻访「永不落幕」对齐长公告时段",
     "3366 寻访「常驻标准寻访」用展示日估时",
     "5604 寻访「确定性混沌」对齐长公告时段",
-    "8229 寻访「中坚寻访」用展示日估时",
-    "补全寻访卡「永不落幕」（无独立海报公告）"
+    "8229 寻访「中坚寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -51,11 +51,11 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天15时",
-      "progress": 80.3,
+      "remain": "剩2天10时",
+      "progress": 82.0,
       "days": {
-        "elapsedDays": 10.8,
-        "remainDays": 2.7,
+        "elapsedDays": 11.1,
+        "remainDays": 2.4,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -87,11 +87,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天15时",
-      "progress": 73.2,
+      "remain": "剩3天10时",
+      "progress": 74.9,
       "days": {
-        "elapsedDays": 10.0,
-        "remainDays": 3.7,
+        "elapsedDays": 10.2,
+        "remainDays": 3.4,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -123,11 +123,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天15时",
-      "progress": 28.4,
+      "remain": "剩9天10时",
+      "progress": 30.1,
       "days": {
-        "elapsedDays": 3.8,
-        "remainDays": 9.7,
+        "elapsedDays": 4.1,
+        "remainDays": 9.4,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -183,11 +183,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天15时",
-      "progress": 2.4,
+      "remain": "剩13天10时",
+      "progress": 4.0,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 13.7,
+        "elapsedDays": 0.6,
+        "remainDays": 13.4,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -197,13 +197,13 @@
       "category": "combat"
     },
     {
-      "id": "gacha-e8aff6a88a",
-      "title": "【永不落幕】限时寻访",
+      "id": "1073",
+      "title": "【永不落幕】 复刻寻访开启",
       "header": "「永不落幕」限时寻访",
       "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-20T12:04:36.416684+08:00",
+      "banner": "./covers/gacha-1073.jpg",
+      "link": "uniwebview://move?target=recruit&param1=SINGLE_75_0_3",
+      "updatedAt": "2026-07-17T11:16:43+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -217,19 +217,20 @@
       "textPreview": "",
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩13天10时",
+      "progress": 0.5,
       "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.2,
-        "totalDays": 13.5,
-        "untilStartDays": 0.2
+        "elapsedDays": 0.1,
+        "remainDays": 13.4,
+        "totalDays": 13.5
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260717/fdaa14cf1e328d8eb8aca2831bce36bb.jpg",
       "playable": false,
-      "category": "gacha"
+      "category": "gacha",
+      "fuzzy": false
     },
     {
       "id": "6784",
