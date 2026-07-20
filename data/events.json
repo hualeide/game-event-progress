@@ -1,10 +1,12 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-20T17:33:55.159645+08:00",
+  "fetchedAt": "2026-07-20T22:33:36.250131+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
+    "4854 跳过：07月20日 闪断更新公告",
+    "8227 跳过：森空岛集成战略 战绩查询更新",
     "9132 通讯正文 661 字",
     "1074 解析寻访「永不落幕」时段",
     "7590 跳过：沉沦者的黑流树 海主题官网",
@@ -51,11 +53,11 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天10时",
-      "progress": 82.0,
+      "remain": "剩2天5时",
+      "progress": 83.5,
       "days": {
-        "elapsedDays": 11.1,
-        "remainDays": 2.4,
+        "elapsedDays": 11.3,
+        "remainDays": 2.2,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -87,11 +89,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天10时",
-      "progress": 74.9,
+      "remain": "剩3天5时",
+      "progress": 76.4,
       "days": {
-        "elapsedDays": 10.2,
-        "remainDays": 3.4,
+        "elapsedDays": 10.4,
+        "remainDays": 3.2,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -123,11 +125,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天10时",
-      "progress": 30.1,
+      "remain": "剩9天5时",
+      "progress": 31.7,
       "days": {
-        "elapsedDays": 4.1,
-        "remainDays": 9.4,
+        "elapsedDays": 4.3,
+        "remainDays": 9.2,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -183,11 +185,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天10时",
-      "progress": 4.0,
+      "remain": "剩13天5时",
+      "progress": 5.5,
       "days": {
-        "elapsedDays": 0.6,
-        "remainDays": 13.4,
+        "elapsedDays": 0.8,
+        "remainDays": 13.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -218,11 +220,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天10时",
-      "progress": 0.5,
+      "remain": "剩13天5时",
+      "progress": 2.0,
       "days": {
-        "elapsedDays": 0.1,
-        "remainDays": 13.4,
+        "elapsedDays": 0.3,
+        "remainDays": 13.2,
         "totalDays": 13.5
       },
       "hasSchedule": true,

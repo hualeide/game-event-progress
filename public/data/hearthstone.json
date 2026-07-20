@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-07-20T17:36:13.503362+08:00",
+  "fetchedAt": "2026-07-20T22:35:41.340392+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 6,
@@ -16,11 +16,11 @@
       "start": "2026-06-30T00:59:00+08:00",
       "end": "2026-07-28T00:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天7时",
-      "progress": 73.9,
+      "remain": "剩7天2时",
+      "progress": 74.6,
       "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 7.3,
+        "elapsedDays": 20.9,
+        "remainDays": 7.1,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-08T10:00:00+08:00",
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天10时",
-      "progress": 59.4,
+      "remain": "剩8天5时",
+      "progress": 60.4,
       "days": {
-        "elapsedDays": 12.3,
-        "remainDays": 8.4,
+        "elapsedDays": 12.5,
+        "remainDays": 8.2,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-08-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天10时",
-      "progress": 55.6,
+      "remain": "剩15天5时",
+      "progress": 56.2,
       "days": {
-        "elapsedDays": 19.3,
-        "remainDays": 15.4,
+        "elapsedDays": 19.5,
+        "remainDays": 15.2,
         "totalDays": 34.8
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-09T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩19天10时",
-      "progress": 21.5,
+      "remain": "剩19天5时",
+      "progress": 22.3,
       "days": {
-        "elapsedDays": 5.3,
-        "remainDays": 19.4,
+        "elapsedDays": 5.5,
+        "remainDays": 19.2,
         "totalDays": 24.8
       },
       "hasSchedule": true,
@@ -140,7 +140,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.4,
+        "remainDays": 15.2,
         "totalDays": 6.8
       },
       "hasSchedule": true,
@@ -170,7 +170,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.4,
+        "remainDays": 29.2,
         "totalDays": 20.8
       },
       "hasSchedule": true,

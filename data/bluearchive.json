@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-20T17:33:55.155777+08:00",
+  "fetchedAt": "2026-07-20T22:33:36.246250+08:00",
   "timezone": "Asia/Shanghai",
   "count": 13,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-07-03T00:00:00+08:00",
       "end": "2026-07-24T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天20时",
-      "progress": 82.2,
+      "remain": "剩3天15时",
+      "progress": 83.1,
       "days": {
-        "elapsedDays": 17.7,
-        "remainDays": 3.9,
+        "elapsedDays": 17.9,
+        "remainDays": 3.6,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -98,11 +98,11 @@
       "start": "2026-07-03T14:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天10时",
-      "progress": 64.5,
+      "remain": "剩9天5时",
+      "progress": 65.3,
       "days": {
-        "elapsedDays": 17.1,
-        "remainDays": 9.4,
+        "elapsedDays": 17.4,
+        "remainDays": 9.2,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-07-16T04:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天10时",
-      "progress": 65.2,
+      "remain": "剩2天5时",
+      "progress": 68.2,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 2.4,
+        "elapsedDays": 4.8,
+        "remainDays": 2.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -162,7 +162,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.4,
+        "remainDays": 9.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -192,7 +192,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.6,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -228,7 +228,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.9,
+        "remainDays": 23.6,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -276,7 +276,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -306,7 +306,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -336,7 +336,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -366,7 +366,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -396,7 +396,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -426,7 +426,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -456,7 +456,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.9,
+        "remainDays": 16.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
