@@ -1,42 +1,12 @@
 {
   "game": "永劫无间",
   "source": "https://www.yjwujian.cn/news/",
-  "fetchedAt": "2026-07-21T03:58:14.464870+08:00",
+  "fetchedAt": "2026-07-21T11:47:15.371189+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 3,
   "notes": [],
   "events": [
-    {
-      "id": "eff62552",
-      "title": "外观销售轮换公告",
-      "header": "外观销售轮换公告",
-      "banner": "./covers/naraka-eff62552-24bfc2b9.png",
-      "link": "https://www.yjwujian.cn/news/update/20260630/33456_1306124.html",
-      "start": "2026-06-30T10:00:00+08:00",
-      "end": "2026-07-21T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.8,
-      "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动周期（估）",
-          "start": "2026-06-30T10:00:00+08:00",
-          "end": "2026-07-21T10:00:00+08:00",
-          "raw": "估"
-        }
-      ],
-      "summary": "外观销售轮换公告"
-    },
     {
       "id": "f8050fa0",
       "title": "【特权网吧】共赴五载约，福满聚窟洲！永劫无间五周年庆来啦",
@@ -46,11 +16,11 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-07-28T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天",
-      "progress": 73.8,
+      "remain": "剩6天16时",
+      "progress": 75.0,
       "days": {
-        "elapsedDays": 19.7,
-        "remainDays": 7.0,
+        "elapsedDays": 20.1,
+        "remainDays": 6.7,
         "totalDays": 26.8
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-06T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天6时",
-      "progress": 22.6,
+      "remain": "剩15天22时",
+      "progress": 24.2,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 16.3,
+        "elapsedDays": 5.1,
+        "remainDays": 15.9,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -96,6 +66,36 @@
         }
       ],
       "summary": "满江红遗珍玄机赛季公告"
+    },
+    {
+      "id": "eff62552",
+      "title": "外观销售轮换公告",
+      "header": "外观销售轮换公告",
+      "banner": "./covers/naraka-eff62552-24bfc2b9.png",
+      "link": "https://www.yjwujian.cn/news/update/20260630/33456_1306124.html",
+      "start": "2026-06-30T10:00:00+08:00",
+      "end": "2026-07-21T10:00:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 21.0,
+        "remainDays": 0.0,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动周期（估）",
+          "start": "2026-06-30T10:00:00+08:00",
+          "end": "2026-07-21T10:00:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "外观销售轮换公告"
     }
   ]
 }

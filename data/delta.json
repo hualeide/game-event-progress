@@ -1,29 +1,28 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-21T03:58:47.638585+08:00",
+  "fetchedAt": "2026-07-21T11:47:19.559487+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
   "notes": [
-    "IncompleteRead(130777 bytes read)",
-    "抓取为空，保留旧数据 1 条"
+    "2782702201042160096: IncompleteRead(9715 bytes read)"
   ],
   "events": [
     {
-      "id": "2782702201042160096",
+      "id": "8032152279977713426",
       "title": "全新「裂变赛季」，现已上线！",
       "header": "全新「裂变赛季」，现已上线！",
       "banner": "./covers/delta-kv-791a1812.jpg",
-      "link": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=2782702201042160096",
-      "start": "2026-07-20T10:00:00+08:00",
-      "end": "2026-09-03T10:00:00+08:00",
+      "link": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=8032152279977713426",
+      "start": "2026-07-21T10:00:00+08:00",
+      "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩44天11时",
-      "progress": 1.2,
+      "remain": "剩44天22时",
+      "progress": 0.2,
       "days": {
-        "elapsedDays": 0.5,
-        "remainDays": 44.5,
+        "elapsedDays": 0.1,
+        "remainDays": 44.9,
         "totalDays": 45.0
       },
       "hasSchedule": true,
@@ -33,13 +32,12 @@
       "allRanges": [
         {
           "label": "赛季周期（估）",
-          "start": "2026-07-20T10:00:00+08:00",
-          "end": "2026-09-03T10:00:00+08:00",
+          "start": "2026-07-21T10:00:00+08:00",
+          "end": "2026-09-04T10:00:00+08:00",
           "raw": "估"
         }
       ],
       "summary": "《三角洲行动》全新「裂变赛季」，现已上线！"
     }
-  ],
-  "keptPrevious": true
+  ]
 }
