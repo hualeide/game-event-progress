@@ -1,7 +1,7 @@
 {
   "game": "永劫无间",
   "source": "https://www.yjwujian.cn/news/",
-  "fetchedAt": "2026-07-21T22:25:36.873391+08:00",
+  "fetchedAt": "2026-07-22T03:53:17.393935+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 3,
@@ -16,11 +16,11 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-07-28T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天5时",
-      "progress": 76.7,
+      "remain": "剩6天",
+      "progress": 77.6,
       "days": {
-        "elapsedDays": 20.5,
-        "remainDays": 6.2,
+        "elapsedDays": 20.7,
+        "remainDays": 6.0,
         "totalDays": 26.8
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-06T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天11时",
-      "progress": 26.3,
+      "remain": "剩15天6时",
+      "progress": 27.4,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 15.5,
+        "elapsedDays": 5.7,
+        "remainDays": 15.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,

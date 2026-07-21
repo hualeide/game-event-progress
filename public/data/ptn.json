@@ -1,7 +1,7 @@
 {
   "game": "无期迷途",
   "source": "https://wqmt.aisnogames.com/api/news?page=1&pageSize=30",
-  "fetchedAt": "2026-07-21T22:23:08.746517+08:00",
+  "fetchedAt": "2026-07-22T03:51:57.087550+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -18,11 +18,11 @@
       "start": "2026-07-14T04:00:00+08:00",
       "end": "2026-07-28T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天5时",
-      "progress": 55.5,
+      "remain": "剩6天",
+      "progress": 57.1,
       "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 6.2,
+        "elapsedDays": 8.0,
+        "remainDays": 6.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-07-15T04:00:00+08:00",
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天5时",
-      "progress": 48.3,
+      "remain": "剩7天",
+      "progress": 50.0,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 7.2,
+        "elapsedDays": 7.0,
+        "remainDays": 7.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -78,11 +78,11 @@
       "start": "2026-07-17T04:00:00+08:00",
       "end": "2026-07-31T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩9天",
+      "progress": 35.7,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 5.0,
+        "remainDays": 9.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -108,11 +108,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天5时",
-      "progress": 12.6,
+      "remain": "剩12天",
+      "progress": 14.2,
       "days": {
-        "elapsedDays": 1.8,
-        "remainDays": 12.2,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
