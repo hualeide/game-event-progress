@@ -1,10 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-21T11:45:55.493304+08:00",
+  "fetchedAt": "2026-07-21T16:45:22.511499+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 4,
+  "count": 6,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-07-18T18:00:00+08:00",
       "end": "2026-08-01T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.6,
+      "remain": "剩11天1时",
+      "progress": 21.1,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 2.9,
+        "remainDays": 11.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-19T18:00:00+08:00",
       "end": "2026-08-02T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩12天1时",
+      "progress": 13.9,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 1.9,
+        "remainDays": 12.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-19T18:30:00+08:00",
       "end": "2026-08-02T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.3,
+      "remain": "剩12天1时",
+      "progress": 13.8,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 1.9,
+        "remainDays": 12.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-07-20T18:30:00+08:00",
       "end": "2026-08-03T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.1,
+      "remain": "剩13天1时",
+      "progress": 6.6,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 0.9,
+        "remainDays": 13.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -126,6 +126,66 @@
         }
       ],
       "summary": "【限时活动】阿斯缇亚、维尔德、莱妮获取概率提升活动即将开启！"
+    },
+    {
+      "id": "1991",
+      "title": "【限时活动】「默誓长穹」福利签到活动现已开启",
+      "header": "【限时活动】「默誓长穹」福利签到活动现已开启",
+      "banner": "./covers/gfl2-1991-1b08bcba.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/1991",
+      "start": "2026-07-21T12:30:00+08:00",
+      "end": "2026-08-04T12:30:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天19时",
+      "progress": 1.3,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 13.8,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-07-21T12:30:00+08:00",
+          "end": "2026-08-04T12:30:00+08:00",
+          "raw": "Date+14d"
+        }
+      ],
+      "summary": "【限时活动】「默誓长穹」福利签到活动现已开启"
+    },
+    {
+      "id": "1994",
+      "title": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
+      "header": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
+      "banner": "./covers/gfl2-1994-a7c8df8e.png",
+      "link": "https://gf2-cn.sunborngame.com/news/1994",
+      "start": "2026-07-21T12:00:00+08:00",
+      "end": "2026-08-10T23:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天7时",
+      "progress": 1.0,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 20.3,
+        "totalDays": 20.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "web",
+      "allRanges": [
+        {
+          "label": "▌活动时间",
+          "start": "2026-07-21T12:00:00+08:00",
+          "end": "2026-08-10T23:59:00+08:00",
+          "raw": "▌活动时间：\n2026年7月21日12:00-2026年8月10日23:59"
+        }
+      ],
+      "summary": "【H5活动】「艾莫号，缝补大作战！」现已开启！"
     }
   ]
 }
