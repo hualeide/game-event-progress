@@ -1,42 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-21T16:45:22.511499+08:00",
+  "fetchedAt": "2026-07-21T22:23:21.592826+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 6,
   "notes": [],
   "events": [
-    {
-      "id": "1980",
-      "title": "【限时活动】「伊利昂之围·中篇/下篇」即将开启！",
-      "header": "【限时活动】「伊利昂之围·中篇/下篇」即将开启！",
-      "banner": "./covers/gfl2-1980-6563a8f4.png",
-      "link": "https://gf2-cn.sunborngame.com/news/1980",
-      "start": "2026-07-18T18:00:00+08:00",
-      "end": "2026-08-01T18:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩11天1时",
-      "progress": 21.1,
-      "days": {
-        "elapsedDays": 2.9,
-        "remainDays": 11.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-18T18:00:00+08:00",
-          "end": "2026-08-01T18:00:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「伊利昂之围·中篇/下篇」即将开启！"
-    },
     {
       "id": "1984",
       "title": "【限时活动】「派对·拾光筑愿」即将开启",
@@ -46,11 +16,11 @@
       "start": "2026-07-19T18:00:00+08:00",
       "end": "2026-08-02T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天1时",
-      "progress": 13.9,
+      "remain": "剩11天19时",
+      "progress": 15.6,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 12.1,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-07-19T18:30:00+08:00",
       "end": "2026-08-02T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩12天1时",
-      "progress": 13.8,
+      "remain": "剩11天20时",
+      "progress": 15.4,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 12.1,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +76,11 @@
       "start": "2026-07-20T18:30:00+08:00",
       "end": "2026-08-03T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩13天1时",
-      "progress": 6.6,
+      "remain": "剩12天20时",
+      "progress": 8.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 13.1,
+        "elapsedDays": 1.2,
+        "remainDays": 12.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -136,11 +106,11 @@
       "start": "2026-07-21T12:30:00+08:00",
       "end": "2026-08-04T12:30:00+08:00",
       "status": "进行中",
-      "remain": "剩13天19时",
-      "progress": 1.3,
+      "remain": "剩13天14时",
+      "progress": 2.9,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 13.8,
+        "elapsedDays": 0.4,
+        "remainDays": 13.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -158,6 +128,36 @@
       "summary": "【限时活动】「默誓长穹」福利签到活动现已开启"
     },
     {
+      "id": "1995",
+      "title": "艾莫号缝补大作战 | 美玲加班加点修复艾莫号",
+      "header": "艾莫号缝补大作战 | 美玲加班加点修复艾莫号",
+      "banner": "./covers/gfl2-1995-5f74cae4.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/1995",
+      "start": "2026-07-21T18:00:00+08:00",
+      "end": "2026-08-04T18:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天19时",
+      "progress": 1.3,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 13.8,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-07-21T18:00:00+08:00",
+          "end": "2026-08-04T18:00:00+08:00",
+          "raw": "Date+14d"
+        }
+      ],
+      "summary": "艾莫号缝补大作战 | 美玲加班加点修复艾莫号"
+    },
+    {
       "id": "1994",
       "title": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
       "header": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
@@ -166,11 +166,11 @@
       "start": "2026-07-21T12:00:00+08:00",
       "end": "2026-08-10T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天7时",
-      "progress": 1.0,
+      "remain": "剩20天1时",
+      "progress": 2.1,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 20.3,
+        "elapsedDays": 0.4,
+        "remainDays": 20.1,
         "totalDays": 20.5
       },
       "hasSchedule": true,
