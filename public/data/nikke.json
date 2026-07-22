@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-22T22:22:58.444755+08:00",
+  "fetchedAt": "2026-07-23T03:43:46.764205+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -11,29 +11,6 @@
   ],
   "events": [
     {
-      "id": "7512",
-      "title": "【新网页活动】NIKKE POP! ISLAND！",
-      "header": "【新网页活动】NIKKE POP! ISLAND！",
-      "banner": "./covers/nikke-7512-51b27615.jpg",
-      "link": "https://www.gamekee.com/nikke/712582.html",
-      "start": "2026-07-10T00:00:00+08:00",
-      "end": "2026-07-23T00:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.5,
-      "days": {
-        "elapsedDays": 12.9,
-        "remainDays": 0.1,
-        "totalDays": 13.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "web",
-      "allRanges": [],
-      "summary": "【新网页活动】NIKKE POP! ISLAND！"
-    },
-    {
       "id": "7457",
       "title": "【大型支线】WAVE TO YOU",
       "header": "【大型支线】WAVE TO YOU",
@@ -42,11 +19,11 @@
       "start": "2026-07-02T00:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5小时",
-      "progress": 98.9,
+      "remain": "将结束",
+      "progress": 100.0,
       "days": {
-        "elapsedDays": 20.9,
-        "remainDays": 0.2,
+        "elapsedDays": 21.2,
+        "remainDays": 0.0,
         "totalDays": 21.2
       },
       "hasSchedule": true,
@@ -65,11 +42,11 @@
       "start": "2026-07-02T00:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5小时",
-      "progress": 98.9,
+      "remain": "将结束",
+      "progress": 100.0,
       "days": {
-        "elapsedDays": 20.9,
-        "remainDays": 0.2,
+        "elapsedDays": 21.2,
+        "remainDays": 0.0,
         "totalDays": 21.2
       },
       "hasSchedule": true,
@@ -88,11 +65,11 @@
       "start": "2026-07-02T00:00:00+08:00",
       "end": "2026-07-23T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.7,
+      "remain": "剩1小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 20.9,
-        "remainDays": 0.3,
+        "elapsedDays": 21.2,
+        "remainDays": 0.1,
         "totalDays": 21.2
       },
       "hasSchedule": true,
@@ -101,6 +78,29 @@
       "category": "combat",
       "allRanges": [],
       "summary": "【pass】SEA LIZZIE PASS"
+    },
+    {
+      "id": "7512",
+      "title": "【新网页活动】NIKKE POP! ISLAND！",
+      "header": "【新网页活动】NIKKE POP! ISLAND！",
+      "banner": "./covers/nikke-7512-51b27615.jpg",
+      "link": "https://www.gamekee.com/nikke/712582.html",
+      "start": "2026-07-10T00:00:00+08:00",
+      "end": "2026-07-23T00:00:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 13.0,
+        "remainDays": 0.0,
+        "totalDays": 13.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "web",
+      "allRanges": [],
+      "summary": "【新网页活动】NIKKE POP! ISLAND！"
     }
   ]
 }
