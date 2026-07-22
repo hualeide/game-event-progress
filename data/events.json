@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-22T03:51:15.906223+08:00",
+  "fetchedAt": "2026-07-22T11:46:22.402422+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -52,11 +52,11 @@
       "start": "2026-07-09T16:00:00+08:00",
       "end": "2026-07-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天",
-      "progress": 92.6,
+      "remain": "剩16小时",
+      "progress": 95.0,
       "days": {
-        "elapsedDays": 12.5,
-        "remainDays": 1.0,
+        "elapsedDays": 12.8,
+        "remainDays": 0.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -88,11 +88,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天",
-      "progress": 85.3,
+      "remain": "剩1天16时",
+      "progress": 87.7,
       "days": {
-        "elapsedDays": 11.7,
-        "remainDays": 2.0,
+        "elapsedDays": 12.0,
+        "remainDays": 1.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -124,11 +124,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天",
-      "progress": 40.7,
+      "remain": "剩7天16时",
+      "progress": 43.1,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 8.0,
+        "elapsedDays": 5.8,
+        "remainDays": 7.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -184,11 +184,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天",
-      "progress": 14.2,
+      "remain": "剩11天16时",
+      "progress": 16.6,
       "days": {
-        "elapsedDays": 2.0,
-        "remainDays": 12.0,
+        "elapsedDays": 2.3,
+        "remainDays": 11.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -219,11 +219,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天",
-      "progress": 11.1,
+      "remain": "剩11天16时",
+      "progress": 13.5,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.0,
+        "elapsedDays": 1.8,
+        "remainDays": 11.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
