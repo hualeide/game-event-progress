@@ -1,72 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-22T16:45:53.654885+08:00",
+  "fetchedAt": "2026-07-22T22:23:12.033847+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 7,
+  "count": 5,
   "notes": [],
   "events": [
-    {
-      "id": "1984",
-      "title": "【限时活动】「派对·拾光筑愿」即将开启",
-      "header": "【限时活动】「派对·拾光筑愿」即将开启",
-      "banner": "./covers/gfl2-1984-30ecc570.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/1984",
-      "start": "2026-07-19T18:00:00+08:00",
-      "end": "2026-08-02T18:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩11天1时",
-      "progress": 21.1,
-      "days": {
-        "elapsedDays": 2.9,
-        "remainDays": 11.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-19T18:00:00+08:00",
-          "end": "2026-08-02T18:00:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「派对·拾光筑愿」即将开启"
-    },
-    {
-      "id": "1985",
-      "title": "【限时活动】「妄想大冒险」即将开启",
-      "header": "【限时活动】「妄想大冒险」即将开启",
-      "banner": "./covers/gfl2-1985-ca680091.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/1985",
-      "start": "2026-07-19T18:30:00+08:00",
-      "end": "2026-08-02T18:30:00+08:00",
-      "status": "进行中",
-      "remain": "剩11天1时",
-      "progress": 20.9,
-      "days": {
-        "elapsedDays": 2.9,
-        "remainDays": 11.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-19T18:30:00+08:00",
-          "end": "2026-08-02T18:30:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「妄想大冒险」即将开启"
-    },
     {
       "id": "1987",
       "title": "【限时活动】阿斯缇亚、维尔德、莱妮获取概率提升活动即将开启！",
@@ -76,11 +16,11 @@
       "start": "2026-07-20T18:30:00+08:00",
       "end": "2026-08-03T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩12天1时",
-      "progress": 13.8,
+      "remain": "剩11天20时",
+      "progress": 15.4,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 12.1,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +46,11 @@
       "start": "2026-07-21T12:30:00+08:00",
       "end": "2026-08-04T12:30:00+08:00",
       "status": "进行中",
-      "remain": "剩12天19时",
-      "progress": 8.4,
+      "remain": "剩12天14时",
+      "progress": 10.1,
       "days": {
-        "elapsedDays": 1.2,
-        "remainDays": 12.8,
+        "elapsedDays": 1.4,
+        "remainDays": 12.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -136,11 +76,11 @@
       "start": "2026-07-21T18:00:00+08:00",
       "end": "2026-08-04T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天1时",
-      "progress": 6.8,
+      "remain": "剩12天19时",
+      "progress": 8.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 13.1,
+        "elapsedDays": 1.2,
+        "remainDays": 12.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -166,11 +106,11 @@
       "start": "2026-07-22T12:00:00+08:00",
       "end": "2026-08-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天19时",
-      "progress": 1.4,
+      "remain": "剩13天13时",
+      "progress": 3.1,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 13.8,
+        "elapsedDays": 0.4,
+        "remainDays": 13.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -196,11 +136,11 @@
       "start": "2026-07-21T12:00:00+08:00",
       "end": "2026-08-10T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天7时",
-      "progress": 5.8,
+      "remain": "剩19天1时",
+      "progress": 7.0,
       "days": {
-        "elapsedDays": 1.2,
-        "remainDays": 19.3,
+        "elapsedDays": 1.4,
+        "remainDays": 19.1,
         "totalDays": 20.5
       },
       "hasSchedule": true,
