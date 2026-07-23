@@ -1,37 +1,106 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-23T16:45:28.481916+08:00",
+  "fetchedAt": "2026-07-23T22:33:36.579597+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 1,
+  "count": 4,
   "notes": [
-    "GameKee nikke server=19 · 1 条",
+    "GameKee nikke server=19 · 4 条",
     "国服 GameKee 日历滞后，当前用外服进行中活动（时段接近）"
   ],
   "events": [
     {
-      "id": "7459",
-      "title": "【pass】SEA LIZZIE PASS",
-      "header": "【pass】SEA LIZZIE PASS",
-      "banner": "./covers/nikke-7459-8f6088e9.png",
-      "link": "https://www.gamekee.com/nikke/710630.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T04:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
+      "id": "7545",
+      "title": "【pass】PROTOTYPE PASS",
+      "header": "【pass】PROTOTYPE PASS",
+      "banner": "https://cdnimg-v2.gamekee.com/wiki2.0/pro/1253/images/w_445/h_148/4408/2026/6/23/22473717mrxdcxyc.jpg",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩19天5时",
+      "progress": 4.7,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 0.0,
-        "totalDays": 21.2
+        "elapsedDays": 0.9,
+        "remainDays": 19.2,
+        "totalDays": 20.2
       },
       "hasSchedule": true,
-      "kind": "done",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [],
-      "summary": "【pass】SEA LIZZIE PASS"
+      "summary": "【pass】PROTOTYPE PASS"
+    },
+    {
+      "id": "7546",
+      "title": "【全语音支线】PROJECT MATIS",
+      "header": "【全语音支线】PROJECT MATIS",
+      "banner": "./covers/nikke-7546-c4ea47ff.png",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T22:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天",
+      "progress": 4.5,
+      "days": {
+        "elapsedDays": 0.9,
+        "remainDays": 20.0,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【全语音支线】PROJECT MATIS"
+    },
+    {
+      "id": "7543",
+      "title": "【签到】HERO DAYS",
+      "header": "【签到】HERO DAYS",
+      "banner": "./covers/nikke-7543-a53589b8.jpg",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T22:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天",
+      "progress": 4.5,
+      "days": {
+        "elapsedDays": 0.9,
+        "remainDays": 20.0,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "【签到】HERO DAYS"
+    },
+    {
+      "id": "7544",
+      "title": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
+      "header": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
+      "banner": "./covers/nikke-7544-32e86d71.jpg",
+      "link": "https://www.gamekee.com/nikke/tj/589849.html?tab=jn&style=style2",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T23:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天1时",
+      "progress": 4.5,
+      "days": {
+        "elapsedDays": 0.9,
+        "remainDays": 20.1,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "【转盘】 时装抽取复刻：桃乐丝- 怀旧"
     }
   ]
 }

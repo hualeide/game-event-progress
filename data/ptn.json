@@ -1,7 +1,7 @@
 {
   "game": "无期迷途",
   "source": "https://wqmt.aisnogames.com/api/news?page=1&pageSize=30",
-  "fetchedAt": "2026-07-23T16:45:36.662398+08:00",
+  "fetchedAt": "2026-07-23T22:33:52.767737+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
@@ -20,11 +20,11 @@
       "start": "2026-07-23T04:00:00+08:00",
       "end": "2026-08-06T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天11时",
-      "progress": 3.8,
+      "remain": "剩13天5时",
+      "progress": 5.5,
       "days": {
-        "elapsedDays": 0.5,
-        "remainDays": 13.5,
+        "elapsedDays": 0.8,
+        "remainDays": 13.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
