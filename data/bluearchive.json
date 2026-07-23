@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-23T03:43:17.471436+08:00",
+  "fetchedAt": "2026-07-23T11:44:45.220107+08:00",
   "timezone": "Asia/Shanghai",
   "count": 13,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-07-03T00:00:00+08:00",
       "end": "2026-07-24T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天10时",
-      "progress": 93.4,
+      "remain": "剩1天2时",
+      "progress": 94.9,
       "days": {
-        "elapsedDays": 20.2,
-        "remainDays": 1.4,
+        "elapsedDays": 20.5,
+        "remainDays": 1.1,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -98,11 +98,11 @@
       "start": "2026-07-03T14:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天",
-      "progress": 73.6,
+      "remain": "剩6天16时",
+      "progress": 74.9,
       "days": {
-        "elapsedDays": 19.6,
-        "remainDays": 7.0,
+        "elapsedDays": 19.9,
+        "remainDays": 6.7,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -120,36 +120,6 @@
       "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：07月03日 14:00 ~ 07月30日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决…"
     },
     {
-      "id": "1865",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1865-252b1f7b.jpg",
-      "link": "https://bluearchive-cn.com/news/1865",
-      "start": "2026-07-16T04:00:00+08:00",
-      "end": "2026-07-23T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.8,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-07-16T04:00:00+08:00",
-          "end": "2026-07-23T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 07月16日 04:00 ~ 07月23日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程】道具掉落量2倍 \n ■ 活动时间 \n 07月16日 04:00 ~ 07月23日 03:59 \n \n 祝您游戏愉快，今后也请多多支持《蔚蓝档案》。 \n 《蔚蓝档案》运营团队"
-    },
-    {
       "id": "1857",
       "title": "【预告】3周年倒计时签到活动",
       "header": "「3周年倒计时签到活动」",
@@ -157,16 +127,16 @@
       "link": "https://bluearchive-cn.com/news/1857",
       "start": "2026-07-23T04:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "即将开始",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天16时",
+      "progress": 4.6,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.3,
+        "remainDays": 6.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "event",
       "allRanges": [
@@ -188,11 +158,11 @@
       "start": "2026-07-24T00:00:00+08:00",
       "end": "2026-07-30T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "20小时后",
+      "remain": "12小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 7.4,
+        "remainDays": 7.1,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -228,7 +198,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -276,7 +246,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -306,7 +276,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -336,7 +306,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -366,7 +336,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -396,7 +366,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -426,7 +396,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -456,7 +426,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -472,6 +442,36 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【晨起霏微 香几重】即将开启！在本次招募中，3★成员\"明里（新年）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 07月16日 维护结束后 ~ 07月30日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“堇（打工）、莱依、泉（新年）、晴奈（新年）、风…"
+    },
+    {
+      "id": "1865",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1865-252b1f7b.jpg",
+      "link": "https://bluearchive-cn.com/news/1865",
+      "start": "2026-07-16T04:00:00+08:00",
+      "end": "2026-07-23T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 7.0,
+        "remainDays": 0.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-07-16T04:00:00+08:00",
+          "end": "2026-07-23T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 07月16日 04:00 ~ 07月23日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程】道具掉落量2倍 \n ■ 活动时间 \n 07月16日 04:00 ~ 07月23日 03:59 \n \n 祝您游戏愉快，今后也请多多支持《蔚蓝档案》。 \n 《蔚蓝档案》运营团队"
     }
   ]
 }

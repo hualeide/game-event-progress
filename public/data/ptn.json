@@ -1,30 +1,30 @@
 {
   "game": "无期迷途",
   "source": "https://wqmt.aisnogames.com/api/news?page=1&pageSize=30",
-  "fetchedAt": "2026-07-23T03:43:55.157343+08:00",
+  "fetchedAt": "2026-07-23T11:45:27.073997+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
   "notes": [
+    "1995 跳过无时段：【档案视频】丨“好像真的去了天堂，做了一场……疯",
     "1993 跳过无时段：2026无期迷途四周年LIVEHOUSE开票时间",
-    "1992 跳过无时段：【预告】|「四周年庆典前瞻直播」7月28日19点",
-    "1991 跳过无时段：【禁闭者装束】丨毕安卡「于天穹坠落处」"
+    "1992 跳过无时段：【预告】|「四周年庆典前瞻直播」7月28日19点"
   ],
   "events": [
     {
-      "id": "1990",
-      "title": "【MBCC生日会】丨「伊格尼」生日快乐",
-      "header": "【MBCC生日会】丨「伊格尼」生日快乐",
-      "banner": "./covers/ptn-1990-4fa1fc1f.jpg",
-      "link": "https://wqmt.aisnogames.com/news/1990",
-      "start": "2026-07-20T04:00:00+08:00",
-      "end": "2026-08-03T04:00:00+08:00",
+      "id": "1996",
+      "title": "【MBCC生日会】丨「加洛法诺」生日快乐",
+      "header": "【MBCC生日会】丨「加洛法诺」生日快乐",
+      "banner": "./covers/ptn-1996-e6652839.jpg",
+      "link": "https://wqmt.aisnogames.com/news/1996",
+      "start": "2026-07-23T04:00:00+08:00",
+      "end": "2026-08-06T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天",
-      "progress": 21.3,
+      "remain": "剩13天16时",
+      "progress": 2.3,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 11.0,
+        "elapsedDays": 0.3,
+        "remainDays": 13.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -34,12 +34,12 @@
       "allRanges": [
         {
           "label": "估时",
-          "start": "2026-07-20T04:00:00+08:00",
-          "end": "2026-08-03T04:00:00+08:00",
+          "start": "2026-07-23T04:00:00+08:00",
+          "end": "2026-08-06T04:00:00+08:00",
           "raw": "publish+14d"
         }
       ],
-      "summary": "【MBCC生日会】丨「伊格尼」生日快乐"
+      "summary": "【MBCC生日会】丨「加洛法诺」生日快乐"
     }
   ]
 }

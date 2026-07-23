@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-23T03:43:46.764205+08:00",
+  "fetchedAt": "2026-07-23T11:45:18.400125+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -10,75 +10,6 @@
     "国服 GameKee 日历滞后，当前用外服进行中活动（时段接近）"
   ],
   "events": [
-    {
-      "id": "7457",
-      "title": "【大型支线】WAVE TO YOU",
-      "header": "【大型支线】WAVE TO YOU",
-      "banner": "./covers/nikke-7457-52a49f87.png",
-      "link": "https://www.gamekee.com/nikke/710995.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 0.0,
-        "totalDays": 21.2
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "【大型支线】WAVE TO YOU"
-    },
-    {
-      "id": "7458",
-      "title": "【转盘】Shell Princess",
-      "header": "【转盘】Shell Princess",
-      "banner": "./covers/nikke-7458-74df2a9c.png",
-      "link": "https://www.gamekee.com/nikke/710630.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 0.0,
-        "totalDays": 21.2
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "【转盘】Shell Princess"
-    },
-    {
-      "id": "7459",
-      "title": "【pass】SEA LIZZIE PASS",
-      "header": "【pass】SEA LIZZIE PASS",
-      "banner": "./covers/nikke-7459-8f6088e9.png",
-      "link": "https://www.gamekee.com/nikke/710630.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T04:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.8,
-      "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 0.1,
-        "totalDays": 21.2
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "【pass】SEA LIZZIE PASS"
-    },
     {
       "id": "7512",
       "title": "【新网页活动】NIKKE POP! ISLAND！",
@@ -101,6 +32,75 @@
       "category": "web",
       "allRanges": [],
       "summary": "【新网页活动】NIKKE POP! ISLAND！"
+    },
+    {
+      "id": "7458",
+      "title": "【转盘】Shell Princess",
+      "header": "【转盘】Shell Princess",
+      "banner": "./covers/nikke-7458-74df2a9c.png",
+      "link": "https://www.gamekee.com/nikke/710630.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 21.2,
+        "remainDays": 0.0,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【转盘】Shell Princess"
+    },
+    {
+      "id": "7457",
+      "title": "【大型支线】WAVE TO YOU",
+      "header": "【大型支线】WAVE TO YOU",
+      "banner": "./covers/nikke-7457-52a49f87.png",
+      "link": "https://www.gamekee.com/nikke/710995.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 21.2,
+        "remainDays": 0.0,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【大型支线】WAVE TO YOU"
+    },
+    {
+      "id": "7459",
+      "title": "【pass】SEA LIZZIE PASS",
+      "header": "【pass】SEA LIZZIE PASS",
+      "banner": "./covers/nikke-7459-8f6088e9.png",
+      "link": "https://www.gamekee.com/nikke/710630.html",
+      "start": "2026-07-02T00:00:00+08:00",
+      "end": "2026-07-23T04:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 21.2,
+        "remainDays": 0.0,
+        "totalDays": 21.2
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【pass】SEA LIZZIE PASS"
     }
   ]
 }
