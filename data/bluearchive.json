@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-23T22:32:21.942041+08:00",
+  "fetchedAt": "2026-07-24T03:46:02.578278+08:00",
   "timezone": "Asia/Shanghai",
   "count": 13,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-07-03T00:00:00+08:00",
       "end": "2026-07-24T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15小时",
-      "progress": 97.0,
+      "remain": "剩10小时",
+      "progress": 98.0,
       "days": {
-        "elapsedDays": 20.9,
-        "remainDays": 0.6,
+        "elapsedDays": 21.2,
+        "remainDays": 0.4,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -98,11 +98,11 @@
       "start": "2026-07-03T14:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天5时",
-      "progress": 76.6,
+      "remain": "剩6天",
+      "progress": 77.4,
       "days": {
-        "elapsedDays": 20.4,
-        "remainDays": 6.2,
+        "elapsedDays": 20.6,
+        "remainDays": 6.0,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-07-23T04:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天5时",
-      "progress": 11.0,
+      "remain": "剩6天",
+      "progress": 14.2,
       "days": {
-        "elapsedDays": 0.8,
-        "remainDays": 6.2,
+        "elapsedDays": 1.0,
+        "remainDays": 6.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -157,16 +157,16 @@
       "link": "https://bluearchive-cn.com/news/1859",
       "start": "2026-07-24T00:00:00+08:00",
       "end": "2026-07-30T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天10时",
+      "progress": 2.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 6.6,
+        "elapsedDays": 0.2,
+        "remainDays": 6.4,
         "totalDays": 6.6
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [
@@ -194,11 +194,11 @@
       "start": "2026-07-30T00:00:00+08:00",
       "end": "2026-08-13T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "remainDays": 20.4,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -246,7 +246,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -276,7 +276,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -306,7 +306,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -336,7 +336,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -366,7 +366,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -396,7 +396,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -426,7 +426,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.6,
+        "remainDays": 13.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
