@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-23T11:44:45.224517+08:00",
+  "fetchedAt": "2026-07-23T16:44:47.541529+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -52,11 +52,11 @@
       "start": "2026-07-10T12:00:00+08:00",
       "end": "2026-07-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 95.0,
+      "remain": "剩11小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 0.7,
+        "elapsedDays": 13.2,
+        "remainDays": 0.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -88,11 +88,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天16时",
-      "progress": 50.5,
+      "remain": "剩6天11时",
+      "progress": 52.1,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 6.7,
+        "elapsedDays": 7.0,
+        "remainDays": 6.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -148,11 +148,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天16时",
-      "progress": 23.7,
+      "remain": "剩10天11时",
+      "progress": 25.2,
       "days": {
-        "elapsedDays": 3.3,
-        "remainDays": 10.7,
+        "elapsedDays": 3.5,
+        "remainDays": 10.5,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -183,11 +183,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天16时",
-      "progress": 20.9,
+      "remain": "剩10天11时",
+      "progress": 22.5,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 10.7,
+        "elapsedDays": 3.0,
+        "remainDays": 10.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -218,17 +218,16 @@
       "textPreview": "",
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩13天11时",
+      "progress": 0.2,
       "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.2,
-        "totalDays": 13.5,
-        "untilStartDays": 0.2
+        "elapsedDays": 0.0,
+        "remainDays": 13.5,
+        "totalDays": 13.5
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260722/d3670a5b71b534f29c54879c3e1d6a40.jpg",
       "playable": false,
       "category": "gacha",
