@@ -1,41 +1,37 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-24T16:44:56.093868+08:00",
+  "fetchedAt": "2026-07-25T03:48:58.675645+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
-  "notes": [
-    "2782702201042160096: Remote end closed connection without response",
-    "8032152279977713426: Remote end closed connection without response",
-    "11393521362139399214: Remote end closed connection without response"
-  ],
+  "notes": [],
   "events": [
     {
-      "id": "4378738409412303416",
+      "id": "2782702201042160096",
       "title": "全新「裂变赛季」，现已上线！",
       "header": "全新「裂变赛季」，现已上线！",
       "banner": "./covers/delta-kv-791a1812.jpg",
-      "link": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=4378738409412303416",
-      "start": "2026-07-24T10:00:00+08:00",
-      "end": "2026-09-07T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩44天17时",
-      "progress": 0.6,
+      "link": "https://df.qq.com/cp/a20240906main/newsdetail.html?id=2782702201042160096",
+      "start": "2026-07-25T10:00:00+08:00",
+      "end": "2026-09-08T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "6小时后",
+      "progress": 0.0,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 44.7,
+        "elapsedDays": 0.0,
+        "remainDays": 45.3,
         "totalDays": 45.0
       },
       "hasSchedule": true,
-      "kind": "live",
+      "kind": "preview",
       "fuzzy": true,
       "category": "combat",
       "allRanges": [
         {
           "label": "赛季周期（估）",
-          "start": "2026-07-24T10:00:00+08:00",
-          "end": "2026-09-07T10:00:00+08:00",
+          "start": "2026-07-25T10:00:00+08:00",
+          "end": "2026-09-08T10:00:00+08:00",
           "raw": "估"
         }
       ],
