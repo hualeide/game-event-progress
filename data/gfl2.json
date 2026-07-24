@@ -1,10 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-24T11:45:04.807071+08:00",
+  "fetchedAt": "2026-07-24T16:43:37.473969+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 5,
+  "count": 6,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-07-21T12:30:00+08:00",
       "end": "2026-08-04T12:30:00+08:00",
       "status": "进行中",
-      "remain": "剩11天",
-      "progress": 21.2,
+      "remain": "剩10天19时",
+      "progress": 22.7,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 11.0,
+        "elapsedDays": 3.2,
+        "remainDays": 10.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-21T18:00:00+08:00",
       "end": "2026-08-04T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.6,
+      "remain": "剩11天1时",
+      "progress": 21.1,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 2.9,
+        "remainDays": 11.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-22T12:00:00+08:00",
       "end": "2026-08-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天",
-      "progress": 14.2,
+      "remain": "剩11天19时",
+      "progress": 15.7,
       "days": {
-        "elapsedDays": 2.0,
-        "remainDays": 12.0,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-07-23T12:00:00+08:00",
       "end": "2026-08-06T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天",
-      "progress": 7.1,
+      "remain": "剩12天19时",
+      "progress": 8.6,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 13.0,
+        "elapsedDays": 1.2,
+        "remainDays": 12.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -128,6 +128,36 @@
       "summary": "艾莫号缝补大作战 | 刘莳与刘易斯正在接收樱花运送过来的物资"
     },
     {
+      "id": "2001",
+      "title": "艾莫号缝补大作战 | 莱娜正带领着人形社区的成员们参观艾莫号",
+      "header": "艾莫号缝补大作战 | 莱娜正带领着人形社区的成员们参观艾莫号",
+      "banner": "./covers/gfl2-2001-3d2ef375.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2001",
+      "start": "2026-07-24T12:00:00+08:00",
+      "end": "2026-08-07T12:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天19时",
+      "progress": 1.4,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 13.8,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-07-24T12:00:00+08:00",
+          "end": "2026-08-07T12:00:00+08:00",
+          "raw": "Date+14d"
+        }
+      ],
+      "summary": "艾莫号缝补大作战 | 莱娜正带领着人形社区的成员们参观艾莫号"
+    },
+    {
       "id": "1994",
       "title": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
       "header": "【H5活动】「艾莫号，缝补大作战！」现已开启！",
@@ -136,11 +166,11 @@
       "start": "2026-07-21T12:00:00+08:00",
       "end": "2026-08-10T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天12时",
-      "progress": 14.6,
+      "remain": "剩17天7时",
+      "progress": 15.6,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 17.5,
+        "elapsedDays": 3.2,
+        "remainDays": 17.3,
         "totalDays": 20.5
       },
       "hasSchedule": true,
