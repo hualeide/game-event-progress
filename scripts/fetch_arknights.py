@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """抓取明日方舟国服游戏内公告，解析活动起止时间，输出 data/events.json"""
 
@@ -219,6 +219,7 @@ def strip_html(html: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{2,}", "\n", text)
+    text = re.sub(r"\*{2}", "", text)  # Markdown **
     return text.strip()
 
 
@@ -801,6 +802,15 @@ def fetch_all() -> dict[str, Any]:
                 )
                 if hit:
                     primary = hit
+                    break
+        if not primary:
+            # 用池名及其简版搜 keyword_ranges（theme_keys 提取的是【】内纯名，不包含后缀）
+            for nk in (name, re.sub(r'\s*限定寻访说明|\s*限时出率上升|\s*出率上升|\s*限时寻访|\s*寻访.*', '', name).strip()):
+                dcands = keyword_ranges.get(nk) or []
+                dh = next((r for r in dcands if re.search(r"活动时间|寻访时间", r.get("label", ""))), None)
+                if dh:
+                    primary = dh
+                    notes.append(f"{g['cid']} 寻访「{nk}」对齐正文活动时间")
                     break
         if not primary:
             primary = gacha_fallback_range(g.get("displayTime"), g.get("updated"), now)
