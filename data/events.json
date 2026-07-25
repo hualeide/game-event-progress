@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-26T05:00:28.872888+08:00",
+  "fetchedAt": "2026-07-26T05:01:14.578821+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -248,7 +248,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-26T05:00:28.872888+08:00",
+      "updatedAt": "2026-07-26T05:01:14.578821+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
