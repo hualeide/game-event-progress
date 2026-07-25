@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-15T11:34:59.081182+08:00",
+  "fetchedAt": "2026-07-26T03:35:19.490777+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -11,96 +11,96 @@
   ],
   "events": [
     {
-      "id": "7512",
-      "title": "【新网页活动】NIKKE POP! ISLAND！",
-      "header": "【新网页活动】NIKKE POP! ISLAND！",
-      "banner": "./covers/nikke-7512-51b27615.jpg",
-      "link": "https://www.gamekee.com/nikke/712582.html",
-      "start": "2026-07-10T00:00:00+08:00",
-      "end": "2026-07-23T00:00:00+08:00",
+      "id": "7545",
+      "title": "【pass】PROTOTYPE PASS",
+      "header": "【pass】PROTOTYPE PASS",
+      "banner": "./covers/nikke-7545-d2a98463.jpg",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天12时",
-      "progress": 42.2,
+      "remain": "剩17天",
+      "progress": 15.6,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 7.5,
-        "totalDays": 13.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "web",
-      "allRanges": [],
-      "summary": "【新网页活动】NIKKE POP! ISLAND！"
-    },
-    {
-      "id": "7457",
-      "title": "【大型支线】WAVE TO YOU",
-      "header": "【大型支线】WAVE TO YOU",
-      "banner": "./covers/nikke-7457-52a49f87.png",
-      "link": "https://www.gamekee.com/nikke/710995.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 63.7,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 7.7,
-        "totalDays": 21.2
+        "elapsedDays": 3.1,
+        "remainDays": 17.0,
+        "totalDays": 20.2
       },
       "hasSchedule": true,
       "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [],
-      "summary": "【大型支线】WAVE TO YOU"
+      "summary": "【pass】PROTOTYPE PASS"
     },
     {
-      "id": "7458",
-      "title": "【转盘】Shell Princess",
-      "header": "【转盘】Shell Princess",
-      "banner": "./covers/nikke-7458-74df2a9c.png",
-      "link": "https://www.gamekee.com/nikke/710630.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T03:59:00+08:00",
+      "id": "7546",
+      "title": "【全语音支线】PROJECT MATIS",
+      "header": "【全语音支线】PROJECT MATIS",
+      "banner": "./covers/nikke-7546-c4ea47ff.png",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 63.7,
+      "remain": "剩17天19时",
+      "progress": 15.0,
       "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 7.7,
-        "totalDays": 21.2
+        "elapsedDays": 3.1,
+        "remainDays": 17.8,
+        "totalDays": 21.0
       },
       "hasSchedule": true,
       "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [],
-      "summary": "【转盘】Shell Princess"
+      "summary": "【全语音支线】PROJECT MATIS"
     },
     {
-      "id": "7459",
-      "title": "【pass】SEA LIZZIE PASS",
-      "header": "【pass】SEA LIZZIE PASS",
-      "banner": "./covers/nikke-7459-8f6088e9.png",
-      "link": "https://www.gamekee.com/nikke/710630.html",
-      "start": "2026-07-02T00:00:00+08:00",
-      "end": "2026-07-23T04:59:00+08:00",
+      "id": "7543",
+      "title": "【签到】HERO DAYS",
+      "header": "【签到】HERO DAYS",
+      "banner": "./covers/nikke-7543-a53589b8.jpg",
+      "link": "https://www.gamekee.com/nikke/713407.html",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天17时",
-      "progress": 63.6,
+      "remain": "剩17天19时",
+      "progress": 15.0,
       "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 7.7,
-        "totalDays": 21.2
+        "elapsedDays": 3.1,
+        "remainDays": 17.8,
+        "totalDays": 21.0
       },
       "hasSchedule": true,
       "kind": "live",
       "fuzzy": false,
-      "category": "combat",
+      "category": "event",
       "allRanges": [],
-      "summary": "【pass】SEA LIZZIE PASS"
+      "summary": "【签到】HERO DAYS"
+    },
+    {
+      "id": "7544",
+      "title": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
+      "header": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
+      "banner": "./covers/nikke-7544-32e86d71.jpg",
+      "link": "https://www.gamekee.com/nikke/tj/589849.html?tab=jn&style=style2",
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-08-12T23:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩17天20时",
+      "progress": 15.0,
+      "days": {
+        "elapsedDays": 3.1,
+        "remainDays": 17.8,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "【转盘】 时装抽取复刻：桃乐丝- 怀旧"
     }
   ]
 }

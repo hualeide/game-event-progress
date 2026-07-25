@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-26T04:30:13.829088+08:00",
+  "fetchedAt": "2026-07-26T03:34:27.094592+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -58,8 +58,8 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天23时",
-      "progress": 70.5,
+      "remain": "剩4天",
+      "progress": 70.2,
       "days": {
         "elapsedDays": 9.5,
         "remainDays": 4.0,
@@ -118,8 +118,8 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天23时",
-      "progress": 43.0,
+      "remain": "剩8天",
+      "progress": 42.7,
       "days": {
         "elapsedDays": 6.0,
         "remainDays": 8.0,
@@ -153,8 +153,8 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天23时",
-      "progress": 40.9,
+      "remain": "剩8天",
+      "progress": 40.6,
       "days": {
         "elapsedDays": 5.5,
         "remainDays": 8.0,
@@ -189,8 +189,8 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天23时",
-      "progress": 18.7,
+      "remain": "剩11天",
+      "progress": 18.4,
       "days": {
         "elapsedDays": 2.5,
         "remainDays": 11.0,
@@ -225,8 +225,8 @@
       "start": "2026-07-25T16:00:00+08:00",
       "end": "2026-08-08T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天23时",
-      "progress": 3.9,
+      "remain": "剩13天",
+      "progress": 3.6,
       "days": {
         "elapsedDays": 0.5,
         "remainDays": 13.0,
@@ -246,7 +246,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-26T04:30:13.829088+08:00",
+      "updatedAt": "2026-07-26T03:34:27.094592+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -261,7 +261,7 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "24天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,

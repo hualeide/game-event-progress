@@ -1,26 +1,30 @@
 {
   "game": "无期迷途",
   "source": "https://wqmt.aisnogames.com/api/news?page=1&pageSize=30",
-  "fetchedAt": "2026-07-15T11:35:08.601832+08:00",
+  "fetchedAt": "2026-07-26T03:35:28.606286+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 4,
-  "notes": [],
+  "count": 1,
+  "notes": [
+    "1999 跳过无时段：【预告】|「四周年庆典前瞻直播」嘉宾阵容揭晓！",
+    "1998 跳过无时段：【预告】丨档案编号「MBCC-S-???」即将登",
+    "1997 跳过无时段：【表情包】丨「鸭宝涂鸦」Vol.28"
+  ],
   "events": [
     {
-      "id": "1982",
-      "title": "【MBCC生日会】丨「蜜莉」生日快乐",
-      "header": "【MBCC生日会】丨「蜜莉」生日快乐",
-      "banner": "./covers/ptn-1982-8f1cf4ee.jpg",
-      "link": "https://wqmt.aisnogames.com/news/1982",
-      "start": "2026-07-09T04:00:00+08:00",
-      "end": "2026-07-23T04:00:00+08:00",
+      "id": "1996",
+      "title": "【MBCC生日会】丨「加洛法诺」生日快乐",
+      "header": "【MBCC生日会】丨「加洛法诺」生日快乐",
+      "banner": "./covers/ptn-1996-e6652839.jpg",
+      "link": "https://wqmt.aisnogames.com/news/1996",
+      "start": "2026-07-23T04:00:00+08:00",
+      "end": "2026-08-06T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 45.1,
+      "remain": "剩11天",
+      "progress": 21.3,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 7.7,
+        "elapsedDays": 3.0,
+        "remainDays": 11.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -30,102 +34,12 @@
       "allRanges": [
         {
           "label": "估时",
-          "start": "2026-07-09T04:00:00+08:00",
-          "end": "2026-07-23T04:00:00+08:00",
+          "start": "2026-07-23T04:00:00+08:00",
+          "end": "2026-08-06T04:00:00+08:00",
           "raw": "publish+14d"
         }
       ],
-      "summary": "【MBCC生日会】丨「蜜莉」生日快乐"
-    },
-    {
-      "id": "1983",
-      "title": "【MBCC生日会】丨「迪蒙」生日快乐",
-      "header": "【MBCC生日会】丨「迪蒙」生日快乐",
-      "banner": "./covers/ptn-1983-26b087fb.jpg",
-      "link": "https://wqmt.aisnogames.com/news/1983",
-      "start": "2026-07-11T04:00:00+08:00",
-      "end": "2026-07-25T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天16时",
-      "progress": 30.8,
-      "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 9.7,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-11T04:00:00+08:00",
-          "end": "2026-07-25T04:00:00+08:00",
-          "raw": "publish+14d"
-        }
-      ],
-      "summary": "【MBCC生日会】丨「迪蒙」生日快乐"
-    },
-    {
-      "id": "1984",
-      "title": "【MBCC生日会】丨「希格林德」生日快乐",
-      "header": "【MBCC生日会】丨「希格林德」生日快乐",
-      "banner": "./covers/ptn-1984-4b827350.jpg",
-      "link": "https://wqmt.aisnogames.com/news/1984",
-      "start": "2026-07-12T04:00:00+08:00",
-      "end": "2026-07-26T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩10天16时",
-      "progress": 23.7,
-      "days": {
-        "elapsedDays": 3.3,
-        "remainDays": 10.7,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-12T04:00:00+08:00",
-          "end": "2026-07-26T04:00:00+08:00",
-          "raw": "publish+14d"
-        }
-      ],
-      "summary": "【MBCC生日会】丨「希格林德」生日快乐"
-    },
-    {
-      "id": "1987",
-      "title": "【MBCC生日会】丨「奥古斯特」生日快乐",
-      "header": "【MBCC生日会】丨「奥古斯特」生日快乐",
-      "banner": "./covers/ptn-1987-6353d838.jpg",
-      "link": "https://wqmt.aisnogames.com/news/1987",
-      "start": "2026-07-14T04:00:00+08:00",
-      "end": "2026-07-28T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩12天16时",
-      "progress": 9.4,
-      "days": {
-        "elapsedDays": 1.3,
-        "remainDays": 12.7,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-07-14T04:00:00+08:00",
-          "end": "2026-07-28T04:00:00+08:00",
-          "raw": "publish+14d"
-        }
-      ],
-      "summary": "【MBCC生日会】丨「奥古斯特」生日快乐"
+      "summary": "【MBCC生日会】丨「加洛法诺」生日快乐"
     }
   ]
 }
