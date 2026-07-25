@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""从碧蓝航线 Bwiki「港区改建」公告解析限时活动 / 建造。"""
+"""浠庣ⅶ钃濊埅绾?Bwiki銆屾腐鍖烘敼寤恒€嶅叕鍛婅В鏋愰檺鏃舵椿鍔?/ 寤洪€犮€?""
 
 from __future__ import annotations
 
@@ -31,35 +31,35 @@ UA = {"User-Agent": "Mozilla/5.0 GameEventCal/1.1", "Accept": "application/json"
 LINK_BASE = "https://wiki.biligame.com/blhx/"
 CACHE = DATA / "cache" / "azurlane"
 
-TITLE_RE = re.compile(r"^(?P<y>20\d{2})年(?P<m>\d{1,2})月(?P<d>\d{1,2})日(?P<h>\d{1,2}):(?P<mi>\d{2})港区改建$")
+TITLE_RE = re.compile(r"^(?P<y>20\d{2})骞??P<m>\d{1,2})鏈??P<d>\d{1,2})鏃??P<h>\d{1,2}):(?P<mi>\d{2})娓尯鏀瑰缓$")
 
-# 开启限时大型活动'''复刻：绽放于辉光之城'''，活动时间6月18日维护后~6月25日维护前
-# 开启限时活动「远航回礼」（7月9日维护后~7月22日23:59）
+# 寮€鍚檺鏃跺ぇ鍨嬫椿鍔?''澶嶅埢锛氱唤鏀句簬杈夊厜涔嬪煄'''锛屾椿鍔ㄦ椂闂?鏈?8鏃ョ淮鎶ゅ悗~6鏈?5鏃ョ淮鎶ゅ墠
+# 寮€鍚檺鏃舵椿鍔ㄣ€岃繙鑸洖绀笺€嶏紙7鏈?鏃ョ淮鎶ゅ悗~7鏈?2鏃?3:59锛?
 EVENT_RE = re.compile(
-    r"(?P<label>开启限时大型活动|开启限时联动复刻活动|开启限时联动活动|开启限时复刻活动|"
-    r"开启限时特殊活动|开启限时活动|开启新一期|开启下一期|开启活动|复刻[：:])\s*"
-    r"[「『\"]?(?P<name>[^」』\"\n]{2,48}?)[」』\"]?"
-    r"(?:活动)?"
+    r"(?P<label>寮€鍚檺鏃跺ぇ鍨嬫椿鍔▅寮€鍚檺鏃惰仈鍔ㄥ鍒绘椿鍔▅寮€鍚檺鏃惰仈鍔ㄦ椿鍔▅寮€鍚檺鏃跺鍒绘椿鍔▅"
+    r"寮€鍚檺鏃剁壒娈婃椿鍔▅寮€鍚檺鏃舵椿鍔▅寮€鍚柊涓€鏈焲寮€鍚笅涓€鏈焲寮€鍚椿鍔▅澶嶅埢[锛?])\s*"
+    r"[銆屻€嶾"]?(?P<name>[^銆嶃€廫"\n]{2,48}?)[銆嶃€廫"]?"
+    r"(?:娲诲姩)?"
     r"(?:"
-    r"[，,]\s*活动时间(?P<span1>[^。\n；;]{6,80})"
+    r"[锛?]\s*娲诲姩鏃堕棿(?P<span1>[^銆俓n锛?]{6,80})"
     r"|"
-    r"[（(](?P<span2>[^）)\n]{6,80})[）)]"
+    r"[锛?](?P<span2>[^锛?\n]{6,80})[锛?]"
     r")",
 )
 
-# 限时建造期间 / 开启限时建造
+# 闄愭椂寤洪€犳湡闂?/ 寮€鍚檺鏃跺缓閫?
 BUILD_RE = re.compile(
-    r"(?P<label>限时建造|限时重返建造)"
-    r"[^。\n]{0,60}?"
+    r"(?P<label>闄愭椂寤洪€爘闄愭椂閲嶈繑寤洪€?"
+    r"[^銆俓n]{0,60}?"
     r"(?:"
-    r"活动时间(?P<span1>[^。\n]{6,60})"
+    r"娲诲姩鏃堕棿(?P<span1>[^銆俓n]{6,60})"
     r"|"
-    r"[（(](?P<span2>[^）)\n]{6,60})[）)]"
+    r"[锛?](?P<span2>[^锛?\n]{6,60})[锛?]"
     r")",
 )
 
-# 「科研」之类不算
-SKIP = re.compile(r"礼包|换装商店|优惠|研发礼包|兑换商店|家具|抵扣")
+# 銆岀鐮斻€嶄箣绫讳笉绠?
+SKIP = re.compile(r"绀煎寘|鎹㈣鍟嗗簵|浼樻儬|鐮斿彂绀煎寘|鍏戞崲鍟嗗簵|瀹跺叿|鎶垫墸")
 
 
 def wiki_json(params: dict, retries: int = 4) -> dict:
@@ -71,7 +71,7 @@ def wiki_json(params: dict, retries: int = 4) -> dict:
             return http_get_json(url, UA)
         except HTTPError as e:
             last = e
-            # 567 / 429 等限流
+            # 567 / 429 绛夐檺娴?
             time.sleep(1.2 * (i + 1))
         except Exception as e:
             last = e
@@ -87,26 +87,26 @@ def list_rebuild_pages(year: int = 2026) -> list[str]:
     titles: list[str] = []
     try:
         pages = wiki_json(
-            {"action": "query", "list": "allpages", "apprefix": f"{year}年", "aplimit": "max"}
+            {"action": "query", "list": "allpages", "apprefix": f"{year}骞?, "aplimit": "max"}
         ).get("query", {}).get("allpages", [])
-        titles = [p["title"] for p in pages if "港区改建" in p["title"] and TITLE_RE.match(p["title"])]
+        titles = [p["title"] for p in pages if "娓尯鏀瑰缓" in p["title"] and TITLE_RE.match(p["title"])]
     except Exception as e:
-        print(f"  [warn] 列表失败，改用本地缓存: {e}")
+        print(f"  [warn] 鍒楄〃澶辫触锛屾敼鐢ㄦ湰鍦扮紦瀛? {e}")
 
     if CACHE.exists():
         for p in CACHE.glob("*.txt"):
-            # 文件名还原不完全，读首行或用已知模式扫描目录旁 metadata
+            # 鏂囦欢鍚嶈繕鍘熶笉瀹屽叏锛岃棣栬鎴栫敤宸茬煡妯″紡鎵弿鐩綍鏃?metadata
             pass
 
-    # 已知近期维护（wiki 限流时兜底）
+    # 宸茬煡杩戞湡缁存姢锛坵iki 闄愭祦鏃跺厹搴曪級
     fallback = [
-        f"{year}年5月28日10:00港区改建",
-        f"{year}年6月5日10:00港区改建",
-        f"{year}年6月12日10:00港区改建",
-        f"{year}年6月18日10:00港区改建",
-        f"{year}年6月25日10:00港区改建",
-        f"{year}年7月9日10:00港区改建",
-        f"{year}年7月16日10:00港区改建",
+        f"{year}骞?鏈?8鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?2鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?8鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?5鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?鏃?0:00娓尯鏀瑰缓",
+        f"{year}骞?鏈?6鏃?0:00娓尯鏀瑰缓",
     ]
     for t in fallback:
         if TITLE_RE.match(t) and t not in titles:
@@ -151,7 +151,7 @@ def page_wikitext(title: str, *, refresh: bool = False) -> str:
 def page_banner(title: str) -> str:
     data = wiki_json({"action": "parse", "page": title, "prop": "images"})
     images = data.get("parse", {}).get("images") or []
-    prefer = next((i for i in images if re.search(r"banner|Banner|活动|专题", i, re.I)), None)
+    prefer = next((i for i in images if re.search(r"banner|Banner|娲诲姩|涓撻", i, re.I)), None)
     name = prefer or (images[0] if images else None)
     if not name:
         return ""
@@ -178,8 +178,8 @@ def maint_from_title(title: str) -> datetime:
 
 def maint_end_from_text(text: str, start: datetime) -> datetime:
     m = re.search(
-        rf"{start.month}月{start.day}日\s*{start.hour}:\d{{2}}\s*[~～\-–—至到]\s*"
-        rf"(?:{start.month}月{start.day}日\s*)?(?P<h>\d{{1,2}})[:：](?P<mi>\d{{2}})",
+        rf"{start.month}鏈坽start.day}鏃s*{start.hour}:\d{{2}}\s*[~锝瀄-鈥撯€旇嚦鍒癩\s*"
+        rf"(?:{start.month}鏈坽start.day}鏃s*)?(?P<h>\d{{1,2}})[:锛歖(?P<mi>\d{{2}})",
         text,
     )
     if m:
@@ -198,17 +198,17 @@ def parse_span(
 
     def one_side(s: str, *, is_start: bool) -> datetime | None:
         s = s.strip()
-        if "维护后" in s:
+        if "缁存姢鍚? in s:
             return maint_end
-        m_day = re.search(r"(?:(20\d{2})年)?(\d{1,2})月(\d{1,2})日", s)
-        # 「7月30日维护」→ 当天 10:00（港区常规维护点）
-        if m_day and re.search(r"维护", s):
+        m_day = re.search(r"(?:(20\d{2})骞??(\d{1,2})鏈?\d{1,2})鏃?, s)
+        # 銆?鏈?0鏃ョ淮鎶ゃ€嶁啋 褰撳ぉ 10:00锛堟腐鍖哄父瑙勭淮鎶ょ偣锛?
+        if m_day and re.search(r"缁存姢", s):
             yy = int(m_day.group(1) or y)
             return make_dt(yy, int(m_day.group(2)), int(m_day.group(3)), 10, 0)
-        if "维护前" in s or s.strip() in ("维护", "维护前"):
+        if "缁存姢鍓? in s or s.strip() in ("缁存姢", "缁存姢鍓?):
             return next_maint or maint_start
         m = re.search(
-            r"(?:(20\d{2})年)?(\d{1,2})月(\d{1,2})日(?:\s*(\d{1,2})[:：](\d{2}))?",
+            r"(?:(20\d{2})骞??(\d{1,2})鏈?\d{1,2})鏃??:\s*(\d{1,2})[:锛歖(\d{2}))?",
             s,
         )
         if not m:
@@ -218,7 +218,7 @@ def parse_span(
         mi = int(m.group(5) if m.group(5) is not None else (0 if is_start else 59))
         return make_dt(yy, int(m.group(2)), int(m.group(3)), hh, mi)
 
-    parts = re.split(r"[~～\-–—至到]+", span)
+    parts = re.split(r"[~锝瀄-鈥撯€旇嚦鍒癩+", span)
     if len(parts) < 2:
         return None
     start = one_side(parts[0], is_start=True)
@@ -238,18 +238,18 @@ def clean_name(name: str) -> str:
     name = re.sub(r"\{\{[^}]+\}\}", "", name)
     name = re.sub(r"\[\[([^|\]]+\|)?([^\]]+)\]\]", r"\2", name)
     name = re.sub(r"<[^>]+>", "", name)
-    name = re.sub(r"^活动", "", name)
-    name = name.strip(" ：:·-—「」『』")
+    name = re.sub(r"^娲诲姩", "", name)
+    name = name.strip(" 锛?路-鈥斻€屻€嶃€庛€?)
     return name[:32]
 
 
 def al_category(label: str, name: str) -> str:
     blob = f"{label} {name}"
-    if re.search(r"建造|祈愿建造", blob):
+    if re.search(r"寤洪€爘绁堟効寤洪€?, blob):
         return "gacha"
-    if re.search(r"大型|复刻|海域|作战|EX|SP|档案|限界挑战|同盟|人形之旅", blob):
+    if re.search(r"澶у瀷|澶嶅埢|娴峰煙|浣滄垬|EX|SP|妗ｆ|闄愮晫鎸戞垬|鍚岀洘|浜哄舰涔嬫梾", blob):
         return "combat"
-    if re.search(r"回礼|登录|签到|累计|巡游|巡演|竞拍|任务|联动|公益", blob):
+    if re.search(r"鍥炵ぜ|鐧诲綍|绛惧埌|绱|宸℃父|宸℃紨|绔炴媿|浠诲姟|鑱斿姩|鍏泭", blob):
         return "event"
     return "event"
 
@@ -265,16 +265,16 @@ def parse_page(title: str, next_title: str | None = None) -> list[dict]:
 
     for m in EVENT_RE.finditer(text):
         name = clean_name(m.group("name"))
-        span = (m.group("span1") or m.group("span2") or "").strip()
+        span = (m.group("span") or "").strip()
         if not name or not span or SKIP.search(name):
             continue
-        if "活动专题" in name or name.startswith("{{"):
+        if "娲诲姩涓撻" in name or name.startswith("{{"):
             continue
         pair = parse_span(span, maint_start, maint_end, next_maint)
         if not pair:
             continue
         start, end = pair
-        if "维护前" in span and next_maint and end <= start:
+        if "缁存姢鍓? in span and next_maint and end <= start:
             end = next_maint
         label = m.group("label")
         out.append(
@@ -291,7 +291,7 @@ def parse_page(title: str, next_title: str | None = None) -> list[dict]:
     for m in BUILD_RE.finditer(text):
         if SKIP.search(m.group(0)):
             continue
-        span = (m.group("span1") or m.group("span2") or "").strip()
+        span = (m.group("span") or "").strip()
         if not span:
             continue
         pair = parse_span(span, maint_start, maint_end, next_maint)
@@ -299,12 +299,12 @@ def parse_page(title: str, next_title: str | None = None) -> list[dict]:
             continue
         start, end = pair
         window = text[max(0, m.start() - 80) : m.end() + 80]
-        ships = re.findall(r"(?:「|『|\{\{小图标\|)([^」』|\n]{2,16})", window)
-        name = "限时建造" + (f"·{ships[0]}" if ships else "")
+        ships = re.findall(r"(?:銆寍銆巪\{\{灏忓浘鏍嘰|)([^銆嶃€弢\n]{2,16})", window)
+        name = "闄愭椂寤洪€? + (f"路{ships[0]}" if ships else "")
         out.append(
             {
                 "name": name[:32],
-                "label": "限时建造",
+                "label": "闄愭椂寤洪€?,
                 "start": start,
                 "end": end,
                 "category": "gacha",
@@ -312,7 +312,36 @@ def parse_page(title: str, next_title: str | None = None) -> list[dict]:
             }
         )
 
-    if out:
+    # 如果页面有"建造"但没被 BUILD_RE 捕获，用维护窗口推测建造活动
+    if not out and ("建造" in text or "建" in text):
+        build_pool = re.search(r"(?:建造|建).{0,30}?(?:活动时间|开放时间)[：: ]+([^。\n]{6,60})", text, re.S)
+        if build_pool:
+            pair = parse_span(build_pool.group(1), maint_start, maint_end, next_maint)
+            if pair:
+                start, end = pair
+                name = "限时建造"
+                out.append({
+                    "name": name[:32],
+                    "label": "限时建造",
+                    "start": start,
+                    "end": end,
+                    "category": "gacha",
+                    "page": title,
+                })
+        else:
+            # 完全没找到建造时间范围，用维护窗口估时（约2周）
+            est_start = maint_start
+            est_end = maint_end + (maint_end - maint_start) if next_maint else maint_start + timedelta(days=14)
+            out.append({
+                "name": "限时建造（估时）",
+                "label": "限时建造",
+                "start": est_start,
+                "end": est_end,
+                "category": "gacha",
+                "page": title,
+            })
+
+        if out:
         banner = ""
         try:
             banner = page_banner(title)
@@ -328,9 +357,9 @@ def main() -> int:
     titles = list_rebuild_pages(ref.year)
     if ref.month <= 2:
         titles = list_rebuild_pages(ref.year - 1) + titles
-    # 优先扫缓存齐全的近期页，减少无效请求
+    # 浼樺厛鎵紦瀛橀綈鍏ㄧ殑杩戞湡椤碉紝鍑忓皯鏃犳晥璇锋眰
     recent = titles[-10:]
-    print(f"  扫描 {len(recent)} 篇港区改建")
+    print(f"  鎵弿 {len(recent)} 绡囨腐鍖烘敼寤?)
 
     collected: list[dict] = []
     for i, title in enumerate(recent):
@@ -364,7 +393,7 @@ def main() -> int:
             build_event(
                 cid=f"al-{stem}-{e['start'].strftime('%m%d')}",
                 title=e["name"],
-                header=f"{e['label']}·{e['name']}"[:40],
+                header=f"{e['label']}路{e['name']}"[:40],
                 banner=banner,
                 link=LINK_BASE + page_q,
                 start=e["start"],
@@ -380,7 +409,7 @@ def main() -> int:
         try:
             prev = json.loads(out_path.read_text(encoding="utf-8"))
             if prev.get("events"):
-                print("[azurlane] 本次抓取为空，保留上次数据（wiki 可能限流）")
+                print("[azurlane] 鏈鎶撳彇涓虹┖锛屼繚鐣欎笂娆℃暟鎹紙wiki 鍙兘闄愭祦锛?)
                 return 0
         except Exception:
             pass
@@ -388,17 +417,20 @@ def main() -> int:
     write_events(
         out_path,
         {
-            "game": "碧蓝航线",
+            "game": "纰ц摑鑸嚎",
             "pending": False,
             "fetchedAt": ref.isoformat(),
             "count": len(events),
             "events": events,
-            "source": "wiki.biligame.com/blhx 港区改建",
+            "source": "wiki.biligame.com/blhx 娓尯鏀瑰缓",
         },
     )
-    print(f"[azurlane] {len(events)} 条进行中/预告")
+    print(f"[azurlane] {len(events)} 鏉¤繘琛屼腑/棰勫憡")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
+
+
