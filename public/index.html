@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="多游戏活动进度：作战、卡池、网页活动一览，自动抓取官方公告解析起止时间。" />
-  <meta name="theme-color" content="#040510" />
+  <meta name="theme-color" content="#0b0e14" />
   <meta property="og:title" content="活动进度" />
   <meta property="og:description" content="多游戏进行中的活动与卡池进度" />
   <meta property="og:type" content="website" />
@@ -13,13 +13,12 @@
   <link rel="manifest" href="./manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+SC:wght@500;700;900&family=Orbitron:wght@600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=20260726v1" />
-  <link rel="stylesheet" href="./themes.css?v=20260726v1" />
-  <link rel="stylesheet" href="./hud.css?v=20260726v1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+SC:wght@500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css?v=20260726v2" />
+  <link rel="stylesheet" href="./themes.css?v=20260726v2" />
+  <link rel="stylesheet" href="./hud.css?v=20260726v2" />
 </head>
 <body>
-  <div class="hud-orbit" aria-hidden="true"></div>
   <div class="app app--no-sidebar" id="app">
     <div class="content app-shell">
       <header class="topbar">
@@ -27,7 +26,7 @@
           <div class="filter-row filter-row--primary">
             <label class="search-wrap">
               <span class="sr-only">搜索</span>
-              <input type="search" id="search" placeholder="搜索游戏 / 活动…  (/ 或 Ctrl+K)" autocomplete="off" />
+              <input type="search" id="search" placeholder="搜索游戏 / 活动… (/ 或 Ctrl+K)" autocomplete="off" />
             </label>
             <div class="filters filters--tags" id="filters">
               <label class="chip"><input type="checkbox" data-cat="combat" checked /> 作战</label>
@@ -43,7 +42,7 @@
               <button type="button" id="btnFoldAll" class="btn ghost desk-only" title="全部折叠">折叠</button>
               <button type="button" id="btnExpandAll" class="btn ghost desk-only" title="全部展开">展开</button>
               <button type="button" id="btnGames" class="btn ghost" title="显示/自定义游戏">管理</button>
-              <button type="button" id="btnRefresh" class="btn accent-button" title="重新加载数据">刷新</button>
+              <button type="button" id="btnRefresh" class="btn" title="重新加载数据">刷新</button>
             </div>
           </div>
         </div>
@@ -66,7 +65,7 @@
 
   <div id="detail" class="detail hidden" aria-hidden="true">
     <button type="button" class="detail-backdrop" data-close-detail aria-label="关闭"></button>
-    <aside class="detail-panel hud-card" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+    <aside class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
       <header class="detail-head">
         <button type="button" class="detail-close" data-close-detail>关闭</button>
         <p class="detail-game" id="detailGame"></p>
