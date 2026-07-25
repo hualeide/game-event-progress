@@ -22,6 +22,7 @@ import {
 } from "./format.js";
 import { ensureGameLoaded, loadGame } from "./data.js";
 import { tryOpenFromHash } from "./detail.js";
+import { renderStatusBar } from "./status.js";
 
 export function toolsHtml(game, { compact = false } = {}) {
   const wiki = wikiFor(game);
@@ -50,6 +51,27 @@ function cardSubline(ev, live) {
   return "";
 }
 
+const ACCENT_BY_GAME = {
+  ark: "card--accent-warm",
+  ef: "card--accent-teal",
+  ba: "card--accent-blue",
+  gi: "card--accent-blue",
+  sr: "card--accent-orange",
+  zz: "card--accent-red",
+  ww: "card--accent-teal",
+  al: "card--accent-blue",
+  nikke: "card--accent-pink",
+  r1999: "card--accent-violet",
+  ptn: "card--accent-blue",
+  snow: "card--accent-blue",
+  gfl2: "card--accent-orange",
+  hs: "card--accent-orange",
+  pvz: "card--accent-teal",
+  naraka: "card--accent-red",
+  delta: "card--accent-teal",
+  custom: "card--accent-blue",
+};
+
 export function cardHtml(game, ev) {
   const live = liveStats(ev);
   const name = shortName(ev);
@@ -63,6 +85,9 @@ export function cardHtml(game, ev) {
   const sub = cardSubline(ev, live);
   const jump = jumpUrl(ev);
   const web = isWebEvent(ev);
+  const soon = endingSoon(ev);
+  const statusLabel = soon ? "即将结束" : stateText;
+  const accent = ACCENT_BY_GAME[game.accent] || "card--accent-blue";
   const coverInner = src
     ? `<img class="cover-blur" src="${src}" alt="" aria-hidden="true" loading="lazy" />
        <img class="cover-img" src="${src}" alt="${name}" loading="lazy"
@@ -76,34 +101,43 @@ export function cardHtml(game, ev) {
         ? `<a class="jump-btn muted" href="${jump}" target="_blank" rel="noopener" data-jump title="打开链接">链接</a>`
         : "";
   const fuzzy = ev.fuzzy ? `<span class="badge fuzzy">估时</span>` : "";
+  const soonFlag = soon ? `<span class="ending-soon-flag">即将结束</span>` : "";
   return `
-  <article class="card ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${endingSoon(ev) ? "is-soon" : ""}" title="${live.tip || ""} · 点击查看详情"
+  <article class="card briefing-card ${accent} ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${soon ? "is-soon" : ""}" title="${soon ? "即将结束 · " : ""}${live.tip || ""} · 点击查看详情"
     data-event-id="${eid}" data-game-id="${game.id}" data-cat="${cat}" tabindex="0" role="button">
+    <header class="card-ribbon">
+      <img class="card-ribbon__icon" src="${game.icon}" alt="" onerror="this.src='./icons/custom.svg'" />
+      <span class="card-ribbon__game">${game.name}</span>
+      <span class="chip pill badge-cat cat-${cat}">${catLabel(cat)}</span>
+    </header>
     <div class="cover ${src ? "" : "cover-fallback"}">
       ${coverInner}
-      <span class="badge ${kindClass}">${stateText}</span>
-      <span class="badge-cat cat-${cat}">${catLabel(cat)}</span>
+      <span class="badge ${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
+      ${soonFlag}
       ${fuzzy}
       ${jumpBtn}
     </div>
-    <div class="bar">
-      <p class="bar-title">${name}${endingSoon(ev) ? `<em class="soon-tag">将截止</em>` : ""}</p>
+    <div class="bar briefing-body">
+      <p class="bar-title">${name}${soon ? `<em class="soon-tag">即将结束</em>` : ""}</p>
       ${sub ? `<p class="bar-sub">${sub}</p>` : ""}
-      <div class="remain ${kindClass} ${endingSoon(ev) ? "soon" : ""}">
-        ${live.remain}
-        <small>${endingSoon(ev) ? "将截止" : stateText}</small>
+      <div class="briefing-grid">
+        <div class="remain ${kindClass} ${soon ? "soon" : ""}">
+          <span class="metric">${live.remain}</span>
+          <small>${statusLabel}</small>
+        </div>
+        <div class="mid">
+          <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
+            <div class="track-ticks" aria-hidden="true"></div>
+            <div class="fill" style="width:${live.pct.toFixed(1)}%"></div>
+          </div>
+          <div class="pct-row">
+            <span class="pct-num metric">${live.pct.toFixed(0)}%</span>
+          </div>
+        </div>
       </div>
-      <div class="mid">
-        <div class="dates">
-          <span><em>起</em>${fmtDate(ev.start)}</span>
-          <span><em>止</em>${fmtDate(ev.end)}</span>
-        </div>
-        <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
-          <div class="fill" style="width:${live.pct.toFixed(1)}%"></div>
-        </div>
-        <div class="pct-row">
-          <span class="pct-num">${live.pct.toFixed(0)}%</span>
-        </div>
+      <div class="dates dates--foot">
+        <span class="date-cell"><em>开始</em><b class="metric">${fmtDate(ev.start)}</b></span>
+        <span class="date-cell end"><em>截止</em><b class="metric">${fmtDate(ev.end)}</b></span>
       </div>
     </div>
   </article>`;
@@ -187,7 +221,15 @@ export function gameRowHtml(game, payload) {
   } else if (total === 0) {
     body = `<p class="game-empty">${emptyHint}</p>`;
   } else {
-    body = `<div class="game-track">${[...live, ...preview].map((ev) => cardHtml(game, ev)).join("")}</div>`;
+    const ordered = [...live].sort((a, b) => {
+      const sa = endingSoon(a) ? 0 : 1;
+      const sb = endingSoon(b) ? 0 : 1;
+      if (sa !== sb) return sa - sb;
+      const ea = Date.parse(a.end || "") || Infinity;
+      const eb = Date.parse(b.end || "") || Infinity;
+      return ea - eb;
+    });
+    body = `<div class="game-track">${[...ordered, ...preview].map((ev) => cardHtml(game, ev)).join("")}</div>`;
   }
 
   const countLabel = load === "ready" ? String(total) : load === "loading" ? "…" : "·";
@@ -290,26 +332,12 @@ function updateMeta() {
     .join("+");
   const upd = fmtUpdated(state.status?.updatedAt);
   const parts = [catHint || "无筛选", `进行中 ${liveN}`, `预告 ${prevN}`];
-  if (soonN) parts.push(`将截止 ${soonN}`);
+  if (soonN) parts.push(`即将结束 ${soonN}`);
   if (fuzzyN) parts.push(`估时 ${fuzzyN}`);
   if (upd) parts.push(`更新 ${upd}`);
   if (state.query.trim()) parts.unshift(`搜「${state.query.trim()}」`);
   const meta = $("#meta");
   if (meta) meta.textContent = parts.join(" · ");
-
-  const updatedEl = $("#updatedAt");
-  if (updatedEl) {
-    if (!upd) {
-      updatedEl.textContent = "本地预览";
-      updatedEl.removeAttribute("title");
-    } else if (state.status?.fetchOk === false) {
-      updatedEl.textContent = `数据更新于 ${upd} · 部分源失败`;
-      updatedEl.title = state.status?.updatedAt || "";
-    } else {
-      updatedEl.textContent = `数据更新于 ${upd}`;
-      updatedEl.title = state.status?.updatedAt || "";
-    }
-  }
 
   const emptyEl = $("#empty");
   if (emptyEl) {
@@ -317,10 +345,22 @@ function updateMeta() {
     emptyEl.textContent = state.query.trim()
       ? "没有匹配的游戏或活动"
       : games.length === 0
-        ? "请先在「游戏」里勾选要显示的游戏"
+        ? "请先在「管理」里勾选要显示的游戏"
         : "当前筛选下没有活动";
     const showEmpty = games.length === 0 || (anyReady && liveN + prevN === 0 && games.every((g) => state.loadState[g.id] === "ready"));
     emptyEl.classList.toggle("hidden", !showEmpty);
+  }
+
+  // 懒加载中不抢状态条；仅首屏 boot / 硬错误时改写
+  if (document.body.classList.contains("is-loading")) {
+    renderStatusBar({ loading: true });
+  } else if (games.some((g) => state.loadState[g.id] === "error")) {
+    renderStatusBar({
+      error: "部分游戏数据加载失败，可点刷新重试",
+      onRetry: () => $("#btnRefresh")?.click(),
+    });
+  } else {
+    renderStatusBar({});
   }
 }
 

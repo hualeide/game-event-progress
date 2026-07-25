@@ -80,9 +80,12 @@ powershell -ExecutionPolicy Bypass -File scripts\run_update.ps1
 | `public/` | 静态站点（HTML/CSS/JS + covers + data） |
 | `data/` | 抓取原始 JSON / 审计报告 |
 | `scripts/update.py` | 一键流水线 |
+| `scripts/server.py` | 静态站 + 运维 API（Docker/VPS） |
 | `scripts/fetch_*.py` | 各游戏抓取 |
 | `scripts/audit.py` | 自查 |
 | `scripts/publish_data.py` | 发布到 `public/data` |
+| `Dockerfile` / `docker-compose.yml` | 容器部署 |
+| `setup.ps1` / `setup.sh` | 一键本地设置 |
 
 前端数据路径优先 `./data/`（已发布），找不到再回退 `../data/`。
 
@@ -101,13 +104,71 @@ python scripts/audit.py --strict   # CI 用
 
 ---
 
-## 部署检查清单
+## 部署
+
+### 方式 1 — 本地直接运行
+
+```powershell
+# 首次设置（Windows）
+.\setup.ps1
+
+# 或 Linux/macOS
+# chmod +x setup.sh && ./setup.sh
+
+# 抓取（可选）
+python scripts/update.py
+
+# 本地预览
+python -m http.server 5173
+# 浏览器打开 http://localhost:5173/public/
+```
+
+### 方式 2 — Docker（VPS）
+
+```bash
+docker compose up -d
+# 站点: http://localhost:8080
+# 健康检查: curl http://localhost:8080/api/health
+# 手动抓取: curl -X POST http://localhost:8080/api/trigger-update
+# 更新日志: curl http://localhost:8080/api/update-log
+```
+
+容器内默认每 6 小时跑一轮 `scripts/update.py`（可用环境变量 `UPDATE_INTERVAL_HOURS` 调整）。
+
+### 方式 3 — GitHub Pages（静态）
+
+1. Push 到 GitHub
+2. Settings → Pages → 源选 Deploy from branch，目录 `/public`
+3. Actions 工作流每 6 小时自动抓取并提交数据
+
+### 方式 4 — Fly.io
+
+```bash
+fly launch   # 可沿用仓库内 fly.toml
+fly deploy
+```
+
+### 方式 5 — Railway
+
+连接仓库后按 `railway.json`（Dockerfile 构建）部署；健康检查路径 `/api/health`。
+
+### 运维 API（`scripts/server.py` / Docker）
+
+| 方法 | 路径 | 说明 |
+|------|------|------|
+| GET | `/api/health` | 健康检查 + 最近更新时间 |
+| POST | `/api/trigger-update` | 手动触发抓取（60 秒冷却） |
+| GET | `/api/update-log` | 最近一次更新日志 |
+
+本地也可直接：`python scripts/server.py`（默认 `:8080`，根目录为 `public/`）。
+
+### 部署检查清单
 
 - [ ] `python scripts/update.py` 成功
-- [ ] 打开 `/public/` 能看到「数据更新于 …」
+- [ ] 打开站点能看到数据更新时间
 - [ ] 游戏选择 / 排序 / 搜索可用
-- [ ] GitHub Actions 已启用（或本机定时任务）
-- [ ] Pages / CDN 指向 `public/`
+- [ ] GitHub Actions 已启用，**或** Docker/本机定时任务
+- [ ] Pages / CDN / 容器端口指向正确入口
 
 ---
 

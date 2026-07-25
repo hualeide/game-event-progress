@@ -22,17 +22,29 @@ import {
   visibleGames,
 } from "./render.js";
 import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js";
+import { renderStatusBar } from "./status.js";
 
 async function boot() {
   $("#meta").textContent = "加载中…";
   document.body.classList.add("is-loading");
+  renderStatusBar({ loading: true });
   renderSkeleton();
-  await loadRemoteConfig();
-  await Promise.all([loadGamesMeta(), loadStatus()]);
-  document.body.classList.remove("is-loading");
-  applyFilterUI();
-  renderPicker();
-  render();
+  try {
+    await loadRemoteConfig();
+    await Promise.all([loadGamesMeta(), loadStatus()]);
+    document.body.classList.remove("is-loading");
+    applyFilterUI();
+    renderPicker();
+    render();
+    renderStatusBar({});
+  } catch (err) {
+    document.body.classList.remove("is-loading");
+    renderStatusBar({
+      error: String(err.message || err || "加载失败"),
+      onRetry: () => boot(),
+    });
+    throw err;
+  }
 }
 
 $("#games").addEventListener("click", (e) => {
@@ -292,6 +304,8 @@ $("#btnRefresh").addEventListener("click", () => {
   });
 });
 
+// TODO(ui): 约每 30s 数据刷新时触发 HUD 扫描线动画（需接入定时刷新钩子）
+
 const searchInput = $("#search");
 if (searchInput) {
   let searchTimer = 0;
@@ -317,13 +331,11 @@ $("#btnExpandAll")?.addEventListener("click", () => {
 });
 
 const toTop = $("#toTop");
-const topSticky = document.querySelector(".top-sticky");
 window.addEventListener(
   "scroll",
   () => {
     const y = window.scrollY || 0;
     if (toTop) toTop.classList.toggle("hidden", y < 420);
-    if (topSticky) topSticky.classList.toggle("is-scrolled", y > 8);
   },
   { passive: true }
 );

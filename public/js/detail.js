@@ -1,4 +1,4 @@
-import { $ } from "./util.js";
+import { $, endingSoon } from "./util.js";
 import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js";
 import {
   bodyText,
@@ -66,8 +66,10 @@ export function openDetail(gameId, eventId) {
   const { game, ev } = hit;
   const live = liveStats(ev);
   const cat = eventCategory(ev);
+  const soon = endingSoon(ev);
   const stateText =
     live.status === "即将开始" ? "预告" : live.status === "进行中" ? "进行中" : live.status;
+  const statusLabel = soon ? "即将结束" : stateText;
   const kindClass = stateText === "预告" ? "preview" : stateText === "进行中" ? "live" : "done";
   const name = shortName(ev);
   const panel = $("#detail");
@@ -75,7 +77,7 @@ export function openDetail(gameId, eventId) {
   $("#detailGame").textContent = `${game.name} · ${game.en}`;
   $("#detailTitle").textContent = name;
   $("#detailTags").innerHTML = `
-    <span class="${kindClass}">${stateText}</span>
+    <span class="${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
     <span>${catLabel(cat)}</span>
     ${ev.fuzzy ? "<span>估时</span>" : ""}`;
   $("#detailBanner").innerHTML = ev.banner
