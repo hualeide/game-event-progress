@@ -1,8 +1,8 @@
-name: Update game events
+﻿name: Update game events
 
 on:
   schedule:
-    # 每 6 小时（UTC）= 北京时间 02/08/14/20 点附近
+    # 姣?6 灏忔椂锛圲TC锛? 鍖椾含鏃堕棿 02/08/14/20 鐐归檮杩?
     - cron: "15 0,6,12,18 * * *"
   workflow_dispatch:
   push:
@@ -34,6 +34,11 @@ jobs:
         continue-on-error: true
         id: update
 
+
+      - name: Validate data quality
+        run: |
+          python scripts/validate.py --report 2>&1 || true
+        continue-on-error: true
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -49,5 +54,6 @@ jobs:
       - name: Fail job if hard audit issues
         if: steps.update.outcome == 'failure'
         run: |
-          echo "update.py failed — check data/audit-report.json / fetch-summary.json"
+          echo "update.py failed 鈥?check data/audit-report.json / fetch-summary.json"
           exit 1
+
