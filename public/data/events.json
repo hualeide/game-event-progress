@@ -1,10 +1,11 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-25T03:46:34.644080+08:00",
+  "fetchedAt": "2026-07-25T11:37:05.690145+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 6,
+  "count": 5,
   "notes": [
+    "5601 跳过：罗德岛风尚回顾 限时开启",
     "8227 跳过：森空岛集成战略 战绩查询更新",
     "9132 通讯正文 661 字",
     "1074 解析寻访「永不落幕」时段",
@@ -16,8 +17,7 @@
     "7738 跳过：《明日方舟》 公平运营申明",
     "5602 寻访「中坚寻访」用展示日估时",
     "1073 寻访「永不落幕」对齐长公告时段",
-    "3366 寻访「常驻标准寻访」用展示日估时",
-    "补全寻访卡「确定性混沌」（无独立海报公告）"
+    "3366 寻访「常驻标准寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -52,11 +52,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-07-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 62.9,
+      "remain": "剩4天16时",
+      "progress": 65.3,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 5.0,
+        "elapsedDays": 8.8,
+        "remainDays": 4.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -112,11 +112,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天",
-      "progress": 35.6,
+      "remain": "剩8天16时",
+      "progress": 38.0,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 9.0,
+        "elapsedDays": 5.3,
+        "remainDays": 8.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -147,11 +147,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天",
-      "progress": 33.3,
+      "remain": "剩8天16时",
+      "progress": 35.7,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 9.0,
+        "elapsedDays": 4.8,
+        "remainDays": 8.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -183,11 +183,11 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天",
-      "progress": 11.0,
+      "remain": "剩11天16时",
+      "progress": 13.5,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.0,
+        "elapsedDays": 1.8,
+        "remainDays": 11.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -255,40 +255,6 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260702/409801207bc9ffeca7b0240b7cbe82ef.png",
       "playable": true,
       "category": "combat"
-    },
-    {
-      "id": "gacha-23729648dd",
-      "title": "【确定性混沌】限时寻访",
-      "header": "「确定性混沌」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-25T03:46:34.644080+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-07-10T12:00:00+08:00",
-          "end": "2026-07-24T03:59:00+08:00",
-          "raw": "【确定性混沌】限时寻访开启 活动时间： 07月10日 12:00 - 07月24日 03:59"
-        }
-      ],
-      "summary": "卡池「确定性混沌」",
-      "textPreview": "",
-      "start": "2026-07-10T12:00:00+08:00",
-      "end": "2026-07-24T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "playable": false,
-      "category": "gacha"
     }
   ]
 }
