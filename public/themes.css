@@ -65,7 +65,7 @@
 }
 .game-row[data-game="arknights"] .game-bar::before {
   width: 4px;
-  background: repeating-linear-gradient(180deg, #f0c41a 0 6px, #3a3010 6px 10px);
+  background: var(--g-accent);
 }
 .game-row[data-game="arknights"] .game-icon {
   border-radius: 4px;
@@ -304,8 +304,8 @@
 .game-row .card.is-soon .fill {
   background: linear-gradient(
     90deg,
-    color-mix(in srgb, var(--g-accent) 35%, #c47a20),
-    var(--warn, #e8a23a)
+    color-mix(in srgb, var(--g-accent) 25%, #ff4d6d),
+    #ff4d6d
   );
 }
 .game-row .card {

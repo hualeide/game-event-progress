@@ -9,6 +9,7 @@
     "audit": "python scripts/audit.py",
     "publish": "python scripts/publish_data.py",
     "start": "python -m http.server 5173",
-    "dev": "python scripts/publish_data.py && python -m http.server 5173"
+    "dev": "python scripts/publish_data.py && python -m http.server 5173",
+    "serve": "python scripts/server.py"
   }
 }

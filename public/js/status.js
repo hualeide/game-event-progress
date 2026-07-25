@@ -1,4 +1,4 @@
-import { $, fmtUpdated } from "./util.js";
+import { $, escapeHtml, fmtUpdated } from "./util.js";
 import { allGames, state } from "./state.js";
 
 /** @param {string} source */
@@ -56,7 +56,7 @@ export function renderStatusBar(opts = {}) {
       <div class="status__icon" aria-hidden="true">!</div>
       <div class="status__body">
         <p class="status__title">数据链路异常</p>
-        <p class="status__desc">${opts.error}</p>
+        <p class="status__desc">${escapeHtml(opts.error)}</p>
       </div>
       <div class="status__meta">
         <button type="button" class="retry" data-status-retry>重试</button>

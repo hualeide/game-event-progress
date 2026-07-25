@@ -1,0 +1,3 @@
+# Docker / shell 入口在 Linux 容器内需要 LF
+*.sh text eol=lf
+docker-entrypoint.sh text eol=lf

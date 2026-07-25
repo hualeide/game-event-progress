@@ -70,8 +70,6 @@ html, body {
   max-width: 1400px;
   margin: 0 auto;
 }
-/* .top-sticky 样式由 hud.css 的 .topbar 接管 */
-
 .sr-only {
   position: absolute;
   width: 1px;
@@ -81,55 +79,6 @@ html, body {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-.site-head {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 4px 2px 2px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-  padding-bottom: 12px;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 0;
-}
-.brand-mark {
-  width: 12px;
-  height: 42px;
-  border-radius: 3px;
-  background: linear-gradient(180deg, var(--accent-2), var(--accent) 55%, #c49212);
-  box-shadow: 0 0 24px rgba(240, 196, 26, 0.35);
-  flex-shrink: 0;
-}
-.brand-name {
-  margin: 0;
-  font-size: clamp(22px, 3.6vw, 30px);
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  line-height: 1.1;
-  color: var(--text);
-}
-.brand-tag {
-  margin: 4px 0 0;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--muted);
-  letter-spacing: 0.08em;
-}
-.updated {
-  margin: 0;
-  font-size: 11px;
-  font-family: "JetBrains Mono", monospace;
-  color: #6f685c;
-  white-space: nowrap;
-  max-width: min(280px, 48vw);
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .toolbar {
@@ -209,9 +158,6 @@ body.is-loading .games {
   border-color: rgba(240, 196, 26, 0.45);
 }
 .to-top.hidden { opacity: 0; pointer-events: none; }
-.top-sticky.is-scrolled {
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
-}
 .site-foot p { margin: 0 0 4px; }
 .site-foot code {
   font-family: "JetBrains Mono", monospace;
@@ -222,7 +168,7 @@ body.is-loading .games {
   border-radius: 4px;
 }
 .card.is-soon {
-  box-shadow: 0 0 0 1px rgba(255, 140, 70, 0.28);
+  box-shadow: 0 0 0 1px rgba(255, 77, 109, 0.4);
 }
 .filters {
   display: flex;
@@ -724,14 +670,14 @@ body.is-loading .games {
   font-style: normal;
   font-size: 11px;
   font-weight: 800;
-  color: #ff9a5c;
-  letter-spacing: 0.04em;
+  color: #ff6a82;
+  letter-spacing: 0.06em;
   vertical-align: middle;
 }
 .remain.soon {
-  color: #ffb07a;
-  border-color: rgba(255, 140, 70, 0.5);
-  background: rgba(60, 28, 12, 0.45);
+  color: #ff7a90;
+  border-color: rgba(255, 77, 109, 0.55);
+  background: rgba(60, 12, 22, 0.5);
 }
 .badge-cat {
   position: absolute;
@@ -919,8 +865,8 @@ body.is-loading .games {
 .card.is-soon .fill {
   background: linear-gradient(
     90deg,
-    color-mix(in srgb, var(--warn, #e8a23a) 40%, #2bb86a),
-    var(--warn, #e8a23a)
+    color-mix(in srgb, #ff4d6d 35%, #2bb86a),
+    #ff4d6d
   );
 }
 .card.done .fill,
@@ -941,7 +887,7 @@ body.is-loading .games {
   letter-spacing: 0.02em;
 }
 .card.is-soon .pct-row .pct-num {
-  color: var(--warn, #e8a23a);
+  color: #ff4d6d;
 }
 
 .empty {
@@ -962,7 +908,7 @@ body.is-loading .games {
 .detail {
   position: fixed;
   inset: 0;
-  z-index: 40;
+  z-index: 60;
   display: grid;
   grid-template-columns: 1fr min(440px, 100%);
 }
@@ -1037,6 +983,11 @@ body.is-loading .games {
 .detail-tags .live {
   background: rgba(62, 207, 122, 0.9);
   color: #062012;
+}
+.detail-tags .live.soon,
+.detail-tags .soon {
+  background: linear-gradient(105deg, #ff3355, #c81e3a);
+  color: #fff5f7;
 }
 .detail-tags .preview {
   background: rgba(106, 168, 255, 0.9);
@@ -1280,9 +1231,6 @@ body.is-loading .games {
 @media (max-width: 640px) {
   .board { padding: 10px 10px 24px; }
   .desk-only { display: none !important; }
-  .top-sticky { padding-top: 6px; }
-  .site-head { align-items: flex-start; flex-direction: column; gap: 6px; }
-  .brand-name { font-size: 22px; }
   .toolbar-left { width: 100%; }
   .search-wrap { min-width: 100%; flex: 1; }
   .filters { width: 100%; }

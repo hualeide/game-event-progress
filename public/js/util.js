@@ -1,9 +1,9 @@
 export const $ = (sel, root = document) => root.querySelector(sel);
 
-/** ?soonHours=48 可调「将截止」阈值 */
+/** ?soonHours=24 可调「即将结束」阈值（默认 24 小时内） */
 export function soonHours() {
   const n = Number(new URLSearchParams(location.search).get("soonHours"));
-  return Number.isFinite(n) && n > 0 ? n : 48;
+  return Number.isFinite(n) && n > 0 ? n : 24;
 }
 
 export function escapeHtml(s) {

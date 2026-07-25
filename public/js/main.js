@@ -304,13 +304,6 @@ $("#btnRefresh").addEventListener("click", () => {
   });
 });
 
-$("#heroCta")?.addEventListener("click", () => {
-  const btn = $("#heroCta");
-  if (!btn || btn.disabled) return;
-  const { gameId, eventId } = btn.dataset;
-  if (gameId && eventId) openDetail(gameId, eventId);
-});
-
 // TODO(ui): 约每 30s 数据刷新时触发 HUD 扫描线动画（需接入定时刷新钩子）
 
 const searchInput = $("#search");
@@ -338,13 +331,11 @@ $("#btnExpandAll")?.addEventListener("click", () => {
 });
 
 const toTop = $("#toTop");
-const topSticky = document.querySelector(".top-sticky");
 window.addEventListener(
   "scroll",
   () => {
     const y = window.scrollY || 0;
     if (toTop) toTop.classList.toggle("hidden", y < 420);
-    if (topSticky) topSticky.classList.toggle("is-scrolled", y > 8);
   },
   { passive: true }
 );

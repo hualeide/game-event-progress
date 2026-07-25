@@ -4,10 +4,10 @@
 
 ## 设计原则
 
-- **战报感**：侧栏导航 + 主壳悬浮面板 + 热点 Hero + 状态链路条
-- **层次清晰**：背景网格 / 玻璃面板 / 卡片抬升三级；Hero 带呼吸光晕，主卡片用暗线轮廓区分热区
+- **战报感**：全宽玻璃主壳 + 状态链路条 + 战报卡片
+- **层次清晰**：背景网格 / 玻璃面板 / 卡片抬升三级
 - **可读优先**：Orbitron 仅用于标题；正文 `Inter` + `Noto Sans SC`；数值 `.metric` → JetBrains Mono
-- **动效友好**：尊重 `prefers-reduced-motion`（关闭 orbit / Hero 光晕 / 状态扫描 / 错误脉冲）
+- **动效友好**：尊重 `prefers-reduced-motion`（关闭 orbit / 状态扫描 / 错误脉冲）
 
 ## Design Tokens（`public/hud.css` `:root`）
 
@@ -15,7 +15,7 @@
 |-------|------|
 | `--bg-base` / `--bg-panel` / `--bg-panel-strong` | 背景与面板 |
 | `--accent-primary` `#50c8ff` | 主强调 / 官方倾向 |
-| `--accent-secondary` `#7a62ff` | 次强调 / Hero 点缀 |
+| `--accent-secondary` `#7a62ff` | 次强调 |
 | `--accent-warm` `#f6a00c` | 社区 / 警告 |
 | `--accent-error` `#ff4d6d` | 错误 |
 | `--text-strong` / `--text-main` / `--text-muted` | 文字三级 |
@@ -38,19 +38,15 @@
 
 以下数字类 UI **必须**包 `.metric`（JetBrains Mono）：
 
-- 活动倒计时 / 剩余时间（卡片 `remain`、Hero 描述中的数值段可选）
+- 活动倒计时 / 剩余时间（卡片 `remain`）
 - 进度百分比（`pct-num`）
 - 开始 / 截止时间戳（卡片脚栏）
 - 状态条「最后同步」时间
-- 顶栏「数据更新于」时间
 - （预留）人数 / 周期 / 刷新秒数等统计数字
 
 非数字文案、游戏名、标签名 **不要** 滥用 `.metric`。
 
 ## 组件规范
-
-### Hero（`#heroBanner`）
-热点活动横幅：图标 + 标题/描述 + CTA。`updateHero()` 优先「将截止」。背景含 `heroGlow` 呼吸光晕（约 5.5s）。
 
 ### Filter stack
 - 上层：搜索 + 类型 chips（加大 padding / hover 抬升 / checked 微光）
@@ -60,6 +56,7 @@
 三列：`status__icon` | `status__body` | `status__meta`（左侧分隔线 + 提亮色）。
 
 出现扫描：`.status::after` + `statusScan` **400ms**（自左向右淡出）。
+空节点（`:empty`）不占位。
 
 ### 定时全页扫描（TODO 构想）
 
@@ -83,30 +80,32 @@
 - Accent：`.card--accent-blue|violet|warm|orange|red|teal|pink`
 
 ### 游戏导航
-**已移除左侧 Sidebar**。游戏显隐/排序通过顶栏「管理」面板；浏览依赖主列表游戏行折叠与搜索。
+**无左侧 Sidebar**。游戏显隐/排序通过顶栏「管理」面板；浏览依赖主列表游戏行折叠与搜索。
 
-## 响应式 / 截图
+### 详情抽屉
+`.detail` z-index 高于「回到顶部」，避免遮挡抢点击。
 
-| 断点 | 行为 | 截图 |
-|------|------|------|
-| ≥1280 Desktop | 完整侧栏 + 壳层 | `docs/screenshots/desktop-1440.png` |
-| ~900 Tablet | 侧栏抽屉；Hero CTA 下折 | `docs/screenshots/tablet-900.png` |
-| 390 Mobile | 单列 Hero；筛选两列 | `docs/screenshots/mobile-390.png` |
-| 414 Mobile+ | 扩展参考（iPhone 大屏） | `docs/screenshots/mobile-414.png` |
+## 响应式
+
+| 断点 | 行为 |
+|------|------|
+| ≥1280 Desktop | 全宽主壳 |
+| ~900 Tablet | 筛选区纵向收紧 |
+| ≤768 Mobile | 单列卡片；筛选换行 |
 
 ## 已知限制 / TODO
 
-1. **平板 Icon 侧栏**：计划项，非本轮范围；现阶段抽屉即可。
-2. **`hudSweep` 定时扫描**：规格已定，待接刷新钩子。
-3. **无 npm build**：静态站；验证 = `python -m http.server 5173` + 浏览器。
+1. **`hudSweep` 定时扫描**：规格已定，待接刷新钩子。
+2. **无 npm build**：静态站；验证 = `python -m http.server 5173` + 浏览器。
 
 ## QA 清单
 
-- [ ] Chrome / Edge 最新版：Hero 光晕、卡片抬升、chip hover
-- [ ] Safari：`backdrop-filter` 与侧栏抽屉
+- [ ] Chrome / Edge 最新版：卡片抬升、chip hover
+- [ ] Safari：`backdrop-filter`
 - [ ] 系统「减少动态效果」开启时无持续动画
 - [ ] 深色背景下主按钮字色为 `#07111f`，hover 清晰
 - [ ] 长标题卡片仅两行省略，不挤压进度区
+- [ ] 打开详情时「↑」不盖住抽屉
 - [ ] 本地预览：`http://localhost:5173/public/`
 
 ## 预览
