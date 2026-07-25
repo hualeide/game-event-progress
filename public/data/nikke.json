@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-26T03:35:19.490777+08:00",
+  "fetchedAt": "2026-07-26T04:43:58.322388+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -19,10 +19,10 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天",
-      "progress": 15.6,
+      "remain": "剩16天23时",
+      "progress": 15.9,
       "days": {
-        "elapsedDays": 3.1,
+        "elapsedDays": 3.2,
         "remainDays": 17.0,
         "totalDays": 20.2
       },
@@ -42,10 +42,10 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天19时",
-      "progress": 15.0,
+      "remain": "剩17天18时",
+      "progress": 15.3,
       "days": {
-        "elapsedDays": 3.1,
+        "elapsedDays": 3.2,
         "remainDays": 17.8,
         "totalDays": 21.0
       },
@@ -65,10 +65,10 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天19时",
-      "progress": 15.0,
+      "remain": "剩17天18时",
+      "progress": 15.3,
       "days": {
-        "elapsedDays": 3.1,
+        "elapsedDays": 3.2,
         "remainDays": 17.8,
         "totalDays": 21.0
       },
@@ -88,10 +88,10 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天20时",
-      "progress": 15.0,
+      "remain": "剩17天19时",
+      "progress": 15.2,
       "days": {
-        "elapsedDays": 3.1,
+        "elapsedDays": 3.2,
         "remainDays": 17.8,
         "totalDays": 21.0
       },

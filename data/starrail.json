@@ -1,7 +1,7 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-07-26T03:34:40.826141+08:00",
+  "fetchedAt": "2026-07-26T04:43:06.835205+08:00",
   "timezone": "Asia/Shanghai",
   "count": 11,
   "notes": [
@@ -24,10 +24,10 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩29天",
-      "progress": 36.4,
+      "remain": "剩28天23时",
+      "progress": 36.5,
       "days": {
-        "elapsedDays": 16.6,
+        "elapsedDays": 16.7,
         "remainDays": 29.0,
         "totalDays": 45.6
       },
@@ -47,10 +47,10 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天2时",
-      "progress": 32.0,
+      "remain": "剩31天1时",
+      "progress": 32.1,
       "days": {
-        "elapsedDays": 14.6,
+        "elapsedDays": 14.7,
         "remainDays": 31.1,
         "totalDays": 45.7
       },
@@ -70,10 +70,10 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天2时",
-      "progress": 30.4,
+      "remain": "剩31天1时",
+      "progress": 30.5,
       "days": {
-        "elapsedDays": 13.6,
+        "elapsedDays": 13.7,
         "remainDays": 31.1,
         "totalDays": 44.7
       },
@@ -93,10 +93,10 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天15时",
-      "progress": 50.2,
+      "remain": "剩10天14时",
+      "progress": 50.4,
       "days": {
-        "elapsedDays": 10.7,
+        "elapsedDays": 10.8,
         "remainDays": 10.6,
         "totalDays": 21.4
       },
@@ -116,10 +116,10 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-05T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天15时",
-      "progress": 50.2,
+      "remain": "剩10天14时",
+      "progress": 50.4,
       "days": {
-        "elapsedDays": 10.7,
+        "elapsedDays": 10.8,
         "remainDays": 10.6,
         "totalDays": 21.4
       },
@@ -139,11 +139,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 25.9,
+      "remain": "剩30天17时",
+      "progress": 26.0,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 30.8,
+        "elapsedDays": 10.8,
+        "remainDays": 30.7,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -162,11 +162,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 25.9,
+      "remain": "剩30天17时",
+      "progress": 26.0,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 30.8,
+        "elapsedDays": 10.8,
+        "remainDays": 30.7,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -185,8 +185,8 @@
       "start": "2026-07-24T19:00:00+08:00",
       "end": "2026-08-14T19:00:00+08:00",
       "status": "进行中",
-      "remain": "剩19天15时",
-      "progress": 6.5,
+      "remain": "剩19天14时",
+      "progress": 6.7,
       "days": {
         "elapsedDays": 1.4,
         "remainDays": 19.6,
@@ -208,8 +208,8 @@
       "start": "2026-07-24T19:00:00+08:00",
       "end": "2026-08-14T19:00:00+08:00",
       "status": "进行中",
-      "remain": "剩19天15时",
-      "progress": 6.5,
+      "remain": "剩19天14时",
+      "progress": 6.7,
       "days": {
         "elapsedDays": 1.4,
         "remainDays": 19.6,
@@ -235,7 +235,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -258,7 +258,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
