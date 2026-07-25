@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-07-25T22:02:19.768785+08:00",
+  "fetchedAt": "2026-07-26T03:34:35.869830+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -30,7 +30,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.6,
+        "remainDays": 28.4,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -62,7 +62,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.2,
+        "remainDays": 25.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -94,7 +94,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.2,
+        "remainDays": 18.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -126,7 +126,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.2,
+        "remainDays": 18.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -194,7 +194,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.6,
+        "remainDays": 28.4,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -226,7 +226,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.6,
+        "remainDays": 28.4,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -258,7 +258,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.6,
+        "remainDays": 28.4,
         "totalDays": 14.0
       },
       "hasSchedule": true,
