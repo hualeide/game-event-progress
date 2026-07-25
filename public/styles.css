@@ -233,3 +233,135 @@
   border-color: rgba(122, 130, 148, 0.3);
   color: var(--text-muted);
 }
+/* ---- Missing classes from render.js ---- */
+
+/* Card base */
+.briefing-card {
+  border-radius: var(--radius-md);
+}
+
+/* Chevron toggle */
+.chev {
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  transition: transform 0.2s var(--ease);
+  flex-shrink: 0;
+}
+.collapsed .chev {
+  transform: rotate(-90deg);
+}
+
+/* Track ticks */
+.track-ticks {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  border-radius: inherit;
+  overflow: hidden;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent calc(25% - 1px),
+    rgba(255, 255, 255, 0.08) calc(25% - 1px),
+    rgba(255, 255, 255, 0.08) 25%
+  );
+  opacity: 0.4;
+}
+
+/* Pct row */
+.pct-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+.pct-num.metric {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+/* Date cells */
+.dates--foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  margin: 8px -2px 0;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+}
+.date-cell {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.date-cell em {
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+.date-cell .metric {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-main);
+}
+.date-cell.end .metric {
+  color: var(--accent-primary);
+}
+
+/* Game row states */
+.game-count {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.game-count.is-zero {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+.game-empty {
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.game-loading {
+  opacity: 0.6;
+}
+
+/* Wiki link accent */
+.tool-link.wiki {
+  border-color: rgba(88, 169, 255, 0.3);
+  color: #9ac5ff;
+}
+
+/* Card cover in cover-fallback state */
+.cover.cover-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--text-muted);
+}
+/* Bar wrapper for card body */
+.bar.briefing-body {
+  padding: 8px 12px 12px;
+}
+/* Dates wrapper */
+.dates {
+  display: flex;
+}
+
+/* Mid section container */
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
