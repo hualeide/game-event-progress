@@ -91,6 +91,10 @@ def classify(title: str, subtitle: str, tag: str, type_label: str) -> str:
             return "event"
         if re.search(r"祈愿|跃迁|调频", blob):
             return "gacha"
+        if re.search(r"OST|音乐|主题|主题OST|原声|EP|主题曲|主题歌|BGM|专辑|歌|单曲", blob, re.I):
+            return "event"
+        if re.search(r"壁纸|皮肤|时装|外观|名片|名片纹饰|头像|头像框|摆设|家具|家园|尘歌壶", blob, re.I):
+            return "event"
         return "combat"
     return guess_category(title, subtitle, type_label)
 
