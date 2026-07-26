@@ -1,6 +1,6 @@
-export const $ = (sel, root = document) => root.querySelector(sel);
+﻿export const $ = (sel, root = document) => root.querySelector(sel);
 
-/** ?soonHours=24 可调「即将结束」阈值（默认 24 小时内） */
+/** ?soonHours=24 鍙皟銆屽嵆灏嗙粨鏉熴€嶉槇鍊硷紙榛樿 24 灏忔椂鍐咃級 */
 export function soonHours() {
   const n = Number(new URLSearchParams(location.search).get("soonHours"));
   return Number.isFinite(n) && n > 0 ? n : 24;
@@ -30,7 +30,7 @@ const rtf =
     ? new Intl.RelativeTimeFormat("zh-CN", { numeric: "auto" })
     : null;
 
-/** 相对时间：优先 Intl，回退手写 */
+/** 鐩稿鏃堕棿锛氫紭鍏?Intl锛屽洖閫€鎵嬪啓 */
 export function fmtRelative(ms) {
   const sec = Math.round(ms / 1000);
   const abs = Math.abs(sec);
@@ -44,16 +44,16 @@ export function fmtRelative(ms) {
   const days = Math.floor(abs / 86400);
   const hours = Math.floor((abs % 86400) / 3600);
   if (sec >= 0) {
-    if (days > 0) return hours ? `${days}天${hours}时后` : `${days}天后`;
-    if (hours > 0) return `${hours}小时后`;
-    return "即将开始";
+    if (days > 0) return hours ? `${days}澶?{hours}鏃跺悗` : `${days}澶╁悗`;
+    if (hours > 0) return `${hours}灏忔椂鍚巂;
+    return "鍗冲皢寮€濮?;
   }
   const left = -sec;
   const d2 = Math.floor(left / 86400);
   const h2 = Math.floor((left % 86400) / 3600);
-  if (d2 > 0) return h2 ? `${d2}天${h2}时` : `${d2}天`;
-  if (h2 > 0) return `${h2}小时`;
-  return "将结束";
+  if (d2 > 0) return h2 ? `${d2}澶?{h2}鏃禶 : `${d2}澶ー;
+  if (h2 > 0) return `${h2}灏忔椂`;
+  return "灏嗙粨鏉?;
 }
 
 export function fmtUpdated(iso) {
@@ -67,7 +67,7 @@ export function fmtUpdated(iso) {
   const abs = `${m}/${day} ${h}:${min}`;
   const delta = d.getTime() - Date.now();
   const rel = fmtRelative(delta);
-  if (Math.abs(delta) < 86400000 * 2) return `${abs} · ${rel}`;
+  if (Math.abs(delta) < 86400000 * 2) return `${abs} 路 ${rel}`;
   return abs;
 }
 
@@ -84,19 +84,21 @@ export function adaptCover(img) {
   const r = img.naturalWidth / img.naturalHeight;
   let kind = "std";
   let ar = "16 / 9";
-  if (r >= 2.35) {
+  if (r >= 2.0) {
     kind = "wide";
-    ar = `${r.toFixed(3)} / 1`;
-  } else if (r <= 1.15) {
+    ar = "16 / 9";
+  } else if (r <= 1.1) {
     kind = "square";
     ar = "1 / 1";
-  } else if (r < 1.45) {
+  } else if (r < 1.5) {
     kind = "tall";
-    ar = `${r.toFixed(3)} / 1`;
+    ar = "4 / 3";
   }
   card.dataset.ratio = kind;
   cover.style.aspectRatio = ar;
 }
 
-// 内联 onload 回调
+// 鍐呰仈 onload 鍥炶皟
 window.adaptCover = adaptCover;
+
+
