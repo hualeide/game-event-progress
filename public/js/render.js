@@ -112,6 +112,7 @@ export function cardHtml(game, ev) {
     </header>
     <div class="cover ${src ? "" : "cover-fallback"}">
       ${coverInner}
+      <div class="cover-overlay"></div>
       <span class="badge ${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
       ${soonFlag}
       ${fuzzy}
