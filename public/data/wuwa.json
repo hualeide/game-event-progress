@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-07-26T20:34:50.040569+08:00",
+  "fetchedAt": "2026-07-26T21:56:34.982028+08:00",
   "count": 9,
   "events": [
     {
@@ -13,10 +13,10 @@
       "start": "2026-07-11T10:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天15时",
-      "progress": 39.5,
+      "remain": "剩23天14时",
+      "progress": 39.7,
       "days": {
-        "elapsedDays": 15.4,
+        "elapsedDays": 15.5,
         "remainDays": 23.6,
         "totalDays": 39.1
       },
@@ -59,8 +59,8 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天15时",
-      "progress": 41.4,
+      "remain": "剩23天14时",
+      "progress": 41.5,
       "days": {
         "elapsedDays": 16.7,
         "remainDays": 23.6,
@@ -82,8 +82,8 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天15时",
-      "progress": 41.4,
+      "remain": "剩23天14时",
+      "progress": 41.5,
       "days": {
         "elapsedDays": 16.7,
         "remainDays": 23.6,
@@ -105,8 +105,8 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天15时",
-      "progress": 41.4,
+      "remain": "剩23天14时",
+      "progress": 41.5,
       "days": {
         "elapsedDays": 16.7,
         "remainDays": 23.6,
@@ -128,8 +128,8 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天15时",
-      "progress": 41.4,
+      "remain": "剩23天14时",
+      "progress": 41.5,
       "days": {
         "elapsedDays": 16.7,
         "remainDays": 23.6,
@@ -151,10 +151,10 @@
       "start": "2026-07-16T10:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天7时",
-      "progress": 50.3,
+      "remain": "剩10天6时",
+      "progress": 50.6,
       "days": {
-        "elapsedDays": 10.4,
+        "elapsedDays": 10.5,
         "remainDays": 10.3,
         "totalDays": 20.7
       },
@@ -178,7 +178,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.6,
+        "remainDays": 17.5,
         "totalDays": 14.0
       },
       "hasSchedule": true,

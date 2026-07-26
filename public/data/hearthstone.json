@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-07-26T20:35:57.601239+08:00",
+  "fetchedAt": "2026-07-26T21:58:03.625408+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 7,
@@ -16,11 +16,11 @@
       "start": "2026-06-30T00:59:00+08:00",
       "end": "2026-07-28T00:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天4时",
-      "progress": 95.8,
+      "remain": "剩1天3时",
+      "progress": 96.0,
       "days": {
-        "elapsedDays": 26.8,
-        "remainDays": 1.2,
+        "elapsedDays": 26.9,
+        "remainDays": 1.1,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,10 +46,10 @@
       "start": "2026-07-08T10:00:00+08:00",
       "end": "2026-07-29T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天7时",
-      "progress": 88.9,
+      "remain": "剩2天6时",
+      "progress": 89.2,
       "days": {
-        "elapsedDays": 18.4,
+        "elapsedDays": 18.5,
         "remainDays": 2.3,
         "totalDays": 20.8
       },
@@ -76,10 +76,10 @@
       "start": "2026-07-01T10:00:00+08:00",
       "end": "2026-08-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天7时",
-      "progress": 73.2,
+      "remain": "剩9天6时",
+      "progress": 73.4,
       "days": {
-        "elapsedDays": 25.4,
+        "elapsedDays": 25.5,
         "remainDays": 9.3,
         "totalDays": 34.8
       },
@@ -106,10 +106,10 @@
       "start": "2026-07-15T10:00:00+08:00",
       "end": "2026-08-09T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天7时",
-      "progress": 46.2,
+      "remain": "剩13天6时",
+      "progress": 46.5,
       "days": {
-        "elapsedDays": 11.4,
+        "elapsedDays": 11.5,
         "remainDays": 13.3,
         "totalDays": 24.8
       },
@@ -136,8 +136,8 @@
       "start": "2026-07-22T00:00:00+08:00",
       "end": "2026-08-19T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23天3时",
-      "progress": 17.4,
+      "remain": "剩23天2时",
+      "progress": 17.6,
       "days": {
         "elapsedDays": 4.9,
         "remainDays": 23.1,
