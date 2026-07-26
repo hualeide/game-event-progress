@@ -1,12 +1,12 @@
 {
   "game": "三角洲行动",
   "source": "https://df.qq.com/main.shtml",
-  "fetchedAt": "2026-07-26T11:57:25.949175+08:00",
+  "fetchedAt": "2026-07-26T16:42:46.429851+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
   "notes": [
-    "Remote end closed connection without response",
+    "IncompleteRead(41799 bytes read)",
     "抓取为空，保留旧数据 1 条"
   ],
   "events": [

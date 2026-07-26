@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-07-26T11:55:43.253290+08:00",
+  "fetchedAt": "2026-07-26T16:40:15.715460+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -19,11 +19,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天16时",
-      "progress": 17.3,
+      "remain": "剩16天11时",
+      "progress": 18.3,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 16.7,
+        "elapsedDays": 3.7,
+        "remainDays": 16.5,
         "totalDays": 20.2
       },
       "hasSchedule": true,
@@ -42,11 +42,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天11时",
-      "progress": 16.7,
+      "remain": "剩17天6时",
+      "progress": 17.6,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 17.5,
+        "elapsedDays": 3.7,
+        "remainDays": 17.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -65,11 +65,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天11时",
-      "progress": 16.7,
+      "remain": "剩17天6时",
+      "progress": 17.6,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 17.5,
+        "elapsedDays": 3.7,
+        "remainDays": 17.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -88,11 +88,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩17天12时",
-      "progress": 16.7,
+      "remain": "剩17天7时",
+      "progress": 17.6,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 17.5,
+        "elapsedDays": 3.7,
+        "remainDays": 17.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,

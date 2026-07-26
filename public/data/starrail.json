@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-07-26T11:55:27.589437+08:00",
+  "fetchedAt": "2026-07-26T16:39:50.526292+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 3,
+  "count": 12,
   "notes": [
     "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
     "跳过 4.4版本「鸣笛于归寂之时」版本更新说明",
@@ -12,7 +12,7 @@
     "常驻跳过 《崩坏：星穹铁道》社媒聚合页上线",
     "跳过 《崩坏：星穹铁道》防沉迷系统公告",
     "跳过 《崩坏：星穹铁道》公平运营声明",
-    "跃迁日历失败: HTTP Error 530: <none>"
+    "日历补跃迁 8 条"
   ],
   "events": [
     {
@@ -24,11 +24,11 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩28天16时",
-      "progress": 37.2,
+      "remain": "剩28天11时",
+      "progress": 37.6,
       "days": {
-        "elapsedDays": 17.0,
-        "remainDays": 28.7,
+        "elapsedDays": 17.2,
+        "remainDays": 28.5,
         "totalDays": 45.6
       },
       "hasSchedule": true,
@@ -47,11 +47,11 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 32.7,
+      "remain": "剩30天13时",
+      "progress": 33.2,
       "days": {
-        "elapsedDays": 15.0,
-        "remainDays": 30.8,
+        "elapsedDays": 15.2,
+        "remainDays": 30.6,
         "totalDays": 45.7
       },
       "hasSchedule": true,
@@ -70,11 +70,11 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 31.2,
+      "remain": "剩30天13时",
+      "progress": 31.7,
       "days": {
-        "elapsedDays": 14.0,
-        "remainDays": 30.8,
+        "elapsedDays": 14.2,
+        "remainDays": 30.6,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -83,6 +83,213 @@
       "category": "combat",
       "allRanges": [],
       "summary": "4.4版本新增关卡"
+    },
+    {
+      "id": "1338",
+      "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+      "header": "「「位面分裂」活动说明」",
+      "banner": "./covers/starrail-1338-4a47f239.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-26T12:00:00+08:00",
+      "end": "2026-08-10T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩14天11时",
+      "progress": 1.3,
+      "days": {
+        "elapsedDays": 0.2,
+        "remainDays": 14.5,
+        "totalDays": 14.7
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「位面分裂」活动说明"
+    },
+    {
+      "id": "sr-banner-83",
+      "title": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
+      "header": "跃迁·Sparxie / Dan Heng • Permansor Terrae",
+      "banner": "./covers/starrail-sr-banner-83-1769662e.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-15T10:00:00+08:00",
+      "end": "2026-08-05T18:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩10天2时",
+      "progress": 52.8,
+      "days": {
+        "elapsedDays": 11.3,
+        "remainDays": 10.1,
+        "totalDays": 21.4
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Sparxie / Dan Heng • Permansor Terrae / Evernight / Moze / Hanya / Serval"
+    },
+    {
+      "id": "sr-banner-84",
+      "title": "跃迁·Dazzled by a Flowery World / Though Worlds Apart",
+      "header": "跃迁·Dazzled by a Flowery World / Though Worlds Apart",
+      "banner": "./covers/starrail-sr-banner-84-c0888cc6.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-15T10:00:00+08:00",
+      "end": "2026-08-05T18:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩10天2时",
+      "progress": 52.8,
+      "days": {
+        "elapsedDays": 11.3,
+        "remainDays": 10.1,
+        "totalDays": 21.4
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Dazzled by a Flowery World / Though Worlds Apart / To Evernight's Stars / After the Charmony Fall / Under the Blue Sky / The Birth of the Self"
+    },
+    {
+      "id": "sr-banner-87",
+      "title": "跃迁·Himeko • Nova / Moze",
+      "header": "跃迁·Himeko • Nova / Moze",
+      "banner": "./covers/starrail-sr-banner-87-af353da5.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-15T10:00:01+08:00",
+      "end": "2026-08-25T22:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩30天5时",
+      "progress": 27.2,
+      "days": {
+        "elapsedDays": 11.3,
+        "remainDays": 30.2,
+        "totalDays": 41.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Himeko • Nova / Moze / Hanya / Serval"
+    },
+    {
+      "id": "sr-banner-88",
+      "title": "跃迁·A Star That Lights the Night / After the Charmony Fall",
+      "header": "跃迁·A Star That Lights the Night / After the Charmony Fall",
+      "banner": "./covers/starrail-sr-banner-88-02792a73.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-15T10:00:01+08:00",
+      "end": "2026-08-25T22:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩30天5时",
+      "progress": 27.2,
+      "days": {
+        "elapsedDays": 11.3,
+        "remainDays": 30.2,
+        "totalDays": 41.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "A Star That Lights the Night / After the Charmony Fall / Under the Blue Sky / The Birth of the Self"
+    },
+    {
+      "id": "sr-banner-89",
+      "title": "跃迁·Rin Tohsaka / Gilgamesh",
+      "header": "跃迁·Rin Tohsaka / Gilgamesh",
+      "banner": "./covers/starrail-sr-banner-89-f36470b0.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-24T19:00:00+08:00",
+      "end": "2026-08-14T19:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩19天2时",
+      "progress": 9.1,
+      "days": {
+        "elapsedDays": 1.9,
+        "remainDays": 19.1,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Rin Tohsaka / Gilgamesh"
+    },
+    {
+      "id": "sr-banner-90",
+      "title": "跃迁·Flickering Stars / I Am As You Behold",
+      "header": "跃迁·Flickering Stars / I Am As You Behold",
+      "banner": "./covers/starrail-sr-banner-90-c1f752c2.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-07-24T19:00:00+08:00",
+      "end": "2026-08-14T19:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩19天2时",
+      "progress": 9.1,
+      "days": {
+        "elapsedDays": 1.9,
+        "remainDays": 19.1,
+        "totalDays": 21.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Flickering Stars / I Am As You Behold"
+    },
+    {
+      "id": "sr-banner-85",
+      "title": "跃迁·Cerydra / Anaxa",
+      "header": "跃迁·Cerydra / Anaxa",
+      "banner": "./covers/starrail-sr-banner-85-65481a71.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-08-05T19:00:00+08:00",
+      "end": "2026-08-25T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "10天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 30.2,
+        "totalDays": 20.1
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Cerydra / Anaxa / Aventurine / Moze / Hanya / Serval"
+    },
+    {
+      "id": "sr-banner-86",
+      "title": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames",
+      "header": "跃迁·Epoch Etched in Golden Blood / Life Should Be Cast to Flames",
+      "banner": "./covers/starrail-sr-banner-86-65612a34.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-08-05T19:00:00+08:00",
+      "end": "2026-08-25T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "10天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 30.2,
+        "totalDays": 20.1
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Epoch Etched in Golden Blood / Life Should Be Cast to Flames / Inherently Unjust Destiny / After the Charmony Fall / Under the Blue Sky / The Birth of the Self"
     }
   ]
 }
