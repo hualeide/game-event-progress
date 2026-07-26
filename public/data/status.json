@@ -1,10 +1,10 @@
 {
   "site": "活动进度",
-  "updatedAt": "2026-07-26T05:01:17.750776+08:00",
+  "updatedAt": "2026-07-26T20:29:12.150267+08:00",
   "timezone": "Asia/Shanghai",
-  "fetchOk": false,
+  "fetchOk": true,
   "auditHard": 1,
   "auditSoft": 0,
   "durationSec": 3.4,
-  "message": "部分失败，见 audit-report"
+  "message": "UI polish: soon/subline/fuzzy + deploy"
 }

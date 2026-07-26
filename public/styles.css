@@ -1,4 +1,4 @@
-﻿
+
 /* Detail block sections */
 .detail-block {
   margin-top: 16px;
@@ -182,7 +182,7 @@
 /* Ending soon flag - overrides display:none from hud.css default */
 .ending-soon-flag {
   position: absolute;
-  top: 6px;
+  top: 28px;
   right: 6px;
   font-size: 9px;
   font-weight: 700;
@@ -211,16 +211,6 @@
   background: rgba(88, 169, 255, 0.85);
   color: #041018;
 }
-.card.is-web .jump-btn { display: flex; }
-
-/* fix bad fuzzy badge display - ensure it sits properly */
-.cover .badge.fuzzy {
-  top: 6px;
-  right: 6px;
-  left: auto;
-  font-size: 9px;
-}
-
 /* Game meta */
 .game-meta {
   font-size: 11px;

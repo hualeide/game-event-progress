@@ -1,5 +1,5 @@
-import { $, endingSoon } from "./util.js";
-import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js";
+import { $, endingSoon } from "./util.js?v=20260726v14";
+import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js?v=20260726v14";
 import {
   bodyText,
   catLabel,
@@ -10,8 +10,8 @@ import {
   jumpUrl,
   liveStats,
   shortName,
-} from "./format.js";
-import { ensureGameLoaded } from "./data.js";
+} from "./format.js?v=20260726v14";
+import { ensureGameLoaded } from "./data.js?v=20260726v14";
 
 function accentColor(gameId) {
   const row = document.querySelector(`.game-row[data-game="${gameId}"]`);
@@ -78,8 +78,7 @@ export function openDetail(gameId, eventId) {
   $("#detailTitle").textContent = name;
   $("#detailTags").innerHTML = `
     <span class="${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
-    <span>${catLabel(cat)}</span>
-    ${ev.fuzzy ? "<span>估时</span>" : ""}`;
+    <span>${catLabel(cat)}</span>`;
   $("#detailBanner").innerHTML = ev.banner
     ? `<img src="${ev.banner}" alt="${name}" />`
     : `<div class="cover-fallback" style="height:100%"></div>`;

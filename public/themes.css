@@ -1,4 +1,4 @@
-﻿/* Per-game visual accents — subtle, professional */
+/* Per-game visual accents — subtle, professional */
 .game-row {
   --g-accent: var(--accent-primary);
   --g-bar-bg: transparent;
@@ -47,32 +47,12 @@
   --g-accent: #c4a1ff;
 }
 
-.game-row[data-game="ptn"] {
-  --g-accent: #9b7ed9;
-}
-
-.game-row[data-game="snowbreak"] {
-  --g-accent: #8ec8e8;
-}
-
 .game-row[data-game="gfl2"] {
   --g-accent: #a8b86c;
 }
 
 .game-row[data-game="hearthstone"] {
   --g-accent: #e8a84a;
-}
-
-.game-row[data-game="pvz2"] {
-  --g-accent: #6dbf4b;
-}
-
-.game-row[data-game="naraka"] {
-  --g-accent: #c23b3b;
-}
-
-.game-row[data-game="delta"] {
-  --g-accent: #d4a017;
 }
 
 .game-row[data-accent="custom"][data-game^="custom"] {

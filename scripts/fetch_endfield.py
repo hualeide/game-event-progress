@@ -60,12 +60,17 @@ MAINT_AT2 = re.compile(
 # 版本正文里成组的时段块
 BLOCK_START = re.compile(
     r"(?m)^[·•\-\s]*("
-    r"开放时间|活动时间|活动开放时间|"
+    r"开放时间|活动时间|活动开放时间|赛季更新|更新时间|"
     r"「[^」]{2,24}」开放时间"
     r")[：:]"
 )
-NAMED_QUOTE = re.compile(r"「([^」]{2,24})」")
+# 时段行上方的「1.「活动名」」标题
+PREV_TITLE = re.compile(
+    r"(?m)^[·•\-\s]*(?:\d+\.|○)?\s*「([^」]{2,36})」[^\n]{0,40}$"
+)
+NAMED_QUOTE = re.compile(r"「([^」]{2,36})」")
 REWARD_ITEM = re.compile(r"【([^】]{1,40})】")
+SERVER_TZ_TAIL = re.compile(r"[（(]\s*服务器时间\s*[）)]|[（(]\s*UTC\+?8\s*[）)]", re.I)
 
 CAT_LABEL = {"gacha": "卡池", "event": "活动", "combat": "作战", "web": "网页"}
 
@@ -85,6 +90,19 @@ EXTRA_COVER_TITLES = {
 COVER_HINTS: list[tuple[str, tuple[str, ...]]] = [
     ("机密圣所", ("危机合约", "机密圣所", "重燃测试")),
     ("危机合约", ("危机合约", "重燃测试")),
+    ("临渊望北", ("临渊望北", "踞渊北眺")),
+    ("军列申领", ("军列申领", "临渊望北")),
+    ("晨星于此闪耀", ("晨星于此闪耀", "明耀晨星", "梨诺")),
+    ("明曜申领", ("明曜申领", "晨星于此闪耀")),
+    ("相伴赠礼", ("相伴赠礼", "相伴庆典", "向渊行")),
+    ("宏运连连乐", ("宏运连连乐", "相伴庆典", "向渊行")),
+    ("踞渊北眺", ("临渊望北", "踞渊北眺")),
+    ("北观禁土", ("北观禁土", "向渊行", "武陵")),
+    ("炽燃", ("炽燃", "竞技大会", "向渊行")),
+    ("理智补给", ("理智补给", "补给")),
+    ("追忆赛季", ("战争回响", "追忆", "向渊行")),
+    ("谵妄赛季", ("战争回响", "谵妄")),
+    ("战争回响", ("战争回响", "追忆", "向渊行")),
     ("丰碑", ("丰碑", "影拓")),
     ("影拓", ("丰碑", "影拓")),
     ("死寂争鸣", ("丰碑", "影拓", "死寂")),
@@ -230,7 +248,7 @@ def pick_cover_url(name: str, category: str, bank: list[dict], *, forbid: set[st
     if not name or not bank:
         return ""
 
-    # 1) 标题直接包含活动名
+    # 1) 标题直接包含活动名 / 关键词提示
     scored: list[tuple[int, str]] = []
     for b in bank:
         if b["url"] in forbid:
@@ -238,18 +256,25 @@ def pick_cover_url(name: str, category: str, bank: list[dict], *, forbid: set[st
         title = b["title"]
         score = 0
         if name and name in title:
-            score += 50 + b["weight"]
+            score += 80 + b["weight"]
+        # 名称去标点后的短匹配（炽燃！竞技大会！）
+        bare = re.sub(r"[！!·・\s]", "", name)
+        if bare and len(bare) >= 2 and bare[:4] in re.sub(r"[！!·・\s]", "", title):
+            score += 55 + b["weight"]
         for key, hints in COVER_HINTS:
-            if key in name or name in key:
+            if key in name or name in key or (bare and key in bare):
                 if any(h in title for h in hints):
                     score += 40 + b["weight"]
-        if category == "gacha" and re.search(r"寻访|申领|卡缪|弭弗", title):
-            if any(k in name for k in ("逐罪", "拳出", "申领", "卡缪", "弭弗")):
-                score += 20
-        if category == "combat" and re.search(r"危机合约|圣所|丰碑|影拓", title):
-            if any(k in name for k in ("圣所", "丰碑", "影拓", "选剑", "死寂", "合约")):
+        if category == "gacha" and re.search(r"寻访|申领|卡缪|弭弗|临渊|晨星|军列|明曜", title):
+            if any(k in name for k in ("逐罪", "拳出", "申领", "卡缪", "弭弗", "临渊", "晨星", "军列", "明曜")):
+                score += 30
+        if category == "combat" and re.search(r"危机合约|圣所|丰碑|影拓|战争回响", title):
+            if any(k in name for k in ("圣所", "丰碑", "影拓", "选剑", "死寂", "合约", "追忆", "谵妄", "战争")):
                 score += 25
-        if score:
+        # 版本总览图压分，避免所有卡片共用 KV
+        if "版本更新说明" in title or "版本预下载" in title:
+            score -= 35
+        if score > 0:
             scored.append((score, b["url"]))
     if scored:
         scored.sort(key=lambda x: -x[0])
@@ -260,18 +285,25 @@ def pick_cover_url(name: str, category: str, bank: list[dict], *, forbid: set[st
         if b["url"] in forbid:
             continue
         title = b["title"]
-        if "版本更新说明" in title:
+        if "版本更新说明" in title or "版本预下载" in title:
             continue
-        if category == "gacha" and re.search(r"寻访|申领|卡缪|弭弗", title):
+        if category == "gacha" and re.search(r"寻访|申领|卡缪|弭弗|临渊|晨星", title):
             return b["url"]
-        if category == "combat" and re.search(r"危机合约|圣所|研发通讯", title):
+        if category == "combat" and re.search(r"危机合约|圣所|丰碑|影拓|研发通讯", title):
             return b["url"]
-    # 3) 活动：可用版本详情副图 / 研发通讯图（已 forbid 主 KV）
+    # 3) 活动：可用研发通讯 / 版本详情副图（已 forbid 主 KV）
     if category == "event":
         for b in bank:
             if b["url"] in forbid:
                 continue
-            if re.search(r"版本更新说明|研发通讯|寻遗散记", b["title"]):
+            if "版本更新说明" in b["title"]:
+                continue  # 主 KV 已 forbid；副图在 bank 里 title 相同会误伤，靠 weight/详情序
+            if re.search(r"研发通讯|寻遗散记|庆典|相伴", b["title"]):
+                return b["url"]
+        for b in bank:
+            if b["url"] in forbid:
+                continue
+            if b["cid"] and b["weight"] <= 2:
                 return b["url"]
     return ""
 
@@ -295,7 +327,12 @@ def is_playable(title: str) -> bool:
     return bool(KEEP.search(title))
 
 
+def strip_server_tz(s: str) -> str:
+    return SERVER_TZ_TAIL.sub("", s or "").strip()
+
+
 def find_next_maint(texts: list[str], now: datetime) -> datetime | None:
+    """只取尚未发生的维护；过去的维护绝不当作「下次」。"""
     cands: list[datetime] = []
     for text in texts:
         for m in MAINT_AT2.finditer(text):
@@ -308,26 +345,70 @@ def find_next_maint(texts: list[str], now: datetime) -> datetime | None:
             else:
                 y, mo, d, h, mi = map(int, g[5:])
             cands.append(make_dt(y, mo, d, h, mi))
-    future = [t for t in cands if t > now - timedelta(hours=6)]
-    if future:
-        return min(future)
-    return min(cands) if cands else None
+    future = [t for t in cands if t > now]
+    return min(future) if future else None
 
 
-def parse_ef_ranges(text: str, now: datetime, next_maint: datetime | None) -> list[dict]:
+def find_version_open(texts: list[str], now: datetime) -> datetime | None:
+    """最近一次已结束的版本维护结束 ≈ 当前版本开启时间。"""
+    cands: list[datetime] = []
+    for text in texts:
+        for r in parse_ranges(text, now):
+            blob = f"{r.get('label') or ''} {r.get('raw') or ''}"
+            if "维护" not in blob:
+                continue
+            end = datetime.fromisoformat(r["end"])
+            if end <= now + timedelta(hours=2):
+                cands.append(end)
+        for m in MAINT_AT2.finditer(text):
+            y, mo, d, h, mi = map(int, m.groups())
+            end = make_dt(y, mo, d, h, mi) + timedelta(hours=6)
+            if end <= now + timedelta(hours=2):
+                cands.append(end)
+        for m in MAINT_AT.finditer(text):
+            g = m.groups()
+            if g[0]:
+                y, mo, d, h, mi = map(int, g[:5])
+            else:
+                y, mo, d, h, mi = map(int, g[5:])
+            end = make_dt(y, mo, d, h, mi) + timedelta(hours=6)
+            if end <= now + timedelta(hours=2):
+                cands.append(end)
+    return max(cands) if cands else None
+
+
+def estimate_maint_end(start: datetime, version_open: datetime | None) -> datetime:
+    """「至版本更新维护前」且未知下次维护时，估一个合理结束。"""
+    base = (
+        version_open + timedelta(days=35)
+        if version_open
+        else start + timedelta(days=21)
+    )
+    return max(base, start + timedelta(days=14))
+
+
+def parse_ef_ranges(
+    text: str,
+    now: datetime,
+    next_maint: datetime | None,
+    version_open: datetime | None = None,
+) -> list[dict]:
     ranges = parse_ranges(text, now)
     for m in OPEN_UNTIL_MAINT.finditer(text):
         y, mo, d, h, mi = map(int, m.groups())
         start = make_dt(y, mo, d, h, mi)
-        end = next_maint or (start + timedelta(days=21))
+        end = next_maint or estimate_maint_end(start, version_open)
+        fuzzy = next_maint is None
         if end <= start:
             end = start + timedelta(days=14)
+            fuzzy = True
         ranges.append(
             {
                 "label": "开放至版本维护前",
                 "start": start.isoformat(),
                 "end": end.isoformat(),
                 "raw": m.group(0)[:80],
+                "fuzzy": fuzzy,
             }
         )
     return ranges
@@ -367,44 +448,117 @@ def pick_best_range(ranges: list[dict], now: datetime) -> dict | None:
     return None
 
 
-def ranges_from_when(when: str, now: datetime, next_maint: datetime | None) -> list[dict]:
+def ranges_from_when(
+    when: str,
+    now: datetime,
+    next_maint: datetime | None,
+    version_open: datetime | None = None,
+) -> list[dict]:
     """解析单行开放时间文案。"""
-    when = (when or "").strip()
+    when = strip_server_tz(when or "")
+    if not when:
+        return []
     blob = f"开放时间：{when}"
-    ranges = parse_ef_ranges(blob, now, next_maint)
+    ranges = parse_ef_ranges(blob, now, next_maint, version_open)
     if ranges:
         return ranges
-    # 「xxx」版本开启后 - 2026/06/26 11:59
+
+    # 「向渊行」版本更新后/开启后 - 2026/08/09 11:59
     m = re.search(
         r"(20\d{2})[/-](\d{1,2})[/-](\d{1,2})\s*(\d{1,2})[:：](\d{2})\s*$",
         when,
     )
-    if m and ("开启后" in when or "更新后" in when):
+    if m and re.search(r"(?:版本)?(?:开启|更新|更新维护)后", when):
         y, mo, d, h, mi = map(int, m.groups())
         end = make_dt(y, mo, d, h, mi)
-        # 版本开启估为维护窗结束日附近；无更好信息时用 end-14d
-        start = end - timedelta(days=14)
+        start = version_open or (end - timedelta(days=24))
+        if start >= end:
+            start = end - timedelta(days=14)
         return [
             {
                 "label": "开放时间",
                 "start": start.isoformat(),
                 "end": end.isoformat(),
                 "raw": when[:80],
-                "fuzzy": True,
+                "fuzzy": version_open is None,
             }
         ]
-    # 开启后 - 版本更新维护前
-    if ("开启后" in when or "更新后" in when) and "维护前" in when and next_maint:
-        start = next_maint - timedelta(days=40)
+
+    # 版本更新后长期/常驻开放
+    if re.search(r"(?:版本)?(?:开启|更新|更新维护)后", when) and re.search(
+        r"长期|常驻", when
+    ):
+        if not version_open:
+            return []
+        end = next_maint or (version_open + timedelta(days=45))
         return [
             {
-                "label": "开放至版本维护前",
-                "start": start.isoformat(),
-                "end": next_maint.isoformat(),
+                "label": "常驻开放",
+                "start": version_open.isoformat(),
+                "end": end.isoformat(),
+                "raw": when[:80],
+                "fuzzy": next_maint is None,
+            }
+        ]
+
+    # 版本更新后开启，于 N 次特许寻访后结束
+    if re.search(r"(?:版本)?(?:开启|更新)后", when) and re.search(
+        r"于\s*\d+\s*次", when
+    ):
+        if not version_open:
+            return []
+        end = version_open + timedelta(days=24)
+        return [
+            {
+                "label": "开放时间（估）",
+                "start": version_open.isoformat(),
+                "end": end.isoformat(),
                 "raw": when[:80],
                 "fuzzy": True,
             }
         ]
+
+    # 开启后 - 版本更新维护前
+    if re.search(r"(?:开启|更新)后", when) and "维护前" in when:
+        start = version_open or (
+            (next_maint - timedelta(days=40)) if next_maint else None
+        )
+        if not start:
+            return []
+        end = next_maint or estimate_maint_end(start, version_open)
+        if end <= start:
+            end = start + timedelta(days=21)
+        return [
+            {
+                "label": "开放至版本维护前",
+                "start": start.isoformat(),
+                "end": end.isoformat(),
+                "raw": when[:80],
+                "fuzzy": next_maint is None or version_open is None,
+            }
+        ]
+
+    # 单点开始：2026/08/06 12:00
+    m1 = re.search(
+        r"^(20\d{2})[/-](\d{1,2})[/-](\d{1,2})\s*(\d{1,2})[:：](\d{2})\s*$",
+        when,
+    )
+    if m1:
+        y, mo, d, h, mi = map(int, m1.groups())
+        start = make_dt(y, mo, d, h, mi)
+        end = next_maint or estimate_maint_end(start, version_open)
+        if end <= start:
+            end = start + timedelta(days=14)
+        return [
+            {
+                "label": "开放时间",
+                "start": start.isoformat(),
+                "end": end.isoformat(),
+                "raw": when[:80],
+                "fuzzy": next_maint is None,
+            }
+        ]
+
     return parse_ranges(blob, now)
 
 
@@ -446,9 +600,28 @@ def highlight_summary(block: str, name: str = "") -> str:
     return " · ".join(parts)[:220]
 
 
-def classify_block(block: str, when_line: str) -> tuple[str, str]:
-    """返回 (category, display_name)。"""
+def classify_block(block: str, when_line: str, hint_name: str = "") -> tuple[str, str]:
+    """返回 (category, display_name)。优先用时段上方的活动标题。"""
     blob = when_line + "\n" + block
+    hint = (hint_name or "").strip()
+
+    def cat_for_name(name: str) -> str:
+        if re.search(r"寻访|申领", name):
+            return "gacha"
+        if re.search(
+            r"丰碑|影拓|圣所|合约|战争回响|追忆赛季|谵妄赛季|密境行者|选剑|死寂",
+            name,
+        ):
+            return "combat"
+        return "event"
+
+    if hint:
+        if re.search(r"寻访说明", block) or "寻访" in hint:
+            return "gacha", hint
+        if re.search(r"申领说明", block) or "申领" in hint:
+            return "gacha", hint
+        return cat_for_name(hint), hint
+
     if re.search(r"寻访说明", block):
         m = re.search(r"寻访说明[：:]\s*「([^」]+)」", block)
         mq = NAMED_QUOTE.search(block)
@@ -458,21 +631,22 @@ def classify_block(block: str, when_line: str) -> tuple[str, str]:
         m = re.search(r"申领说明[：:]\s*「([^」]+)」", block)
         name = m.group(1) if m else ""
         return "gacha", name or "武器申领"
-    # 作战向：机密圣所 / 丰碑 / 影拓 等优先
-    if re.search(r"机密圣所|危机合约|丰碑|影拓|选剑演武|死寂争鸣", blob):
+    if re.search(
+        r"机密圣所|危机合约|丰碑|影拓|选剑演武|死寂争鸣|战争回响|追忆赛季|谵妄赛季",
+        blob,
+    ):
         m = re.search(
-            r"「(机密圣所|[^」]*(?:丰碑|影拓|合约|选剑演武|死寂争鸣)[^」]*)」",
+            r"「(机密圣所|[^」]*(?:丰碑|影拓|合约|选剑演武|死寂争鸣|战争回响|追忆|谵妄)[^」]*)」",
             blob,
         ) or NAMED_QUOTE.search(blob)
         return "combat", (m.group(1) if m else "作战挑战")
     m_named = re.search(r"「([^」]{2,24})」开放时间", when_line)
     if m_named:
         name = m_named.group(1)
-        cat = "combat" if re.search(r"圣所|合约|丰碑|影拓|挑战|作战", name + block) else "event"
-        return cat, name
+        return cat_for_name(name), name
     desc = ""
     for line in block.splitlines():
-        if "活动说明" in line:
+        if "活动说明" in line or "更新说明" in line or "玩法说明" in line:
             desc = line
             break
     if re.search(r"签到", desc + block):
@@ -485,11 +659,31 @@ def classify_block(block: str, when_line: str) -> tuple[str, str]:
     if re.search(r"拍照", desc + block):
         return "event", "拍照任务"
     if re.search(r"每日完成指定任务|理智补给|理智消耗许可", desc + block):
-        return "event", "每日补给"
+        return "event", "理智补给"
     m = NAMED_QUOTE.search(desc) or NAMED_QUOTE.search(block)
     if m:
-        return "event", m.group(1)
+        return cat_for_name(m.group(1)), m.group(1)
     return "event", "限时活动"
+
+
+def preceding_title(text: str, pos: int) -> str:
+    before = text[:pos]
+    matches = list(PREV_TITLE.finditer(before))
+    # 在最近编号标题之后，优先取「同步开放『限时活动』」
+    region_from = (
+        matches[-1].start()
+        if matches and pos - matches[-1].end() < 480
+        else max(0, len(before) - 420)
+    )
+    region = before[region_from:]
+    m_lim = list(
+        re.finditer(r"(?:同步)?开放「([^」]{2,36})」限时(?:挑战|活动)?", region)
+    )
+    if m_lim:
+        return m_lim[-1].group(1).strip()
+    if matches and pos - matches[-1].end() < 240:
+        return matches[-1].group(1).strip()
+    return matches[-1].group(1).strip() if matches else ""
 
 
 def split_schedule_blocks(text: str) -> list[dict]:
@@ -502,21 +696,47 @@ def split_schedule_blocks(text: str) -> list[dict]:
         end = starts[i + 1].start() if i + 1 < len(starts) else len(text)
         chunk = text[m.start() : end].strip()
         # 块太短或纯维护补偿跳过
-        if len(chunk) < 20:
+        if len(chunk) < 12:
             continue
         if re.search(r"更新维护补偿|问题修复补偿|发放时间|发放条件", chunk) and not re.search(
-            r"寻访说明|活动说明|申领说明|机密圣所", chunk
+            r"寻访说明|活动说明|申领说明|机密圣所|更新说明|玩法说明", chunk
         ):
             continue
-        first = chunk.splitlines()[0]
+        lines = chunk.splitlines()
+        first = lines[0]
         when = re.sub(r"^[·•\-\s]+", "", first)
-        when = re.sub(r"^(?:开放时间|活动时间|活动开放时间|「[^」]+」开放时间)[：:]\s*", "", when)
-        cat, name = classify_block(chunk, first)
+        when = re.sub(
+            r"^(?:开放时间|活动时间|活动开放时间|赛季更新|更新时间|「[^」]+」开放时间)[：:]\s*",
+            "",
+            when,
+        )
+        # 「活动时间：」后日期在下一行
+        if not strip_server_tz(when) or not re.search(r"\d", when):
+            extra: list[str] = []
+            for ln in lines[1:4]:
+                s = strip_server_tz(re.sub(r"^[·•\-\s]+", "", ln))
+                if re.search(r"20\d{2}[/-]\d", s):
+                    extra.append(s)
+                elif s and not re.search(r"说明|条件", s):
+                    break
+            if extra:
+                when = "\n".join(extra)
+        hint = preceding_title(text, m.start())
+        cat, name = classify_block(chunk, first, hint)
         # 无说明的「活动开放时间 / 活动内容更新」壳子块跳过（具名时段在后续块）
-        if not re.search(r"(寻访|申领|活动)说明|「[^」]+」开放时间", chunk):
+        if not re.search(
+            r"(寻访|申领|活动|更新|玩法)说明|「[^」]+」开放时间|赛季更新", chunk
+        ):
             if re.search(r"活动开放时间|活动内容更新时间", first):
                 continue
-        if name == "限时活动" and not re.search(r"活动说明", chunk):
+        if name == "限时活动" and not re.search(r"活动说明|更新说明", chunk):
+            continue
+        # 玩法开放时间块里附带「还将同步开放限时」——限时活动有独立活动时间行，这里跳过壳子
+        if (
+            re.search(r"还将同步开放「", chunk)
+            and re.search(r"开放时间", first)
+            and not re.search(r"活动时间", first)
+        ):
             continue
         blocks.append(
             {
@@ -544,16 +764,16 @@ def enrich_ranges_from_blocks(
     blocks: list[dict],
     now: datetime,
     next_maint: datetime | None,
+    version_open: datetime | None = None,
 ) -> list[dict]:
     """版本总览用的带分类标签时段列表。"""
     out: list[dict] = []
     seen: set[tuple[str, str, str]] = set()
     for b in blocks:
-        ranges = ranges_from_when(b["when"], now, next_maint)
+        ranges = ranges_from_when(b["when"], now, next_maint, version_open)
         if not ranges:
-            continue
-        # 跳过「于3次特许寻访后结束」这类无可靠绝对结束日
-        if "次「特许寻访」后" in b["when"] or "次特许寻访后" in b["when"]:
+            ranges = parse_ef_ranges(b["block"], now, next_maint, version_open)
+        if not ranges:
             continue
         primary = pick_best_range(ranges, now) or ranges[0]
         end = datetime.fromisoformat(primary["end"])
@@ -575,6 +795,7 @@ def events_from_blocks(
     blocks: list[dict],
     now: datetime,
     next_maint: datetime | None,
+    version_open: datetime | None,
     cover_bank: list[dict],
     version_cover: str,
     source_cid: str,
@@ -586,9 +807,9 @@ def events_from_blocks(
     used_urls: set[str] = set()
     forbid = {version_cover} if version_cover else set()
     for b in blocks:
-        if "次「特许寻访」后" in b["when"] or "次特许寻访后" in b["when"]:
-            continue  # 武器申领相对次数，无绝对时段
-        ranges = ranges_from_when(b["when"], now, next_maint)
+        ranges = ranges_from_when(b["when"], now, next_maint, version_open)
+        if not ranges:
+            ranges = parse_ef_ranges(b["block"], now, next_maint, version_open)
         primary = pick_best_range(ranges, now)
         if not primary and ranges:
             primary = ranges[0]
@@ -602,17 +823,36 @@ def events_from_blocks(
         cat = b["category"]
         if name in ("限时活动",) and cat == "event" and "活动说明" not in b["block"]:
             continue
+        # 常驻壳子（无独立奖励节奏）降噪：跳过纯「长期/常驻开放」且无签到/挑战字样
+        if re.search(r"长期|常驻", b["when"]) and not re.search(
+            r"签到|挑战|限时|赛季", name + b["block"][:200]
+        ):
+            continue
         dedupe = f"{cat}|{name}|{primary['start'][:10]}|{primary['end'][:10]}"
         if dedupe in seen:
             continue
-        # 同名同分类已有专用帖时跳过
-        if any(
-            e.get("category") == cat
+        fuzzy_now = (
+            bool(primary.get("fuzzy"))
+            or "维护前" in b["when"]
+            or bool(re.search(r"(?:开启|更新)后", b["when"]))
+        )
+        # 同名同分类：留下非估时 / 截止更明确的一条
+        rivals = [
+            i
+            for i, e in enumerate(out)
+            if e.get("category") == cat
             and name
             and name in (e.get("header") or e.get("title") or "")
-            for e in out
-        ):
-            continue
+        ]
+        if rivals:
+            old = out[rivals[0]]
+            old_fuzzy = bool(old.get("fuzzy"))
+            if old_fuzzy and not fuzzy_now:
+                out.pop(rivals[0])
+            elif not old_fuzzy and fuzzy_now:
+                continue
+            else:
+                continue
         seen.add(dedupe)
         for r in ranges:
             r["label"] = label_for(cat, name)
@@ -636,7 +876,7 @@ def events_from_blocks(
         else:
             title = title_map.get(cat, f"「{name}」")
         body = clean_body(b["block"], limit=1200)
-        fuzzy = bool(primary.get("fuzzy")) or "维护前" in b["when"] or "开启后" in b["when"]
+        fuzzy = fuzzy_now
         out.append(
             build_event(
                 cid=f"{source_cid}-{cat}-{slug}",
@@ -675,8 +915,23 @@ def main() -> int:
             maint_texts.append(t)
             maint_texts.append(title)
     next_maint = find_next_maint(maint_texts, now)
+    version_open = find_version_open(maint_texts, now)
+    # 版本更新说明正文也常含维护窗，补进开启时间候选
+    for it in items:
+        title = (it.get("title") or "").strip()
+        cid = str(it.get("cid") or "")
+        if re.search(r"版本更新说明|内容说明", title):
+            t = detail_cache.get(cid) or fetch_detail_text(cid)
+            detail_cache[cid] = t
+            vo = find_version_open([t], now)
+            if vo and (version_open is None or vo > version_open):
+                version_open = vo
     if next_maint:
         print(f"[EF] next maint ~ {next_maint.isoformat()}")
+    else:
+        print("[EF] next maint unknown (no future)")
+    if version_open:
+        print(f"[EF] version open ~ {version_open.isoformat()}")
 
     cover_bank = build_cover_bank(items)
 
@@ -705,6 +960,7 @@ def main() -> int:
                 blocks=blocks,
                 now=now,
                 next_maint=next_maint,
+                version_open=version_open,
                 cover_bank=cover_bank,
                 version_cover=cover,
                 source_cid=cid,
@@ -721,9 +977,9 @@ def main() -> int:
                     continue
                 events.append(gev)
 
-            labeled = enrich_ranges_from_blocks(blocks, now, next_maint)
+            labeled = enrich_ranges_from_blocks(blocks, now, next_maint, version_open)
             primary = pick_best_range(labeled, now) or pick_best_range(
-                parse_ef_ranges(text, now, next_maint), now
+                parse_ef_ranges(text, now, next_maint, version_open), now
             )
             if primary:
                 start = datetime.fromisoformat(primary["start"])
@@ -759,10 +1015,20 @@ def main() -> int:
             continue
 
         # 寻访帖才解析「至版本维护前」；作战帖只用普通时段
+        # 同时补解析「版本更新后 - 绝对截止」
         if re.search(r"寻访|卡池|申领", title):
-            ranges = parse_ef_ranges(text, now, next_maint)
+            ranges = parse_ef_ranges(text, now, next_maint, version_open)
         else:
             ranges = parse_ranges(text, now)
+        for line in text.splitlines():
+            if not re.search(r"开放时间|活动时间", line):
+                continue
+            when = re.sub(r"^.*?[：:]\s*", "", strip_server_tz(line))
+            for r in ranges_from_when(when, now, next_maint, version_open):
+                key = (r["start"], r["end"])
+                if any((x["start"], x["end"]) == key for x in ranges):
+                    continue
+                ranges.append(r)
         # 给时段贴更可读标签
         for r in ranges:
             lab = (r.get("label") or "").strip(" ·")
@@ -885,8 +1151,13 @@ def main() -> int:
         "notes": notes[:40],
         "events": events,
     }
+    head_notes: list[str] = []
     if next_maint:
-        payload["notes"] = [f"下次版本维护估：{next_maint.isoformat()}"] + payload["notes"]
+        head_notes.append(f"下次版本维护估：{next_maint.isoformat()}")
+    if version_open:
+        head_notes.append(f"当前版本开启估：{version_open.isoformat()}")
+    if head_notes:
+        payload["notes"] = head_notes + payload["notes"]
     write_events(DATA / "endfield.json", payload)
     return 0
 

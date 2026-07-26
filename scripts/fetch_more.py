@@ -1362,14 +1362,9 @@ def _pending(name: str, source: str, notes: list[str]) -> dict[str, Any]:
 
 JOBS = [
     ("nikke.json", fetch_nikke),
-    ("snowbreak.json", fetch_snowbreak),
-    ("ptn.json", fetch_ptn),
     ("gfl2.json", fetch_gfl2),
-    ("pvz2.json", fetch_pvz2),
     ("reverse1999.json", fetch_reverse1999),
     ("hearthstone.json", fetch_hearthstone),
-    ("naraka.json", fetch_naraka),
-    ("delta.json", fetch_delta),
 ]
 
 

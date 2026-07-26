@@ -64,7 +64,6 @@ EXPECT_GACHA_GAMES: set[str] = {
     "reverse1999",
     "gfl2",
     "hearthstone",
-    "naraka",
 }
 
 # 应当有作战活动的游戏
@@ -78,13 +77,8 @@ EXPECT_COMBAT_GAMES: set[str] = {
     "azurlane",
     "nikke",
     "reverse1999",
-    "ptn",
-    "snowbreak",
     "gfl2",
     "hearthstone",
-    "pvz2",
-    "naraka",
-    "delta",
     "endfield",
 }
 

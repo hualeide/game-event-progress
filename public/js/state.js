@@ -15,13 +15,8 @@ export const BUILTIN_GAMES = [
   { id: "azurlane", name: "碧蓝航线", en: "AZUR LANE", icon: "./icons/azurlane.png", dataUrl: dataUrl("azurlane.json"), accent: "al" },
   { id: "nikke", name: "胜利女神：NIKKE", en: "NIKKE", icon: "./icons/nikke.png", dataUrl: dataUrl("nikke.json"), accent: "nikke" },
   { id: "reverse1999", name: "重返未来：1999", en: "REVERSE 1999", icon: "./icons/reverse1999.png", dataUrl: dataUrl("reverse1999.json"), accent: "r1999" },
-  { id: "ptn", name: "无期迷途", en: "PATH TO NOWHERE", icon: "./icons/ptn.png", dataUrl: dataUrl("ptn.json"), accent: "ptn" },
-  { id: "snowbreak", name: "尘白禁区", en: "SNOWBREAK", icon: "./icons/snowbreak.png", dataUrl: dataUrl("snowbreak.json"), accent: "snow" },
   { id: "gfl2", name: "少女前线2：追放", en: "GFL2", icon: "./icons/gfl2.png", dataUrl: dataUrl("gfl2.json"), accent: "gfl2" },
   { id: "hearthstone", name: "炉石传说", en: "HEARTHSTONE", icon: "./icons/hearthstone.png", dataUrl: dataUrl("hearthstone.json"), accent: "hs" },
-  { id: "pvz2", name: "植物大战僵尸2", en: "PVZ2 CN", icon: "./icons/pvz2.png", dataUrl: dataUrl("pvz2.json"), accent: "pvz" },
-  { id: "naraka", name: "永劫无间", en: "NARAKA", icon: "./icons/naraka.png", dataUrl: dataUrl("naraka.json"), accent: "naraka" },
-  { id: "delta", name: "三角洲行动", en: "DELTA FORCE", icon: "./icons/delta.png", dataUrl: dataUrl("delta.json"), accent: "delta" },
 ];
 
 export const DEFAULT_ENABLED = BUILTIN_GAMES.map((g) => g.id);
@@ -64,12 +59,25 @@ function migrateCats(raw) {
   return cats;
 }
 
+function loadEnabled() {
+  const builtin = new Set(DEFAULT_ENABLED);
+  let raw;
+  try {
+    raw = JSON.parse(localStorage.getItem("dock.enabled") || "null");
+  } catch {
+    raw = null;
+  }
+  const list = Array.isArray(raw) ? raw : [...DEFAULT_ENABLED];
+  const next = list.filter((id) => builtin.has(id) || String(id).startsWith("custom"));
+  return next.length ? next : [...DEFAULT_ENABLED];
+}
+
 export const state = {
   byGame: {},
   /** gameId → 'idle' | 'loading' | 'ready' | 'error' */
   loadState: {},
   collapsed: JSON.parse(localStorage.getItem("dock.collapsed") || "{}"),
-  enabled: JSON.parse(localStorage.getItem("dock.enabled") || "null") || [...DEFAULT_ENABLED],
+  enabled: loadEnabled(),
   cats: migrateCats(JSON.parse(localStorage.getItem("dock.cats") || "null")),
   hideEmpty: localStorage.getItem("dock.hideEmpty") !== "0",
   query: "",

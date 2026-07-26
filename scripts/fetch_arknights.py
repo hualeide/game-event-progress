@@ -342,11 +342,15 @@ def parse_ranges(text: str, ref: datetime) -> list[dict[str, Any]]:
 def pick_primary(ranges: list[dict[str, Any]]) -> dict[str, Any] | None:
     if not ranges:
         return None
-    # 优先「活动时间 / 关卡开放 / 寻访」
+    # 精确「活动时间」优先（长公告里常夹杂后续「关卡开放时间」，勿抢主时段）
+    exact = next((r for r in ranges if (r.get("label") or "").strip() == "活动时间"), None)
+    if exact:
+        return exact
+    # 其次：标签包含这些关键词
     prefer = ("活动时间", "关卡开放", "开放时间", "寻访", "开启")
     for p in prefer:
         for r in ranges:
-            if p in r["label"]:
+            if p in (r.get("label") or ""):
                 return r
     # 否则取跨度最长的一段（主活动）
     return max(
@@ -719,8 +723,8 @@ def fetch_all() -> dict[str, Any]:
                     fi += 1
             continue
 
-        stage = next((r for r in ranges if "关卡" in r["label"]), None)
-        primary = stage or pick_primary(ranges)
+        # 主卡片用「活动时间」；分段关卡另开预告卡（见下方循环）
+        primary = pick_primary(ranges)
         typ = guess_type(title, header, text)
         blob = f"{title} {header}"
         if re.search(r"寻访|卡池|干员出率", blob):
@@ -753,12 +757,10 @@ def fetch_all() -> dict[str, Any]:
         ev["category"] = category
         ev["type"] = typ or "活动"
         events.append(ev)
-        if stage:
-            notes.append(f"{cid} 采用关卡开放时间")
 
-        # 同一公告里若还有更晚的关卡时段，额外出预告卡
+        # 同一公告里更晚的「关卡开放」另出预告卡（勿覆盖主「活动时间」）
         for ri, r in enumerate(ranges):
-            if "关卡" not in r["label"]:
+            if "关卡" not in (r.get("label") or ""):
                 continue
             if primary and r["start"] == primary["start"] and r["end"] == primary["end"]:
                 continue

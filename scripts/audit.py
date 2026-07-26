@@ -174,13 +174,8 @@ def audit(data_dir: Path | None = None) -> dict:
             "azurlane",
             "nikke",
             "reverse1999",
-            "ptn",
-            "snowbreak",
             "gfl2",
             "hearthstone",
-            "pvz2",
-            "naraka",
-            "delta",
         ]
         for gid in builtin:
             if gid not in games:

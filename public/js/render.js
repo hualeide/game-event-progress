@@ -1,4 +1,4 @@
-import { $, adaptCover, endingSoon, fmtUpdated } from "./util.js";
+import { $, adaptCover, endingSoon, fmtUpdated } from "./util.js?v=20260726v14";
 import {
   CAT_ORDER,
   allGames,
@@ -8,7 +8,7 @@ import {
   state,
   toolsFor,
   wikiFor,
-} from "./state.js";
+} from "./state.js?v=20260726v14";
 import {
   bodyText,
   catLabel,
@@ -19,10 +19,9 @@ import {
   liveStats,
   shortName,
   splitEvents,
-} from "./format.js";
-import { ensureGameLoaded, loadGame } from "./data.js";
-import { tryOpenFromHash } from "./detail.js";
-import { renderStatusBar } from "./status.js";
+} from "./format.js?v=20260726v14";
+import { ensureGameLoaded, loadGame } from "./data.js?v=20260726v14";
+import { tryOpenFromHash } from "./detail.js?v=20260726v14";
 
 export function toolsHtml(game, { compact = false } = {}) {
   const wiki = wikiFor(game);
@@ -42,13 +41,13 @@ export function toolsHtml(game, { compact = false } = {}) {
   return `<div class="tool-row ${compact ? "compact" : ""}" data-tools>${parts.join("")}</div>`;
 }
 
-function cardSubline(ev, live) {
-  const label = (ev.primaryLabel || "").trim();
-  if (label) return label;
-  if (live.tip) return live.tip;
-  const body = bodyText(ev);
-  if (body) return body.replace(/\s+/g, " ").trim().slice(0, 36);
-  return "";
+function cardSubline(ev) {
+  /** 只留短而有信息量的副文案；进度 tip / 公告正文太吵，不展示 */
+  const raw = (ev.primaryLabel || ev.summary || "").replace(/\s+/g, " ").trim();
+  if (!raw) return "";
+  if (/估时|已过\s*\d|共\s*\d|还未开始|服务器时间|活动时间|开放时间/.test(raw)) return "";
+  if (raw.length > 28) return "";
+  return raw;
 }
 
 const ACCENT_BY_GAME = {
@@ -62,13 +61,8 @@ const ACCENT_BY_GAME = {
   al: "card--accent-blue",
   nikke: "card--accent-pink",
   r1999: "card--accent-violet",
-  ptn: "card--accent-blue",
-  snow: "card--accent-blue",
   gfl2: "card--accent-orange",
   hs: "card--accent-orange",
-  pvz: "card--accent-teal",
-  naraka: "card--accent-red",
-  delta: "card--accent-teal",
   custom: "card--accent-blue",
 };
 
@@ -82,11 +76,12 @@ export function cardHtml(game, ev) {
   const kindClass = stateText === "预告" ? "preview" : stateText === "进行中" ? "live" : "done";
   const eid = String(ev.id || `${game.id}-${name}`);
   eventIndex.set(eid, { game, ev });
-  const sub = cardSubline(ev, live);
+  const sub = cardSubline(ev);
   const jump = jumpUrl(ev);
   const web = isWebEvent(ev);
   const soon = endingSoon(ev);
-  const statusLabel = soon ? "即将结束" : stateText;
+  // 「即将结束」只出现在封面角标一处
+  const coverStatus = soon ? "即将结束" : stateText;
   const accent = ACCENT_BY_GAME[game.accent] || "card--accent-blue";
   const coverInner = src
     ? `<img class="cover-blur" src="${src}" alt="" aria-hidden="true" loading="lazy" />
@@ -94,37 +89,26 @@ export function cardHtml(game, ev) {
          onload="adaptCover(this)"
          onerror="const c=this.parentElement;const b=this.previousElementSibling;if(b)b.remove();this.remove();if(c)c.classList.add('cover-fallback');" />`
     : "";
-  const jumpBtn =
-    jump && web
-      ? `<a class="jump-btn" href="${jump}" target="_blank" rel="noopener" data-jump title="打开网页活动">打开</a>`
-      : jump
-        ? `<a class="jump-btn muted" href="${jump}" target="_blank" rel="noopener" data-jump title="打开链接">链接</a>`
-        : "";
-  const fuzzy = ev.fuzzy ? `<span class="badge fuzzy">估时</span>` : "";
-  const soonFlag = soon ? `<span class="ending-soon-flag">即将结束</span>` : "";
+  const coverTag = jump
+    ? `a class="cover cover-link ${src ? "" : "cover-fallback"}" href="${jump}" target="_blank" rel="noopener" data-jump title="打开链接"`
+    : `div class="cover ${src ? "" : "cover-fallback"}"`;
+  const coverClose = jump ? "a" : "div";
   return `
-  <article class="card briefing-card ${accent} ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${soon ? "is-soon" : ""}" title="${soon ? "即将结束 · " : ""}${live.tip || ""} · 点击查看详情"
-    data-event-id="${eid}" data-game-id="${game.id}" data-cat="${cat}" tabindex="0" role="button">
-    <header class="card-ribbon">
-      <img class="card-ribbon__icon" src="${game.icon}" alt="" onerror="this.src='./icons/custom.svg'" />
-      <span class="card-ribbon__game">${game.name}</span>
-      <span class="chip pill badge-cat cat-${cat}">${catLabel(cat)}</span>
-    </header>
-    <div class="cover ${src ? "" : "cover-fallback"}">
+  <article class="card briefing-card ${accent} ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${soon ? "is-soon" : ""}" title="${soon ? "即将结束 · " : ""}${live.tip || ""} · 点击正文看详情${jump ? " · 点击封面打开链接" : ""}"
+    data-event-id="${eid}" data-game-id="${game.id}" data-cat="${cat}" tabindex="0">
+    <${coverTag}>
       ${coverInner}
       <div class="cover-overlay"></div>
-      <span class="badge ${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
-      ${soonFlag}
-      ${fuzzy}
-      ${jumpBtn}
-    </div>
+      <span class="badge ${kindClass}${soon ? " soon" : ""}">${coverStatus}</span>
+      <span class="badge badge-cat cat-${cat}">${catLabel(cat)}</span>
+    </${coverClose}>
     <div class="bar briefing-body">
-      <p class="bar-title">${name}${soon ? `<em class="soon-tag">即将结束</em>` : ""}</p>
+      <p class="bar-title">${name}</p>
       ${sub ? `<p class="bar-sub">${sub}</p>` : ""}
       <div class="briefing-grid">
         <div class="remain ${kindClass} ${soon ? "soon" : ""}">
           <span class="metric">${live.remain}</span>
-          <small>${statusLabel}</small>
+          <small>${stateText}</small>
         </div>
         <div class="mid">
           <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">
@@ -316,7 +300,6 @@ function updateMeta() {
   const games = visibleGames();
   let liveN = 0;
   let prevN = 0;
-  let fuzzyN = 0;
   let soonN = 0;
   for (const g of games) {
     if (state.loadState[g.id] !== "ready") continue;
@@ -324,9 +307,7 @@ function updateMeta() {
     const { live, preview } = splitEvents(events);
     liveN += live.length;
     prevN += preview.length;
-    const shown = [...live, ...preview];
-    fuzzyN += shown.filter((e) => e.fuzzy).length;
-    soonN += shown.filter((e) => endingSoon(e)).length;
+    soonN += [...live, ...preview].filter((e) => endingSoon(e)).length;
   }
   const catHint = CAT_ORDER.filter((k) => state.cats[k])
     .map((k) => catLabel(k))
@@ -334,7 +315,6 @@ function updateMeta() {
   const upd = fmtUpdated(state.status?.updatedAt);
   const parts = [catHint || "无筛选", `进行中 ${liveN}`, `预告 ${prevN}`];
   if (soonN) parts.push(`即将结束 ${soonN}`);
-  if (fuzzyN) parts.push(`估时 ${fuzzyN}`);
   if (upd) parts.push(`更新 ${upd}`);
   if (state.query.trim()) parts.unshift(`搜「${state.query.trim()}」`);
   const meta = $("#meta");
@@ -352,17 +332,6 @@ function updateMeta() {
     emptyEl.classList.toggle("hidden", !showEmpty);
   }
 
-  // 懒加载中不抢状态条；仅首屏 boot / 硬错误时改写
-  if (document.body.classList.contains("is-loading")) {
-    renderStatusBar({ loading: true });
-  } else if (games.some((g) => state.loadState[g.id] === "error")) {
-    renderStatusBar({
-      error: "部分游戏数据加载失败，可点刷新重试",
-      onRetry: () => $("#btnRefresh")?.click(),
-    });
-  } else {
-    renderStatusBar({});
-  }
 }
 
 export function applyFilterUI() {

@@ -1,4 +1,4 @@
-import { DATA_BASES, gamesMeta, remoteConfigUrl, state, importConfig, allGames } from "./state.js";
+import { DATA_BASES, gamesMeta, remoteConfigUrl, state, importConfig, allGames } from "./state.js?v=20260726v14";
 
 let bust = () => "t=" + Date.now();
 

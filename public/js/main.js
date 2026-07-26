@@ -1,4 +1,4 @@
-import { $ } from "./util.js";
+import { $ } from "./util.js?v=20260726v14";
 import {
   CAT_ORDER,
   DEFAULT_ENABLED,
@@ -9,8 +9,8 @@ import {
   persist,
   saveCustomGames,
   state,
-} from "./state.js";
-import { loadGamesMeta, loadRemoteConfig, loadStatus } from "./data.js";
+} from "./state.js?v=20260726v14";
+import { loadGamesMeta, loadRemoteConfig, loadStatus } from "./data.js?v=20260726v14";
 import {
   applyFilterUI,
   expandAndLoad,
@@ -20,14 +20,12 @@ import {
   renderPicker,
   renderSkeleton,
   visibleGames,
-} from "./render.js";
-import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js";
-import { renderStatusBar } from "./status.js";
+} from "./render.js?v=20260726v14";
+import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js?v=20260726v14";
 
 async function boot() {
   $("#meta").textContent = "加载中…";
   document.body.classList.add("is-loading");
-  renderStatusBar({ loading: true });
   renderSkeleton();
   try {
     await loadRemoteConfig();
@@ -36,13 +34,8 @@ async function boot() {
     applyFilterUI();
     renderPicker();
     render();
-    renderStatusBar({});
   } catch (err) {
     document.body.classList.remove("is-loading");
-    renderStatusBar({
-      error: String(err.message || err || "加载失败"),
-      onRetry: () => boot(),
-    });
     throw err;
   }
 }
@@ -343,8 +336,12 @@ toTop?.addEventListener("click", () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
+// 不再常驻 SW（模块缓存会导致改 UI 刷不出来）；仅注册一次自清理脚本
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js").catch(() => {});
+  navigator.serviceWorker.getRegistrations().then(function (regs) {
+    if (!regs.length) return;
+    return navigator.serviceWorker.register("./sw.js").catch(function () {});
+  });
 }
 
 boot().catch((err) => {

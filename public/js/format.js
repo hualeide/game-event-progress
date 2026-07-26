@@ -1,10 +1,19 @@
-import { escapeHtml, fmtDate, fmtRelative, endingSoon } from "./util.js";
-import { CAT_ORDER, state } from "./state.js";
+import { escapeHtml, fmtDate, fmtRelative, endingSoon } from "./util.js?v=20260726v14";
+import { CAT_ORDER, state } from "./state.js?v=20260726v14";
+
+/** 去掉公告标题里的「预告」字样（状态以角标为准，避免进行中仍显示【预告】） */
+function stripPreviewPrefix(s) {
+  return String(s || "")
+    .replace(/^[【\[]?\s*预告\s*[】\]]?\s*/u, "")
+    .replace(/^预告[·・.:：\s]+/u, "")
+    .replace(/^[【\[]\s*预告\s*[】\]]\s*/gu, "")
+    .trim();
+}
 
 export function shortName(ev) {
-  const title = (ev.title || "").replace(/^预告·/, "").trim();
+  const title = stripPreviewPrefix(ev.title || "");
   if (title && title.length <= 28) return title;
-  const raw = (ev.header || title || "").replace(/^预告·/, "");
+  const raw = stripPreviewPrefix(ev.header || title || "");
   const m = raw.match(/[「【\[]([^」】\]]+)[」】\]]/);
   if (m) return m[1];
   const head = raw.split(/[·・]/)[0].trim();
@@ -62,9 +71,7 @@ export function liveStats(ev) {
       kind: "preview",
       remain: fmtRelative(start - now),
       pct: 0,
-      tip: ev.fuzzy
-        ? `预告（估时）· 约 ${fmtDate(ev.start)} 前后`
-        : `还未开始 · ${fmtDate(ev.start)} 开启`,
+      tip: `还未开始 · ${fmtDate(ev.start)} 开启`,
     };
   }
   if (now >= end) {
