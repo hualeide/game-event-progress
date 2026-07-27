@@ -1,7 +1,7 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-07-27T03:36:15.510965+08:00",
+  "fetchedAt": "2026-07-27T12:03:39.013676+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 5,
@@ -16,11 +16,11 @@
       "start": "2026-07-21T18:00:00+08:00",
       "end": "2026-08-04T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天14时",
-      "progress": 38.6,
+      "remain": "剩8天5时",
+      "progress": 41.1,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 8.6,
+        "elapsedDays": 5.8,
+        "remainDays": 8.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-22T12:00:00+08:00",
       "end": "2026-08-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 33.2,
+      "remain": "剩8天23时",
+      "progress": 35.7,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 9.3,
+        "elapsedDays": 5.0,
+        "remainDays": 9.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-23T12:00:00+08:00",
       "end": "2026-08-06T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天8时",
-      "progress": 26.1,
+      "remain": "剩9天23时",
+      "progress": 28.6,
       "days": {
-        "elapsedDays": 3.7,
-        "remainDays": 10.3,
+        "elapsedDays": 4.0,
+        "remainDays": 10.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-07-24T12:00:00+08:00",
       "end": "2026-08-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天8时",
-      "progress": 18.9,
+      "remain": "剩10天23时",
+      "progress": 21.4,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.0,
+        "remainDays": 11.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -136,11 +136,11 @@
       "start": "2026-07-21T12:00:00+08:00",
       "end": "2026-08-10T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天20时",
-      "progress": 27.6,
+      "remain": "剩14天11时",
+      "progress": 29.3,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 14.8,
+        "elapsedDays": 6.0,
+        "remainDays": 14.5,
         "totalDays": 20.5
       },
       "hasSchedule": true,
