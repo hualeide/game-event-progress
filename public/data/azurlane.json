@@ -1,101 +1,9 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-07-27T12:02:49.839764+08:00",
-  "count": 6,
+  "fetchedAt": "2026-07-27T18:10:11.387615+08:00",
+  "count": 1,
   "events": [
-    {
-      "id": "al-信标META布里斯托尔META-0605",
-      "title": "信标·META：布里斯托尔·META",
-      "header": "信标·META·信标·META：布里斯托尔·META",
-      "banner": "./covers/al--META-ME-8438ddbc95-845c3393.png",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B46%E6%9C%885%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-06-05T15:00:00+08:00",
-      "end": "2026-09-04T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩38天21时",
-      "progress": 57.1,
-      "days": {
-        "elapsedDays": 51.9,
-        "remainDays": 38.9,
-        "totalDays": 90.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年6月5日10:00港区改建"
-    },
-    {
-      "id": "al-限界挑战巨蟹座-0701",
-      "title": "限界挑战：巨蟹座",
-      "header": "开启限时复刻活动·限界挑战：巨蟹座",
-      "banner": "./covers/al-5c3623332f-ad510def.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B46%E6%9C%8825%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-07-01T00:00:00+08:00",
-      "end": "2026-07-31T23:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩4天11时",
-      "progress": 85.5,
-      "days": {
-        "elapsedDays": 26.5,
-        "remainDays": 4.5,
-        "totalDays": 31.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年6月25日10:00港区改建"
-    },
-    {
-      "id": "al-自动步兵人形之旅-0716",
-      "title": "自动步兵人形之旅",
-      "header": "开启限时联动活动·自动步兵人形之旅",
-      "banner": "./covers/al-379de6eda8-fdcd4da3.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B47%E6%9C%8816%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-07-16T15:00:00+08:00",
-      "end": "2026-07-30T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩2天21时",
-      "progress": 78.9,
-      "days": {
-        "elapsedDays": 10.9,
-        "remainDays": 2.9,
-        "totalDays": 13.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年7月16日10:00港区改建"
-    },
-    {
-      "id": "al-怪谈纪实逃离白夜山庄-0723",
-      "title": "怪谈纪实：逃离白夜山庄！",
-      "header": "开启限时活动·怪谈纪实：逃离白夜山庄！",
-      "banner": "./covers/al-6cabb8cf54-c4110655.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B47%E6%9C%8823%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-07-23T16:00:00+08:00",
-      "end": "2026-08-06T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天21时",
-      "progress": 27.9,
-      "days": {
-        "elapsedDays": 3.8,
-        "remainDays": 9.9,
-        "totalDays": 13.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年7月23日10:00港区改建"
-    },
     {
       "id": "al-世界巡游-0601",
       "title": "世界巡游",
@@ -105,11 +13,11 @@
       "start": "2026-06-01T00:00:00+08:00",
       "end": "2026-07-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天11时",
-      "progress": 92.6,
+      "remain": "剩4天5时",
+      "progress": 93.0,
       "days": {
-        "elapsedDays": 56.5,
-        "remainDays": 4.5,
+        "elapsedDays": 56.8,
+        "remainDays": 4.2,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -118,31 +26,14 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年5月28日10:00港区改建"
-    },
-    {
-      "id": "al-特别竞拍时刻-0716",
-      "title": "特别竞拍时刻",
-      "header": "开启限时活动·特别竞拍时刻",
-      "banner": "./covers/al-691c7229d7-f7d26243.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B47%E6%9C%8816%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-07-16T15:00:00+08:00",
-      "end": "2026-08-06T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天21时",
-      "progress": 52.3,
-      "days": {
-        "elapsedDays": 10.9,
-        "remainDays": 9.9,
-        "totalDays": 20.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "2026年7月16日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
-  "notes": []
+  "notes": [
+    "可能漏抓：含「限界挑战」的进行中活动",
+    "可能漏抓：含「自动步兵」的进行中活动",
+    "可能漏抓：含「特别竞拍」的进行中活动",
+    "可能漏抓：含「怪谈纪实」的进行中活动",
+    "可能漏抓：信标·META（长线挑战）"
+  ]
 }
