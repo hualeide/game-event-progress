@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-07-28T03:55:21.096738+08:00",
+  "fetchedAt": "2026-07-28T11:35:41.495722+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 5,
+  "count": 3,
   "notes": [
     "跳过 3.0版本「某个梦游者的自白」更新公告",
     "跳过 3.1版本「漫长的告别」预下载开启&更新通知",
@@ -21,29 +21,6 @@
   ],
   "events": [
     {
-      "id": "1200",
-      "title": "「全新放送」活动说明",
-      "header": "「「全新放送」活动说明」",
-      "banner": "./covers/zzz-1200-1a8fb154.png",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-06-15T13:00:00+08:00",
-      "end": "2026-07-28T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 42.6,
-        "remainDays": 0.0,
-        "totalDays": 42.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「全新放送」活动说明"
-    },
-    {
       "id": "1205",
       "title": "「天枢情报图册」活动说明",
       "header": "「「天枢情报图册」活动说明」",
@@ -52,11 +29,11 @@
       "start": "2026-06-15T18:30:00+08:00",
       "end": "2026-07-29T05:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天2时",
-      "progress": 97.5,
+      "remain": "剩18小时",
+      "progress": 98.2,
       "days": {
-        "elapsedDays": 42.4,
-        "remainDays": 1.1,
+        "elapsedDays": 42.7,
+        "remainDays": 0.8,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -67,29 +44,6 @@
       "summary": "「天枢情报图册」活动说明"
     },
     {
-      "id": "1226",
-      "title": "「『嗯呢』从天降」活动说明",
-      "header": "「「『嗯呢』从天降」活动说明」",
-      "banner": "./covers/zzz-1226-80c637a3.jpg",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-07-06T18:00:00+08:00",
-      "end": "2026-07-28T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.4,
-        "remainDays": 0.0,
-        "totalDays": 21.4
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「『嗯呢』从天降」活动说明"
-    },
-    {
       "id": "1249",
       "title": "养成指南上新丨蕾米埃尔养成材料预告",
       "header": "「蕾米埃尔养成材料预告」",
@@ -98,11 +52,11 @@
       "start": "2026-07-18T13:00:00+08:00",
       "end": "2026-07-28T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩20小时",
-      "progress": 92.0,
+      "remain": "剩12小时",
+      "progress": 95.1,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 0.8,
+        "elapsedDays": 9.9,
+        "remainDays": 0.5,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -121,11 +75,11 @@
       "start": "2026-06-16T13:15:00+08:00",
       "end": "2026-07-29T05:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天2时",
-      "progress": 97.5,
+      "remain": "剩18小时",
+      "progress": 98.2,
       "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 1.1,
+        "elapsedDays": 41.9,
+        "remainDays": 0.8,
         "totalDays": 42.7
       },
       "hasSchedule": true,
