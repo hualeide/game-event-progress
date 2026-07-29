@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-07-29T17:08:48.603592+08:00",
+  "fetchedAt": "2026-07-29T22:31:27.813353+08:00",
   "timezone": "Asia/Shanghai",
   "count": 17,
   "notes": [
@@ -15,38 +15,6 @@
   ],
   "events": [
     {
-      "id": "3802",
-      "title": "「军列申领」限时特卖说明",
-      "header": "「军列申领」",
-      "banner": "./covers/ef-3802-85f0e530.jpg",
-      "link": "https://endfield.hypergryph.com/news/3802",
-      "start": "2026-07-15T18:30:00+08:00",
-      "end": "2026-07-29T18:30:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.6,
-      "days": {
-        "elapsedDays": 13.9,
-        "remainDays": 0.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "估时（寻访）",
-          "start": "2026-07-15T18:30:00+08:00",
-          "end": "2026-07-29T18:30:00+08:00",
-          "raw": "single-node"
-        }
-      ],
-      "summary": "亲爱的管理员：「军列申领」开放期间，6星武器【四二式·肃阵（施术单元）】获取概率提升！▼//「军列申领」· 开放时间：「向渊行」版本更新后开启，于3次「特许寻访」后结束（从「临渊望北」起计算）· 开放",
-      "body": "亲爱的管理员： \n 「军列申领」开放期间，6星武器【四二式·肃阵（施术单元）】获取概率提升！ \n \n ▼//「军列申领」 \n · 开放时间：「向渊行」版本更新后开启，于3次「特许寻访」后结束（从「临渊望北」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「军列申领」中，概率提升的6星武器为【四二式·肃阵（施术单元）】。 \n · 「军列申领」中，全部可能出现的6星武器包括：四二式·肃阵（施术单元）/昔日精品（双手剑）/楔子（手铳）/显赫声名（单手剑）/J.E.T.（长柄武器）/爆破单元（施术单元）/遗忘（施术单元）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
-      "updatedAt": "2026-07-15T18:30:00+08:00"
-    },
-    {
       "id": "8545",
       "title": "「临渊望北」特许寻访说明",
       "header": "「临渊望北」",
@@ -55,11 +23,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -93,7 +61,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.8,
+        "remainDays": 31.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -114,6 +82,38 @@
       "body": "· 开放时间：2026/08/09 12:00（服务器时间） - 版本更新维护前\n · 寻访说明：「晨星于此闪耀」特许寻访中，6星干员【梨诺】获取概率提升，全部可能出现的6星干员包括：梨诺/诀/卡缪/余烬/黎风/艾尔黛拉/别礼/骏卫。\n · 特许寻访开放期间，还将开放6星干员【梨诺】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可前往【活动中心】界面领取奖励。【集成配额交易】中开放【明耀晨星寻访凭证】的特惠兑换，最多可兑换【明耀晨星寻访凭证】×5。\n \n 4.「明曜申领」开放"
     },
     {
+      "id": "3802",
+      "title": "「军列申领」限时特卖说明",
+      "header": "「军列申领」",
+      "banner": "./covers/ef-3802-85f0e530.jpg",
+      "link": "https://endfield.hypergryph.com/news/3802",
+      "start": "2026-07-15T18:30:00+08:00",
+      "end": "2026-07-29T18:30:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 14.0,
+        "remainDays": 0.0,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（寻访）",
+          "start": "2026-07-15T18:30:00+08:00",
+          "end": "2026-07-29T18:30:00+08:00",
+          "raw": "single-node"
+        }
+      ],
+      "summary": "亲爱的管理员：「军列申领」开放期间，6星武器【四二式·肃阵（施术单元）】获取概率提升！▼//「军列申领」· 开放时间：「向渊行」版本更新后开启，于3次「特许寻访」后结束（从「临渊望北」起计算）· 开放",
+      "body": "亲爱的管理员： \n 「军列申领」开放期间，6星武器【四二式·肃阵（施术单元）】获取概率提升！ \n \n ▼//「军列申领」 \n · 开放时间：「向渊行」版本更新后开启，于3次「特许寻访」后结束（从「临渊望北」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「军列申领」中，概率提升的6星武器为【四二式·肃阵（施术单元）】。 \n · 「军列申领」中，全部可能出现的6星武器包括：四二式·肃阵（施术单元）/昔日精品（双手剑）/楔子（手铳）/显赫声名（单手剑）/J.E.T.（长柄武器）/爆破单元（施术单元）/遗忘（施术单元）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
+      "updatedAt": "2026-07-15T18:30:00+08:00"
+    },
+    {
       "id": "9335-combat-追忆赛季",
       "title": "「追忆赛季」",
       "header": "「追忆赛季」",
@@ -122,11 +122,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -159,7 +159,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -191,7 +191,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.8,
+        "remainDays": 31.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -224,7 +224,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 41.8,
+        "remainDays": 41.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -253,11 +253,11 @@
       "start": "2026-07-07T04:00:00+08:00",
       "end": "2026-07-31T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天10时",
-      "progress": 94.0,
+      "remain": "剩1天5时",
+      "progress": 94.9,
       "days": {
-        "elapsedDays": 22.5,
-        "remainDays": 1.5,
+        "elapsedDays": 22.8,
+        "remainDays": 1.2,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -286,11 +286,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -319,11 +319,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -439,11 +439,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -472,11 +472,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天18时",
-      "progress": 55.1,
+      "remain": "剩10天13时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 10.8,
+        "elapsedDays": 13.4,
+        "remainDays": 10.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -505,11 +505,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "18小时后",
+      "remain": "13小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.2,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -541,7 +541,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.5,
+        "remainDays": 10.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -580,7 +580,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.8,
+        "remainDays": 31.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -613,7 +613,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.8,
+        "remainDays": 31.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -646,7 +646,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.8,
+        "remainDays": 31.6,
         "totalDays": 21.0
       },
       "hasSchedule": true,
