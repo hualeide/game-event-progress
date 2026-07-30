@@ -1,10 +1,11 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-30T11:28:31.350484+08:00",
+  "fetchedAt": "2026-07-30T16:49:52.829985+08:00",
   "timezone": "Asia/Shanghai",
   "count": 9,
   "notes": [
+    "3351 跳过无时段：08月01日 版本更新公告",
     "8216 跳过：集成战略 玩法调研",
     "3352 跳过：信使速递 网页活动开启",
     "6771 跳过：【奇象巡展】 网页活动开启",
@@ -83,11 +84,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天16时",
-      "progress": 73.7,
+      "remain": "剩3天11时",
+      "progress": 75.3,
       "days": {
-        "elapsedDays": 10.3,
-        "remainDays": 3.7,
+        "elapsedDays": 10.5,
+        "remainDays": 3.5,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -118,11 +119,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天16时",
-      "progress": 72.7,
+      "remain": "剩3天11时",
+      "progress": 74.3,
       "days": {
-        "elapsedDays": 9.8,
-        "remainDays": 3.7,
+        "elapsedDays": 10.0,
+        "remainDays": 3.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -154,11 +155,11 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天16时",
-      "progress": 50.5,
+      "remain": "剩6天11时",
+      "progress": 52.1,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 6.7,
+        "elapsedDays": 7.0,
+        "remainDays": 6.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -189,17 +190,16 @@
       "textPreview": "",
       "start": "2026-07-30T16:00:00+08:00",
       "end": "2026-08-13T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩13天11时",
+      "progress": 0.3,
       "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.2,
-        "totalDays": 13.5,
-        "untilStartDays": 0.2
+        "elapsedDays": 0.0,
+        "remainDays": 13.5,
+        "totalDays": 13.5
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260727/f16fa09718ab57a50a5a66e1dbac8c20.png",
       "playable": false,
       "category": "gacha",
@@ -227,13 +227,13 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.0,
+        "remainDays": 1.8,
         "totalDays": 13.7,
-        "untilStartDays": 2.0
+        "untilStartDays": 1.8
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -336,13 +336,13 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.0,
+        "remainDays": 1.8,
         "totalDays": 27.7,
-        "untilStartDays": 2.0
+        "untilStartDays": 1.8
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -357,7 +357,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-30T11:28:31.350484+08:00",
+      "updatedAt": "2026-07-30T16:49:52.829985+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -376,9 +376,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 19.7,
+        "remainDays": 19.5,
         "totalDays": 14.0,
-        "untilStartDays": 19.7
+        "untilStartDays": 19.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -407,13 +407,13 @@
       "start": "2026-08-08T16:00:00+08:00",
       "end": "2026-09-04T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 9.2,
+        "remainDays": 9.0,
         "totalDays": 26.5,
-        "untilStartDays": 9.2
+        "untilStartDays": 9.0
       },
       "hasSchedule": true,
       "kind": "preview",

@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-07-30T11:28:31.342267+08:00",
+  "fetchedAt": "2026-07-30T16:49:52.827030+08:00",
   "timezone": "Asia/Shanghai",
   "count": 22,
   "notes": [
@@ -48,42 +48,6 @@
   ],
   "events": [
     {
-      "id": "1859",
-      "title": "【预告】总力战：气垫船 • 野外战",
-      "header": "「总力战·气垫船 • 野外战」",
-      "banner": "./covers/ba-1859-e92adac2.png",
-      "link": "https://bluearchive-cn.com/news/1859",
-      "start": "2026-07-24T00:00:00+08:00",
-      "end": "2026-07-30T13:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 98.4,
-      "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.1,
-        "totalDays": 6.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-07-23T04:00:00+08:00",
-          "end": "2026-07-23T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：07月23日 04:00 ~ 07月23日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-07-24T00:00:00+08:00",
-          "end": "2026-07-30T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：07月24日 00:00 ~ 07月30日 13:59"
-        }
-      ],
-      "summary": "从矫正所传来了【七囚人】之一的【灾厄之狐】越狱并夺走了气垫船，正在大闹特闹的消息。 \n 虽然不知身穿泳装的她为何要无差别地恣意破坏，但若放任不管的话，基沃托斯的海滩想必将变成一片火海。 \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领进行战斗的任务。 \n • 一天内可以参加战斗的次数是有限的，所以要慎重考虑后再…"
-    },
-    {
       "id": "1860",
       "title": "【预告】大决战：切赛德 • 室内战",
       "header": "「大决战·切赛德 • 室内战」",
@@ -92,11 +56,11 @@
       "start": "2026-07-30T00:00:00+08:00",
       "end": "2026-08-13T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天2时",
-      "progress": 3.3,
+      "remain": "剩13天21时",
+      "progress": 4.8,
       "days": {
-        "elapsedDays": 0.5,
-        "remainDays": 14.1,
+        "elapsedDays": 0.7,
+        "remainDays": 13.9,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -140,11 +104,11 @@
       "start": "2026-07-30T04:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天16时",
-      "progress": 4.5,
+      "remain": "剩6天11时",
+      "progress": 7.6,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 6.7,
+        "elapsedDays": 0.5,
+        "remainDays": 6.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -175,16 +139,16 @@
       "link": "https://bluearchive-cn.com/news/1850",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "combat",
       "allRanges": [
@@ -205,16 +169,16 @@
       "link": "https://bluearchive-cn.com/news/1851",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -235,16 +199,16 @@
       "link": "https://bluearchive-cn.com/news/1852",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -265,16 +229,16 @@
       "link": "https://bluearchive-cn.com/news/1853",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -295,16 +259,16 @@
       "link": "https://bluearchive-cn.com/news/1854",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -325,16 +289,16 @@
       "link": "https://bluearchive-cn.com/news/1855",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -355,16 +319,16 @@
       "link": "https://bluearchive-cn.com/news/1856",
       "start": "2026-07-30T13:59:00+08:00",
       "end": "2026-08-06T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -386,11 +350,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "1天后",
+      "remain": "21小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 27.7,
+        "remainDays": 27.5,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -420,7 +384,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -456,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.7,
+        "remainDays": 20.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -482,11 +446,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -512,11 +476,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -542,11 +506,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -572,11 +536,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -602,11 +566,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -632,11 +596,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -662,11 +626,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -742,6 +706,42 @@
         }
       ],
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 3周年倒计时签到活动即将开始！活动期间登录游戏，即可领取青辉石奖励！ \n  \n ■ 活动时间 \n 07月23日 04:00 ~ 07月30日 03:59 \n  \n ■ 奖励内容 \n 倒计时7天：青辉石 × 100 \n 倒计时6天：青辉石 × 100 \n 倒计时5天：青辉石 × 10…"
+    },
+    {
+      "id": "1859",
+      "title": "【预告】总力战：气垫船 • 野外战",
+      "header": "「总力战·气垫船 • 野外战」",
+      "banner": "./covers/ba-1859-e92adac2.png",
+      "link": "https://bluearchive-cn.com/news/1859",
+      "start": "2026-07-24T00:00:00+08:00",
+      "end": "2026-07-30T13:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 6.6,
+        "remainDays": 0.0,
+        "totalDays": 6.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-07-23T04:00:00+08:00",
+          "end": "2026-07-23T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：07月23日 04:00 ~ 07月23日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-07-24T00:00:00+08:00",
+          "end": "2026-07-30T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：07月24日 00:00 ~ 07月30日 13:59"
+        }
+      ],
+      "summary": "从矫正所传来了【七囚人】之一的【灾厄之狐】越狱并夺走了气垫船，正在大闹特闹的消息。 \n 虽然不知身穿泳装的她为何要无差别地恣意破坏，但若放任不管的话，基沃托斯的海滩想必将变成一片火海。 \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领进行战斗的任务。 \n • 一天内可以参加战斗的次数是有限的，所以要慎重考虑后再…"
     }
   ]
 }
