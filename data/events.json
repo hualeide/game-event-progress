@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-07-30T03:43:15.243420+08:00",
+  "fetchedAt": "2026-07-30T11:28:31.350484+08:00",
   "timezone": "Asia/Shanghai",
   "count": 9,
   "notes": [
@@ -19,11 +19,11 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "9130 寻访「常驻标准寻访」用展示日估时",
     "1063 寻访「车辙与风的归所」对齐正文活动时间",
     "1063 寻访「车辙与风的归所 限定寻访说明」对齐长公告时段",
     "5602 寻访「中坚寻访」用展示日估时",
     "1073 寻访「永不落幕」对齐长公告时段",
-    "3366 寻访「常驻标准寻访」用展示日估时",
     "补全寻访卡「联合行动」（无独立海报公告）"
   ],
   "analysis": {
@@ -37,42 +37,6 @@
     ]
   },
   "events": [
-    {
-      "id": "3366",
-      "title": "常驻标准寻访 限时出率上升",
-      "header": "「常驻标准寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-3366.jpg",
-      "link": "uniwebview://move?target=recruit&param1=DOUBLE_75_0_2",
-      "updatedAt": "2026-07-13T17:03:21+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-07-16T16:00:00+08:00",
-          "end": "2026-07-30T03:59:00+08:00",
-          "raw": "displayTime=2026-07-16"
-        }
-      ],
-      "summary": "卡池「常驻标准寻访」",
-      "textPreview": "",
-      "start": "2026-07-16T16:00:00+08:00",
-      "end": "2026-07-30T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩15分",
-      "progress": 99.9,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.0,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260713/0ab0c90bddf65efb6291ecf6d8f87e10.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
     {
       "id": "1074",
       "title": "【红丝绒】 复刻即将开启",
@@ -119,11 +83,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天",
-      "progress": 71.3,
+      "remain": "剩3天16时",
+      "progress": 73.7,
       "days": {
-        "elapsedDays": 10.0,
-        "remainDays": 4.0,
+        "elapsedDays": 10.3,
+        "remainDays": 3.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -154,11 +118,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天",
-      "progress": 70.3,
+      "remain": "剩3天16时",
+      "progress": 72.7,
       "days": {
-        "elapsedDays": 9.5,
-        "remainDays": 4.0,
+        "elapsedDays": 9.8,
+        "remainDays": 3.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -190,16 +154,53 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天",
-      "progress": 48.1,
+      "remain": "剩6天16时",
+      "progress": 50.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 7.0,
+        "elapsedDays": 6.8,
+        "remainDays": 6.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
       "kind": "live",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260722/d3670a5b71b534f29c54879c3e1d6a40.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
+    },
+    {
+      "id": "9130",
+      "title": "常驻标准寻访 限时出率上升",
+      "header": "「常驻标准寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-9130.png",
+      "link": "uniwebview://move?target=recruit&param1=DOUBLE_75_0_4",
+      "updatedAt": "2026-07-27T18:30:04+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-07-30T16:00:00+08:00",
+          "end": "2026-08-13T03:59:00+08:00",
+          "raw": "displayTime=2026-07-30"
+        }
+      ],
+      "summary": "卡池「常驻标准寻访」",
+      "textPreview": "",
+      "start": "2026-07-30T16:00:00+08:00",
+      "end": "2026-08-13T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "4小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 0.2,
+        "totalDays": 13.5,
+        "untilStartDays": 0.2
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260727/f16fa09718ab57a50a5a66e1dbac8c20.png",
       "playable": false,
       "category": "gacha",
       "fuzzy": true
@@ -230,9 +231,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.3,
+        "remainDays": 2.0,
         "totalDays": 13.7,
-        "untilStartDays": 2.3
+        "untilStartDays": 2.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -339,9 +340,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.3,
+        "remainDays": 2.0,
         "totalDays": 27.7,
-        "untilStartDays": 2.3
+        "untilStartDays": 2.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -356,7 +357,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-07-30T03:43:15.243420+08:00",
+      "updatedAt": "2026-07-30T11:28:31.350484+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -371,13 +372,13 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "20天后",
+      "remain": "19天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 20.0,
+        "remainDays": 19.7,
         "totalDays": 14.0,
-        "untilStartDays": 20.0
+        "untilStartDays": 19.7
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -410,9 +411,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 9.5,
+        "remainDays": 9.2,
         "totalDays": 26.5,
-        "untilStartDays": 9.5
+        "untilStartDays": 9.2
       },
       "hasSchedule": true,
       "kind": "preview",
