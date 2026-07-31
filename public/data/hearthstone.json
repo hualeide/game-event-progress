@@ -1,10 +1,10 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-07-31T11:52:37.780789+08:00",
+  "fetchedAt": "2026-07-31T17:18:27.308984+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 2,
+  "count": 3,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-07-22T00:00:00+08:00",
       "end": "2026-08-19T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩18天12时",
-      "progress": 33.9,
+      "remain": "剩18天6时",
+      "progress": 34.7,
       "days": {
-        "elapsedDays": 9.5,
-        "remainDays": 18.5,
+        "elapsedDays": 9.7,
+        "remainDays": 18.3,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-28T09:52:00+08:00",
       "end": "2026-08-25T09:52:00+08:00",
       "status": "进行中",
-      "remain": "剩24天21时",
-      "progress": 11.0,
+      "remain": "剩24天16时",
+      "progress": 11.8,
       "days": {
-        "elapsedDays": 3.1,
-        "remainDays": 24.9,
+        "elapsedDays": 3.3,
+        "remainDays": 24.7,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -66,6 +66,36 @@
         }
       ],
       "summary": "酒馆战棋迎来第14赛季：达拉然的黑暗之赐！"
+    },
+    {
+      "id": "f192c616",
+      "title": "开发者日志：酒馆战棋第14赛季黑暗之赐机制综述",
+      "header": "开发者日志：酒馆战棋第14赛季黑暗之赐机制综述",
+      "banner": "./covers/hs-f192c616-00becda7.jpg",
+      "link": "https://hs.blizzard.cn/news/163606/index.html",
+      "start": "2026-07-31T11:03:00+08:00",
+      "end": "2026-08-28T11:03:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天17时",
+      "progress": 0.9,
+      "days": {
+        "elapsedDays": 0.3,
+        "remainDays": 27.7,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-07-31T11:03:00+08:00",
+          "end": "2026-08-28T11:03:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "开发者日志：酒馆战棋第14赛季黑暗之赐机制综述"
     }
   ]
 }
