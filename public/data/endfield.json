@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-07-31T03:52:34.317668+08:00",
+  "fetchedAt": "2026-07-31T11:50:13.880935+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -58,11 +58,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -95,7 +95,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -124,11 +124,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天8时",
-      "progress": 32.6,
+      "remain": "剩30天",
+      "progress": 33.3,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 30.3,
+        "elapsedDays": 15.0,
+        "remainDays": 30.0,
         "totalDays": 45.0
       },
       "hasSchedule": true,
@@ -157,11 +157,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -194,7 +194,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.0,
+        "remainDays": 19.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -226,7 +226,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -259,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.3,
+        "remainDays": 33.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -288,11 +288,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -313,39 +313,6 @@
       "body": "· 活动时间：「向渊行」版本更新后 - 2026/08/09 12:00（服务器时间）\n · 活动说明：累计完成3日签到可领取【嵌晶玉】×3000、【基础寻访凭证】×5、6星武器【遥望（单手剑）】奖励。\n \n 2.「宏运连连乐」庆典活动"
     },
     {
-      "id": "9335-event-宏运连连乐",
-      "title": "「宏运连连乐」",
-      "header": "「宏运连连乐」",
-      "banner": "./covers/ef-event-9335-9684226db8-2af5f4bf.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T12:00:00+08:00",
-      "end": "2026-07-31T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 0.0,
-        "totalDays": 14.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 宏运连连乐",
-          "start": "2026-07-16T12:00:00+08:00",
-          "end": "2026-07-31T04:00:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/07/31 04:00",
-          "fuzzy": false,
-          "category": "event"
-        }
-      ],
-      "summary": "宏运连连乐 · 奖励：【嵌晶玉】",
-      "body": "· 活动时间：「向渊行」版本更新后 - 2026/07/31 04:00（服务器时间）\n · 活动说明：\n ○ 活动期间，管理员可每日在活动界面进行1次刮奖，刮出不同的印花会获得不同的奖励，最多可参与14次。每次刮奖可得【嵌晶玉】和各类培养素材奖励。\n ○ 活动期间，每日将会公布一枚“今日印花”，若刮出与“今日印花”相同的印花，则该印花对应的奖励数量翻倍，其余印花对应的奖励亦可获得。若刮出“ALL”印花，则将会获得“ALL”奖励。\n ○ 活动期间，最多可获得4次“ALL”奖励；累计刮奖14次可至少获得【嵌晶玉】×5000奖励。\n \n 3.「主线先行解锁：武陵」常驻活动"
-    },
-    {
       "id": "9335-event-北观禁土",
       "title": "「北观禁土」",
       "header": "「北观禁土」",
@@ -354,11 +321,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -387,11 +354,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 61.1,
+      "remain": "剩9天",
+      "progress": 62.5,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 9.3,
+        "elapsedDays": 15.0,
+        "remainDays": 9.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -420,11 +387,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天8时",
-      "progress": 32.6,
+      "remain": "剩30天",
+      "progress": 33.3,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 30.3,
+        "elapsedDays": 15.0,
+        "remainDays": 30.0,
         "totalDays": 45.0
       },
       "hasSchedule": true,
@@ -540,11 +507,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天",
-      "progress": 4.8,
+      "remain": "剩12天16时",
+      "progress": 7.3,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.0,
+        "elapsedDays": 1.0,
+        "remainDays": 12.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -572,11 +539,11 @@
       "start": "2026-08-02T04:00:00+08:00",
       "end": "2026-08-09T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.0,
+        "remainDays": 8.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -615,7 +582,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -648,7 +615,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -672,7 +639,7 @@
       "id": "9335-event-根脉奇境",
       "title": "「根脉奇境」",
       "header": "「根脉奇境」",
-      "banner": "./covers/ef-event-9335-135a86f2a8-8582a62a.png",
+      "banner": "./covers/ef-event-9335-135a86f2a8-3cc3679b.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
@@ -681,7 +648,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -700,6 +667,39 @@
       ],
       "summary": "根脉奇境 · 在「根脉奇境」中收集醚质残块，完成奇境任务，即可领取【嵌晶玉】×1600、【存续的痕迹】等活动奖励。 · 奖励：【嵌晶玉】、【存续的痕迹】",
       "body": "· 活动时间：2026/08/09 12:00（服务器时间） - 版本更新维护前\n · 活动说明：在「根脉奇境」中收集醚质残块，完成奇境任务，即可领取【嵌晶玉】×1600、【存续的痕迹】等活动奖励。\n \n 1.「战争回响」常驻挑战玩法"
+    },
+    {
+      "id": "9335-event-宏运连连乐",
+      "title": "「宏运连连乐」",
+      "header": "「宏运连连乐」",
+      "banner": "./covers/ef-event-9335-9684226db8-2af5f4bf.jpg",
+      "link": "https://endfield.hypergryph.com/news/9335",
+      "start": "2026-07-16T12:00:00+08:00",
+      "end": "2026-07-31T04:00:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 14.7,
+        "remainDays": 0.0,
+        "totalDays": 14.7
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": true,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动 · 宏运连连乐",
+          "start": "2026-07-16T12:00:00+08:00",
+          "end": "2026-07-31T04:00:00+08:00",
+          "raw": "「向渊行」版本更新后 - 2026/07/31 04:00",
+          "fuzzy": false,
+          "category": "event"
+        }
+      ],
+      "summary": "宏运连连乐 · 奖励：【嵌晶玉】",
+      "body": "· 活动时间：「向渊行」版本更新后 - 2026/07/31 04:00（服务器时间）\n · 活动说明：\n ○ 活动期间，管理员可每日在活动界面进行1次刮奖，刮出不同的印花会获得不同的奖励，最多可参与14次。每次刮奖可得【嵌晶玉】和各类培养素材奖励。\n ○ 活动期间，每日将会公布一枚“今日印花”，若刮出与“今日印花”相同的印花，则该印花对应的奖励数量翻倍，其余印花对应的奖励亦可获得。若刮出“ALL”印花，则将会获得“ALL”奖励。\n ○ 活动期间，最多可获得4次“ALL”奖励；累计刮奖14次可至少获得【嵌晶玉】×5000奖励。\n \n 3.「主线先行解锁：武陵」常驻活动"
     }
   ]
 }
