@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-02T21:54:37.080728+08:00",
+  "fetchedAt": "2026-08-03T03:34:44.904257+08:00",
   "timezone": "Asia/Shanghai",
   "count": 9,
   "notes": [
@@ -82,11 +82,11 @@
       "start": "2026-07-20T04:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.2,
+      "remain": "剩24分",
+      "progress": 99.9,
       "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0.3,
+        "elapsedDays": 14.0,
+        "remainDays": 0.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-07-20T16:00:00+08:00",
       "end": "2026-08-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.1,
+      "remain": "剩24分",
+      "progress": 99.9,
       "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 0.3,
+        "elapsedDays": 13.5,
+        "remainDays": 0.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -153,11 +153,11 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 75.9,
+      "remain": "剩3天",
+      "progress": 77.7,
       "days": {
-        "elapsedDays": 10.2,
-        "remainDays": 3.3,
+        "elapsedDays": 10.5,
+        "remainDays": 3.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -189,11 +189,11 @@
       "start": "2026-07-30T16:00:00+08:00",
       "end": "2026-08-13T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 24.0,
+      "remain": "剩10天",
+      "progress": 25.8,
       "days": {
-        "elapsedDays": 3.2,
-        "remainDays": 10.3,
+        "elapsedDays": 3.5,
+        "remainDays": 10.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -225,11 +225,11 @@
       "start": "2026-08-01T16:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 9.2,
+      "remain": "剩12天",
+      "progress": 11.0,
       "days": {
-        "elapsedDays": 1.2,
-        "remainDays": 12.3,
+        "elapsedDays": 1.5,
+        "remainDays": 12.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -261,11 +261,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 10.3,
+      "remain": "剩12天",
+      "progress": 12.1,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.3,
+        "elapsedDays": 1.6,
+        "remainDays": 12.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -369,11 +369,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天6时",
-      "progress": 5.1,
+      "remain": "剩26天",
+      "progress": 6.0,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 26.3,
+        "elapsedDays": 1.6,
+        "remainDays": 26.0,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -389,7 +389,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-02T21:54:37.080728+08:00",
+      "updatedAt": "2026-08-03T03:34:44.904257+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -408,9 +408,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 16.3,
+        "remainDays": 16.0,
         "totalDays": 14.0,
-        "untilStartDays": 16.3
+        "untilStartDays": 16.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -443,9 +443,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.8,
+        "remainDays": 5.5,
         "totalDays": 26.5,
-        "untilStartDays": 5.8
+        "untilStartDays": 5.5
       },
       "hasSchedule": true,
       "kind": "preview",
