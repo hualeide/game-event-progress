@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-08-03T03:35:58.882614+08:00",
+  "fetchedAt": "2026-08-03T11:56:41.427368+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 3,
@@ -16,11 +16,11 @@
       "start": "2026-07-22T00:00:00+08:00",
       "end": "2026-08-19T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天20时",
-      "progress": 43.4,
+      "remain": "剩15天12时",
+      "progress": 44.6,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 15.8,
+        "elapsedDays": 12.5,
+        "remainDays": 15.5,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-07-28T09:52:00+08:00",
       "end": "2026-08-25T09:52:00+08:00",
       "status": "进行中",
-      "remain": "剩22天6时",
-      "progress": 20.5,
+      "remain": "剩21天21时",
+      "progress": 21.7,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 22.3,
+        "elapsedDays": 6.1,
+        "remainDays": 21.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-31T11:03:00+08:00",
       "end": "2026-08-28T11:03:00+08:00",
       "status": "进行中",
-      "remain": "剩25天7时",
-      "progress": 9.6,
+      "remain": "剩24天23时",
+      "progress": 10.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 3.0,
+        "remainDays": 25.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
