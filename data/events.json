@@ -1,9 +1,9 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-04T03:57:49.160278+08:00",
+  "fetchedAt": "2026-08-04T11:36:54.053090+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 9,
+  "count": 8,
   "notes": [
     "1061 跳过：夏日嘉年华 活动战绩页",
     "9124 跳过：直到大地变成一 颗酸橙周边上新",
@@ -25,8 +25,7 @@
     "1063 寻访「车辙与风的归所」对齐正文活动时间",
     "1063 寻访「车辙与风的归所 限定寻访说明」对齐长公告时段",
     "5602 寻访「中坚寻访」用展示日估时",
-    "补全寻访卡「联合行动」（无独立海报公告）",
-    "补全寻访卡「永不落幕」（无独立海报公告）"
+    "补全寻访卡「联合行动」（无独立海报公告）"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -61,11 +60,11 @@
       "start": "2026-07-23T16:00:00+08:00",
       "end": "2026-08-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天",
-      "progress": 85.2,
+      "remain": "剩1天16时",
+      "progress": 87.5,
       "days": {
-        "elapsedDays": 11.5,
-        "remainDays": 2.0,
+        "elapsedDays": 11.8,
+        "remainDays": 1.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -97,11 +96,11 @@
       "start": "2026-07-30T16:00:00+08:00",
       "end": "2026-08-13T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天",
-      "progress": 33.3,
+      "remain": "剩8天16时",
+      "progress": 35.7,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 9.0,
+        "elapsedDays": 4.8,
+        "remainDays": 8.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -133,11 +132,11 @@
       "start": "2026-08-01T16:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天",
-      "progress": 18.5,
+      "remain": "剩10天16时",
+      "progress": 20.9,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 11.0,
+        "elapsedDays": 2.8,
+        "remainDays": 10.7,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -169,11 +168,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天",
-      "progress": 19.5,
+      "remain": "剩10天16时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.0,
+        "elapsedDays": 3.0,
+        "remainDays": 10.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -277,11 +276,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天",
-      "progress": 9.6,
+      "remain": "剩24天16时",
+      "progress": 10.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.0,
+        "elapsedDays": 3.0,
+        "remainDays": 24.7,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -297,7 +296,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-04T03:57:49.160278+08:00",
+      "updatedAt": "2026-08-04T11:36:54.053090+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -312,13 +311,13 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "15天后",
+      "remain": "14天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 15.0,
+        "remainDays": 14.7,
         "totalDays": 14.0,
-        "untilStartDays": 15.0
+        "untilStartDays": 14.7
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -351,9 +350,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.5,
+        "remainDays": 4.2,
         "totalDays": 26.5,
-        "untilStartDays": 4.5
+        "untilStartDays": 4.2
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -417,40 +416,6 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260713/4ee5d1bd09126c42a9389a7e3ec7791e.jpg",
       "playable": true,
       "category": "combat"
-    },
-    {
-      "id": "gacha-e8aff6a88a",
-      "title": "【永不落幕】限时寻访",
-      "header": "「永不落幕」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-04T03:57:49.160278+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-07-20T16:00:00+08:00",
-          "end": "2026-08-03T03:59:00+08:00",
-          "raw": "【永不落幕】限时寻访复刻开启 活动时间： 07月20日 16:00 - 08月03日 03:59"
-        }
-      ],
-      "summary": "卡池「永不落幕」",
-      "textPreview": "",
-      "start": "2026-07-20T16:00:00+08:00",
-      "end": "2026-08-03T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "playable": false,
-      "category": "gacha"
     }
   ]
 }

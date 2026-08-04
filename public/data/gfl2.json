@@ -1,12 +1,42 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-08-04T03:58:56.096649+08:00",
+  "fetchedAt": "2026-08-04T11:42:35.057590+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 6,
   "notes": [],
   "events": [
+    {
+      "id": "2015",
+      "title": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！",
+      "header": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！",
+      "banner": "./covers/gfl2-2015-3de5103a.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2015",
+      "start": "2026-08-04T05:00:00+08:00",
+      "end": "2026-08-10T04:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩5天17时",
+      "progress": 4.7,
+      "days": {
+        "elapsedDays": 0.3,
+        "remainDays": 5.7,
+        "totalDays": 6.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-08-04T05:00:00+08:00",
+          "end": "2026-08-10T04:59:00+08:00",
+          "raw": "8月4日5:00~8月10日4:59"
+        }
+      ],
+      "summary": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！"
+    },
     {
       "id": "2008",
       "title": "【限时活动】「闪耀星愿·观星巡礼」即将开启！",
@@ -16,11 +46,11 @@
       "start": "2026-07-27T18:00:00+08:00",
       "end": "2026-08-10T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天14时",
-      "progress": 53.0,
+      "remain": "剩6天6时",
+      "progress": 55.3,
       "days": {
-        "elapsedDays": 7.4,
-        "remainDays": 6.6,
+        "elapsedDays": 7.7,
+        "remainDays": 6.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +76,11 @@
       "start": "2026-07-30T05:00:00+08:00",
       "end": "2026-08-11T07:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 40.9,
+      "remain": "剩6天20时",
+      "progress": 43.5,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 7.2,
+        "elapsedDays": 5.3,
+        "remainDays": 6.8,
         "totalDays": 12.1
       },
       "hasSchedule": true,
@@ -76,11 +106,11 @@
       "start": "2026-07-28T18:00:00+08:00",
       "end": "2026-08-11T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天14时",
-      "progress": 45.8,
+      "remain": "剩7天6时",
+      "progress": 48.1,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 7.6,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -106,11 +136,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 33.3,
+      "remain": "剩9天",
+      "progress": 35.6,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 9.3,
+        "elapsedDays": 5.0,
+        "remainDays": 9.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -136,11 +166,11 @@
       "start": "2026-07-31T18:00:00+08:00",
       "end": "2026-08-14T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天14时",
-      "progress": 24.4,
+      "remain": "剩10天6时",
+      "progress": 26.7,
       "days": {
-        "elapsedDays": 3.4,
-        "remainDays": 10.6,
+        "elapsedDays": 3.7,
+        "remainDays": 10.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -156,36 +186,6 @@
         }
       ],
       "summary": "【限时活动】「闪耀星愿·观星巡礼」BOSS介绍"
-    },
-    {
-      "id": "2015",
-      "title": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！",
-      "header": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！",
-      "banner": "./covers/gfl2-2015-3de5103a.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2015",
-      "start": "2026-08-04T05:00:00+08:00",
-      "end": "2026-08-10T04:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 6.0,
-        "totalDays": 6.0
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-08-04T05:00:00+08:00",
-          "end": "2026-08-10T04:59:00+08:00",
-          "raw": "8月4日5:00~8月10日4:59"
-        }
-      ],
-      "summary": "【限时活动】「裂变·补给作战」、「裂变·心智勘测」即将开启！"
     }
   ]
 }
