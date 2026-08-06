@@ -1,18 +1,18 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-08-06T17:06:32.245966+08:00",
+  "fetchedAt": "2026-08-06T22:34:58.164615+08:00",
   "timezone": "Asia/Shanghai",
   "count": 17,
   "notes": [
     "当前版本开启估：2026-07-16T12:00:00+08:00",
+    "3809 跳过：【2026年08月06日】封禁处理公示",
     "9334 跳过：【2026年07月27日】封禁处理公示",
     "7218 跳过：「诀」归途连线限时接通中",
     "1167 跳过：「向渊行」版本创作征集活动进行中",
     "2656 跳过：「协议邀约：重归」网页活动说明",
     "6090 跳过：《云·终末地》安卓＆iOS端不限量测试已开启",
-    "0424 跳过：「向渊行」版本预下载与更新预告",
-    "7219 跳过：「向渊行」核心章节版本研发通讯"
+    "0424 跳过：「向渊行」版本预下载与更新预告"
   ],
   "events": [
     {
@@ -24,11 +24,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -58,11 +58,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -95,7 +95,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.8,
+        "remainDays": 16.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -124,11 +124,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23天18时",
-      "progress": 47.1,
+      "remain": "剩23天13时",
+      "progress": 47.6,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 23.8,
+        "elapsedDays": 21.4,
+        "remainDays": 23.6,
         "totalDays": 45.0
       },
       "hasSchedule": true,
@@ -157,11 +157,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -190,11 +190,11 @@
       "start": "2026-08-06T12:00:00+08:00",
       "end": "2026-08-20T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天10时",
-      "progress": 1.6,
+      "remain": "剩13天5时",
+      "progress": 3.2,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 13.5,
+        "elapsedDays": 0.4,
+        "remainDays": 13.2,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -226,7 +226,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.8,
+        "remainDays": 16.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -250,7 +250,7 @@
       "id": "9335-combat-密境行者",
       "title": "「密境行者」",
       "header": "「密境行者」",
-      "banner": "./covers/ef-combat-9335-305b9cabe2-2af5f4bf.jpg",
+      "banner": "./covers/ef-combat-9335-305b9cabe2-11c90853.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-19T12:00:00+08:00",
       "end": "2026-09-02T12:00:00+08:00",
@@ -259,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.8,
+        "remainDays": 26.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -288,11 +288,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -316,16 +316,16 @@
       "id": "9335-event-北观禁土",
       "title": "「北观禁土」",
       "header": "「北观禁土」",
-      "banner": "./covers/ef-event-9335-a89581bc6b-2af5f4bf.jpg",
+      "banner": "./covers/ef-event-9335-a89581bc6b-dbb5625b.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -349,16 +349,16 @@
       "id": "9335-event-踞渊北眺",
       "title": "「踞渊北眺」",
       "header": "「踞渊北眺」",
-      "banner": "./covers/ef-event-9335-1664ce65ed-42d1e431.jpg",
+      "banner": "./covers/ef-event-9335-1664ce65ed-7e55e199.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 88.4,
+      "remain": "剩2天13时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 2.8,
+        "elapsedDays": 21.4,
+        "remainDays": 2.6,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -387,11 +387,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23天18时",
-      "progress": 47.1,
+      "remain": "剩23天13时",
+      "progress": 47.6,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 23.8,
+        "elapsedDays": 21.4,
+        "remainDays": 23.6,
         "totalDays": 45.0
       },
       "hasSchedule": true,
@@ -502,16 +502,16 @@
       "id": "9335-event-炽燃竞技大会",
       "title": "「炽燃！竞技大会！」",
       "header": "「炽燃！竞技大会！」",
-      "banner": "./covers/ef-event-9335-449a1df5c1-dbb5625b.jpg",
+      "banner": "./covers/ef-event-9335-449a1df5c1-9fefb9a2.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天10时",
-      "progress": 52.8,
+      "remain": "剩6天5时",
+      "progress": 54.5,
       "days": {
-        "elapsedDays": 7.2,
-        "remainDays": 6.5,
+        "elapsedDays": 7.4,
+        "remainDays": 6.2,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -534,16 +534,16 @@
       "id": "9335-event-理智补给",
       "title": "「理智补给」",
       "header": "「理智补给」",
-      "banner": "./covers/ef-event-9335-fd084e2d7e-7e55e199.jpg",
+      "banner": "./covers/ef-event-9335-fd084e2d7e-62018596.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-02T04:00:00+08:00",
       "end": "2026-08-09T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天10时",
-      "progress": 65.0,
+      "remain": "剩2天5时",
+      "progress": 68.2,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 4.8,
+        "remainDays": 2.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -573,7 +573,7 @@
       "id": "9335-event-如同流星飞越边界",
       "title": "「如同流星飞越边界」",
       "header": "「如同流星飞越边界」",
-      "banner": "./covers/ef-event-9335-7a166b4893-ce1ece9f.jpg",
+      "banner": "./covers/ef-event-9335-7a166b4893-8582a62a.png",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
@@ -582,7 +582,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.8,
+        "remainDays": 16.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -606,7 +606,7 @@
       "id": "9335-event-明耀晨星",
       "title": "「明耀晨星」",
       "header": "「明耀晨星」",
-      "banner": "./covers/ef-event-9335-9d2127011d-82f3e09e.jpg",
+      "banner": "./covers/ef-event-9335-9d2127011d-3cc3679b.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
@@ -615,7 +615,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.8,
+        "remainDays": 16.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -639,7 +639,7 @@
       "id": "9335-event-根脉奇境",
       "title": "「根脉奇境」",
       "header": "「根脉奇境」",
-      "banner": "./covers/ef-event-9335-135a86f2a8-8582a62a.png",
+      "banner": "./covers/ef-event-9335-135a86f2a8-b0290d0f.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
@@ -648,7 +648,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.8,
+        "remainDays": 16.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
