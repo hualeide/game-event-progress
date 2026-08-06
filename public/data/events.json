@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-06T11:36:45.724056+08:00",
+  "fetchedAt": "2026-08-06T17:06:21.393244+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -60,11 +60,11 @@
       "start": "2026-07-30T16:00:00+08:00",
       "end": "2026-08-13T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天16时",
-      "progress": 50.5,
+      "remain": "剩6天10时",
+      "progress": 52.2,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 6.7,
+        "elapsedDays": 7.0,
+        "remainDays": 6.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -96,11 +96,11 @@
       "start": "2026-08-01T16:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天16时",
-      "progress": 35.7,
+      "remain": "剩8天10时",
+      "progress": 37.4,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 8.7,
+        "elapsedDays": 5.0,
+        "remainDays": 8.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -132,11 +132,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天16时",
-      "progress": 36.5,
+      "remain": "剩8天10时",
+      "progress": 38.1,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 8.7,
+        "elapsedDays": 5.2,
+        "remainDays": 8.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -145,6 +145,42 @@
       "playable": false,
       "category": "gacha",
       "fuzzy": false
+    },
+    {
+      "id": "9123",
+      "title": "中坚寻访 干员出率上升",
+      "header": "「中坚寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-9123.jpg",
+      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_76_0_1",
+      "updatedAt": "2026-08-05T20:01:52+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-08-06T16:00:00+08:00",
+          "end": "2026-08-20T03:59:00+08:00",
+          "raw": "displayTime=2026-08-06"
+        }
+      ],
+      "summary": "卡池「中坚寻访」",
+      "textPreview": "",
+      "start": "2026-08-06T16:00:00+08:00",
+      "end": "2026-08-20T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天10时",
+      "progress": 0.3,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 13.5,
+        "totalDays": 13.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260805/160e9f43261040d57af5ca63b8bbb7e7.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     },
     {
       "id": "0400",
@@ -240,11 +276,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天16时",
-      "progress": 18.0,
+      "remain": "剩22天10时",
+      "progress": 18.8,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 22.7,
+        "elapsedDays": 5.2,
+        "remainDays": 22.5,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -254,50 +290,13 @@
       "category": "combat"
     },
     {
-      "id": "9123",
-      "title": "中坚寻访 干员出率上升",
-      "header": "「中坚寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-9123.jpg",
-      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_76_0_1",
-      "updatedAt": "2026-08-05T20:01:52+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-08-06T16:00:00+08:00",
-          "end": "2026-08-20T03:59:00+08:00",
-          "raw": "displayTime=2026-08-06"
-        }
-      ],
-      "summary": "卡池「中坚寻访」",
-      "textPreview": "",
-      "start": "2026-08-06T16:00:00+08:00",
-      "end": "2026-08-20T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.2,
-        "totalDays": 13.5,
-        "untilStartDays": 0.2
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260805/160e9f43261040d57af5ca63b8bbb7e7.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
-    {
       "id": "gacha-6ce84b30df",
       "title": "【联合行动】限时寻访",
       "header": "「联合行动」限时寻访",
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-06T11:36:45.724056+08:00",
+      "updatedAt": "2026-08-06T17:06:21.393244+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -316,9 +315,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 12.7,
+        "remainDays": 12.5,
         "totalDays": 14.0,
-        "untilStartDays": 12.7
+        "untilStartDays": 12.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -347,13 +346,13 @@
       "start": "2026-08-08T16:00:00+08:00",
       "end": "2026-09-04T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.2,
+        "remainDays": 2.0,
         "totalDays": 26.5,
-        "untilStartDays": 2.2
+        "untilStartDays": 2.0
       },
       "hasSchedule": true,
       "kind": "preview",
