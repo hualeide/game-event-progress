@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-08T10:23:13.508530+08:00",
+  "fetchedAt": "2026-08-08T15:16:09.102935+08:00",
   "count": 6,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩26天23时",
-      "progress": 70.3,
+      "remain": "剩26天18时",
+      "progress": 70.5,
       "days": {
-        "elapsedDays": 63.8,
-        "remainDays": 27.0,
+        "elapsedDays": 64.0,
+        "remainDays": 26.8,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天13时",
-      "progress": 24.0,
+      "remain": "剩23天8时",
+      "progress": 24.6,
       "days": {
-        "elapsedDays": 7.4,
-        "remainDays": 23.6,
+        "elapsedDays": 7.6,
+        "remainDays": 23.4,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天13时",
-      "progress": 6.2,
+      "remain": "剩26天8时",
+      "progress": 7.0,
       "days": {
-        "elapsedDays": 1.8,
-        "remainDays": 26.6,
+        "elapsedDays": 2.0,
+        "remainDays": 26.4,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩18天23时",
-      "progress": 8.5,
+      "remain": "剩18天18时",
+      "progress": 9.5,
       "days": {
-        "elapsedDays": 1.8,
-        "remainDays": 19.0,
+        "elapsedDays": 2.0,
+        "remainDays": 18.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩53天13时",
-      "progress": 12.2,
+      "remain": "剩53天8时",
+      "progress": 12.5,
       "days": {
-        "elapsedDays": 7.4,
-        "remainDays": 53.6,
+        "elapsedDays": 7.6,
+        "remainDays": 53.4,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -123,16 +123,16 @@
       "id": "al-有客自来-0806",
       "title": "有客自来",
       "header": "开启限时活动·有客自来",
-      "banner": "",
+      "banner": "./covers/al-9897e89b7a-cbce484b.jpg",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B48%E6%9C%886%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩18天23时",
-      "progress": 8.5,
+      "remain": "剩18天18时",
+      "progress": 9.5,
       "days": {
-        "elapsedDays": 1.8,
-        "remainDays": 19.0,
+        "elapsedDays": 2.0,
+        "remainDays": 18.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -149,7 +149,6 @@
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
     "无配图：作战准备：埃塞克斯级",
-    "无配图：复刻：律动储物间",
-    "无配图：有客自来"
+    "无配图：复刻：律动储物间"
   ]
 }
