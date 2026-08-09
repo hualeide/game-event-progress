@@ -1,12 +1,10 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-09T21:15:35.419110+08:00",
+  "fetchedAt": "2026-08-10T03:00:20.191622+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 7,
   "notes": [
-    "7586 跳过：「奇象巡展」 网络波动修复",
-    "5695 跳过无时段：08月08日 维护结束公告",
     "1061 跳过：夏日嘉年华 活动战绩页",
     "9124 跳过：直到大地变成一 颗酸橙周边上新",
     "5696 跳过：音律联觉＆鹰角 嘉年华周边开售",
@@ -61,11 +59,11 @@
       "start": "2026-07-30T16:00:00+08:00",
       "end": "2026-08-13T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 75.7,
+      "remain": "剩3天",
+      "progress": 77.5,
       "days": {
-        "elapsedDays": 10.2,
-        "remainDays": 3.3,
+        "elapsedDays": 10.5,
+        "remainDays": 3.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -97,11 +95,11 @@
       "start": "2026-08-01T16:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 60.9,
+      "remain": "剩5天",
+      "progress": 62.7,
       "days": {
-        "elapsedDays": 8.2,
-        "remainDays": 5.3,
+        "elapsedDays": 8.5,
+        "remainDays": 5.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -133,11 +131,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 61.4,
+      "remain": "剩5天",
+      "progress": 63.1,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 5.3,
+        "elapsedDays": 8.6,
+        "remainDays": 5.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -169,11 +167,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 23.8,
+      "remain": "剩10天",
+      "progress": 25.6,
       "days": {
-        "elapsedDays": 3.2,
-        "remainDays": 10.3,
+        "elapsedDays": 3.5,
+        "remainDays": 10.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -277,11 +275,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天6时",
-      "progress": 30.3,
+      "remain": "剩19天",
+      "progress": 31.2,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 19.3,
+        "elapsedDays": 8.6,
+        "remainDays": 19.0,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -297,7 +295,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-09T21:15:35.419110+08:00",
+      "updatedAt": "2026-08-10T03:00:20.191622+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -316,9 +314,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 9.3,
+        "remainDays": 9.0,
         "totalDays": 14.0,
-        "untilStartDays": 9.3
+        "untilStartDays": 9.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -381,34 +379,6 @@
       "hasSchedule": true,
       "kind": "done",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260713/4ee5d1bd09126c42a9389a7e3ec7791e.jpg",
-      "playable": true,
-      "category": "combat"
-    },
-    {
-      "id": "2937",
-      "title": "08月08日 停机维护公告",
-      "header": "08月08日16:00服务器停机维护公告",
-      "type": "活动",
-      "banner": "./covers/2937.png",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-08T00:23:30+08:00",
-      "primaryLabel": null,
-      "allRanges": [],
-      "summary": "",
-      "textPreview": "感谢您对《明日方舟》的关注与支持，《明日方舟》计划将于 2026年08月08日16:00 ~ 18:00 开启服务器停机维护。维护期间玩家将无法登录游戏，为了确保您的账号数据正常，请在维护前提前结束关卡，并关闭游戏。给各位玩家带来的不便，我们深表歉意！还请各位玩家相互转告。\n \n 维护时间： \n 2026年08月08日16:00 ~ 18:00\n \n 更新内容： \n ◆SideStory「直到大地变成一颗酸橙」活动关卡第二段开启，第三段资源预载（08月15日16:00开启）\n ◆「奇象巡展」限时活动开启，活动详情请参照官方相关公告\n ◆08月13日04:00常驻【标准寻访】更新资源预载\n ◆08月13日04:00【采购中心-高级凭证区】更新（可兑换干员：逻各斯、晓歌）资源预载\n ◆08月15日04:00【太阳甩在身后】记录修复开启\n ◆08月15日04:00家具商店新增常驻售卖家具【哈迈米纳特花园】、【“沙洲下”奢华客房】\n ◆08月16日04:00【保全派驻】派驻周期「废都安保派驻」开启，奖励进度更新\n ◆修复SideStory「直到大地变成一颗酸橙」中，敌人【戴面具的孩童】和【欢乐校车】交互时表现异常的问题\n ◆优化部分机型在玩法【安洁莉娜的旅行小记】内画面模糊的问题\n ◆部分文本优化及错误修正\n ◆部分UI美术切图特效优化和修复\n \n \n 维护补偿： 合成玉*400、理智*40\n 补偿范围： 2026年08月08日16:00维护前所有注册并创建角色的玩家\n \n *本次维护不排除延迟开启的可能，如若延迟则请关注官方发布的具体开服时间* \n \n 【明日方舟】运营组\n 2026年08月08日",
-      "start": null,
-      "end": null,
-      "status": "进行中",
-      "remain": "时间未知",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0,
-        "remainDays": 0,
-        "totalDays": 0
-      },
-      "hasSchedule": false,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20190501/d7d37158f351f6ed75323418564c6782.png",
       "playable": true,
       "category": "combat"
     }
