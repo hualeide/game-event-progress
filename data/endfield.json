@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-08-09T02:58:23.631920+08:00",
+  "fetchedAt": "2026-08-09T10:28:53.882960+08:00",
   "timezone": "Asia/Shanghai",
   "count": 16,
   "notes": [
@@ -22,11 +22,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -56,11 +56,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -89,11 +89,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.4,
+        "remainDays": 14.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -121,11 +121,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -154,11 +154,11 @@
       "start": "2026-08-06T12:00:00+08:00",
       "end": "2026-08-20T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天1时",
-      "progress": 19.2,
+      "remain": "剩10天17时",
+      "progress": 21.5,
       "days": {
-        "elapsedDays": 2.6,
-        "remainDays": 11.0,
+        "elapsedDays": 2.9,
+        "remainDays": 10.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -186,11 +186,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -223,7 +223,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 31.4,
+        "remainDays": 31.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -285,11 +285,11 @@
       "start": "2026-07-16T11:59:00+08:00",
       "end": "2026-08-09T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -362,9 +362,9 @@
         },
         {
           "label": "活动 · 理智补给",
-          "start": "2026-08-02T04:00:00+08:00",
-          "end": "2026-08-09T04:00:00+08:00",
-          "raw": "开放时间：2026/08/02 04:00 - 2026/08/09 04:00",
+          "start": "2026-08-26T04:00:00+08:00",
+          "end": "2026-09-02T04:00:00+08:00",
+          "raw": "\n2026/08/26 04:00 - 2026/09/02 04:00",
           "category": "event"
         },
         {
@@ -405,11 +405,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -438,11 +438,11 @@
       "start": "2026-07-16T12:00:00+08:00",
       "end": "2026-08-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 98.4,
+      "remain": "剩1小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.4,
+        "elapsedDays": 23.9,
+        "remainDays": 0.1,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -471,11 +471,11 @@
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天1时",
-      "progress": 70.4,
+      "remain": "剩3天17时",
+      "progress": 72.7,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 4.0,
+        "elapsedDays": 9.9,
+        "remainDays": 3.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -495,45 +495,6 @@
       "body": "· 活动时间：2026/07/30 12:00 - 2026/08/13 04:00（服务器时间）\n · 活动说明：活动期间，完成一系列挑战关卡，即可领取【嵌晶玉】×1200、【头像框·炽燃盛会】及【存续的痕迹】等活动奖励。\n \n 9.「理智补给」限时活动"
     },
     {
-      "id": "9335-event-理智补给",
-      "title": "「理智补给」",
-      "header": "「理智补给」",
-      "banner": "./covers/ef-event-9335-fd084e2d7e-8582a62a.png",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-08-02T04:00:00+08:00",
-      "end": "2026-08-09T04:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 理智补给",
-          "start": "2026-08-02T04:00:00+08:00",
-          "end": "2026-08-09T04:00:00+08:00",
-          "raw": "开放时间：2026/08/02 04:00 - 2026/08/09 04:00",
-          "category": "event"
-        },
-        {
-          "label": "活动 · 理智补给",
-          "start": "2026-08-26T04:00:00+08:00",
-          "end": "2026-09-02T04:00:00+08:00",
-          "raw": "\n2026/08/26 04:00 - 2026/09/02 04:00",
-          "category": "event"
-        }
-      ],
-      "summary": "理智补给 · 活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
-      "body": "· 活动时间：\n 2026/08/02 04:00 - 2026/08/09 04:00（服务器时间）\n 2026/08/26 04:00 - 2026/09/02 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 10.「根脉奇境」趣味活动"
-    },
-    {
       "id": "9335-event-如同流星飞越边界",
       "title": "「如同流星飞越边界」",
       "header": "「如同流星飞越边界」",
@@ -542,11 +503,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -575,11 +536,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -608,11 +569,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.4,
+        "remainDays": 21.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -631,6 +592,45 @@
       ],
       "summary": "根脉奇境 · 在「根脉奇境」中收集醚质残块，完成奇境任务，即可领取【嵌晶玉】×1600、【存续的痕迹】等活动奖励。 · 奖励：【嵌晶玉】、【存续的痕迹】",
       "body": "· 活动时间：2026/08/09 12:00（服务器时间） - 版本更新维护前\n · 活动说明：在「根脉奇境」中收集醚质残块，完成奇境任务，即可领取【嵌晶玉】×1600、【存续的痕迹】等活动奖励。\n \n 1.「战争回响」常驻挑战玩法"
+    },
+    {
+      "id": "9335-event-理智补给",
+      "title": "「理智补给」",
+      "header": "「理智补给」",
+      "banner": "./covers/ef-event-9335-fd084e2d7e-8582a62a.png",
+      "link": "https://endfield.hypergryph.com/news/9335",
+      "start": "2026-08-26T04:00:00+08:00",
+      "end": "2026-09-02T04:00:00+08:00",
+      "status": "即将开始",
+      "remain": "16天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动 · 理智补给",
+          "start": "2026-08-02T04:00:00+08:00",
+          "end": "2026-08-09T04:00:00+08:00",
+          "raw": "开放时间：2026/08/02 04:00 - 2026/08/09 04:00",
+          "category": "event"
+        },
+        {
+          "label": "活动 · 理智补给",
+          "start": "2026-08-26T04:00:00+08:00",
+          "end": "2026-09-02T04:00:00+08:00",
+          "raw": "\n2026/08/26 04:00 - 2026/09/02 04:00",
+          "category": "event"
+        }
+      ],
+      "summary": "理智补给 · 活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
+      "body": "· 活动时间：\n 2026/08/02 04:00 - 2026/08/09 04:00（服务器时间）\n 2026/08/26 04:00 - 2026/09/02 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 10.「根脉奇境」趣味活动"
     }
   ]
 }
