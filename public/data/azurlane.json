@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-09T10:29:14.259663+08:00",
+  "fetchedAt": "2026-08-09T21:16:38.645991+08:00",
   "count": 6,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天23时",
-      "progress": 71.4,
+      "remain": "剩25天12时",
+      "progress": 71.9,
       "days": {
-        "elapsedDays": 64.8,
-        "remainDays": 26.0,
+        "elapsedDays": 65.3,
+        "remainDays": 25.5,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天13时",
-      "progress": 27.2,
+      "remain": "剩22天2时",
+      "progress": 28.7,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 22.6,
+        "elapsedDays": 8.9,
+        "remainDays": 22.1,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -54,16 +54,16 @@
       "id": "al-作战准备埃塞克斯级-0806",
       "title": "作战准备：埃塞克斯级",
       "header": "开启限时活动·作战准备：埃塞克斯级",
-      "banner": "./covers/al-3e2af33c7d-cbce484b.jpg",
+      "banner": "",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B48%E6%9C%886%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天13时",
-      "progress": 9.8,
+      "remain": "剩25天2时",
+      "progress": 11.4,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 25.6,
+        "elapsedDays": 3.2,
+        "remainDays": 25.1,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩17天23时",
-      "progress": 13.4,
+      "remain": "剩17天12时",
+      "progress": 15.5,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 18.0,
+        "elapsedDays": 3.2,
+        "remainDays": 17.5,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩52天13时",
-      "progress": 13.8,
+      "remain": "剩52天2时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 52.6,
+        "elapsedDays": 8.9,
+        "remainDays": 52.1,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩17天23时",
-      "progress": 13.4,
+      "remain": "剩17天12时",
+      "progress": 15.5,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 18.0,
+        "elapsedDays": 3.2,
+        "remainDays": 17.5,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -148,6 +148,7 @@
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
+    "无配图：作战准备：埃塞克斯级",
     "无配图：复刻：律动储物间"
   ]
 }
