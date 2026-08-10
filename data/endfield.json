@@ -1,9 +1,9 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-08-10T10:34:30.132455+08:00",
+  "fetchedAt": "2026-08-10T16:04:14.167038+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 16,
+  "count": 11,
   "notes": [
     "3809 跳过：【2026年08月06日】封禁处理公示",
     "9334 跳过：【2026年07月27日】封禁处理公示",
@@ -23,11 +23,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -56,11 +56,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天1时",
-      "progress": 6.7,
+      "remain": "剩12天19时",
+      "progress": 8.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 13.1,
+        "elapsedDays": 1.2,
+        "remainDays": 12.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -80,52 +80,19 @@
       "updatedAt": "2026-08-08T18:30:00+08:00"
     },
     {
-      "id": "9335-gacha-临渊望北",
-      "title": "「临渊望北」特许寻访",
-      "header": "「临渊望北」",
-      "banner": "./covers/ef-gacha-9335-b53912c529-72ada889.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T11:59:00+08:00",
-      "end": "2026-08-09T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "卡池 · 临渊望北",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "gacha"
-        }
-      ],
-      "summary": "临渊望北 · 「临渊望北」特许寻访中，6星干员【诀】获取概率提升，全部可能出现的6星干员包括：诀/卡缪/弭弗/余烬/黎风/艾尔黛拉/别礼/骏卫。 · 奖励：【诀】、【活动中心】、【集成配额交易】",
-      "body": "· 开放时间：「向渊行」版本更新后 - 2026/08/09 11:59（服务器时间）\n · 寻访说明：「临渊望北」特许寻访中，6星干员【诀】获取概率提升，全部可能出现的6星干员包括：诀/卡缪/弭弗/余烬/黎风/艾尔黛拉/别礼/骏卫。\n · 特许寻访开放期间，还将开放6星干员【诀】的「作战演练」干员试用活动。使用包含试用干员的固定队伍体验指定关卡，完成后可前往【活动中心】界面领取奖励。【集成配额交易】中开放【踞渊北眺寻访凭证】的特惠兑换，最多可兑换【踞渊北眺寻访凭证】×5。\n \n 2.「军列申领」开放"
-    },
-    {
       "id": "9335-combat-丰碑留名兽犼",
       "title": "「丰碑留名·兽犼」",
       "header": "「丰碑留名·兽犼」",
-      "banner": "./covers/ef-combat-9335-abe0697cce-11c90853.jpg",
+      "banner": "./covers/ef-combat-9335-abe0697cce-5b368cef.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-06T12:00:00+08:00",
       "end": "2026-08-20T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天17时",
-      "progress": 28.8,
+      "remain": "剩9天11时",
+      "progress": 30.5,
       "days": {
-        "elapsedDays": 3.9,
-        "remainDays": 9.7,
+        "elapsedDays": 4.2,
+        "remainDays": 9.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -153,11 +120,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -186,11 +153,11 @@
       "start": "2026-08-19T12:00:00+08:00",
       "end": "2026-09-09T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.1,
+        "remainDays": 29.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -211,52 +178,19 @@
       "body": "· 更新时间：2026/08/19 12:00（服务器时间）\n · 更新说明：「密境行者」解谜活动将更新新空间组「六方巧境」，率先开放3个协议空间，并在2026/08/26 04:00（服务器时间）开放后续3个协议空间。完成该空间组挑战，累计可领取【嵌晶玉】×1200、【存续的痕迹】等活动奖励。\n \n ※ 更多活动及玩法内容请关注后续官方公告。\n \n · 开放「协议通行证·蚀海」，「向渊行」版本期间，管理员可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。\n · 【采购中心 - 组合包】新增【向渊妙趣收藏包】【相伴庆典组合包】【信息更新支援包】【协议源流组合包】【临渊寻访组合包】【晨星寻访组合包】；【特惠武库配额包】可购买次数更新。\n \n ※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。\n \n · 新增队友技能特效调整设置，支持自定义调整队友技能特效的质量与不透明度。\n · 新增更细致的索敌优先级设置，可分别调整技能优先攻击目标、主动锁定目标与辅助选择目标的方式。\n \n · 「武陵」地区建设等级上限提升；「武陵 - 应龙关」新增据点「盈天台建设站」，「武陵 - 首墩」环境监测等级上限提升、据点「心脏修缮站」等级上限提升，「武陵 - 试验园区」仓储节点等级上限提升；「武陵物资调度」中新增部分可兑换物资。\n · 武陵工业新增气体相关工业模式，新增气体相关工业规划，包括【气体收集】【物流限速】【气体反应炉】【气体散布】【气体反应】【气体提纯】【液气转化】【固气转化】【储气技术】【气体灌装与拆解】等以及新增对应工业设备，同步新增相关模拟空间与系统蓝图。\n · 新增野外设备远程收纳功能：放置在协议核心区域以外的集成工业设备，均可在地图上选中并点击【收纳】按钮，直接将其收纳至地区仓库。\n · 新增可采集资源「惰气」「息壤气」，相关采集点将随主线任务推进在「武陵」区域逐步开放。\n · 「武陵 - 武陵城」区域新增一处稀有植物采集点。\n \n · 新增【塔晶集换】功能：管理员可在「武陵 - 应龙关」「武陵 - 北部禁区」地区收集特殊能量晶体——塔晶，并在【塔晶集换】中，兑换【装备制造模板】【装饰物品】【拍照动作】【唱片】奖励。\n · 新增【浮空回收】玩法：管理员可在「武陵 - 应龙关」「武陵 - 北部禁区」区域完成浮空回收挑战。\n · 新增【素材转化】功能：推进至「第二章 - 进程Ⅰ - 初探武陵」后，管理员可在【简易制作】界面使用该功能，将部分高等级材料转化为低等级材料。消耗理智可额外提高产量。\n · 新增【生日】功能：设置生日信息后，即可在生日当天收获特别祝福。若首次设置生日时，当年生日日期已过，将立即补发本年度生日邮\n…"
     },
     {
-      "id": "9335-combat-追忆赛季",
-      "title": "「追忆赛季」",
-      "header": "「追忆赛季」",
-      "banner": "./covers/ef-combat-9335-9c1e236889-11c90853.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T11:59:00+08:00",
-      "end": "2026-08-09T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "作战 · 追忆赛季",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "combat"
-        }
-      ],
-      "summary": "追忆赛季 · 奖励：【嵌晶玉】",
-      "body": "· 赛季更新：「向渊行」版本更新后 - 2026/08/09 11:59（服务器时间）\n · 更新说明：全新赛季「追忆赛季」开放，该赛季总计6个关卡，分为3个轮换周期，每个轮换周期包含3个关卡。完成「追忆赛季」所有关卡的普通难度即可领取【嵌晶玉】×600等奖励。\n \n ○「谵妄赛季」"
-    },
-    {
       "id": "9335-event-炽燃竞技大会",
       "title": "「炽燃！竞技大会！」",
       "header": "「炽燃！竞技大会！」",
-      "banner": "./covers/ef-event-9335-449a1df5c1-3cc3679b.jpg",
+      "banner": "./covers/ef-event-9335-449a1df5c1-5a780199.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-07-30T12:00:00+08:00",
       "end": "2026-08-13T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天17时",
-      "progress": 80.1,
+      "remain": "剩2天11时",
+      "progress": 81.7,
       "days": {
-        "elapsedDays": 10.9,
-        "remainDays": 2.7,
+        "elapsedDays": 11.2,
+        "remainDays": 2.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -279,16 +213,16 @@
       "id": "9335-event-如同流星飞越边界",
       "title": "「如同流星飞越边界」",
       "header": "「如同流星飞越边界」",
-      "banner": "./covers/ef-event-9335-7a166b4893-4f2aa1b7.jpg",
+      "banner": "./covers/ef-event-9335-7a166b4893-662601b6.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -312,16 +246,16 @@
       "id": "9335-event-明耀晨星",
       "title": "「明耀晨星」",
       "header": "「明耀晨星」",
-      "banner": "./covers/ef-event-9335-9d2127011d-8582a62a.png",
+      "banner": "./covers/ef-event-9335-9d2127011d-7e55e199.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -345,16 +279,16 @@
       "id": "9335-event-根脉奇境",
       "title": "「根脉奇境」",
       "header": "「根脉奇境」",
-      "banner": "./covers/ef-event-9335-135a86f2a8-5b368cef.jpg",
+      "banner": "./covers/ef-event-9335-135a86f2a8-8582a62a.png",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -383,11 +317,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天1时",
-      "progress": 4.5,
+      "remain": "剩19天19时",
+      "progress": 5.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 20.1,
+        "elapsedDays": 1.2,
+        "remainDays": 19.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -396,44 +330,12 @@
       "category": "event",
       "allRanges": [
         {
-          "label": "卡池 · 临渊望北",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "gacha"
-        },
-        {
           "label": "卡池 · 晨星于此闪耀",
           "start": "2026-08-09T12:00:00+08:00",
           "end": "2026-08-30T12:00:00+08:00",
           "raw": "开放时间：2026/08/09 12:00 - 版本更新维护前",
           "fuzzy": true,
           "category": "gacha"
-        },
-        {
-          "label": "活动 · 相伴赠礼",
-          "start": "2026-07-16T12:00:00+08:00",
-          "end": "2026-08-09T12:00:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 12:00",
-          "fuzzy": true,
-          "category": "event"
-        },
-        {
-          "label": "活动 · 北观禁土",
-          "start": "2026-07-16T12:00:00+08:00",
-          "end": "2026-08-09T12:00:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 12:00",
-          "fuzzy": true,
-          "category": "event"
-        },
-        {
-          "label": "活动 · 踞渊北眺",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "event"
         },
         {
           "label": "活动 · 如同流星飞越边界",
@@ -474,18 +376,25 @@
           "category": "event"
         },
         {
-          "label": "作战 · 追忆赛季",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "combat"
-        },
-        {
           "label": "作战 · 谵妄赛季",
           "start": "2026-08-09T12:00:00+08:00",
           "end": "2026-08-30T12:00:00+08:00",
           "raw": "开放时间：2026/08/09 12:00 - 版本更新维护前",
+          "fuzzy": true,
+          "category": "combat"
+        },
+        {
+          "label": "作战 · 丰碑留名·兽犼",
+          "start": "2026-08-06T12:00:00+08:00",
+          "end": "2026-08-20T04:00:00+08:00",
+          "raw": "开放时间：2026/08/06 12:00 - 2026/08/20 04:00",
+          "category": "combat"
+        },
+        {
+          "label": "作战 · 密境行者",
+          "start": "2026-08-19T12:00:00+08:00",
+          "end": "2026-09-09T12:00:00+08:00",
+          "raw": "2026/08/19 12:00",
           "fuzzy": true,
           "category": "combat"
         }
@@ -498,7 +407,7 @@
       "id": "9335-event-理智补给",
       "title": "「理智补给」",
       "header": "「理智补给」",
-      "banner": "./covers/ef-event-9335-fd084e2d7e-62018596.jpg",
+      "banner": "./covers/ef-event-9335-fd084e2d7e-4f2aa1b7.jpg",
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-26T04:00:00+08:00",
       "end": "2026-09-02T04:00:00+08:00",
@@ -507,7 +416,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.7,
+        "remainDays": 22.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -532,105 +441,6 @@
       ],
       "summary": "理智补给 · 活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
       "body": "· 活动时间：\n 2026/08/02 04:00 - 2026/08/09 04:00（服务器时间）\n 2026/08/26 04:00 - 2026/09/02 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 10.「根脉奇境」趣味活动"
-    },
-    {
-      "id": "9335-event-踞渊北眺",
-      "title": "「踞渊北眺」",
-      "header": "「踞渊北眺」",
-      "banner": "./covers/ef-event-9335-1664ce65ed-7e55e199.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T11:59:00+08:00",
-      "end": "2026-08-09T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 踞渊北眺",
-          "start": "2026-07-16T11:59:00+08:00",
-          "end": "2026-08-09T11:59:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 11:59",
-          "fuzzy": true,
-          "category": "event"
-        }
-      ],
-      "summary": "踞渊北眺 · 累计签到7日，即可获得【踞渊北眺寻访凭证】×5等奖励。 · 奖励：【踞渊北眺寻访凭证】",
-      "body": "· 活动时间：「向渊行」版本更新后 - 2026/08/09 11:59（服务器时间）\n · 活动说明：累计签到7日，即可获得【踞渊北眺寻访凭证】×5等奖励。\n \n 6.「如同流星飞越边界」叙事活动"
-    },
-    {
-      "id": "9335-event-相伴赠礼",
-      "title": "「相伴赠礼」",
-      "header": "「相伴赠礼」",
-      "banner": "./covers/ef-event-9335-4720fe00d8-5a780199.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T12:00:00+08:00",
-      "end": "2026-08-09T12:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 相伴赠礼",
-          "start": "2026-07-16T12:00:00+08:00",
-          "end": "2026-08-09T12:00:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 12:00",
-          "fuzzy": true,
-          "category": "event"
-        }
-      ],
-      "summary": "相伴赠礼 · 累计完成3日签到可领取【嵌晶玉】×3000、【基础寻访凭证】×5、6星武器【遥望（单手剑）】奖励。 · 奖励：【嵌晶玉】、【基础寻访凭证】、【遥望（单手剑）】",
-      "body": "· 活动时间：「向渊行」版本更新后 - 2026/08/09 12:00（服务器时间）\n · 活动说明：累计完成3日签到可领取【嵌晶玉】×3000、【基础寻访凭证】×5、6星武器【遥望（单手剑）】奖励。\n \n 2.「宏运连连乐」庆典活动"
-    },
-    {
-      "id": "9335-event-北观禁土",
-      "title": "「北观禁土」",
-      "header": "「北观禁土」",
-      "banner": "./covers/ef-event-9335-a89581bc6b-dbb5625b.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-16T12:00:00+08:00",
-      "end": "2026-08-09T12:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 北观禁土",
-          "start": "2026-07-16T12:00:00+08:00",
-          "end": "2026-08-09T12:00:00+08:00",
-          "raw": "「向渊行」版本更新后 - 2026/08/09 12:00",
-          "fuzzy": true,
-          "category": "event"
-        }
-      ],
-      "summary": "北观禁土 · 前往「武陵」地区的「应龙关」和「北部禁区」区域完成指定任务，可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。 · 奖励：【嵌晶玉】、【存续的痕迹】",
-      "body": "· 活动时间：「向渊行」版本更新后 - 2026/08/09 12:00（服务器时间）\n · 活动说明：前往「武陵」地区的「应龙关」和「北部禁区」区域完成指定任务，可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。\n \n 5.「踞渊北眺」签到活动"
     }
   ]
 }
