@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-08-10T16:05:01.529844+08:00",
+  "fetchedAt": "2026-08-10T21:44:31.780804+08:00",
   "count": 8,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-07-11T10:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 77.4,
+      "remain": "剩8天14时",
+      "progress": 78.0,
       "days": {
-        "elapsedDays": 30.3,
-        "remainDays": 8.8,
+        "elapsedDays": 30.5,
+        "remainDays": 8.6,
         "totalDays": 39.1
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-07-30T10:00:00+08:00",
       "end": "2026-08-19T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天11时",
-      "progress": 57.0,
+      "remain": "剩8天6时",
+      "progress": 58.2,
       "days": {
-        "elapsedDays": 11.3,
-        "remainDays": 8.5,
+        "elapsedDays": 11.5,
+        "remainDays": 8.3,
         "totalDays": 19.7
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 78.1,
+      "remain": "剩8天14时",
+      "progress": 78.7,
       "days": {
-        "elapsedDays": 31.5,
-        "remainDays": 8.8,
+        "elapsedDays": 31.7,
+        "remainDays": 8.6,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 78.1,
+      "remain": "剩8天14时",
+      "progress": 78.7,
       "days": {
-        "elapsedDays": 31.5,
-        "remainDays": 8.8,
+        "elapsedDays": 31.7,
+        "remainDays": 8.6,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 78.1,
+      "remain": "剩8天14时",
+      "progress": 78.7,
       "days": {
-        "elapsedDays": 31.5,
-        "remainDays": 8.8,
+        "elapsedDays": 31.7,
+        "remainDays": 8.6,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 78.1,
+      "remain": "剩8天14时",
+      "progress": 78.7,
       "days": {
-        "elapsedDays": 31.5,
-        "remainDays": 8.8,
+        "elapsedDays": 31.7,
+        "remainDays": 8.6,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-07-30T10:00:00+08:00",
       "end": "2026-08-13T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天17时",
-      "progress": 80.4,
+      "remain": "剩2天12时",
+      "progress": 82.1,
       "days": {
-        "elapsedDays": 11.3,
-        "remainDays": 2.7,
+        "elapsedDays": 11.5,
+        "remainDays": 2.5,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-08-06T04:00:00+08:00",
       "end": "2026-08-19T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天11时",
-      "progress": 34.6,
+      "remain": "剩8天6时",
+      "progress": 36.5,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 8.5,
+        "elapsedDays": 4.7,
+        "remainDays": 8.3,
         "totalDays": 13.0
       },
       "hasSchedule": true,

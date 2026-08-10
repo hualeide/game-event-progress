@@ -1,10 +1,12 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-10T16:04:01.187819+08:00",
+  "fetchedAt": "2026-08-10T21:43:41.037493+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 11,
+  "count": 19,
   "notes": [
+    "1895 跳过：【预告】战术对抗赛第九赛季",
+    "1896 跳过：【预告】家具互动即将更新",
     "1887 跳过：07月30日维护更新说明",
     "1884 跳过：【预告】主线故事即将更新",
     "1877 跳过：【预告】全速前进！铁轨巡游大作战！",
@@ -42,9 +44,7 @@
     "1842 已过期：【预告】限时活动：沙勒总决算",
     "1841 已过期：【预告】总力战：猫鬼黑影 • 街区战",
     "1840 跳过：【预告】综合战术测试：护卫 • 轻装甲",
-    "1839 已过期：【预告】无限制决战：赛特之怒•特殊装甲",
-    "1838 跳过：【预告】家具互动即将更新",
-    "1837 已过期：【预告】掉落量2倍活动即将开启！"
+    "1839 已过期：【预告】无限制决战：赛特之怒•特殊装甲"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-07-30T00:00:00+08:00",
       "end": "2026-08-13T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天21时",
-      "progress": 80.0,
+      "remain": "剩2天16时",
+      "progress": 81.6,
       "days": {
-        "elapsedDays": 11.7,
-        "remainDays": 2.9,
+        "elapsedDays": 11.9,
+        "remainDays": 2.7,
         "totalDays": 14.6
       },
       "hasSchedule": true,
@@ -104,11 +104,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天11时",
-      "progress": 37.9,
+      "remain": "剩16天6时",
+      "progress": 38.8,
       "days": {
-        "elapsedDays": 10.1,
-        "remainDays": 16.5,
+        "elapsedDays": 10.3,
+        "remainDays": 16.3,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -134,11 +134,11 @@
       "start": "2026-08-07T00:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天21时",
-      "progress": 27.0,
+      "remain": "剩9天16时",
+      "progress": 28.8,
       "days": {
-        "elapsedDays": 3.7,
-        "remainDays": 9.9,
+        "elapsedDays": 3.9,
+        "remainDays": 9.7,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -174,7 +174,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.5,
+        "remainDays": 9.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -192,6 +192,42 @@
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 3周年纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石，可千万不要错过啦！ \n  \n ■ 活动时间 \n 07月30日 维护结束后 ~ 08月13日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3天：青…"
     },
     {
+      "id": "1897",
+      "title": "【预告】掉落量3倍活动即将开启！",
+      "header": "「掉落量3倍活动即将开启！」",
+      "banner": "./covers/ba-1897-addd0802.jpg",
+      "link": "https://bluearchive-cn.com/news/1897",
+      "start": "2026-08-13T04:00:00+08:00",
+      "end": "2026-08-17T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 6.3,
+        "totalDays": 4.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-13T04:00:00+08:00",
+          "end": "2026-08-17T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-17T04:00:00+08:00",
+          "end": "2026-08-20T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月17日 04:00 ~ 08月20日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量3倍活动】即将开启！请不要错过哦！ \n  \n 一、【任务（普通难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59 \n  \n 二、【任务（困难难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月17日 04:00 ~ 08月20日…"
+    },
+    {
       "id": "1885",
       "title": "限时活动：海兰德铁道失控事件~",
       "header": "「海兰德铁道失控事件~」",
@@ -204,7 +240,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -234,7 +270,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -264,7 +300,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -294,7 +330,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -324,7 +360,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -354,7 +390,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -384,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.9,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -400,6 +436,240 @@
         }
       ],
       "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 限时活动【特殊调查\"质点之树\"】即将开启！ \n 活动期间，消耗行动点收集活动道具\"神秘物质\"，可获得秘仪之书碎片等奖励。 \n  \n ■ 活动时间 \n 07月30日 维护结束后 ~ 08月13日 13:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）2-3 \n  \n ■ 活…"
+    },
+    {
+      "id": "1888",
+      "title": "【预告】限时活动：笑笑闹闹，走走绕绕",
+      "header": "「笑笑闹闹，走走绕绕」",
+      "banner": "./covers/ba-1888-f5a6b887.jpg",
+      "link": "https://bluearchive-cn.com/news/1888",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 活动持续时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " • 活动持续时间：08月13日 14:00 ~ 08月20日 13:59"
+        },
+        {
+          "label": "• 商店和奖励兑换开放时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-27T13:59:00+08:00",
+          "raw": " • 商店和奖励兑换开放时间：08月13日 14:00 ~ 08月27日 13:59"
+        }
+      ],
+      "summary": "歌赫娜的学员们前去百鬼夜行修学旅行，但庆典运营管理部居然毫无准备！在导游们的协助下，庆典运营管理部究竟能否顺利带领爱惹事生非的歌赫娜学员们游览呢？ \n  \n ■ 活动时间 \n • 活动持续时间：08月13日 14:00 ~ 08月20日 13:59 \n • 商店和奖励兑换开放时间：08月13日 14:00 ~ 08月2…"
+    },
+    {
+      "id": "1890",
+      "title": "【预告】限时招募：椿（导游）",
+      "header": "「限时招募：椿（导游）」",
+      "banner": "./covers/ba-1890-fb496cad.png",
+      "link": "https://bluearchive-cn.com/news/1890",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【春花护梦归】即将开启！在本次招募中，3★成员\"椿（导游）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“菲娜（导游）、海香、渚、时”也有一定概率招募到，概率与…"
+    },
+    {
+      "id": "1889",
+      "title": "【预告】限时招募：菲娜（导游）",
+      "header": "「限时招募：菲娜（导游）」",
+      "banner": "./covers/ba-1889-650abc56.png",
+      "link": "https://bluearchive-cn.com/news/1889",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【交杯追梦(dreamer)侣】即将开启！在本次招募中，全新3★成员\"菲娜（导游）\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“椿（导游）、海香、渚、时”也…"
+    },
+    {
+      "id": "1891",
+      "title": "【预告】限时招募：海香",
+      "header": "「限时招募：海香」",
+      "banner": "./covers/ba-1891-fd2bed89.png",
+      "link": "https://bluearchive-cn.com/news/1891",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【潮声唤梦来】即将开启！在本次招募中，3★成员\"海香\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“菲娜（导游）、椿（导游）、渚、时”也有一定概率招募到，概率与…"
+    },
+    {
+      "id": "1892",
+      "title": "【预告】限时招募：渚",
+      "header": "「限时招募：渚」",
+      "banner": "./covers/ba-1892-15d2af3b.png",
+      "link": "https://bluearchive-cn.com/news/1892",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时限定复刻招募【Where there's tea party there's hope】即将开启！在本次招募中，3★限定成员\"渚\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3…"
+    },
+    {
+      "id": "1893",
+      "title": "【预告】限时招募：时",
+      "header": "「限时招募：时」",
+      "banner": "./covers/ba-1893-c5ec6767.jpg",
+      "link": "https://bluearchive-cn.com/news/1893",
+      "start": "2026-08-13T14:00:00+08:00",
+      "end": "2026-08-20T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "2天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 9.7,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-20T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时限定复刻招募【Where there's Toki there's victory】即将开启！在本次招募中，3★限定成员\"时\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月13日 14:00 ~ 08月20日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成…"
+    },
+    {
+      "id": "1894",
+      "title": "【预告】大决战：白&黑 • 室内战",
+      "header": "「大决战·白&黑 • 室内战」",
+      "banner": "./covers/ba-1894-3f291a5b.png",
+      "link": "https://bluearchive-cn.com/news/1894",
+      "start": "2026-08-19T00:00:00+08:00",
+      "end": "2026-09-03T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "8天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.7,
+        "totalDays": 15.6
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-08-13T14:00:00+08:00",
+          "end": "2026-08-18T03:59:00+08:00",
+          "raw": " • 赛季持续时间：08月13日 14:00 ~ 08月18日 03:59"
+        },
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-08-18T04:00:00+08:00",
+          "end": "2026-08-18T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：08月18日 04:00 ~ 08月18日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-08-19T00:00:00+08:00",
+          "end": "2026-09-03T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：08月19日 00:00 ~ 09月03日 13:59"
+        },
+        {
+          "label": "可领取时间",
+          "start": "2026-08-14T11:00:00+08:00",
+          "end": "2026-08-18T03:59:00+08:00",
+          "raw": " 可领取时间：08月14日 11:00 ~08月18日 03:59"
+        }
+      ],
+      "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶白和黑自行启动的原因尚未查明，但至少可以明确一点，它们想要重现游乐园昔日华丽的庆典。 \n  \n ■ 活动时间 \n • 赛季持续时间：08月13日 14:00…"
     }
   ]
 }
