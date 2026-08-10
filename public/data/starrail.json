@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-08-10T03:00:37.079408+08:00",
+  "fetchedAt": "2026-08-10T10:34:43.772453+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 10,
+  "count": 9,
   "notes": [
     "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
     "跳过 4.4版本游戏优化及已知问题说明",
@@ -24,11 +24,11 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天",
-      "progress": 69.2,
+      "remain": "剩13天17时",
+      "progress": 69.9,
       "days": {
-        "elapsedDays": 31.6,
-        "remainDays": 14.0,
+        "elapsedDays": 31.9,
+        "remainDays": 13.7,
         "totalDays": 45.6
       },
       "hasSchedule": true,
@@ -47,11 +47,11 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天2时",
-      "progress": 64.7,
+      "remain": "剩15天19时",
+      "progress": 65.4,
       "days": {
-        "elapsedDays": 29.6,
-        "remainDays": 16.1,
+        "elapsedDays": 29.9,
+        "remainDays": 15.8,
         "totalDays": 45.7
       },
       "hasSchedule": true,
@@ -70,11 +70,11 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天2时",
-      "progress": 63.9,
+      "remain": "剩15天19时",
+      "progress": 64.6,
       "days": {
-        "elapsedDays": 28.6,
-        "remainDays": 16.1,
+        "elapsedDays": 28.9,
+        "remainDays": 15.8,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -85,29 +85,6 @@
       "summary": "4.4版本新增关卡"
     },
     {
-      "id": "1338",
-      "title": "「位面分裂」活动：位面饰品限时双倍掉落",
-      "header": "「「位面分裂」活动说明」",
-      "banner": "./covers/starrail-1338-4a47f239.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-07-26T12:00:00+08:00",
-      "end": "2026-08-10T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 14.6,
-        "remainDays": 0.0,
-        "totalDays": 14.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「位面分裂」活动说明"
-    },
-    {
       "id": "sr-banner-87",
       "title": "跃迁·Himeko • Nova / Moze",
       "header": "跃迁·Himeko • Nova / Moze",
@@ -116,11 +93,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天18时",
-      "progress": 61.9,
+      "remain": "剩15天11时",
+      "progress": 62.7,
       "days": {
-        "elapsedDays": 25.7,
-        "remainDays": 15.8,
+        "elapsedDays": 26.0,
+        "remainDays": 15.5,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -139,11 +116,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天18时",
-      "progress": 61.9,
+      "remain": "剩15天11时",
+      "progress": 62.7,
       "days": {
-        "elapsedDays": 25.7,
-        "remainDays": 15.8,
+        "elapsedDays": 26.0,
+        "remainDays": 15.5,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -162,11 +139,11 @@
       "start": "2026-07-24T19:00:00+08:00",
       "end": "2026-08-14T19:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天15时",
-      "progress": 77.8,
+      "remain": "剩4天8时",
+      "progress": 79.3,
       "days": {
-        "elapsedDays": 16.3,
-        "remainDays": 4.7,
+        "elapsedDays": 16.6,
+        "remainDays": 4.4,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -185,11 +162,11 @@
       "start": "2026-07-24T19:00:00+08:00",
       "end": "2026-08-14T19:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天15时",
-      "progress": 77.8,
+      "remain": "剩4天8时",
+      "progress": 79.3,
       "days": {
-        "elapsedDays": 16.3,
-        "remainDays": 4.7,
+        "elapsedDays": 16.6,
+        "remainDays": 4.4,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -208,11 +185,11 @@
       "start": "2026-08-05T19:00:00+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天18时",
-      "progress": 21.5,
+      "remain": "剩15天11时",
+      "progress": 23.1,
       "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 15.8,
+        "elapsedDays": 4.6,
+        "remainDays": 15.5,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -231,11 +208,11 @@
       "start": "2026-08-05T19:00:00+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天18时",
-      "progress": 21.5,
+      "remain": "剩15天11时",
+      "progress": 23.1,
       "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 15.8,
+        "elapsedDays": 4.6,
+        "remainDays": 15.5,
         "totalDays": 20.1
       },
       "hasSchedule": true,

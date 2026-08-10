@@ -1,9 +1,9 @@
 {
   "game": "原神",
   "source": "https://hk4e-api.mihoyo.com/common/hk4e_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-08-10T03:00:35.870397+08:00",
+  "fetchedAt": "2026-08-10T10:34:42.392884+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 17,
+  "count": 12,
   "notes": [
     "跳过总览 全新内容一览：地区·角色·祈愿·武器·衣装·剧情等",
     "跳过 「『空月之歌·谐谑』映夏！归乡？千灵节！」「月之八」版本更新说明",
@@ -19,7 +19,6 @@
     "跳过 《原神》公平运营声明",
     "常驻跳过 「砺行修远」：勤修馈赠",
     "常驻跳过 「当我们抬头望月亮」时限内完成探索任务，可额外获得原石*400奖励",
-    "常驻跳过 「砺行修远」：勤修馈赠",
     "常驻跳过 「解探月域，琢炼宵晖」活动：新手自选邀约「奔行世间」常驻祈愿5星角色",
     "常驻跳过 「叮铃哐啷天才机械师！」活动：推进魔神任务「雪浪与苍林之舞」，邀请「妙械"
   ],
@@ -33,11 +32,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-11T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天",
-      "progress": 97.6,
+      "remain": "剩17小时",
+      "progress": 98.3,
       "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 1.0,
+        "elapsedDays": 41.9,
+        "remainDays": 0.7,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -56,11 +55,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天3时",
-      "progress": 95.1,
+      "remain": "剩1天20时",
+      "progress": 95.8,
       "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 2.2,
+        "elapsedDays": 41.9,
+        "remainDays": 1.9,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -71,29 +70,6 @@
       "summary": "「魔女的谕示」"
     },
     {
-      "id": "21752",
-      "title": "「星与烟帷的夜语」衣装限时折扣",
-      "header": "「「星与烟帷的夜语」」",
-      "banner": "./covers/genshin-21752-718379ea.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-06-29T12:00:00+08:00",
-      "end": "2026-08-10T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.9,
-      "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 0.0,
-        "totalDays": 41.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「星与烟帷的夜语」"
-    },
-    {
       "id": "21753",
       "title": "「挪德卡莱·朔望凝待之庭」：千音雅集更新",
       "header": "「「挪德卡莱·朔望凝待之庭」」",
@@ -102,11 +78,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-11T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天11时",
-      "progress": 96.5,
+      "remain": "剩1天4时",
+      "progress": 97.3,
       "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 1.5,
+        "elapsedDays": 41.9,
+        "remainDays": 1.2,
         "totalDays": 43.1
       },
       "hasSchedule": true,
@@ -117,29 +93,6 @@
       "summary": "「挪德卡莱·朔望凝待之庭」"
     },
     {
-      "id": "21755",
-      "title": "「映夏纪行」活动说明",
-      "header": "「「映夏纪行」」",
-      "banner": "./covers/genshin-21755-0130d670.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-06-29T12:00:00+08:00",
-      "end": "2026-08-10T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.9,
-      "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 0.0,
-        "totalDays": 41.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「映夏纪行」"
-    },
-    {
       "id": "20834",
       "title": "「七圣召唤」铸境研炼：无量疾战",
       "header": "「「七圣召唤」铸境研炼」",
@@ -148,11 +101,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天3时",
-      "progress": 95.1,
+      "remain": "剩1天20时",
+      "progress": 95.8,
       "days": {
-        "elapsedDays": 41.6,
-        "remainDays": 2.2,
+        "elapsedDays": 41.9,
+        "remainDays": 1.9,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -163,29 +116,6 @@
       "summary": "「七圣召唤」铸境研炼"
     },
     {
-      "id": "21765",
-      "title": "「奇域秘藏·煦风缘海」奇偶装扮上新",
-      "header": "「「奇域秘藏·煦风缘海」」",
-      "banner": "./covers/genshin-21765-41d20402.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-06-30T12:00:00+08:00",
-      "end": "2026-08-10T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.9,
-      "days": {
-        "elapsedDays": 40.6,
-        "remainDays": 0.0,
-        "totalDays": 40.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「奇域秘藏·煦风缘海」"
-    },
-    {
       "id": "21763",
       "title": "「缘海赛季」赛季开启公告说明",
       "header": "「「缘海赛季」」",
@@ -194,11 +124,11 @@
       "start": "2026-06-30T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天3时",
-      "progress": 94.9,
+      "remain": "剩1天20时",
+      "progress": 95.7,
       "days": {
-        "elapsedDays": 40.6,
-        "remainDays": 2.2,
+        "elapsedDays": 40.9,
+        "remainDays": 1.9,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -217,11 +147,11 @@
       "start": "2026-06-30T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天3时",
-      "progress": 94.9,
+      "remain": "剩1天20时",
+      "progress": 95.7,
       "days": {
-        "elapsedDays": 40.6,
-        "remainDays": 2.2,
+        "elapsedDays": 40.9,
+        "remainDays": 1.9,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -240,11 +170,11 @@
       "start": "2026-07-06T12:00:00+08:00",
       "end": "2026-08-11T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天",
-      "progress": 97.1,
+      "remain": "剩17小时",
+      "progress": 98.0,
       "days": {
-        "elapsedDays": 34.6,
-        "remainDays": 1.0,
+        "elapsedDays": 34.9,
+        "remainDays": 0.7,
         "totalDays": 35.7
       },
       "hasSchedule": true,
@@ -263,11 +193,11 @@
       "start": "2026-07-10T12:20:00+08:00",
       "end": "2026-09-01T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天20时",
-      "progress": 58.3,
+      "remain": "剩21天13时",
+      "progress": 58.9,
       "days": {
-        "elapsedDays": 30.6,
-        "remainDays": 21.9,
+        "elapsedDays": 30.9,
+        "remainDays": 21.6,
         "totalDays": 52.5
       },
       "hasSchedule": true,
@@ -278,52 +208,6 @@
       "summary": "「奇域校园星」校园企划"
     },
     {
-      "id": "21764",
-      "title": "「游赏耀星·炳焕」参与获得缤纷惊喜礼盒代币「奇丽凝晶」",
-      "header": "「「游赏耀星·炳焕」」",
-      "banner": "./covers/genshin-21764-fac412c7.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-07-25T12:00:00+08:00",
-      "end": "2026-08-10T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 15.6,
-        "remainDays": 0.0,
-        "totalDays": 15.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「游赏耀星·炳焕」"
-    },
-    {
-      "id": "3364",
-      "title": "「地脉移涌」活动：「藏金之花」「启示之花」双倍掉落！",
-      "header": "「「地脉移涌」」",
-      "banner": "./covers/genshin-3364-856f4328.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-08-01T12:00:00+08:00",
-      "end": "2026-08-10T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.5,
-      "days": {
-        "elapsedDays": 8.6,
-        "remainDays": 0.0,
-        "totalDays": 8.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「地脉移涌」"
-    },
-    {
       "id": "21757",
       "title": "「伴月同眠」祈愿：「空月归乡·哥伦比娅(水)」概率UP！",
       "header": "「「伴月同眠」祈愿」",
@@ -332,11 +216,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-08-11T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天11时",
-      "progress": 94.2,
+      "remain": "剩1天4时",
+      "progress": 95.4,
       "days": {
-        "elapsedDays": 24.5,
-        "remainDays": 1.5,
+        "elapsedDays": 24.8,
+        "remainDays": 1.2,
         "totalDays": 26.0
       },
       "hasSchedule": true,
@@ -355,11 +239,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-08-11T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天11时",
-      "progress": 94.2,
+      "remain": "剩1天4时",
+      "progress": 95.4,
       "days": {
-        "elapsedDays": 24.5,
-        "remainDays": 1.5,
+        "elapsedDays": 24.8,
+        "remainDays": 1.2,
         "totalDays": 26.0
       },
       "hasSchedule": true,
@@ -378,11 +262,11 @@
       "start": "2026-07-16T16:00:00+08:00",
       "end": "2026-08-11T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天11时",
-      "progress": 94.2,
+      "remain": "剩1天4时",
+      "progress": 95.4,
       "days": {
-        "elapsedDays": 24.5,
-        "remainDays": 1.5,
+        "elapsedDays": 24.8,
+        "remainDays": 1.2,
         "totalDays": 26.0
       },
       "hasSchedule": true,
@@ -401,11 +285,11 @@
       "start": "2026-07-31T12:00:00+08:00",
       "end": "2026-08-11T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天20时",
-      "progress": 83.7,
+      "remain": "剩1天13时",
+      "progress": 86.4,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 1.9,
+        "elapsedDays": 9.9,
+        "remainDays": 1.6,
         "totalDays": 11.5
       },
       "hasSchedule": true,
