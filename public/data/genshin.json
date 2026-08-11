@@ -1,9 +1,9 @@
 {
   "game": "原神",
   "source": "https://hk4e-api.mihoyo.com/common/hk4e_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-08-11T21:43:56.935268+08:00",
+  "fetchedAt": "2026-08-12T03:20:36.129780+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 17,
+  "count": 16,
   "notes": [
     "跳过 7.0版本更新维护预告",
     "跳过总览 全新内容一览：地区·角色·祈愿·武器·衣装·剧情等",
@@ -34,11 +34,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩3小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 43.4,
-        "remainDays": 0.4,
+        "elapsedDays": 43.6,
+        "remainDays": 0.2,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -57,11 +57,11 @@
       "start": "2026-06-29T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩3小时",
+      "progress": 99.7,
       "days": {
-        "elapsedDays": 43.4,
-        "remainDays": 0.4,
+        "elapsedDays": 43.6,
+        "remainDays": 0.2,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -80,11 +80,11 @@
       "start": "2026-06-30T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩3小时",
+      "progress": 99.6,
       "days": {
-        "elapsedDays": 42.4,
-        "remainDays": 0.4,
+        "elapsedDays": 42.6,
+        "remainDays": 0.2,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -103,11 +103,11 @@
       "start": "2026-06-30T12:00:00+08:00",
       "end": "2026-08-12T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩3小时",
+      "progress": 99.6,
       "days": {
-        "elapsedDays": 42.4,
-        "remainDays": 0.4,
+        "elapsedDays": 42.6,
+        "remainDays": 0.2,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -126,11 +126,11 @@
       "start": "2026-07-10T12:20:00+08:00",
       "end": "2026-09-01T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天2时",
-      "progress": 61.7,
+      "remain": "剩19天20时",
+      "progress": 62.2,
       "days": {
-        "elapsedDays": 32.4,
-        "remainDays": 20.1,
+        "elapsedDays": 32.6,
+        "remainDays": 19.9,
         "totalDays": 52.5
       },
       "hasSchedule": true,
@@ -149,11 +149,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-22T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩41天17时",
-      "progress": 3.3,
+      "remain": "剩41天11时",
+      "progress": 3.8,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 41.7,
+        "elapsedDays": 1.6,
+        "remainDays": 41.5,
         "totalDays": 43.1
       },
       "hasSchedule": true,
@@ -172,11 +172,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-08-24T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 10.3,
+      "remain": "剩12天",
+      "progress": 12.0,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.3,
+        "elapsedDays": 1.6,
+        "remainDays": 12.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -195,11 +195,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-08-26T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩15天2时",
-      "progress": 8.5,
+      "remain": "剩14天20时",
+      "progress": 9.9,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 15.1,
+        "elapsedDays": 1.6,
+        "remainDays": 14.9,
         "totalDays": 16.5
       },
       "hasSchedule": true,
@@ -218,11 +218,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-21T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩40天6时",
-      "progress": 3.4,
+      "remain": "剩40天",
+      "progress": 3.9,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 40.3,
+        "elapsedDays": 1.6,
+        "remainDays": 40.0,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -241,11 +241,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-23T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天9时",
-      "progress": 3.2,
+      "remain": "剩42天3时",
+      "progress": 3.7,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 42.4,
+        "elapsedDays": 1.6,
+        "remainDays": 42.2,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -264,11 +264,11 @@
       "start": "2026-08-11T12:00:00+08:00",
       "end": "2026-09-21T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩40天6时",
-      "progress": 1.0,
+      "remain": "剩40天",
+      "progress": 1.6,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 40.3,
+        "elapsedDays": 0.6,
+        "remainDays": 40.0,
         "totalDays": 40.7
       },
       "hasSchedule": true,
@@ -287,11 +287,11 @@
       "start": "2026-08-11T12:00:00+08:00",
       "end": "2026-09-23T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天9时",
-      "progress": 0.9,
+      "remain": "剩42天3时",
+      "progress": 1.5,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 42.4,
+        "elapsedDays": 0.6,
+        "remainDays": 42.2,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -310,11 +310,11 @@
       "start": "2026-08-11T12:00:00+08:00",
       "end": "2026-09-23T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天9时",
-      "progress": 0.9,
+      "remain": "剩42天3时",
+      "progress": 1.5,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 42.4,
+        "elapsedDays": 0.6,
+        "remainDays": 42.2,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -333,11 +333,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-01T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天20时",
-      "progress": 6.3,
+      "remain": "剩20天14时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 20.8,
+        "elapsedDays": 1.6,
+        "remainDays": 20.6,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -356,11 +356,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-01T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天20时",
-      "progress": 6.3,
+      "remain": "剩20天14时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 20.8,
+        "elapsedDays": 1.6,
+        "remainDays": 20.6,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -379,11 +379,11 @@
       "start": "2026-08-10T12:00:00+08:00",
       "end": "2026-09-01T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天20时",
-      "progress": 6.3,
+      "remain": "剩20天14时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 20.8,
+        "elapsedDays": 1.6,
+        "remainDays": 20.6,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -392,29 +392,6 @@
       "category": "gacha",
       "allRanges": [],
       "summary": "「神铸赋形」祈愿"
-    },
-    {
-      "id": "21820",
-      "title": "「至冬将至」网页活动开启，回顾您的提瓦特之旅并预约新版本，领原石奖励！",
-      "header": "「「至冬将至」——《原神》网页活动上线！」",
-      "banner": "./covers/genshin-21820-64681456.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-07-31T12:00:00+08:00",
-      "end": "2026-08-11T23:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.2,
-      "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 0.1,
-        "totalDays": 11.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "web",
-      "allRanges": [],
-      "summary": "「至冬将至」——《原神》网页活动上线！"
     }
   ]
 }
