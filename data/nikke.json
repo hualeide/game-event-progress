@@ -1,12 +1,12 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-08-12T15:52:59.108201+08:00",
+  "fetchedAt": "2026-08-12T21:47:59.803085+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 4,
+  "count": 3,
   "notes": [
-    "GameKee nikke server=19 · 4 条",
+    "GameKee nikke server=19 · 3 条",
     "国服 GameKee 日历滞后，当前用外服进行中活动（时段接近）"
   ],
   "events": [
@@ -19,11 +19,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7小时",
-      "progress": 98.6,
+      "remain": "剩1小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
+        "elapsedDays": 20.9,
+        "remainDays": 0.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -42,11 +42,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T22:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7小时",
-      "progress": 98.6,
+      "remain": "剩1小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
+        "elapsedDays": 20.9,
+        "remainDays": 0.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -65,11 +65,11 @@
       "start": "2026-07-23T00:00:00+08:00",
       "end": "2026-08-12T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8小时",
-      "progress": 98.4,
+      "remain": "剩2小时",
+      "progress": 99.6,
       "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
+        "elapsedDays": 20.9,
+        "remainDays": 0.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -78,29 +78,6 @@
       "category": "event",
       "allRanges": [],
       "summary": "【转盘】 时装抽取复刻：桃乐丝- 怀旧"
-    },
-    {
-      "id": "7545",
-      "title": "【pass】PROTOTYPE PASS",
-      "header": "【pass】PROTOTYPE PASS",
-      "banner": "./covers/nikke-7545-d2a98463.jpg",
-      "link": "https://www.gamekee.com/nikke/713407.html",
-      "start": "2026-07-23T00:00:00+08:00",
-      "end": "2026-08-12T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 20.2,
-        "remainDays": 0.0,
-        "totalDays": 20.2
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "【pass】PROTOTYPE PASS"
     }
   ]
 }
