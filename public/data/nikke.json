@@ -1,83 +1,106 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-08-13T10:47:59.876241+08:00",
+  "fetchedAt": "2026-08-13T15:53:49.559968+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 3,
+  "count": 4,
   "notes": [
-    "GameKee nikke server=19 · 3 条",
+    "GameKee nikke server=19 · 4 条",
     "国服 GameKee 日历滞后，当前用外服进行中活动（时段接近）"
   ],
   "events": [
     {
-      "id": "7543",
-      "title": "【签到】HERO DAYS",
-      "header": "【签到】HERO DAYS",
-      "banner": "./covers/nikke-7543-a53589b8.jpg",
-      "link": "https://www.gamekee.com/nikke/713407.html",
-      "start": "2026-07-23T00:00:00+08:00",
-      "end": "2026-08-12T22:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
+      "id": "7636",
+      "title": "【转盘】Saint Thief",
+      "header": "【转盘】Saint Thief",
+      "banner": "./covers/nikke-7636-a93c92b6.jpg",
+      "link": "https://www.gamekee.com/nikke/716193.html",
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-09-10T00:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天8时",
+      "progress": 2.4,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
+        "elapsedDays": 0.7,
+        "remainDays": 27.3,
+        "totalDays": 28.0
       },
       "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "【签到】HERO DAYS"
-    },
-    {
-      "id": "7546",
-      "title": "【全语音支线】PROJECT MATIS",
-      "header": "【全语音支线】PROJECT MATIS",
-      "banner": "./covers/nikke-7546-c4ea47ff.png",
-      "link": "https://www.gamekee.com/nikke/713407.html",
-      "start": "2026-07-23T00:00:00+08:00",
-      "end": "2026-08-12T22:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [],
-      "summary": "【全语音支线】PROJECT MATIS"
+      "summary": "【转盘】Saint Thief"
     },
     {
-      "id": "7544",
-      "title": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
-      "header": "【转盘】 时装抽取复刻：桃乐丝- 怀旧",
-      "banner": "./covers/nikke-7544-32e86d71.jpg",
-      "link": "https://www.gamekee.com/nikke/tj/589849.html?tab=jn&style=style2",
-      "start": "2026-07-23T00:00:00+08:00",
-      "end": "2026-08-12T23:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
+      "id": "7638",
+      "title": "【pass】THIEF QUEEN PASS",
+      "header": "【pass】THIEF QUEEN PASS",
+      "banner": "./covers/nikke-7638-aa656b44.jpg",
+      "link": "https://www.gamekee.com/nikke/716193.html",
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-09-10T02:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天11时",
+      "progress": 2.4,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
+        "elapsedDays": 0.7,
+        "remainDays": 27.5,
+        "totalDays": 28.1
       },
       "hasSchedule": true,
-      "kind": "done",
+      "kind": "live",
       "fuzzy": false,
-      "category": "event",
+      "category": "combat",
       "allRanges": [],
-      "summary": "【转盘】 时装抽取复刻：桃乐丝- 怀旧"
+      "summary": "【pass】THIEF QUEEN PASS"
+    },
+    {
+      "id": "7637",
+      "title": "【联动支线】PERSONA ON FRONTLINE",
+      "header": "【联动支线】PERSONA ON FRONTLINE",
+      "banner": "./covers/nikke-7637-fb8ca1e0.jpg",
+      "link": "https://www.gamekee.com/nikke/716193.html",
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-09-10T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天12时",
+      "progress": 2.4,
+      "days": {
+        "elapsedDays": 0.7,
+        "remainDays": 27.5,
+        "totalDays": 28.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【联动支线】PERSONA ON FRONTLINE"
+    },
+    {
+      "id": "7639",
+      "title": "【限时通关】Trail Marker",
+      "header": "【限时通关】Trail Marker",
+      "banner": "./covers/nikke-7639-825cba38.jpg",
+      "link": "https://www.gamekee.com/nikke/716193.html",
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-10-08T04:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩55天13时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.7,
+        "remainDays": 55.5,
+        "totalDays": 56.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "【限时通关】Trail Marker"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-13T10:47:14.349600+08:00",
+  "fetchedAt": "2026-08-13T15:52:58.049672+08:00",
   "timezone": "Asia/Shanghai",
   "count": 19,
   "notes": [
@@ -48,54 +48,6 @@
   ],
   "events": [
     {
-      "id": "1860",
-      "title": "【预告】大决战：切赛德 • 室内战",
-      "header": "「大决战·切赛德 • 室内战」",
-      "banner": "./covers/ba-1860-0135f2c6.png",
-      "link": "https://bluearchive-cn.com/news/1860",
-      "start": "2026-07-30T00:00:00+08:00",
-      "end": "2026-08-13T13:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 14.4,
-        "remainDays": 0.1,
-        "totalDays": 14.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-07-24T14:00:00+08:00",
-          "end": "2026-07-29T03:59:00+08:00",
-          "raw": " • 赛季持续时间：07月24日 14:00 ~ 07月29日 03:59"
-        },
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-07-29T04:00:00+08:00",
-          "end": "2026-07-29T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：07月29日 04:00 ~ 07月29日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-07-30T00:00:00+08:00",
-          "end": "2026-08-13T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：07月30日 00:00 ~ 08月13日 13:59"
-        },
-        {
-          "label": "可领取时间",
-          "start": "2026-07-25T11:00:00+08:00",
-          "end": "2026-07-29T03:59:00+08:00",
-          "raw": " 可领取时间：07月25日 11:00 ~07月29日 03:59"
-        }
-      ],
-      "summary": "神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前在基沃托斯各地出没。 \n 切赛德是神名十文字的第4个先知，它已经掌控了千禧年外围的废弃兵工厂的生产系统。 \n 如果切赛德成功生产出无限的兵力，基沃托斯将会面临前所未有的灾难。 \n  \n ■ 活动时间 \n • 赛季持续时间：07月24日 14:00 ~…"
-    },
-    {
       "id": "1873",
       "title": "【预告】无限制决战：提翡瑞 • 弹力装甲",
       "header": "「无限制决战：提翡瑞 • 弹力装甲」",
@@ -104,11 +56,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天17时",
-      "progress": 48.4,
+      "remain": "剩13天12时",
+      "progress": 49.2,
       "days": {
-        "elapsedDays": 12.9,
-        "remainDays": 13.7,
+        "elapsedDays": 13.1,
+        "remainDays": 13.5,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -134,11 +86,11 @@
       "start": "2026-08-07T00:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 47.5,
+      "remain": "剩6天22时",
+      "progress": 49.0,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 7.1,
+        "elapsedDays": 6.7,
+        "remainDays": 6.9,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -170,11 +122,11 @@
       "start": "2026-08-13T03:59:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天17时",
-      "progress": 4.1,
+      "remain": "剩6天12时",
+      "progress": 7.1,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 6.7,
+        "elapsedDays": 0.5,
+        "remainDays": 6.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -200,11 +152,11 @@
       "start": "2026-08-13T04:00:00+08:00",
       "end": "2026-08-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天17时",
-      "progress": 7.1,
+      "remain": "剩3天12时",
+      "progress": 12.4,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 3.7,
+        "elapsedDays": 0.5,
+        "remainDays": 3.5,
         "totalDays": 4.0
       },
       "hasSchedule": true,
@@ -235,16 +187,16 @@
       "link": "https://bluearchive-cn.com/news/1885",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "combat",
       "allRanges": [
@@ -265,16 +217,16 @@
       "link": "https://bluearchive-cn.com/news/1883",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -295,16 +247,16 @@
       "link": "https://bluearchive-cn.com/news/1882",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -325,16 +277,16 @@
       "link": "https://bluearchive-cn.com/news/1881",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -355,16 +307,16 @@
       "link": "https://bluearchive-cn.com/news/1880",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -385,16 +337,16 @@
       "link": "https://bluearchive-cn.com/news/1879",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -415,16 +367,16 @@
       "link": "https://bluearchive-cn.com/news/1876",
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "combat",
       "allRanges": [
@@ -445,16 +397,16 @@
       "link": "https://bluearchive-cn.com/news/1888",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [
@@ -481,16 +433,16 @@
       "link": "https://bluearchive-cn.com/news/1890",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "gacha",
       "allRanges": [
@@ -511,16 +463,16 @@
       "link": "https://bluearchive-cn.com/news/1889",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "gacha",
       "allRanges": [
@@ -541,16 +493,16 @@
       "link": "https://bluearchive-cn.com/news/1891",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "gacha",
       "allRanges": [
@@ -571,16 +523,16 @@
       "link": "https://bluearchive-cn.com/news/1892",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "gacha",
       "allRanges": [
@@ -601,16 +553,16 @@
       "link": "https://bluearchive-cn.com/news/1893",
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天22时",
+      "progress": 1.1,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.1,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "gacha",
       "allRanges": [
@@ -636,7 +588,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -670,6 +622,54 @@
         }
       ],
       "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶白和黑自行启动的原因尚未查明，但至少可以明确一点，它们想要重现游乐园昔日华丽的庆典。 \n  \n ■ 活动时间 \n • 赛季持续时间：08月13日 14:00…"
+    },
+    {
+      "id": "1860",
+      "title": "【预告】大决战：切赛德 • 室内战",
+      "header": "「大决战·切赛德 • 室内战」",
+      "banner": "./covers/ba-1860-0135f2c6.png",
+      "link": "https://bluearchive-cn.com/news/1860",
+      "start": "2026-07-30T00:00:00+08:00",
+      "end": "2026-08-13T13:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 14.6,
+        "remainDays": 0.0,
+        "totalDays": 14.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-07-24T14:00:00+08:00",
+          "end": "2026-07-29T03:59:00+08:00",
+          "raw": " • 赛季持续时间：07月24日 14:00 ~ 07月29日 03:59"
+        },
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-07-29T04:00:00+08:00",
+          "end": "2026-07-29T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：07月29日 04:00 ~ 07月29日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-07-30T00:00:00+08:00",
+          "end": "2026-08-13T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：07月30日 00:00 ~ 08月13日 13:59"
+        },
+        {
+          "label": "可领取时间",
+          "start": "2026-07-25T11:00:00+08:00",
+          "end": "2026-07-29T03:59:00+08:00",
+          "raw": " 可领取时间：07月25日 11:00 ~07月29日 03:59"
+        }
+      ],
+      "summary": "神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前在基沃托斯各地出没。 \n 切赛德是神名十文字的第4个先知，它已经掌控了千禧年外围的废弃兵工厂的生产系统。 \n 如果切赛德成功生产出无限的兵力，基沃托斯将会面临前所未有的灾难。 \n  \n ■ 活动时间 \n • 赛季持续时间：07月24日 14:00 ~…"
     }
   ]
 }
