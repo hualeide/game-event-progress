@@ -1,13 +1,13 @@
 {
   "game": "重返未来：1999",
   "source": "https://1999.leiting.com/",
-  "fetchedAt": "2026-08-14T03:21:27.325295+08:00",
+  "fetchedAt": "2026-08-14T10:47:23.641221+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 2,
   "notes": [
     "官网链 0 条",
-    "补《原子之心》联动预告 7/23（估时）"
+    "抓取为空，保留旧数据 2 条"
   ],
   "events": [
     {
@@ -56,5 +56,6 @@
       "allRanges": [],
       "summary": "联动版本同期卡池（估时）"
     }
-  ]
+  ],
+  "keptPrevious": true
 }

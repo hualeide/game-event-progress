@@ -1,9 +1,9 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-08-14T03:20:07.504836+08:00",
+  "fetchedAt": "2026-08-14T10:46:16.734865+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 11,
+  "count": 10,
   "notes": [
     "3809 跳过：【2026年08月06日】封禁处理公示",
     "9334 跳过：【2026年07月27日】封禁处理公示",
@@ -23,11 +23,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -56,11 +56,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-23T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天8时",
-      "progress": 33.1,
+      "remain": "剩9天1时",
+      "progress": 35.4,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 9.4,
+        "elapsedDays": 4.9,
+        "remainDays": 9.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -88,11 +88,11 @@
       "start": "2026-08-06T12:00:00+08:00",
       "end": "2026-08-20T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 55.9,
+      "remain": "剩5天17时",
+      "progress": 58.2,
       "days": {
-        "elapsedDays": 7.6,
-        "remainDays": 6.0,
+        "elapsedDays": 7.9,
+        "remainDays": 5.7,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -120,11 +120,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -157,7 +157,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.4,
+        "remainDays": 26.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -186,11 +186,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -219,11 +219,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -285,11 +285,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天8时",
-      "progress": 22.1,
+      "remain": "剩16天1时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 16.4,
+        "elapsedDays": 4.9,
+        "remainDays": 16.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -319,13 +319,6 @@
           "end": "2026-08-30T12:00:00+08:00",
           "raw": "开放时间：2026/08/09 12:00 - 版本更新维护前",
           "fuzzy": true,
-          "category": "event"
-        },
-        {
-          "label": "活动 · 炽燃！竞技大会！",
-          "start": "2026-07-30T12:00:00+08:00",
-          "end": "2026-08-13T04:00:00+08:00",
-          "raw": "开放时间：2026/07/30 12:00 - 2026/08/13 04:00",
           "category": "event"
         },
         {
@@ -380,11 +373,11 @@
       "start": "2026-08-26T04:00:00+08:00",
       "end": "2026-09-02T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "12天后",
+      "remain": "11天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.0,
+        "remainDays": 18.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -409,38 +402,6 @@
       ],
       "summary": "理智补给 · 活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
       "body": "· 活动时间：\n 2026/08/02 04:00 - 2026/08/09 04:00（服务器时间）\n 2026/08/26 04:00 - 2026/09/02 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 10.「根脉奇境」趣味活动"
-    },
-    {
-      "id": "9335-event-炽燃竞技大会",
-      "title": "「炽燃！竞技大会！」",
-      "header": "「炽燃！竞技大会！」",
-      "banner": "./covers/ef-event-9335-449a1df5c1-5a780199.jpg",
-      "link": "https://endfield.hypergryph.com/news/9335",
-      "start": "2026-07-30T12:00:00+08:00",
-      "end": "2026-08-13T04:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0.0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 炽燃！竞技大会！",
-          "start": "2026-07-30T12:00:00+08:00",
-          "end": "2026-08-13T04:00:00+08:00",
-          "raw": "开放时间：2026/07/30 12:00 - 2026/08/13 04:00",
-          "category": "event"
-        }
-      ],
-      "summary": "炽燃！竞技大会！ · 活动期间，完成一系列挑战关卡，即可领取【嵌晶玉】×1200、【头像框·炽燃盛会】及【存续的痕迹】等活动奖励。 · 奖励：【嵌晶玉】、【头像框·炽燃盛会】、【存续的痕迹】",
-      "body": "· 活动时间：2026/07/30 12:00 - 2026/08/13 04:00（服务器时间）\n · 活动说明：活动期间，完成一系列挑战关卡，即可领取【嵌晶玉】×1200、【头像框·炽燃盛会】及【存续的痕迹】等活动奖励。\n \n 9.「理智补给」限时活动"
     }
   ]
 }
