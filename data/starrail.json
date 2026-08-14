@@ -1,10 +1,11 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-08-14T10:46:30.499573+08:00",
+  "fetchedAt": "2026-08-14T21:42:58.347644+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 10,
+  "count": 13,
   "notes": [
+    "跳过 4.4版本「鸣笛于归寂之时」满意度调研问卷",
     "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
     "跳过 4.4版本游戏优化及已知问题说明",
     "跳过 4.4版本「鸣笛于归寂之时」版本更新说明",
@@ -12,7 +13,7 @@
     "常驻跳过 《崩坏：星穹铁道》社媒聚合页上线",
     "跳过 《崩坏：星穹铁道》防沉迷系统公告",
     "跳过 《崩坏：星穹铁道》公平运营声明",
-    "日历补跃迁 6 条"
+    "日历补跃迁 8 条"
   ],
   "events": [
     {
@@ -24,11 +25,11 @@
       "start": "2026-07-09T13:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天17时",
-      "progress": 78.7,
+      "remain": "剩9天6时",
+      "progress": 79.7,
       "days": {
-        "elapsedDays": 35.9,
-        "remainDays": 9.7,
+        "elapsedDays": 36.4,
+        "remainDays": 9.3,
         "totalDays": 45.6
       },
       "hasSchedule": true,
@@ -47,11 +48,11 @@
       "start": "2026-07-11T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天19时",
-      "progress": 74.2,
+      "remain": "剩11天8时",
+      "progress": 75.2,
       "days": {
-        "elapsedDays": 33.9,
-        "remainDays": 11.8,
+        "elapsedDays": 34.4,
+        "remainDays": 11.3,
         "totalDays": 45.7
       },
       "hasSchedule": true,
@@ -70,11 +71,11 @@
       "start": "2026-07-12T13:00:00+08:00",
       "end": "2026-08-26T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天19时",
-      "progress": 73.6,
+      "remain": "剩11天8时",
+      "progress": 74.6,
       "days": {
-        "elapsedDays": 32.9,
-        "remainDays": 11.8,
+        "elapsedDays": 33.4,
+        "remainDays": 11.3,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -93,11 +94,11 @@
       "start": "2026-08-13T12:00:00+08:00",
       "end": "2026-08-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天17时",
-      "progress": 8.9,
+      "remain": "剩9天6时",
+      "progress": 13.2,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 9.7,
+        "elapsedDays": 1.4,
+        "remainDays": 9.3,
         "totalDays": 10.7
       },
       "hasSchedule": true,
@@ -116,11 +117,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天11时",
-      "progress": 72.4,
+      "remain": "剩11天",
+      "progress": 73.5,
       "days": {
-        "elapsedDays": 30.0,
-        "remainDays": 11.5,
+        "elapsedDays": 30.5,
+        "remainDays": 11.0,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -139,11 +140,11 @@
       "start": "2026-07-15T10:00:01+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天11时",
-      "progress": 72.4,
+      "remain": "剩11天",
+      "progress": 73.5,
       "days": {
-        "elapsedDays": 30.0,
-        "remainDays": 11.5,
+        "elapsedDays": 30.5,
+        "remainDays": 11.0,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -154,52 +155,6 @@
       "summary": "A Star That Lights the Night / After the Charmony Fall / Under the Blue Sky / The Birth of the Self"
     },
     {
-      "id": "sr-banner-89",
-      "title": "跃迁·Rin Tohsaka / Gilgamesh",
-      "header": "跃迁·Rin Tohsaka / Gilgamesh",
-      "banner": "./covers/starrail-sr-banner-89-f36470b0.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-07-24T19:00:00+08:00",
-      "end": "2026-08-14T19:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩8小时",
-      "progress": 98.4,
-      "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Rin Tohsaka / Gilgamesh"
-    },
-    {
-      "id": "sr-banner-90",
-      "title": "跃迁·Flickering Stars / I Am As You Behold",
-      "header": "跃迁·Flickering Stars / I Am As You Behold",
-      "banner": "./covers/starrail-sr-banner-90-c1f752c2.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-07-24T19:00:00+08:00",
-      "end": "2026-08-14T19:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩8小时",
-      "progress": 98.4,
-      "days": {
-        "elapsedDays": 20.7,
-        "remainDays": 0.3,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Flickering Stars / I Am As You Behold"
-    },
-    {
       "id": "sr-banner-85",
       "title": "跃迁·Cerydra / Anaxa",
       "header": "跃迁·Cerydra / Anaxa",
@@ -208,11 +163,11 @@
       "start": "2026-08-05T19:00:00+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天11时",
-      "progress": 43.0,
+      "remain": "剩11天",
+      "progress": 45.3,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 11.5,
+        "elapsedDays": 9.1,
+        "remainDays": 11.0,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -231,11 +186,11 @@
       "start": "2026-08-05T19:00:00+08:00",
       "end": "2026-08-25T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天11时",
-      "progress": 43.0,
+      "remain": "剩11天",
+      "progress": 45.3,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 11.5,
+        "elapsedDays": 9.1,
+        "remainDays": 11.0,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -244,6 +199,121 @@
       "category": "gacha",
       "allRanges": [],
       "summary": "Epoch Etched in Golden Blood / Life Should Be Cast to Flames / Inherently Unjust Destiny / After the Charmony Fall / Under the Blue Sky / The Birth of the Self"
+    },
+    {
+      "id": "1360",
+      "title": "4.5版本商店上新",
+      "header": "「4.5版本商店上新」",
+      "banner": "./covers/starrail-1360-3eb98a74.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-08-14T20:00:00+08:00",
+      "end": "2026-09-28T06:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩44天8时",
+      "progress": 0.2,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 44.3,
+        "totalDays": 44.4
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "4.5版本商店上新"
+    },
+    {
+      "id": "sr-banner-91",
+      "title": "跃迁·Robin • Summeretto / Hyacine",
+      "header": "跃迁·Robin • Summeretto / Hyacine",
+      "banner": "./covers/starrail-sr-banner-91-44904a1f.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-08-26T10:00:00+08:00",
+      "end": "2026-09-12T18:59:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 28.9,
+        "totalDays": 17.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Robin • Summeretto / Hyacine / Dan Heng / Qingque / Gallagher"
+    },
+    {
+      "id": "sr-banner-92",
+      "title": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
+      "header": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
+      "banner": "./covers/starrail-sr-banner-92-e5af67f6.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-08-26T10:00:00+08:00",
+      "end": "2026-09-12T18:59:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 28.9,
+        "totalDays": 17.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Rise and Sing / Long May Rainbows Adorn the Sky / Dream's Montage / Geniuses' Greetings / A Little Getaway"
+    },
+    {
+      "id": "sr-banner-93",
+      "title": "跃迁·Aventurine • Waveflair / Ashveil",
+      "header": "跃迁·Aventurine • Waveflair / Ashveil",
+      "banner": "./covers/starrail-sr-banner-93-ffce9c54.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-09-12T19:00:00+08:00",
+      "end": "2026-09-28T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "28天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 44.3,
+        "totalDays": 15.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Aventurine • Waveflair / Ashveil / Sampo / Hook / Guinaifen"
+    },
+    {
+      "id": "sr-banner-94",
+      "title": "跃迁·Summer Rides the Surf / The Finale of a Lie",
+      "header": "跃迁·Summer Rides the Surf / The Finale of a Lie",
+      "banner": "./covers/starrail-sr-banner-94-e8a58802.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-09-12T19:00:00+08:00",
+      "end": "2026-09-28T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "28天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 44.3,
+        "totalDays": 15.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Summer Rides the Surf / The Finale of a Lie / Only Silence Remains / Perfect Timing / The Story's Next Page"
     }
   ]
 }
