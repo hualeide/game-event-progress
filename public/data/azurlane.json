@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-15T03:14:39.126965+08:00",
+  "fetchedAt": "2026-08-15T14:58:38.684095+08:00",
   "count": 9,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天6时",
-      "progress": 77.7,
+      "remain": "剩19天18时",
+      "progress": 78.2,
       "days": {
-        "elapsedDays": 70.5,
-        "remainDays": 20.3,
+        "elapsedDays": 71.0,
+        "remainDays": 19.8,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天20时",
-      "progress": 45.6,
+      "remain": "剩16天8时",
+      "progress": 47.2,
       "days": {
-        "elapsedDays": 14.1,
-        "remainDays": 16.9,
+        "elapsedDays": 14.6,
+        "remainDays": 16.4,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天20时",
-      "progress": 29.9,
+      "remain": "剩19天8时",
+      "progress": 31.6,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 19.9,
+        "elapsedDays": 9.0,
+        "remainDays": 19.4,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 40.8,
+      "remain": "剩11天18时",
+      "progress": 43.2,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 12.3,
+        "elapsedDays": 9.0,
+        "remainDays": 11.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 10.7,
+      "remain": "剩11天18时",
+      "progress": 14.2,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 11.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩46天20时",
-      "progress": 23.2,
+      "remain": "剩46天8时",
+      "progress": 24.0,
       "days": {
-        "elapsedDays": 14.1,
-        "remainDays": 46.9,
+        "elapsedDays": 14.6,
+        "remainDays": 46.4,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 40.8,
+      "remain": "剩11天18时",
+      "progress": 43.2,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 12.3,
+        "elapsedDays": 9.0,
+        "remainDays": 11.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 10.7,
+      "remain": "剩11天18时",
+      "progress": 14.2,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 11.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -192,16 +192,16 @@
       "id": "al-滨海极速夏日狂飙-0813",
       "title": "滨海极速:夏日狂飙",
       "header": "开启限时活动·滨海极速:夏日狂飙",
-      "banner": "./covers/al-f7b5ac2c4b-2e1bbf7c.jpg",
+      "banner": "./covers/al-f7b5ac2c4b-ac5cb872.png",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B48%E6%9C%8813%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 10.7,
+      "remain": "剩11天18时",
+      "progress": 14.2,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 11.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
