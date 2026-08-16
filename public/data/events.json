@@ -1,13 +1,11 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-16T21:00:21.930475+08:00",
+  "fetchedAt": "2026-08-17T02:46:31.910088+08:00",
   "timezone": "Asia/Shanghai",
   "count": 5,
   "notes": [
     "1061 跳过：夏日嘉年华 活动战绩页",
-    "9124 跳过：直到大地变成一 颗酸橙周边上新",
-    "5696 跳过：音律联觉＆鹰角 嘉年华周边开售",
     "0409 跳过：新增特限模组",
     "3352 跳过：信使速递 网页活动开启",
     "6771 跳过：【奇象巡展】 网页活动开启",
@@ -56,11 +54,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 75.6,
+      "remain": "剩3天1时",
+      "progress": 77.4,
       "days": {
-        "elapsedDays": 10.2,
-        "remainDays": 3.3,
+        "elapsedDays": 10.4,
+        "remainDays": 3.1,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -92,11 +90,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 23.8,
+      "remain": "剩10天1时",
+      "progress": 25.5,
       "days": {
-        "elapsedDays": 3.2,
-        "remainDays": 10.3,
+        "elapsedDays": 3.4,
+        "remainDays": 10.1,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -200,11 +198,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 55.6,
+      "remain": "剩12天1时",
+      "progress": 56.4,
       "days": {
-        "elapsedDays": 15.4,
-        "remainDays": 12.3,
+        "elapsedDays": 15.6,
+        "remainDays": 12.1,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -220,7 +218,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-16T21:00:21.930475+08:00",
+      "updatedAt": "2026-08-17T02:46:31.910088+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -239,9 +237,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.3,
+        "remainDays": 2.1,
         "totalDays": 14.0,
-        "untilStartDays": 2.3
+        "untilStartDays": 2.1
       },
       "hasSchedule": true,
       "kind": "preview",
