@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-16T02:47:27.257281+08:00",
+  "fetchedAt": "2026-08-16T09:57:11.417060+08:00",
   "timezone": "Asia/Shanghai",
   "count": 5,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天1时",
-      "progress": 70.0,
+      "remain": "剩3天18时",
+      "progress": 72.2,
       "days": {
-        "elapsedDays": 9.4,
-        "remainDays": 4.0,
+        "elapsedDays": 9.7,
+        "remainDays": 3.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -92,11 +92,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天1时",
-      "progress": 18.1,
+      "remain": "剩10天18时",
+      "progress": 20.4,
       "days": {
-        "elapsedDays": 2.4,
-        "remainDays": 11.0,
+        "elapsedDays": 2.7,
+        "remainDays": 10.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -200,11 +200,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天1时",
-      "progress": 52.8,
+      "remain": "剩12天18时",
+      "progress": 53.9,
       "days": {
-        "elapsedDays": 14.6,
-        "remainDays": 13.0,
+        "elapsedDays": 14.9,
+        "remainDays": 12.8,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -220,7 +220,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-16T02:47:27.257281+08:00",
+      "updatedAt": "2026-08-16T09:57:11.417060+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -235,13 +235,13 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 3.1,
+        "remainDays": 2.8,
         "totalDays": 14.0,
-        "untilStartDays": 3.1
+        "untilStartDays": 2.8
       },
       "hasSchedule": true,
       "kind": "preview",
