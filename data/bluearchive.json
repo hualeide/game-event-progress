@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-17T02:46:31.907738+08:00",
+  "fetchedAt": "2026-08-17T09:55:15.942462+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天1时",
-      "progress": 62.2,
+      "remain": "剩9天18时",
+      "progress": 63.3,
       "days": {
-        "elapsedDays": 16.5,
-        "remainDays": 10.1,
+        "elapsedDays": 16.8,
+        "remainDays": 9.8,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-08-07T00:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 74.5,
+      "remain": "剩3天4时",
+      "progress": 76.7,
       "days": {
-        "elapsedDays": 10.1,
-        "remainDays": 3.5,
+        "elapsedDays": 10.4,
+        "remainDays": 3.2,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -122,11 +122,11 @@
       "start": "2026-08-13T03:59:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天1时",
-      "progress": 56.4,
+      "remain": "剩2天18时",
+      "progress": 60.7,
       "days": {
-        "elapsedDays": 3.9,
-        "remainDays": 3.1,
+        "elapsedDays": 4.2,
+        "remainDays": 2.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -144,42 +144,6 @@
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 3周年纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石，可千万不要错过啦！ \n  \n ■ 活动时间 \n 07月30日 维护结束后 ~ 08月13日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3天：青…"
     },
     {
-      "id": "1897",
-      "title": "【预告】掉落量3倍活动即将开启！",
-      "header": "「掉落量3倍活动即将开启！」",
-      "banner": "./covers/ba-1897-addd0802.jpg",
-      "link": "https://bluearchive-cn.com/news/1897",
-      "start": "2026-08-13T04:00:00+08:00",
-      "end": "2026-08-17T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 98.7,
-      "days": {
-        "elapsedDays": 3.9,
-        "remainDays": 0.1,
-        "totalDays": 4.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-13T04:00:00+08:00",
-          "end": "2026-08-17T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-17T04:00:00+08:00",
-          "end": "2026-08-20T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月17日 04:00 ~ 08月20日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量3倍活动】即将开启！请不要错过哦！ \n  \n 一、【任务（普通难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59 \n  \n 二、【任务（困难难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月17日 04:00 ~ 08月20日…"
-    },
-    {
       "id": "1885",
       "title": "限时活动：海兰德铁道失控事件~",
       "header": "「海兰德铁道失控事件~」",
@@ -188,11 +152,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -218,11 +182,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -248,11 +212,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -278,11 +242,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -308,11 +272,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -338,11 +302,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -368,11 +332,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -398,11 +362,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -434,11 +398,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -464,11 +428,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -494,11 +458,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -524,11 +488,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -554,11 +518,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天11时",
-      "progress": 50.5,
+      "remain": "剩3天4时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 3.5,
+        "elapsedDays": 3.8,
+        "remainDays": 3.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -588,7 +552,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.5,
+        "remainDays": 17.2,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -622,6 +586,42 @@
         }
       ],
       "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶白和黑自行启动的原因尚未查明，但至少可以明确一点，它们想要重现游乐园昔日华丽的庆典。 \n  \n ■ 活动时间 \n • 赛季持续时间：08月13日 14:00…"
+    },
+    {
+      "id": "1897",
+      "title": "【预告】掉落量3倍活动即将开启！",
+      "header": "「掉落量3倍活动即将开启！」",
+      "banner": "./covers/ba-1897-addd0802.jpg",
+      "link": "https://bluearchive-cn.com/news/1897",
+      "start": "2026-08-13T04:00:00+08:00",
+      "end": "2026-08-17T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 4.0,
+        "remainDays": 0.0,
+        "totalDays": 4.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-13T04:00:00+08:00",
+          "end": "2026-08-17T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-17T04:00:00+08:00",
+          "end": "2026-08-20T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月17日 04:00 ~ 08月20日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量3倍活动】即将开启！请不要错过哦！ \n  \n 一、【任务（普通难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59 \n  \n 二、【任务（困难难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月17日 04:00 ~ 08月20日…"
     }
   ]
 }
