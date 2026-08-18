@@ -1,10 +1,16 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-18T02:57:06.830522+08:00",
+  "fetchedAt": "2026-08-18T15:04:14.770320+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 18,
+  "count": 27,
   "notes": [
+    "1913 跳过：【预告】主线故事part1即将更新",
+    "1912 跳过：【预告】主线故事part2即将更新",
+    "1906 跳过：【预告】指引任务：和乐庆典特别庆祝活动！",
+    "1903 跳过：【预告】综合战术测试：射击 • 弹力装甲",
+    "1901 跳过：【预告】小故事：与你的不期而遇",
+    "1900 跳过：【预告】家具互动即将更新",
     "1898 跳过：阿洛娜的日程笔记（第30期）",
     "1895 跳过：【预告】战术对抗赛第九赛季",
     "1896 跳过：【预告】家具互动即将更新",
@@ -38,13 +44,7 @@
     "1865 已过期：【预告】掉落量2倍活动即将开启！",
     "1849 已过期：【预告】限时活动：异饼危机",
     "1848 已过期：【预告】限时招募：朱莉（打工）",
-    "1847 已过期：【预告】限时招募：濑名（便服）",
-    "1846 已过期：【预告】限时招募：花凛（邦妮）",
-    "1845 已过期：【预告】限时招募：妮露（邦妮）",
-    "1844 已过期：【预告】限时招募：茜（邦妮）",
-    "1843 已过期：【预告】限时招募：明日奈（邦妮）",
-    "1842 已过期：【预告】限时活动：沙勒总决算",
-    "1841 已过期：【预告】总力战：猫鬼黑影 • 街区战"
+    "1847 已过期：【预告】限时招募：濑名（便服）"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天1时",
-      "progress": 66.0,
+      "remain": "剩8天12时",
+      "progress": 67.9,
       "days": {
-        "elapsedDays": 17.5,
-        "remainDays": 9.0,
+        "elapsedDays": 18.0,
+        "remainDays": 8.5,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-08-07T00:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 81.9,
+      "remain": "剩1天22时",
+      "progress": 85.6,
       "days": {
-        "elapsedDays": 11.1,
-        "remainDays": 2.5,
+        "elapsedDays": 11.6,
+        "remainDays": 2.0,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -122,11 +122,11 @@
       "start": "2026-08-13T03:59:00+08:00",
       "end": "2026-08-20T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天1时",
-      "progress": 70.8,
+      "remain": "剩1天12时",
+      "progress": 78.0,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 2.0,
+        "elapsedDays": 5.5,
+        "remainDays": 1.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -152,11 +152,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -182,11 +182,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -212,11 +212,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -242,11 +242,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -272,11 +272,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -302,11 +302,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -332,11 +332,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -362,11 +362,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -398,11 +398,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -428,11 +428,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -458,11 +458,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -488,11 +488,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -518,11 +518,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天11时",
-      "progress": 64.9,
+      "remain": "剩1天22时",
+      "progress": 72.1,
       "days": {
-        "elapsedDays": 4.5,
-        "remainDays": 2.5,
+        "elapsedDays": 5.0,
+        "remainDays": 2.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -548,11 +548,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "21小时后",
+      "remain": "8小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.5,
+        "remainDays": 16.0,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -586,6 +586,306 @@
         }
       ],
       "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶白和黑自行启动的原因尚未查明，但至少可以明确一点，它们想要重现游乐园昔日华丽的庆典。 \n  \n ■ 活动时间 \n • 赛季持续时间：08月13日 14:00…"
+    },
+    {
+      "id": "1905",
+      "title": "【预告】限时活动：沙勒总决算",
+      "header": "「沙勒总决算」",
+      "banner": "./covers/ba-1905-4b0c3561.png",
+      "link": "https://bluearchive-cn.com/news/1905",
+      "start": "2026-08-20T04:00:00+08:00",
+      "end": "2026-09-03T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 16.0,
+        "totalDays": 14.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 活动持续时间",
+          "start": "2026-08-20T04:00:00+08:00",
+          "end": "2026-09-03T13:59:00+08:00",
+          "raw": " • 活动持续时间：08月20日 04:00 ~ 09月03日 13:59"
+        },
+        {
+          "label": "• 商店兑换时间",
+          "start": "2026-08-20T04:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " • 商店兑换时间：08月20日 04:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 限时活动：沙勒总决算即将开启！完成活动可获得秘仪之书碎片等奖励。 \n  \n ■ 活动时间 \n • 活动持续时间：08月20日 04:00 ~ 09月03日 13:59 \n • 商店兑换时间：08月20日 04:00 ~ 09月10日 13:59 \n  \n ■ 参加条件 \n • 通关…"
+    },
+    {
+      "id": "1899",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1899-e87919f1.jpg",
+      "link": "https://bluearchive-cn.com/news/1899",
+      "start": "2026-08-20T04:00:00+08:00",
+      "end": "2026-08-27T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 8.5,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-20T04:00:00+08:00",
+          "end": "2026-08-27T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-27T04:00:00+08:00",
+          "end": "2026-08-31T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 08月31日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-31T04:00:00+08:00",
+          "end": "2026-09-03T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月31日 04:00 ~ 09月03日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-27T04:00:00+08:00",
+          "end": "2026-09-03T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 09月03日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程、特别委托】道具掉落量2倍 \n ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 08月27日 04:00 ~ 08…"
+    },
+    {
+      "id": "1904",
+      "title": "【预告】总力战：格武拉 • 室内战",
+      "header": "「总力战·格武拉 • 室内战」",
+      "banner": "./covers/ba-1904-e5925d0f.png",
+      "link": "https://bluearchive-cn.com/news/1904",
+      "start": "2026-08-28T00:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "9天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 13.6
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-08-27T04:00:00+08:00",
+          "end": "2026-08-27T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：08月27日 04:00 ~ 08月27日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-08-28T00:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：08月28日 00:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前正在基沃托斯各地出没。 \n 格武拉是神名十文字的第5个先知，它原本是极地研究基地的一台无人探测机，受到不明AI骇入后，不断自我进化，最终成为了现在的模样。 \n 格武拉的意图尚不明确，但如果放任不管，它很可能会威胁到包含极地航线在内整个基沃托斯航线的安…"
+    },
+    {
+      "id": "1902",
+      "title": "【预告】无限制决战：获刻玛 • 重装甲",
+      "header": "「无限制决战：获刻玛 • 重装甲」",
+      "banner": "./covers/ba-1902-323adcce.jpg",
+      "link": "https://bluearchive-cn.com/news/1902",
+      "start": "2026-08-28T14:00:00+08:00",
+      "end": "2026-09-17T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "9天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 29.5,
+        "totalDays": 19.6
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-08-28T14:00:00+08:00",
+          "end": "2026-09-17T03:59:00+08:00",
+          "raw": " • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59"
+        }
+      ],
+      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"获刻玛\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
+    },
+    {
+      "id": "1911",
+      "title": "【预告】限时招募：名草",
+      "header": "「限时招募：名草」",
+      "banner": "./covers/ba-1911-80ee0952.png",
+      "link": "https://bluearchive-cn.com/news/1911",
+      "start": "2026-09-03T13:59:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（仅有开启点）",
+          "start": "2026-09-03T13:59:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": "09月03日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【少女啊 勿忘此心】即将开启！在本次招募中，全新3★成员\"名草\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“尼娅”、“紫”、“莲华”、“桔梗”也有一定概率招…"
+    },
+    {
+      "id": "1910",
+      "title": "【预告】限时招募：尼娅",
+      "header": "「限时招募：尼娅」",
+      "banner": "./covers/ba-1910-b2ec0424.png",
+      "link": "https://bluearchive-cn.com/news/1910",
+      "start": "2026-09-03T13:59:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（仅有开启点）",
+          "start": "2026-09-03T13:59:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": "09月03日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【万物浮梦中】即将开启！在本次招募中，全新3★成员\"尼娅\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“紫”、“莲华”、“桔梗”也有一定概率招募到，…"
+    },
+    {
+      "id": "1909",
+      "title": "【预告】限时招募：紫",
+      "header": "「限时招募：紫」",
+      "banner": "./covers/ba-1909-24fb1add.png",
+      "link": "https://bluearchive-cn.com/news/1909",
+      "start": "2026-09-03T13:59:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（仅有开启点）",
+          "start": "2026-09-03T13:59:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": "09月03日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【有梦的少女啊，要胸怀大志！】即将开启！在本次招募中，3★成员\"紫\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“莲华”、“桔梗”也有一定概…"
+    },
+    {
+      "id": "1908",
+      "title": "【预告】限时招募：莲华",
+      "header": "「限时招募：莲华」",
+      "banner": "./covers/ba-1908-22f43d5b.png",
+      "link": "https://bluearchive-cn.com/news/1908",
+      "start": "2026-09-03T13:59:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（仅有开启点）",
+          "start": "2026-09-03T13:59:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": "09月03日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【春日苦短，少女奔跑吧】即将开启！在本次招募中，3★成员\"莲华\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“紫”、“桔梗”也有一定概率招募…"
+    },
+    {
+      "id": "1907",
+      "title": "【预告】限时招募：桔梗",
+      "header": "「限时招募：桔梗」",
+      "banner": "./covers/ba-1907-179f6c01.png",
+      "link": "https://bluearchive-cn.com/news/1907",
+      "start": "2026-09-03T13:59:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "15天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 23.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（仅有开启点）",
+          "start": "2026-09-03T13:59:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": "09月03日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【铭记于心，少女前进吧】即将开启！在本次招募中，3★成员\"桔梗\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“紫”、“莲华”也有一定概率招募…"
     },
     {
       "id": "1897",
