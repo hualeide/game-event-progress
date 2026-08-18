@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-08-18T02:57:31.099980+08:00",
+  "fetchedAt": "2026-08-18T09:51:17.248305+08:00",
   "count": 7,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-07-11T10:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 96.5,
+      "remain": "剩1天2时",
+      "progress": 97.2,
       "days": {
-        "elapsedDays": 37.7,
-        "remainDays": 1.4,
+        "elapsedDays": 38.0,
+        "remainDays": 1.1,
         "totalDays": 39.1
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-07-30T10:00:00+08:00",
       "end": "2026-08-19T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天1时",
-      "progress": 94.7,
+      "remain": "剩18小时",
+      "progress": 96.2,
       "days": {
-        "elapsedDays": 18.7,
-        "remainDays": 1.0,
+        "elapsedDays": 19.0,
+        "remainDays": 0.8,
         "totalDays": 19.7
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 96.6,
+      "remain": "剩1天2时",
+      "progress": 97.3,
       "days": {
-        "elapsedDays": 39.0,
-        "remainDays": 1.4,
+        "elapsedDays": 39.2,
+        "remainDays": 1.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 96.6,
+      "remain": "剩1天2时",
+      "progress": 97.3,
       "days": {
-        "elapsedDays": 39.0,
-        "remainDays": 1.4,
+        "elapsedDays": 39.2,
+        "remainDays": 1.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 96.6,
+      "remain": "剩1天2时",
+      "progress": 97.3,
       "days": {
-        "elapsedDays": 39.0,
-        "remainDays": 1.4,
+        "elapsedDays": 39.2,
+        "remainDays": 1.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 96.6,
+      "remain": "剩1天2时",
+      "progress": 97.3,
       "days": {
-        "elapsedDays": 39.0,
-        "remainDays": 1.4,
+        "elapsedDays": 39.2,
+        "remainDays": 1.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -146,16 +146,16 @@
       "id": "wuwa-5110-呜呜企划新旅",
       "title": "呜呜企划・新旅",
       "header": "呜呜企划・新旅·限时委托活动",
-      "banner": "./covers/wuwa-5110-a70e41956d-c5fb2be8.jpg",
+      "banner": "./covers/wuwa-5110-a70e41956d-6d50b604.webp",
       "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
       "start": "2026-08-06T04:00:00+08:00",
       "end": "2026-08-19T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天1时",
-      "progress": 92.0,
+      "remain": "剩18小时",
+      "progress": 94.2,
       "days": {
-        "elapsedDays": 12.0,
-        "remainDays": 1.0,
+        "elapsedDays": 12.2,
+        "remainDays": 0.8,
         "totalDays": 13.0
       },
       "hasSchedule": true,
