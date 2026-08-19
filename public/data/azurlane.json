@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-18T21:08:24.095486+08:00",
+  "fetchedAt": "2026-08-19T09:53:43.394480+08:00",
   "count": 9,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天12时",
-      "progress": 81.8,
+      "remain": "剩16天",
+      "progress": 82.4,
       "days": {
-        "elapsedDays": 74.3,
-        "remainDays": 16.5,
+        "elapsedDays": 74.8,
+        "remainDays": 16.0,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天2时",
-      "progress": 57.7,
+      "remain": "剩12天14时",
+      "progress": 59.4,
       "days": {
-        "elapsedDays": 17.9,
-        "remainDays": 13.1,
+        "elapsedDays": 18.4,
+        "remainDays": 12.6,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天2时",
-      "progress": 43.1,
+      "remain": "剩15天14时",
+      "progress": 45.0,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 16.1,
+        "elapsedDays": 12.7,
+        "remainDays": 15.6,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天12时",
-      "progress": 58.9,
+      "remain": "剩8天",
+      "progress": 61.4,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 8.5,
+        "elapsedDays": 12.7,
+        "remainDays": 8.0,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天12时",
-      "progress": 37.9,
+      "remain": "剩8天",
+      "progress": 41.8,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 8.5,
+        "elapsedDays": 5.7,
+        "remainDays": 8.0,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩43天2时",
-      "progress": 29.3,
+      "remain": "剩42天14时",
+      "progress": 30.2,
       "days": {
-        "elapsedDays": 17.9,
-        "remainDays": 43.1,
+        "elapsedDays": 18.4,
+        "remainDays": 42.6,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天12时",
-      "progress": 58.9,
+      "remain": "剩8天",
+      "progress": 61.4,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 8.5,
+        "elapsedDays": 12.7,
+        "remainDays": 8.0,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天12时",
-      "progress": 37.9,
+      "remain": "剩8天",
+      "progress": 41.8,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 8.5,
+        "elapsedDays": 5.7,
+        "remainDays": 8.0,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -197,11 +197,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天12时",
-      "progress": 37.9,
+      "remain": "剩8天",
+      "progress": 41.8,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 8.5,
+        "elapsedDays": 5.7,
+        "remainDays": 8.0,
         "totalDays": 13.8
       },
       "hasSchedule": true,

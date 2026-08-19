@@ -1,7 +1,7 @@
 {
   "game": "胜利女神：NIKKE",
   "source": "https://www.gamekee.com/v1/activity/page-list?importance=0&sort=-1&keyword=&limit=80&page_no=1&serverId=19&status=0",
-  "fetchedAt": "2026-08-19T02:57:08.799658+08:00",
+  "fetchedAt": "2026-08-19T09:54:58.404234+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 5,
@@ -19,11 +19,11 @@
       "start": "2026-08-13T00:00:00+08:00",
       "end": "2026-08-20T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21小时",
-      "progress": 87.5,
+      "remain": "剩14小时",
+      "progress": 91.6,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 0.9,
+        "elapsedDays": 6.4,
+        "remainDays": 0.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -42,11 +42,11 @@
       "start": "2026-08-13T00:00:00+08:00",
       "end": "2026-09-10T00:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天21时",
-      "progress": 21.9,
+      "remain": "剩21天14时",
+      "progress": 22.9,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 21.9,
+        "elapsedDays": 6.4,
+        "remainDays": 21.6,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -65,11 +65,11 @@
       "start": "2026-08-13T00:00:00+08:00",
       "end": "2026-09-10T02:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天",
-      "progress": 21.8,
+      "remain": "剩21天17时",
+      "progress": 22.8,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 22.0,
+        "elapsedDays": 6.4,
+        "remainDays": 21.7,
         "totalDays": 28.1
       },
       "hasSchedule": true,
@@ -88,11 +88,11 @@
       "start": "2026-08-13T00:00:00+08:00",
       "end": "2026-09-10T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天1时",
-      "progress": 21.7,
+      "remain": "剩21天18时",
+      "progress": 22.8,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 22.0,
+        "elapsedDays": 6.4,
+        "remainDays": 21.8,
         "totalDays": 28.2
       },
       "hasSchedule": true,
@@ -111,11 +111,11 @@
       "start": "2026-08-13T00:00:00+08:00",
       "end": "2026-10-08T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩50天2时",
-      "progress": 10.9,
+      "remain": "剩49天19时",
+      "progress": 11.4,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 50.1,
+        "elapsedDays": 6.4,
+        "remainDays": 49.8,
         "totalDays": 56.2
       },
       "hasSchedule": true,

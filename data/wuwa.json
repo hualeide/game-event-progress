@@ -1,8 +1,8 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-08-19T02:56:56.441128+08:00",
-  "count": 7,
+  "fetchedAt": "2026-08-19T09:53:37.186296+08:00",
+  "count": 5,
   "events": [
     {
       "id": "wuwa-5110-悲鸣行动无音危机",
@@ -13,35 +13,12 @@
       "start": "2026-07-11T10:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.0,
-      "days": {
-        "elapsedDays": 38.7,
-        "remainDays": 0.4,
-        "totalDays": 39.1
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": ""
-    },
-    {
-      "id": "wuwa-5110-虚域危局象限延展",
-      "title": "虚域危局・象限延展",
-      "header": "虚域危局・象限延展·危机情景挑战活动",
-      "banner": "./covers/wuwa-5110-7d619a1a75-c0d8f868.webp",
-      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
-      "start": "2026-07-30T10:00:00+08:00",
-      "end": "2026-08-19T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
+      "remain": "剩2小时",
       "progress": 99.8,
       "days": {
-        "elapsedDays": 19.7,
-        "remainDays": 0.0,
-        "totalDays": 19.7
+        "elapsedDays": 39.0,
+        "remainDays": 0.1,
+        "totalDays": 39.1
       },
       "hasSchedule": true,
       "kind": "live",
@@ -59,11 +36,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩2小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 40.0,
-        "remainDays": 0.4,
+        "elapsedDays": 40.2,
+        "remainDays": 0.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -82,11 +59,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩2小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 40.0,
-        "remainDays": 0.4,
+        "elapsedDays": 40.2,
+        "remainDays": 0.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -105,11 +82,11 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩2小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 40.0,
-        "remainDays": 0.4,
+        "elapsedDays": 40.2,
+        "remainDays": 0.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
@@ -128,40 +105,17 @@
       "start": "2026-07-10T04:00:00+08:00",
       "end": "2026-08-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9小时",
-      "progress": 99.1,
+      "remain": "剩2小时",
+      "progress": 99.8,
       "days": {
-        "elapsedDays": 40.0,
-        "remainDays": 0.4,
+        "elapsedDays": 40.2,
+        "remainDays": 0.1,
         "totalDays": 40.3
       },
       "hasSchedule": true,
       "kind": "live",
       "fuzzy": true,
       "category": "gacha",
-      "allRanges": [],
-      "summary": ""
-    },
-    {
-      "id": "wuwa-5110-呜呜企划新旅",
-      "title": "呜呜企划・新旅",
-      "header": "呜呜企划・新旅·限时委托活动",
-      "banner": "./covers/wuwa-5110-a70e41956d-c5fb2be8.jpg",
-      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5110",
-      "start": "2026-08-06T04:00:00+08:00",
-      "end": "2026-08-19T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 0.0,
-        "totalDays": 13.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
       "allRanges": [],
       "summary": ""
     }
