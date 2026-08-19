@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-19T15:05:48.245936+08:00",
+  "fetchedAt": "2026-08-19T21:09:23.480023+08:00",
   "count": 9,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天18时",
-      "progress": 82.6,
+      "remain": "剩15天12时",
+      "progress": 82.9,
       "days": {
-        "elapsedDays": 75.0,
-        "remainDays": 15.8,
+        "elapsedDays": 75.3,
+        "remainDays": 15.5,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天8时",
-      "progress": 60.1,
+      "remain": "剩12天2时",
+      "progress": 60.9,
       "days": {
-        "elapsedDays": 18.6,
-        "remainDays": 12.4,
+        "elapsedDays": 18.9,
+        "remainDays": 12.1,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天8时",
-      "progress": 45.8,
+      "remain": "剩15天2时",
+      "progress": 46.6,
       "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 15.4,
+        "elapsedDays": 13.2,
+        "remainDays": 15.1,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天18时",
-      "progress": 62.5,
+      "remain": "剩7天12时",
+      "progress": 63.7,
       "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 7.8,
+        "elapsedDays": 13.2,
+        "remainDays": 7.5,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天18时",
-      "progress": 43.4,
+      "remain": "剩7天12时",
+      "progress": 45.2,
       "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 7.8,
+        "elapsedDays": 6.2,
+        "remainDays": 7.5,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩42天8时",
-      "progress": 30.5,
+      "remain": "剩42天2时",
+      "progress": 31.0,
       "days": {
-        "elapsedDays": 18.6,
-        "remainDays": 42.4,
+        "elapsedDays": 18.9,
+        "remainDays": 42.1,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天18时",
-      "progress": 62.5,
+      "remain": "剩7天12时",
+      "progress": 63.7,
       "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 7.8,
+        "elapsedDays": 13.2,
+        "remainDays": 7.5,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天18时",
-      "progress": 43.4,
+      "remain": "剩7天12时",
+      "progress": 45.2,
       "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 7.8,
+        "elapsedDays": 6.2,
+        "remainDays": 7.5,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -197,11 +197,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天18时",
-      "progress": 43.4,
+      "remain": "剩7天12时",
+      "progress": 45.2,
       "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 7.8,
+        "elapsedDays": 6.2,
+        "remainDays": 7.5,
         "totalDays": 13.8
       },
       "hasSchedule": true,
