@@ -1,9 +1,9 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-20T02:53:44.471786+08:00",
+  "fetchedAt": "2026-08-20T09:51:35.377231+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 27,
+  "count": 26,
   "notes": [
     "1914 跳过：08月20日维护更新说明",
     "1913 跳过：【预告】主线故事part1即将更新",
@@ -15,6 +15,7 @@
     "1898 跳过：阿洛娜的日程笔记（第30期）",
     "1895 跳过：【预告】战术对抗赛第九赛季",
     "1896 跳过：【预告】家具互动即将更新",
+    "1897 已过期：【预告】掉落量3倍活动即将开启！",
     "1887 跳过：07月30日维护更新说明",
     "1884 跳过：【预告】主线故事即将更新",
     "1877 跳过：【预告】全速前进！铁轨巡游大作战！",
@@ -43,8 +44,7 @@
     "1864 跳过：【预告】家具互动即将更新",
     "1863 跳过：【预告】家具互动即将更新",
     "1865 已过期：【预告】掉落量2倍活动即将开启！",
-    "1849 已过期：【预告】限时活动：异饼危机",
-    "1848 已过期：【预告】限时招募：朱莉（打工）"
+    "1849 已过期：【预告】限时活动：异饼危机"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-07-31T14:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天1时",
-      "progress": 73.5,
+      "remain": "剩6天18时",
+      "progress": 74.6,
       "days": {
-        "elapsedDays": 19.5,
-        "remainDays": 7.0,
+        "elapsedDays": 19.8,
+        "remainDays": 6.8,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-08-07T00:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 96.6,
+      "remain": "剩4小时",
+      "progress": 98.7,
       "days": {
-        "elapsedDays": 13.1,
-        "remainDays": 0.5,
+        "elapsedDays": 13.4,
+        "remainDays": 0.2,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -114,36 +114,6 @@
       "summary": "在基沃托斯某处的废弃地下圣堂，观测到了因扭曲的神秘而显现的人造天使格里高利。 \n 它是被称为“诸圣相通”的人造天使系列的完成形态，是在数秘会的实验中诞生的神秘怪物。 \n 直到现在，那个怪物仍然在地下圣堂中演奏着管风琴。没有人知道，在旋律的结尾等待着的会是什么…… \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领…"
     },
     {
-      "id": "1878",
-      "title": "【预告】三周年签到即将开启",
-      "header": "「三周年签到即将开启」",
-      "banner": "./covers/ba-1878-fad024ec.png",
-      "link": "https://bluearchive-cn.com/news/1878",
-      "start": "2026-08-13T03:59:00+08:00",
-      "end": "2026-08-20T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "估时（仅有开启点）",
-          "start": "2026-08-13T03:59:00+08:00",
-          "end": "2026-08-20T03:59:00+08:00",
-          "raw": "08月13日 03:59"
-        }
-      ],
-      "summary": "“欢迎连接【什亭之箱】，老师。” \n 3周年纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石，可千万不要错过啦！ \n  \n ■ 活动时间 \n 07月30日 维护结束后 ~ 08月13日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3天：青…"
-    },
-    {
       "id": "1885",
       "title": "限时活动：海兰德铁道失控事件~",
       "header": "「海兰德铁道失控事件~」",
@@ -152,11 +122,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -182,11 +152,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -212,11 +182,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -242,11 +212,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -272,11 +242,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -302,11 +272,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -332,11 +302,11 @@
       "start": "2026-08-13T13:59:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -362,11 +332,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -398,11 +368,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -428,11 +398,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -458,11 +428,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -488,11 +458,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -518,11 +488,11 @@
       "start": "2026-08-13T14:00:00+08:00",
       "end": "2026-08-20T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11小时",
-      "progress": 93.4,
+      "remain": "剩4小时",
+      "progress": 97.5,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
+        "elapsedDays": 6.8,
+        "remainDays": 0.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -548,11 +518,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天11时",
-      "progress": 7.2,
+      "remain": "剩14天4时",
+      "progress": 9.1,
       "days": {
-        "elapsedDays": 1.1,
-        "remainDays": 14.5,
+        "elapsedDays": 1.4,
+        "remainDays": 14.2,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -595,16 +565,16 @@
       "link": "https://bluearchive-cn.com/news/1905",
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩14天4时",
+      "progress": 1.7,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "elapsedDays": 0.2,
+        "remainDays": 14.2,
         "totalDays": 14.4
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [
@@ -631,16 +601,16 @@
       "link": "https://bluearchive-cn.com/news/1899",
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.5,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "event",
       "allRanges": [
@@ -684,7 +654,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -720,7 +690,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.0,
+        "remainDays": 27.8,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -750,7 +720,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -780,7 +750,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -810,7 +780,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -840,7 +810,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -870,7 +840,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.5,
+        "remainDays": 21.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -888,40 +858,34 @@
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【铭记于心，少女前进吧】即将开启！在本次招募中，3★成员\"桔梗\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“紫”、“莲华”也有一定概率招募…"
     },
     {
-      "id": "1897",
-      "title": "【预告】掉落量3倍活动即将开启！",
-      "header": "「掉落量3倍活动即将开启！」",
-      "banner": "./covers/ba-1897-addd0802.jpg",
-      "link": "https://bluearchive-cn.com/news/1897",
-      "start": "2026-08-13T04:00:00+08:00",
-      "end": "2026-08-17T03:59:00+08:00",
+      "id": "1878",
+      "title": "【预告】三周年签到即将开启",
+      "header": "「三周年签到即将开启」",
+      "banner": "./covers/ba-1878-fad024ec.png",
+      "link": "https://bluearchive-cn.com/news/1878",
+      "start": "2026-08-13T03:59:00+08:00",
+      "end": "2026-08-20T03:59:00+08:00",
       "status": "已结束",
       "remain": "已结束",
       "progress": 100.0,
       "days": {
-        "elapsedDays": 4.0,
+        "elapsedDays": 7.0,
         "remainDays": 0.0,
-        "totalDays": 4.0
+        "totalDays": 7.0
       },
       "hasSchedule": true,
       "kind": "done",
-      "fuzzy": false,
+      "fuzzy": true,
       "category": "event",
       "allRanges": [
         {
-          "label": "■ 活动时间",
-          "start": "2026-08-13T04:00:00+08:00",
-          "end": "2026-08-17T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-17T04:00:00+08:00",
+          "label": "估时（仅有开启点）",
+          "start": "2026-08-13T03:59:00+08:00",
           "end": "2026-08-20T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月17日 04:00 ~ 08月20日 03:59"
+          "raw": "08月13日 03:59"
         }
       ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量3倍活动】即将开启！请不要错过哦！ \n  \n 一、【任务（普通难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月13日 04:00 ~ 08月17日 03:59 \n  \n 二、【任务（困难难度）】道具掉落量3倍 \n ■ 活动时间 \n 08月17日 04:00 ~ 08月20日…"
+      "summary": "“欢迎连接【什亭之箱】，老师。” \n 3周年纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石，可千万不要错过啦！ \n  \n ■ 活动时间 \n 07月30日 维护结束后 ~ 08月13日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3天：青…"
     }
   ]
 }

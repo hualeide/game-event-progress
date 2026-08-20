@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-20T02:53:44.475960+08:00",
+  "fetchedAt": "2026-08-20T09:51:35.380349+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -17,9 +17,9 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "1060 寻访「中坚甄选」用展示日估时",
     "3359 寻访「联合行动」对齐长公告时段",
-    "8214 寻访「常驻标准寻访」用展示日估时",
-    "9123 寻访「中坚寻访」用展示日估时"
+    "8214 寻访「常驻标准寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -32,42 +32,6 @@
     ]
   },
   "events": [
-    {
-      "id": "9123",
-      "title": "中坚寻访 干员出率上升",
-      "header": "「中坚寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-9123.jpg",
-      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_76_0_1",
-      "updatedAt": "2026-08-05T20:01:52+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-08-06T16:00:00+08:00",
-          "end": "2026-08-20T03:59:00+08:00",
-          "raw": "displayTime=2026-08-06"
-        }
-      ],
-      "summary": "卡池「中坚寻访」",
-      "textPreview": "",
-      "start": "2026-08-06T16:00:00+08:00",
-      "end": "2026-08-20T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.0,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260805/160e9f43261040d57af5ca63b8bbb7e7.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
     {
       "id": "8214",
       "title": "常驻标准寻访 限时出率上升",
@@ -90,11 +54,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天1时",
-      "progress": 47.8,
+      "remain": "剩6天18时",
+      "progress": 50.0,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 7.0,
+        "elapsedDays": 6.7,
+        "remainDays": 6.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -198,11 +162,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天1时",
-      "progress": 67.3,
+      "remain": "剩8天18时",
+      "progress": 68.4,
       "days": {
-        "elapsedDays": 18.6,
-        "remainDays": 9.0,
+        "elapsedDays": 18.9,
+        "remainDays": 8.8,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -233,11 +197,11 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天1时",
-      "progress": 6.8,
+      "remain": "剩12天18时",
+      "progress": 8.9,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 13.0,
+        "elapsedDays": 1.2,
+        "remainDays": 12.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -246,6 +210,43 @@
       "playable": false,
       "category": "gacha",
       "fuzzy": false
+    },
+    {
+      "id": "1060",
+      "title": "中坚甄选 限时寻访开启",
+      "header": "「中坚甄选」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-1060.jpg",
+      "link": "uniwebview://move?target=recruit&param1=FESCLASSIC_76_0_2",
+      "updatedAt": "2026-08-17T11:38:42+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-08-20T16:00:00+08:00",
+          "end": "2026-09-03T03:59:00+08:00",
+          "raw": "displayTime=2026-08-20"
+        }
+      ],
+      "summary": "卡池「中坚甄选」",
+      "textPreview": "",
+      "start": "2026-08-20T16:00:00+08:00",
+      "end": "2026-09-03T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "6小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 0.3,
+        "totalDays": 13.5,
+        "untilStartDays": 0.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260817/a183410fc8131725a0375f7ba02babd0.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     },
     {
       "id": "4841",
@@ -275,13 +276,13 @@
       "start": "2026-08-22T04:00:00+08:00",
       "end": "2026-09-05T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.0,
+        "remainDays": 1.8,
         "totalDays": 14.0,
-        "untilStartDays": 2.0
+        "untilStartDays": 1.8
       },
       "hasSchedule": true,
       "kind": "preview",
