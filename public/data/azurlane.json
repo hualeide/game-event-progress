@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-22T09:52:31.444855+08:00",
+  "fetchedAt": "2026-08-22T15:01:15.255477+08:00",
   "count": 9,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天",
-      "progress": 85.7,
+      "remain": "剩12天18时",
+      "progress": 85.9,
       "days": {
-        "elapsedDays": 77.8,
-        "remainDays": 13.0,
+        "elapsedDays": 78.0,
+        "remainDays": 12.8,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-08-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 69.1,
+      "remain": "剩9天8时",
+      "progress": 69.8,
       "days": {
-        "elapsedDays": 21.4,
-        "remainDays": 9.6,
+        "elapsedDays": 21.6,
+        "remainDays": 9.4,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天14时",
-      "progress": 55.6,
+      "remain": "剩12天8时",
+      "progress": 56.3,
       "days": {
-        "elapsedDays": 15.7,
-        "remainDays": 12.6,
+        "elapsedDays": 16.0,
+        "remainDays": 12.4,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 75.9,
+      "remain": "剩4天18时",
+      "progress": 76.9,
       "days": {
-        "elapsedDays": 15.7,
-        "remainDays": 5.0,
+        "elapsedDays": 16.0,
+        "remainDays": 4.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 63.6,
+      "remain": "剩4天18时",
+      "progress": 65.2,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 5.0,
+        "elapsedDays": 9.0,
+        "remainDays": 4.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩39天14时",
-      "progress": 35.1,
+      "remain": "剩39天8时",
+      "progress": 35.5,
       "days": {
-        "elapsedDays": 21.4,
-        "remainDays": 39.6,
+        "elapsedDays": 21.6,
+        "remainDays": 39.4,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 75.9,
+      "remain": "剩4天18时",
+      "progress": 76.9,
       "days": {
-        "elapsedDays": 15.7,
-        "remainDays": 5.0,
+        "elapsedDays": 16.0,
+        "remainDays": 4.8,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 63.6,
+      "remain": "剩4天18时",
+      "progress": 65.2,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 5.0,
+        "elapsedDays": 9.0,
+        "remainDays": 4.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -197,11 +197,11 @@
       "start": "2026-08-13T16:00:00+08:00",
       "end": "2026-08-27T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 63.6,
+      "remain": "剩4天18时",
+      "progress": 65.2,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 5.0,
+        "elapsedDays": 9.0,
+        "remainDays": 4.8,
         "totalDays": 13.8
       },
       "hasSchedule": true,
