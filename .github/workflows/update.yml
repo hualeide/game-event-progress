@@ -30,15 +30,15 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch + audit + publish
-        run: python scripts/update.py --jobs 2 --timeout 300
+        run: python scripts/update.py --jobs 2 --timeout 420
         continue-on-error: true
         id: update
-
 
       - name: Validate data quality
         run: |
           python scripts/validate.py --report 2>&1 || true
         continue-on-error: true
+
       - name: Commit data if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -54,6 +54,14 @@ jobs:
       - name: Fail job if hard audit issues
         if: steps.update.outcome == 'failure'
         run: |
-          echo "update.py failed 鈥?check data/audit-report.json / fetch-summary.json"
+          echo "update.py failed — check data/audit-report.json / fetch-summary.json"
+          if [ -f data/fetch-summary.json ]; then
+            echo "---- fetch-summary ----"
+            cat data/fetch-summary.json
+          fi
+          if [ -f data/audit-report.json ]; then
+            echo "---- audit hard ----"
+            python -c "import json; r=json.load(open('data/audit-report.json',encoding='utf-8')); print('hard',r.get('hard')); [print(i) for i in r.get('issues',[]) if not i.get('soft')]"
+          fi
           exit 1
 

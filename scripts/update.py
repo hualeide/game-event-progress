@@ -109,13 +109,22 @@ def main() -> int:
         seconds=time.time() - t0,
     )
 
-    # 硬问题或发布失败 → 非 0（CI 可据此告警；本地仍已写出数据）
+    # 发布失败 / 审计硬问题 → 非 0。
+    # 个别脚本超时只记 status.fetchOk=false，不把整次 CI 打红（数据已发布）。
     if pub_code != 0:
         return pub_code
     if audit_hard > 0:
         return 2
     if not fetch_ok:
-        return 1
+        failed = []
+        summary_path = DATA / "fetch-summary.json"
+        if summary_path.exists():
+            try:
+                failed = (json.loads(summary_path.read_text(encoding="utf-8")).get("failed") or [])
+            except Exception:
+                pass
+        print(f"[warn] 部分抓取失败（已发布）: {failed or '见 fetch-summary.json'}")
+        return 0
     print(f"\n[ok] 更新完成 · {round(time.time() - t0, 1)}s")
     return 0
 

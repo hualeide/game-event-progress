@@ -80,12 +80,14 @@ def cache_cover(cid: str, url: str, referer: str = "") -> str:
         except OSError:
             pass
     try:
+        # 封面短超时：单图卡住不应拖死整次抓取（CI 300s 上限）
         data = http_get(
             url,
             {
                 "Referer": referer or url,
                 "Accept": "image/*,*/*",
             },
+            timeout=15,
         )
         if len(data) < 8000:
             return ""
