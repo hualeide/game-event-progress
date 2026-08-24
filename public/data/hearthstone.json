@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-08-24T15:21:55.108012+08:00",
+  "fetchedAt": "2026-08-24T21:16:33.774696+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 5,
@@ -16,11 +16,11 @@
       "start": "2026-07-28T09:52:00+08:00",
       "end": "2026-08-25T09:52:00+08:00",
       "status": "进行中",
-      "remain": "剩18小时",
-      "progress": 97.2,
+      "remain": "剩12小时",
+      "progress": 98.1,
       "days": {
-        "elapsedDays": 27.2,
-        "remainDays": 0.8,
+        "elapsedDays": 27.5,
+        "remainDays": 0.5,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-08-05T10:00:00+08:00",
       "end": "2026-08-26T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天12时",
-      "progress": 92.6,
+      "remain": "剩1天6时",
+      "progress": 93.8,
       "days": {
-        "elapsedDays": 19.2,
-        "remainDays": 1.5,
+        "elapsedDays": 19.5,
+        "remainDays": 1.3,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-07-31T11:03:00+08:00",
       "end": "2026-08-28T11:03:00+08:00",
       "status": "进行中",
-      "remain": "剩3天19时",
-      "progress": 86.4,
+      "remain": "剩3天13时",
+      "progress": 87.2,
       "days": {
-        "elapsedDays": 24.2,
-        "remainDays": 3.8,
+        "elapsedDays": 24.4,
+        "remainDays": 3.6,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-08-12T10:00:00+08:00",
       "end": "2026-09-09T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15天12时",
-      "progress": 44.0,
+      "remain": "剩15天6时",
+      "progress": 44.9,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 15.5,
+        "elapsedDays": 12.5,
+        "remainDays": 15.3,
         "totalDays": 27.8
       },
       "hasSchedule": true,
@@ -136,11 +136,11 @@
       "start": "2026-08-19T00:05:00+08:00",
       "end": "2026-09-16T00:05:00+08:00",
       "status": "进行中",
-      "remain": "剩22天8时",
-      "progress": 20.1,
+      "remain": "剩22天2时",
+      "progress": 21.0,
       "days": {
-        "elapsedDays": 5.6,
-        "remainDays": 22.4,
+        "elapsedDays": 5.9,
+        "remainDays": 22.1,
         "totalDays": 28.0
       },
       "hasSchedule": true,
