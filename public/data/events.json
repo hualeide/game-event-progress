@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-08-26T21:16:12.553721+08:00",
+  "fetchedAt": "2026-08-27T04:03:09.576844+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -16,9 +16,9 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "1069 寻访「常驻标准寻访」用展示日估时",
     "1060 寻访「中坚甄选」用展示日估时",
-    "3359 寻访「联合行动」对齐长公告时段",
-    "8214 寻访「常驻标准寻访」用展示日估时"
+    "3359 寻访「联合行动」对齐长公告时段"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -31,42 +31,6 @@
     ]
   },
   "events": [
-    {
-      "id": "8214",
-      "title": "常驻标准寻访 限时出率上升",
-      "header": "「常驻标准寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-8214.png",
-      "link": "uniwebview://move?target=recruit&param1=DOUBLE_76_0_2",
-      "updatedAt": "2026-08-11T20:08:30+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-08-13T16:00:00+08:00",
-          "end": "2026-08-27T03:59:00+08:00",
-          "raw": "displayTime=2026-08-13"
-        }
-      ],
-      "summary": "卡池「常驻标准寻访」",
-      "textPreview": "",
-      "start": "2026-08-13T16:00:00+08:00",
-      "end": "2026-08-27T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 97.9,
-      "days": {
-        "elapsedDays": 13.2,
-        "remainDays": 0.3,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260811/58db765daab0ca305adf0573e77ff308.png",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
     {
       "id": "0400",
       "title": "「夏日嘉年华」 活动限时开启",
@@ -161,11 +125,11 @@
       "start": "2026-08-01T12:00:00+08:00",
       "end": "2026-08-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天6时",
-      "progress": 91.8,
+      "remain": "剩1天23时",
+      "progress": 92.8,
       "days": {
-        "elapsedDays": 25.4,
-        "remainDays": 2.3,
+        "elapsedDays": 25.7,
+        "remainDays": 2.0,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -196,11 +160,11 @@
       "start": "2026-08-19T04:00:00+08:00",
       "end": "2026-09-02T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天6时",
-      "progress": 55.1,
+      "remain": "剩5天23时",
+      "progress": 57.2,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 6.3,
+        "elapsedDays": 8.0,
+        "remainDays": 6.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -232,11 +196,11 @@
       "start": "2026-08-20T16:00:00+08:00",
       "end": "2026-09-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天6时",
-      "progress": 46.1,
+      "remain": "剩6天23时",
+      "progress": 48.2,
       "days": {
-        "elapsedDays": 6.2,
-        "remainDays": 7.3,
+        "elapsedDays": 6.5,
+        "remainDays": 7.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -274,11 +238,11 @@
       "start": "2026-08-22T04:00:00+08:00",
       "end": "2026-09-05T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天6时",
-      "progress": 33.7,
+      "remain": "剩8天23时",
+      "progress": 35.7,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 9.3,
+        "elapsedDays": 5.0,
+        "remainDays": 9.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -313,9 +277,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.8,
+        "remainDays": 5.5,
         "totalDays": 8.0,
-        "untilStartDays": 5.8
+        "untilStartDays": 5.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -349,14 +313,51 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.8,
+        "remainDays": 5.5,
         "totalDays": 8.0,
-        "untilStartDays": 5.8
+        "untilStartDays": 5.5
       },
       "hasSchedule": true,
       "kind": "preview",
       "playable": true,
       "category": "combat",
+      "fuzzy": true
+    },
+    {
+      "id": "1069",
+      "title": "常驻标准寻访 限时出率上升",
+      "header": "「常驻标准寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-1069.png",
+      "link": "uniwebview://move?target=recruit&param1=DOUBLE_76_0_4",
+      "updatedAt": "2026-08-20T18:08:34+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-08-27T16:00:00+08:00",
+          "end": "2026-09-10T03:59:00+08:00",
+          "raw": "displayTime=2026-08-27"
+        }
+      ],
+      "summary": "卡池「常驻标准寻访」",
+      "textPreview": "",
+      "start": "2026-08-27T16:00:00+08:00",
+      "end": "2026-09-10T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "11小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 0.5,
+        "totalDays": 13.5,
+        "untilStartDays": 0.5
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260820/5605ef22e5b965f184b6a5f6ced44aca.png",
+      "playable": false,
+      "category": "gacha",
       "fuzzy": true
     }
   ]

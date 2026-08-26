@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-26T21:16:12.545782+08:00",
+  "fetchedAt": "2026-08-27T04:03:09.573113+08:00",
   "timezone": "Asia/Shanghai",
   "count": 11,
   "notes": [
@@ -48,36 +48,6 @@
   ],
   "events": [
     {
-      "id": "1873",
-      "title": "【预告】无限制决战：提翡瑞 • 弹力装甲",
-      "header": "「无限制决战：提翡瑞 • 弹力装甲」",
-      "banner": "./covers/ba-1873-9980bde2.png",
-      "link": "https://bluearchive-cn.com/news/1873",
-      "start": "2026-07-31T14:00:00+08:00",
-      "end": "2026-08-27T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.9,
-      "days": {
-        "elapsedDays": 26.3,
-        "remainDays": 0.3,
-        "totalDays": 26.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-07-31T14:00:00+08:00",
-          "end": "2026-08-27T03:59:00+08:00",
-          "raw": " • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59"
-        }
-      ],
-      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"提翡瑞\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
-    },
-    {
       "id": "1894",
       "title": "【预告】大决战：白&黑 • 室内战",
       "header": "「大决战·白&黑 • 室内战」",
@@ -86,11 +56,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 50.6,
+      "remain": "剩7天9时",
+      "progress": 52.4,
       "days": {
-        "elapsedDays": 7.9,
-        "remainDays": 7.7,
+        "elapsedDays": 8.2,
+        "remainDays": 7.4,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -134,11 +104,11 @@
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 46.6,
+      "remain": "剩7天9时",
+      "progress": 48.6,
       "days": {
-        "elapsedDays": 6.7,
-        "remainDays": 7.7,
+        "elapsedDays": 7.0,
+        "remainDays": 7.4,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -162,54 +132,6 @@
       "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 限时活动：沙勒总决算即将开启！完成活动可获得秘仪之书碎片等奖励。 \n  \n ■ 活动时间 \n • 活动持续时间：08月20日 04:00 ~ 09月03日 13:59 \n • 商店兑换时间：08月20日 04:00 ~ 09月10日 13:59 \n  \n ■ 参加条件 \n • 通关…"
     },
     {
-      "id": "1899",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1899-e87919f1.jpg",
-      "link": "https://bluearchive-cn.com/news/1899",
-      "start": "2026-08-20T04:00:00+08:00",
-      "end": "2026-08-27T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 96.0,
-      "days": {
-        "elapsedDays": 6.7,
-        "remainDays": 0.3,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-20T04:00:00+08:00",
-          "end": "2026-08-27T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-27T04:00:00+08:00",
-          "end": "2026-08-31T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 08月31日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-31T04:00:00+08:00",
-          "end": "2026-09-03T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月31日 04:00 ~ 09月03日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-27T04:00:00+08:00",
-          "end": "2026-09-03T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 09月03日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程、特别委托】道具掉落量2倍 \n ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 08月27日 04:00 ~ 08…"
-    },
-    {
       "id": "1904",
       "title": "【预告】总力战：格武拉 • 野外战",
       "header": "「总力战·格武拉 • 野外战」",
@@ -218,11 +140,11 @@
       "start": "2026-08-28T00:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "1天后",
+      "remain": "19小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -258,7 +180,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 21.0,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -288,7 +210,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -318,7 +240,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -348,7 +270,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -378,7 +300,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -408,7 +330,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.7,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -424,6 +346,84 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【铭记于心，少女前进吧】即将开启！在本次招募中，3★成员\"桔梗\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“紫”、“莲华”也有一定概率招募…"
+    },
+    {
+      "id": "1873",
+      "title": "【预告】无限制决战：提翡瑞 • 弹力装甲",
+      "header": "「无限制决战：提翡瑞 • 弹力装甲」",
+      "banner": "./covers/ba-1873-9980bde2.png",
+      "link": "https://bluearchive-cn.com/news/1873",
+      "start": "2026-07-31T14:00:00+08:00",
+      "end": "2026-08-27T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 26.6,
+        "remainDays": 0.0,
+        "totalDays": 26.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-07-31T14:00:00+08:00",
+          "end": "2026-08-27T03:59:00+08:00",
+          "raw": " • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59"
+        }
+      ],
+      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"提翡瑞\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
+    },
+    {
+      "id": "1899",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1899-e87919f1.jpg",
+      "link": "https://bluearchive-cn.com/news/1899",
+      "start": "2026-08-20T04:00:00+08:00",
+      "end": "2026-08-27T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 7.0,
+        "remainDays": 0.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-20T04:00:00+08:00",
+          "end": "2026-08-27T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-27T04:00:00+08:00",
+          "end": "2026-08-31T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 08月31日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-31T04:00:00+08:00",
+          "end": "2026-09-03T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月31日 04:00 ~ 09月03日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-08-27T04:00:00+08:00",
+          "end": "2026-09-03T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 09月03日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程、特别委托】道具掉落量2倍 \n ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 08月27日 04:00 ~ 08…"
     }
   ]
 }
