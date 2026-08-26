@@ -1,15 +1,13 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-08-26T02:56:42.378220+08:00",
+  "fetchedAt": "2026-08-26T09:58:36.068239+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 10,
+  "count": 8,
   "notes": [
-    "跳过 4.5版本更新维护预告",
+    "跳过 4.5版本「挥掷千星的筹码」版本更新说明",
     "跳过 「知更鸟•晴歌」角色绘画征集：投稿赢星琼、周边奖励！",
-    "跳过 4.4版本游戏优化及已知问题说明",
     "跳过 官方小程序&企业微信正式上线，每版本领专属星琼！",
-    "跳过 4.4版本「鸣笛于归寂之时」版本更新说明",
     "跳过 「有奖问卷」完成问卷可获得50星琼~",
     "常驻跳过 《崩坏：星穹铁道》社媒聚合页上线",
     "跳过 《崩坏：星穹铁道》防沉迷系统公告",
@@ -17,52 +15,6 @@
     "日历补跃迁 4 条"
   ],
   "events": [
-    {
-      "id": "1329",
-      "title": "「鸣笛于归寂之时」任务说明",
-      "header": "「「鸣笛于归寂之时」任务说明」",
-      "banner": "./covers/starrail-1329-6c6ab2ef.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-07-11T13:00:00+08:00",
-      "end": "2026-08-26T06:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 45.6,
-        "remainDays": 0.1,
-        "totalDays": 45.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「鸣笛于归寂之时」任务说明"
-    },
-    {
-      "id": "1328",
-      "title": "4.4版本新增关卡",
-      "header": "「4.4版本新增关卡」",
-      "banner": "./covers/starrail-1328-ad45f090.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-07-12T13:00:00+08:00",
-      "end": "2026-08-26T06:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 44.6,
-        "remainDays": 0.1,
-        "totalDays": 44.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "4.4版本新增关卡"
-    },
     {
       "id": "1383",
       "title": "「亏成首富，从不要钱开始」开拓续闻说明",
@@ -72,11 +24,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩33天3时",
-      "progress": 12.1,
+      "remain": "剩32天20时",
+      "progress": 12.9,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 33.1,
+        "elapsedDays": 4.9,
+        "remainDays": 32.8,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -95,11 +47,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩33天3时",
-      "progress": 12.1,
+      "remain": "剩32天20时",
+      "progress": 12.9,
       "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 33.1,
+        "elapsedDays": 4.9,
+        "remainDays": 32.8,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -118,11 +70,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩33天3时",
-      "progress": 25.4,
+      "remain": "剩32天20时",
+      "progress": 26.1,
       "days": {
-        "elapsedDays": 11.3,
-        "remainDays": 33.1,
+        "elapsedDays": 11.6,
+        "remainDays": 32.8,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -141,11 +93,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩33天1时",
-      "progress": 20.7,
+      "remain": "剩32天18时",
+      "progress": 21.4,
       "days": {
-        "elapsedDays": 8.6,
-        "remainDays": 33.0,
+        "elapsedDays": 8.9,
+        "remainDays": 32.8,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -159,16 +111,16 @@
       "id": "sr-banner-91",
       "title": "跃迁·Robin • Summeretto / Hyacine",
       "header": "跃迁·Robin • Summeretto / Hyacine",
-      "banner": "./covers/starrail-sr-banner-91-44904a1f.png",
+      "banner": "./covers/starrail-sr-banner-91-1826e968.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "即将开始",
-      "remain": "7小时后",
+      "remain": "即将开始",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.7,
+        "remainDays": 17.4,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -182,16 +134,16 @@
       "id": "sr-banner-92",
       "title": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
       "header": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
-      "banner": "./covers/starrail-sr-banner-92-e5af67f6.png",
+      "banner": "./covers/starrail-sr-banner-92-825f249d.png",
       "link": "https://sr.mihoyo.com/",
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "即将开始",
-      "remain": "7小时后",
+      "remain": "即将开始",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.7,
+        "remainDays": 17.4,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -214,7 +166,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.0,
+        "remainDays": 32.8,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -237,7 +189,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.0,
+        "remainDays": 32.8,
         "totalDays": 15.4
       },
       "hasSchedule": true,

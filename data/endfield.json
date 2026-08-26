@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-08-26T02:56:40.238489+08:00",
+  "fetchedAt": "2026-08-26T09:58:32.687148+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -57,11 +57,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -90,11 +90,11 @@
       "start": "2026-08-19T12:00:00+08:00",
       "end": "2026-09-09T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩14天9时",
-      "progress": 31.5,
+      "remain": "剩14天2时",
+      "progress": 32.9,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 14.4,
+        "elapsedDays": 6.9,
+        "remainDays": 14.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -123,11 +123,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -156,11 +156,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -189,11 +189,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -222,11 +222,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-08-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天9时",
-      "progress": 79.2,
+      "remain": "剩4天2时",
+      "progress": 80.6,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 4.4,
+        "elapsedDays": 16.9,
+        "remainDays": 4.1,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -302,16 +302,16 @@
       "link": "https://endfield.hypergryph.com/news/9335",
       "start": "2026-08-26T04:00:00+08:00",
       "end": "2026-09-02T04:00:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.6,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "event",
       "allRanges": [
