@@ -1,10 +1,12 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-28T06:15:56.946708+08:00",
+  "fetchedAt": "2026-08-28T19:23:35.285853+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 11,
+  "count": 18,
   "notes": [
+    "1919 无时段：【预告】大决战：希罗尼穆斯 • 街区战",
+    "1918 跳过：【预告】家具互动即将更新",
     "1915 跳过：组合月卡内容焕新说明",
     "1914 跳过：08月20日维护更新说明",
     "1913 跳过：【预告】主线故事part1即将更新",
@@ -42,9 +44,7 @@
     "1870 跳过：【预告】新增出勤日志",
     "1869 已过期：【预告】掉落量3倍活动即将开启！",
     "1868 跳过：07月16日异常问题说明",
-    "1867 跳过：07月16日维护更新说明",
-    "1866 跳过：07月16日功能新增&优化说明",
-    "1850 已过期：PRAY-BALL!目标：满贯本垒打"
+    "1867 跳过：07月16日维护更新说明"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天7时",
-      "progress": 59.4,
+      "remain": "剩5天18时",
+      "progress": 63.0,
       "days": {
-        "elapsedDays": 9.3,
-        "remainDays": 6.3,
+        "elapsedDays": 9.8,
+        "remainDays": 5.8,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -104,11 +104,11 @@
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天7时",
-      "progress": 56.2,
+      "remain": "剩5天18时",
+      "progress": 60.0,
       "days": {
-        "elapsedDays": 8.1,
-        "remainDays": 6.3,
+        "elapsedDays": 8.6,
+        "remainDays": 5.8,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-08-28T00:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天7时",
-      "progress": 1.9,
+      "remain": "剩12天18时",
+      "progress": 6.0,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 13.3,
+        "elapsedDays": 0.8,
+        "remainDays": 12.8,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -175,16 +175,16 @@
       "link": "https://bluearchive-cn.com/news/1902",
       "start": "2026-08-28T14:00:00+08:00",
       "end": "2026-09-17T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "7小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩19天8时",
+      "progress": 1.2,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 19.9,
+        "elapsedDays": 0.2,
+        "remainDays": 19.4,
         "totalDays": 19.6
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [
@@ -198,6 +198,36 @@
       "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"获刻玛\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
     },
     {
+      "id": "1917",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1917-712a06e9.jpg",
+      "link": "https://bluearchive-cn.com/news/1917",
+      "start": "2026-09-03T04:00:00+08:00",
+      "end": "2026-09-10T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.4,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-09-03T04:00:00+08:00",
+          "end": "2026-09-10T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 09月03日 04:00 ~ 09月10日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程、特别委托】道具掉落量2倍 \n ■ 活动时间 \n 09月03日 04:00 ~ 09月10日 03:59 \n \n 祝您游戏愉快，今后也请多多支持《蔚蓝档案》。 \n 《蔚蓝档案》运营团队"
+    },
+    {
       "id": "1911",
       "title": "【预告】限时招募：名草",
       "header": "「限时招募：名草」",
@@ -206,11 +236,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.3,
+        "remainDays": 12.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -236,11 +266,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.3,
+        "remainDays": 12.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -266,11 +296,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.3,
+        "remainDays": 12.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -296,11 +326,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.3,
+        "remainDays": 12.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -326,11 +356,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.3,
+        "remainDays": 12.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -346,6 +376,192 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【铭记于心，少女前进吧】即将开启！在本次招募中，3★成员\"桔梗\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 08月20日 维护结束后 ~ 09月03日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“名草”、“尼娅”、“紫”、“莲华”也有一定概率招募…"
+    },
+    {
+      "id": "1925",
+      "title": "【预告】限时活动：0068 来自歌剧的爱",
+      "header": "「0068 来自歌剧的爱」",
+      "banner": "",
+      "link": "https://bluearchive-cn.com/news/1925",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 活动持续时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " • 活动持续时间：09月03日 14:00 ~ 09月10日 13:59"
+        },
+        {
+          "label": "• 商店兑换时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-17T13:59:00+08:00",
+          "raw": " • 商店兑换时间：09月03日 14:00 ~ 09月17日 13:59"
+        }
+      ],
+      "summary": "便利屋68正在暗中展开行动！ \n 她们的目标是黑帮联盟的首领【唐·阿兰西诺】。 \n 她们究竟能否成功完成委托呢？ \n  \n ■ 活动时间 \n • 活动持续时间：09月03日 14:00 ~ 09月10日 13:59 \n • 商店兑换时间：09月03日 14:00 ~ 09月17日 13:59 \n  \n ■ 参加条件 \n…"
+    },
+    {
+      "id": "1924",
+      "title": "【预告】限时招募：纱织（礼服）",
+      "header": "「限时招募：纱织（礼服）」",
+      "banner": "./covers/ba-1924-a7b9043f.png",
+      "link": "https://bluearchive-cn.com/news/1924",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【心田深处 暗香无声】即将开启！在本次招募中，全新3★成员\"纱织（礼服）\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“佳代子（礼服）”、“爱露（礼服）”、“…"
+    },
+    {
+      "id": "1923",
+      "title": "【预告】限时招募：爱露（礼服）",
+      "header": "「限时招募：爱露（礼服）」",
+      "banner": "./covers/ba-1923-2b471818.png",
+      "link": "https://bluearchive-cn.com/news/1923",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【恶党圆舞曲 狂徒华尔兹】即将开启！在本次招募中，3★成员\"爱露（礼服）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“佳代子（礼服）”、“瑠…"
+    },
+    {
+      "id": "1922",
+      "title": "【预告】限时招募：佳代子（礼服）",
+      "header": "「限时招募：佳代子（礼服）」",
+      "banner": "./covers/ba-1922-c2e1569b.png",
+      "link": "https://bluearchive-cn.com/news/1922",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【恶党圆舞曲 狂徒华尔兹】即将开启！在本次招募中，3★成员\"佳代子（礼服）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“爱露（礼服）”、“瑠…"
+    },
+    {
+      "id": "1921",
+      "title": "【预告】限时招募：南",
+      "header": "「限时招募：南」",
+      "banner": "./covers/ba-1921-943bc954.png",
+      "link": "https://bluearchive-cn.com/news/1921",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【龙门黑夜】即将开启！在本次招募中，3★成员\"南\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“佳代子（礼服）”、“爱露（礼服）”、“瑠海”也…"
+    },
+    {
+      "id": "1920",
+      "title": "【预告】限时招募：瑠海",
+      "header": "「限时招募：瑠海」",
+      "banner": "./covers/ba-1920-100c8ef3.png",
+      "link": "https://bluearchive-cn.com/news/1920",
+      "start": "2026-09-03T14:00:00+08:00",
+      "end": "2026-09-10T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 12.8,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "■ 招募时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-10T13:59:00+08:00",
+          "raw": " ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【得闲饮茶！】即将开启！在本次招募中，3★成员\"瑠海\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“佳代子（礼服）”、“爱露（礼服）”、“南”…"
     },
     {
       "id": "1873",
