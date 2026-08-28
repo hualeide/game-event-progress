@@ -1,7 +1,7 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-08-28T19:26:04.512775+08:00",
+  "fetchedAt": "2026-08-29T06:20:42.572240+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 4,
@@ -16,11 +16,11 @@
       "start": "2026-08-20T05:00:00+08:00",
       "end": "2026-09-01T07:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天12时",
-      "progress": 70.9,
+      "remain": "剩3天1时",
+      "progress": 74.7,
       "days": {
-        "elapsedDays": 8.6,
-        "remainDays": 3.5,
+        "elapsedDays": 9.1,
+        "remainDays": 3.1,
         "totalDays": 12.1
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-08-17T05:00:00+08:00",
       "end": "2026-09-01T07:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天12时",
-      "progress": 76.7,
+      "remain": "剩3天1时",
+      "progress": 79.7,
       "days": {
-        "elapsedDays": 11.6,
-        "remainDays": 3.5,
+        "elapsedDays": 12.1,
+        "remainDays": 3.1,
         "totalDays": 15.1
       },
       "hasSchedule": true,
@@ -68,6 +68,36 @@
       "summary": "【限时活动】「艾莫号许愿池」即将开启！"
     },
     {
+      "id": "2062",
+      "title": "【限时活动】「情报补给」即将开启！",
+      "header": "【限时活动】「情报补给」即将开启！",
+      "banner": "./covers/gfl2-2062-b6030694.png",
+      "link": "https://gf2-cn.sunborngame.com/news/2062",
+      "start": "2026-08-29T05:00:00+08:00",
+      "end": "2026-09-03T04:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩4天22时",
+      "progress": 1.1,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 4.9,
+        "totalDays": 5.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "尊敬的指挥官，【情报补给】活动即将开启。",
+          "start": "2026-08-29T05:00:00+08:00",
+          "end": "2026-09-03T04:59:00+08:00",
+          "raw": "尊敬的指挥官，【情报补给】活动即将开启。\n8月29日05:00~9月3日04:59"
+        }
+      ],
+      "summary": "【限时活动】「情报补给」即将开启！"
+    },
+    {
       "id": "2060",
       "title": "【限时活动】「战前补给」七日签到活动即将开启",
       "header": "【限时活动】「战前补给」七日签到活动即将开启",
@@ -76,11 +106,11 @@
       "start": "2026-08-25T05:00:00+08:00",
       "end": "2026-09-04T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天9时",
-      "progress": 36.0,
+      "remain": "剩5天22时",
+      "progress": 40.6,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 6.4,
+        "elapsedDays": 4.1,
+        "remainDays": 5.9,
         "totalDays": 10.0
       },
       "hasSchedule": true,
@@ -96,36 +126,6 @@
         }
       ],
       "summary": "【限时活动】「战前补给」七日签到活动即将开启"
-    },
-    {
-      "id": "2062",
-      "title": "【限时活动】「情报补给」即将开启！",
-      "header": "【限时活动】「情报补给」即将开启！",
-      "banner": "./covers/gfl2-2062-b6030694.png",
-      "link": "https://gf2-cn.sunborngame.com/news/2062",
-      "start": "2026-08-29T05:00:00+08:00",
-      "end": "2026-09-03T04:59:00+08:00",
-      "status": "即将开始",
-      "remain": "9小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 5.4,
-        "totalDays": 5.0
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "尊敬的指挥官，【情报补给】活动即将开启。",
-          "start": "2026-08-29T05:00:00+08:00",
-          "end": "2026-09-03T04:59:00+08:00",
-          "raw": "尊敬的指挥官，【情报补给】活动即将开启。\n8月29日05:00~9月3日04:59"
-        }
-      ],
-      "summary": "【限时活动】「情报补给」即将开启！"
     }
   ]
 }
