@@ -1,9 +1,9 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-30T00:43:32.249031+08:00",
+  "fetchedAt": "2026-08-30T04:55:49.876579+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 18,
+  "count": 16,
   "notes": [
     "1919 无时段：【预告】大决战：希罗尼穆斯 • 街区战",
     "1918 跳过：【预告】家具互动即将更新",
@@ -15,6 +15,7 @@
     "1903 跳过：【预告】综合战术测试：射击 • 弹力装甲",
     "1901 跳过：【预告】小故事：与你的不期而遇",
     "1900 跳过：【预告】家具互动即将更新",
+    "1899 已过期：【预告】掉落量2倍活动即将开启！",
     "1898 跳过：阿洛娜的日程笔记（第30期）",
     "1888 已过期：【预告】限时活动：笑笑闹闹，走走绕绕",
     "1890 已过期：【预告】限时招募：椿（导游）",
@@ -38,13 +39,12 @@
     "1876 已过期：【预告】限时活动：特殊调查“质点之树”",
     "1875 已过期：【预告】总力战：格里高利 • 室内战",
     "1874 跳过：【预告】综合战术测试：突破 • 轻装甲",
+    "1873 已过期：【预告】无限制决战：提翡瑞 • 弹力装甲",
     "1872 跳过：【预告】全新礼包上架",
     "1871 跳过：【预告】家具互动即将更新",
     "1886 跳过：【预告】咖啡厅套装即将更新",
     "1870 跳过：【预告】新增出勤日志",
-    "1869 已过期：【预告】掉落量3倍活动即将开启！",
-    "1868 跳过：07月16日异常问题说明",
-    "1867 跳过：07月16日维护更新说明"
+    "1869 已过期：【预告】掉落量3倍活动即将开启！"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天13时",
-      "progress": 70.8,
+      "remain": "剩4天9时",
+      "progress": 71.9,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 4.6,
+        "elapsedDays": 11.2,
+        "remainDays": 4.4,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -104,11 +104,11 @@
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天13时",
-      "progress": 68.4,
+      "remain": "剩4天9时",
+      "progress": 69.6,
       "days": {
-        "elapsedDays": 9.9,
-        "remainDays": 4.6,
+        "elapsedDays": 10.0,
+        "remainDays": 4.4,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-08-28T00:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天13时",
-      "progress": 14.9,
+      "remain": "剩11天9时",
+      "progress": 16.2,
       "days": {
-        "elapsedDays": 2.0,
-        "remainDays": 11.6,
+        "elapsedDays": 2.2,
+        "remainDays": 11.4,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -176,11 +176,11 @@
       "start": "2026-08-28T14:00:00+08:00",
       "end": "2026-09-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天3时",
-      "progress": 7.4,
+      "remain": "剩17天23时",
+      "progress": 8.3,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 18.1,
+        "elapsedDays": 1.6,
+        "remainDays": 18.0,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -206,11 +206,11 @@
       "start": "2026-09-03T04:00:00+08:00",
       "end": "2026-09-10T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.1,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -240,7 +240,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -270,7 +270,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -300,7 +300,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -330,7 +330,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -360,7 +360,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -390,7 +390,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -426,7 +426,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -456,7 +456,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -486,7 +486,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -516,7 +516,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -546,7 +546,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.6,
+        "remainDays": 11.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -562,84 +562,6 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【得闲饮茶！】即将开启！在本次招募中，3★成员\"瑠海\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“佳代子（礼服）”、“爱露（礼服）”、“南”…"
-    },
-    {
-      "id": "1873",
-      "title": "【预告】无限制决战：提翡瑞 • 弹力装甲",
-      "header": "「无限制决战：提翡瑞 • 弹力装甲」",
-      "banner": "./covers/ba-1873-9980bde2.png",
-      "link": "https://bluearchive-cn.com/news/1873",
-      "start": "2026-07-31T14:00:00+08:00",
-      "end": "2026-08-27T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 26.6,
-        "remainDays": 0.0,
-        "totalDays": 26.6
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-07-31T14:00:00+08:00",
-          "end": "2026-08-27T03:59:00+08:00",
-          "raw": " • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59"
-        }
-      ],
-      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"提翡瑞\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：07月31日 14:00 ~ 08月27日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
-    },
-    {
-      "id": "1899",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1899-e87919f1.jpg",
-      "link": "https://bluearchive-cn.com/news/1899",
-      "start": "2026-08-20T04:00:00+08:00",
-      "end": "2026-08-27T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-20T04:00:00+08:00",
-          "end": "2026-08-27T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-27T04:00:00+08:00",
-          "end": "2026-08-31T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 08月31日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-31T04:00:00+08:00",
-          "end": "2026-09-03T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月31日 04:00 ~ 09月03日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-08-27T04:00:00+08:00",
-          "end": "2026-09-03T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 08月27日 04:00 ~ 09月03日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【悬赏通缉、日程、特别委托】道具掉落量2倍 \n ■ 活动时间 \n 08月20日 04:00 ~ 08月27日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 08月27日 04:00 ~ 08…"
     }
   ]
 }
