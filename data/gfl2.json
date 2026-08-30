@@ -1,42 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-08-30T13:26:38.006289+08:00",
+  "fetchedAt": "2026-08-30T19:55:37.407435+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 3,
+  "count": 2,
   "notes": [],
   "events": [
-    {
-      "id": "2056",
-      "title": "【限时活动】「悖论操演」即将开启！",
-      "header": "【限时活动】「悖论操演」即将开启！",
-      "banner": "./covers/gfl2-2056-f1978390.png",
-      "link": "https://gf2-cn.sunborngame.com/news/2056",
-      "start": "2026-08-20T05:00:00+08:00",
-      "end": "2026-09-01T07:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1天18时",
-      "progress": 85.4,
-      "days": {
-        "elapsedDays": 10.4,
-        "remainDays": 1.8,
-        "totalDays": 12.1
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-08-20T05:00:00+08:00",
-          "end": "2026-09-01T07:59:00+08:00",
-          "raw": "8月20日05:00~9月1日07:59"
-        }
-      ],
-      "summary": "【限时活动】「悖论操演」即将开启！"
-    },
     {
       "id": "2062",
       "title": "【限时活动】「情报补给」即将开启！",
@@ -46,11 +16,11 @@
       "start": "2026-08-29T05:00:00+08:00",
       "end": "2026-09-03T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天15时",
-      "progress": 27.0,
+      "remain": "剩3天9时",
+      "progress": 32.4,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 3.6,
+        "elapsedDays": 1.6,
+        "remainDays": 3.4,
         "totalDays": 5.0
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-08-25T05:00:00+08:00",
       "end": "2026-09-04T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天15时",
-      "progress": 53.5,
+      "remain": "剩4天9时",
+      "progress": 56.2,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 4.6,
+        "elapsedDays": 5.6,
+        "remainDays": 4.4,
         "totalDays": 10.0
       },
       "hasSchedule": true,
