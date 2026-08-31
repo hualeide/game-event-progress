@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-08-31T21:51:48.367758+08:00",
-  "count": 5,
+  "fetchedAt": "2026-09-01T06:51:16.580346+08:00",
+  "count": 4,
   "events": [
     {
       "id": "al-信标META布里斯托尔META-0605",
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天12时",
-      "progress": 96.1,
+      "remain": "剩3天3时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 87.3,
-        "remainDays": 3.5,
+        "elapsedDays": 87.7,
+        "remainDays": 3.1,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -28,29 +28,6 @@
       "summary": "2026年6月5日10:00港区改建"
     },
     {
-      "id": "al-限界挑战狮子座-0801",
-      "title": "限界挑战：狮子座",
-      "header": "开启限时复刻活动·限界挑战：狮子座",
-      "banner": "./covers/al-7e79b678f5-ad510def.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B47%E6%9C%8830%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-08-01T00:00:00+08:00",
-      "end": "2026-08-31T23:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.7,
-      "days": {
-        "elapsedDays": 30.9,
-        "remainDays": 0.1,
-        "totalDays": 31.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年7月30日10:00港区改建"
-    },
-    {
       "id": "al-作战准备埃塞克斯级-0806",
       "title": "作战准备：埃塞克斯级",
       "header": "开启限时活动·作战准备：埃塞克斯级",
@@ -59,11 +36,11 @@
       "start": "2026-08-06T16:00:00+08:00",
       "end": "2026-09-03T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天2时",
-      "progress": 89.1,
+      "remain": "剩2天17时",
+      "progress": 90.4,
       "days": {
-        "elapsedDays": 25.2,
-        "remainDays": 3.1,
+        "elapsedDays": 25.6,
+        "remainDays": 2.7,
         "totalDays": 28.3
       },
       "hasSchedule": true,
@@ -77,20 +54,20 @@
       "id": "al-限界挑战处女座-0901",
       "title": "限界挑战：处女座",
       "header": "开启限时复刻活动·限界挑战：处女座",
-      "banner": "",
+      "banner": "./covers/al-d6a2619ced-ad510def.jpg",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B48%E6%9C%8827%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
-      "status": "即将开始",
-      "remain": "2小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩29天17时",
+      "progress": 1.0,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 30.1,
+        "elapsedDays": 0.3,
+        "remainDays": 29.7,
         "totalDays": 30.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [],
@@ -105,11 +82,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩30天2时",
-      "progress": 50.7,
+      "remain": "剩29天17时",
+      "progress": 51.3,
       "days": {
-        "elapsedDays": 30.9,
-        "remainDays": 30.1,
+        "elapsedDays": 31.3,
+        "remainDays": 29.7,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -124,7 +101,6 @@
   "notes": [
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
-    "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：限界挑战：处女座"
+    "可能漏抓：含「怪谈纪实」的进行中活动"
   ]
 }
