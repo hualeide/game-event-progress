@@ -1,11 +1,10 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-08-31T13:34:57.536504+08:00",
+  "fetchedAt": "2026-08-31T21:50:29.027440+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 16,
+  "count": 17,
   "notes": [
-    "1919 无时段：【预告】大决战：希罗尼穆斯 • 街区战",
     "1918 跳过：【预告】家具互动即将更新",
     "1915 跳过：组合月卡内容焕新说明",
     "1914 跳过：08月20日维护更新说明",
@@ -44,7 +43,8 @@
     "1871 跳过：【预告】家具互动即将更新",
     "1886 跳过：【预告】咖啡厅套装即将更新",
     "1870 跳过：【预告】新增出勤日志",
-    "1869 已过期：【预告】掉落量3倍活动即将开启！"
+    "1869 已过期：【预告】掉落量3倍活动即将开启！",
+    "1868 跳过：07月16日异常问题说明"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-08-19T00:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天",
-      "progress": 80.6,
+      "remain": "剩2天16时",
+      "progress": 82.9,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 3.0,
+        "elapsedDays": 12.9,
+        "remainDays": 2.7,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -104,11 +104,11 @@
       "start": "2026-08-20T04:00:00+08:00",
       "end": "2026-09-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天",
-      "progress": 79.1,
+      "remain": "剩2天16时",
+      "progress": 81.5,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 3.0,
+        "elapsedDays": 11.7,
+        "remainDays": 2.7,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-08-28T00:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天",
-      "progress": 26.3,
+      "remain": "剩9天16时",
+      "progress": 28.8,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 10.0,
+        "elapsedDays": 3.9,
+        "remainDays": 9.7,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -176,11 +176,11 @@
       "start": "2026-08-28T14:00:00+08:00",
       "end": "2026-09-17T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天14时",
-      "progress": 15.2,
+      "remain": "剩16天6时",
+      "progress": 17.0,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 16.6,
+        "elapsedDays": 3.3,
+        "remainDays": 16.3,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -210,7 +210,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.6,
+        "remainDays": 9.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -236,11 +236,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -266,11 +266,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -296,11 +296,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -326,11 +326,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -356,11 +356,11 @@
       "start": "2026-09-03T13:59:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -386,11 +386,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -422,11 +422,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -452,11 +452,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -482,11 +482,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -512,11 +512,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -542,11 +542,11 @@
       "start": "2026-09-03T14:00:00+08:00",
       "end": "2026-09-10T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 10.0,
+        "remainDays": 9.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -562,6 +562,54 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【得闲饮茶！】即将开启！在本次招募中，3★成员\"瑠海\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月03日 14:00 ~ 09月10日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“纱织（礼服）”、“佳代子（礼服）”、“爱露（礼服）”、“南”…"
+    },
+    {
+      "id": "1919",
+      "title": "【预告】大决战：希罗尼穆斯 • 街区战",
+      "header": "「大决战·希罗尼穆斯 • 街区战」",
+      "banner": "",
+      "link": "https://bluearchive-cn.com/news/1919",
+      "start": "2026-09-09T00:00:00+08:00",
+      "end": "2026-10-02T13:59:00+08:00",
+      "status": "即将开始",
+      "remain": "8天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 31.7,
+        "totalDays": 23.6
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-08T03:59:00+08:00",
+          "raw": " • 赛季持续时间：09月03日 14:00 ~ 09月08日 03:59"
+        },
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-09-08T04:00:00+08:00",
+          "end": "2026-09-08T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：09月08日 04:00 ~ 09月08日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-09-09T00:00:00+08:00",
+          "end": "2026-10-02T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：09月09日 00:00 ~ 10月02日 13:59"
+        },
+        {
+          "label": "可领取时间",
+          "start": "2026-09-04T11:00:00+08:00",
+          "end": "2026-09-08T03:59:00+08:00",
+          "raw": " 可领取时间：09月04日 11:00 ~ 09月08日 03:59"
+        }
+      ],
+      "summary": "在崔尼蒂地区古圣堂遗迹地下所发现的神秘存在。 \n 希罗尼穆斯，传说是被称为【诸圣相通】的人造天使系列的完成品，也有传闻说是数秘会根据太古教义制作出来的实验体。 \n 不能对希罗尼穆斯压倒性的力量放任不管，为了基沃托斯的和平，必须马上行动！ \n  \n ■ 活动时间 \n • 赛季持续时间：09月03日 14:00 ~ 09月…"
     }
   ]
 }
