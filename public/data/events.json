@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-02T00:40:31.475464+08:00",
+  "fetchedAt": "2026-09-02T05:02:13.089457+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -34,40 +34,6 @@
   },
   "events": [
     {
-      "id": "gacha-6ce84b30df",
-      "title": "【联合行动】限时寻访",
-      "header": "「联合行动」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-02T00:40:31.475464+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-08-19T04:00:00+08:00",
-          "end": "2026-09-02T03:59:00+08:00",
-          "raw": "【联合行动】寻访为【标准寻访】 五、【0011/韵】系列，新装限时上架 活动时间： 08月19日 04:00 - 09月02日 03:59"
-        }
-      ],
-      "summary": "卡池「联合行动」",
-      "textPreview": "",
-      "start": "2026-08-19T04:00:00+08:00",
-      "end": "2026-09-02T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.0,
-      "days": {
-        "elapsedDays": 13.9,
-        "remainDays": 0.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "playable": false,
-      "category": "gacha"
-    },
-    {
       "id": "1060",
       "title": "中坚甄选 限时寻访开启",
       "header": "「中坚甄选」限时寻访",
@@ -89,11 +55,11 @@
       "start": "2026-08-20T16:00:00+08:00",
       "end": "2026-09-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天3时",
-      "progress": 91.6,
+      "remain": "剩22小时",
+      "progress": 92.9,
       "days": {
-        "elapsedDays": 12.4,
-        "remainDays": 1.1,
+        "elapsedDays": 12.5,
+        "remainDays": 1.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -131,11 +97,11 @@
       "start": "2026-08-22T04:00:00+08:00",
       "end": "2026-09-05T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天3时",
-      "progress": 77.6,
+      "remain": "剩2天22时",
+      "progress": 78.9,
       "days": {
-        "elapsedDays": 10.9,
-        "remainDays": 3.1,
+        "elapsedDays": 11.0,
+        "remainDays": 3.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -166,11 +132,11 @@
       "start": "2026-08-27T16:00:00+08:00",
       "end": "2026-09-10T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天3时",
-      "progress": 39.7,
+      "remain": "剩7天22时",
+      "progress": 41.1,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 8.1,
+        "elapsedDays": 5.5,
+        "remainDays": 8.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -206,9 +172,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.5,
+        "remainDays": 2.3,
         "totalDays": 13.7,
-        "untilStartDays": 2.5
+        "untilStartDays": 2.3
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -255,9 +221,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.5,
+        "remainDays": 2.3,
         "totalDays": 20.7,
-        "untilStartDays": 2.5
+        "untilStartDays": 2.3
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -272,7 +238,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-02T00:40:31.475464+08:00",
+      "updatedAt": "2026-09-02T05:02:13.089457+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -291,9 +257,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.5,
+        "remainDays": 2.3,
         "totalDays": 20.7,
-        "untilStartDays": 2.5
+        "untilStartDays": 2.3
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -406,6 +372,40 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260724/6f4aaabd6fef16d105887cd8e711611d.jpg",
       "playable": true,
       "category": "combat"
+    },
+    {
+      "id": "gacha-6ce84b30df",
+      "title": "【联合行动】限时寻访",
+      "header": "「联合行动」限时寻访",
+      "type": "寻访",
+      "banner": "",
+      "link": "https://ak.hypergryph.com/",
+      "updatedAt": "2026-09-02T05:02:13.089457+08:00",
+      "primaryLabel": "活动时间·寻访",
+      "allRanges": [
+        {
+          "label": "活动时间·寻访",
+          "start": "2026-08-19T04:00:00+08:00",
+          "end": "2026-09-02T03:59:00+08:00",
+          "raw": "【联合行动】寻访为【标准寻访】 五、【0011/韵】系列，新装限时上架 活动时间： 08月19日 04:00 - 09月02日 03:59"
+        }
+      ],
+      "summary": "卡池「联合行动」",
+      "textPreview": "",
+      "start": "2026-08-19T04:00:00+08:00",
+      "end": "2026-09-02T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 14.0,
+        "remainDays": 0,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "playable": false,
+      "category": "gacha"
     }
   ]
 }
