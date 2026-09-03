@@ -56,6 +56,17 @@ export function fmtRelative(ms) {
   return "将结束";
 }
 
+/** 距结束：把「明天 / 2小时后」写成「明天结束 / 2小时后结束」 */
+export function fmtUntilEnd(ms) {
+  if (!(ms > 0)) return "已结束";
+  if (ms < 60 * 1000) return "即将结束";
+  const rel = fmtRelative(ms);
+  if (!rel) return "即将结束";
+  if (/结束/.test(rel)) return rel;
+  if (/后$/.test(rel)) return `${rel}结束`;
+  return `${rel}结束`;
+}
+
 export function fmtUpdated(iso) {
   if (!iso) return "";
   const d = new Date(iso);

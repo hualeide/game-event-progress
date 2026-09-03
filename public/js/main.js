@@ -1,4 +1,4 @@
-import { $ } from "./util.js?v=20260726v14";
+import { $ } from "./util.js?v=20260903v15";
 import {
   CAT_ORDER,
   DEFAULT_ENABLED,
@@ -9,8 +9,8 @@ import {
   persist,
   saveCustomGames,
   state,
-} from "./state.js?v=20260726v14";
-import { loadGamesMeta, loadRemoteConfig, loadStatus } from "./data.js?v=20260726v14";
+} from "./state.js?v=20260903v15";
+import { loadGamesMeta, loadRemoteConfig, loadStatus } from "./data.js?v=20260903v15";
 import {
   applyFilterUI,
   expandAndLoad,
@@ -20,8 +20,8 @@ import {
   renderPicker,
   renderSkeleton,
   visibleGames,
-} from "./render.js?v=20260726v14";
-import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js?v=20260726v14";
+} from "./render.js?v=20260903v15";
+import { closeDetail, openDetail, tryOpenFromHash } from "./detail.js?v=20260903v15";
 
 async function boot() {
   $("#meta").textContent = "加载中…";

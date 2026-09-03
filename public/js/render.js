@@ -1,4 +1,4 @@
-import { $, adaptCover, endingSoon, fmtUpdated } from "./util.js?v=20260726v14";
+import { $, adaptCover, endingSoon, fmtUpdated } from "./util.js?v=20260903v15";
 import {
   CAT_ORDER,
   allGames,
@@ -8,7 +8,7 @@ import {
   state,
   toolsFor,
   wikiFor,
-} from "./state.js?v=20260726v14";
+} from "./state.js?v=20260903v15";
 import {
   bodyText,
   catLabel,
@@ -19,9 +19,9 @@ import {
   liveStats,
   shortName,
   splitEvents,
-} from "./format.js?v=20260726v14";
-import { ensureGameLoaded, loadGame } from "./data.js?v=20260726v14";
-import { tryOpenFromHash } from "./detail.js?v=20260726v14";
+} from "./format.js?v=20260903v15";
+import { ensureGameLoaded, loadGame } from "./data.js?v=20260903v15";
+import { tryOpenFromHash } from "./detail.js?v=20260903v15";
 
 export function toolsHtml(game, { compact = false } = {}) {
   const wiki = wikiFor(game);
@@ -74,6 +74,9 @@ export function cardHtml(game, ev) {
   const stateText =
     live.status === "即将开始" ? "预告" : live.status === "进行中" ? "进行中" : "已结束";
   const kindClass = stateText === "预告" ? "preview" : stateText === "进行中" ? "live" : "done";
+  // 进行中卡片副标写「距结束」，避免和标题「即将开启」打架
+  const remainHint =
+    live.status === "即将开始" ? "距开始" : live.status === "进行中" ? "距结束" : stateText;
   const eid = String(ev.id || `${game.id}-${name}`);
   eventIndex.set(eid, { game, ev });
   const sub = cardSubline(ev);
@@ -108,7 +111,7 @@ export function cardHtml(game, ev) {
       <div class="briefing-grid">
         <div class="remain ${kindClass} ${soon ? "soon" : ""}">
           <span class="metric">${live.remain}</span>
-          <small>${stateText}</small>
+          <small>${remainHint}</small>
         </div>
         <div class="mid">
           <div class="track" aria-label="进度 ${live.pct.toFixed(0)}%">

@@ -1,5 +1,5 @@
-import { $, endingSoon } from "./util.js?v=20260726v14";
-import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js?v=20260726v14";
+import { $, endingSoon } from "./util.js?v=20260903v15";
+import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js?v=20260903v15";
 import {
   bodyText,
   catLabel,
@@ -10,8 +10,8 @@ import {
   jumpUrl,
   liveStats,
   shortName,
-} from "./format.js?v=20260726v14";
-import { ensureGameLoaded } from "./data.js?v=20260726v14";
+} from "./format.js?v=20260903v15";
+import { ensureGameLoaded } from "./data.js?v=20260903v15";
 
 function accentColor(gameId) {
   const row = document.querySelector(`.game-row[data-game="${gameId}"]`);

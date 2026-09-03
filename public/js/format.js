@@ -1,12 +1,15 @@
-import { escapeHtml, fmtDate, fmtRelative, endingSoon } from "./util.js?v=20260726v14";
-import { CAT_ORDER, state } from "./state.js?v=20260726v14";
+import { escapeHtml, fmtDate, fmtRelative, fmtUntilEnd, endingSoon } from "./util.js?v=20260903v15";
+import { CAT_ORDER, state } from "./state.js?v=20260903v15";
 
-/** 去掉公告标题里的「预告」字样（状态以角标为准，避免进行中仍显示【预告】） */
+/** 去掉公告标题里的「预告 / 即将开启」字样（状态以角标与倒计时为准） */
 function stripPreviewPrefix(s) {
   return String(s || "")
     .replace(/^[【\[]?\s*预告\s*[】\]]?\s*/u, "")
     .replace(/^预告[·・.:：\s]+/u, "")
     .replace(/^[【\[]\s*预告\s*[】\]]\s*/gu, "")
+    .replace(/复刻\s*即将开启/g, "复刻")
+    .replace(/活动即将开启|即将开启|即将开始|限时开启|预计.+开启/g, "")
+    .replace(/[ \t]{2,}/g, " ")
     .trim();
 }
 
@@ -19,7 +22,7 @@ export function shortName(ev) {
   const head = raw.split(/[·・]/)[0].trim();
   if (head && head.length <= 28) return head;
   return raw
-    .replace(/活动即将开启|限时活动|故事集|即将开启|后续|预告·|预计.+开启|祈愿|跃迁|调频|唤取/g, "")
+    .replace(/限时活动|故事集|后续|预告·|祈愿|跃迁|调频|唤取/g, "")
     .replace(/[【】\[\]\s]+/g, " ")
     .trim()
     .slice(0, 28);
@@ -84,9 +87,9 @@ export function liveStats(ev) {
   return {
     status: "进行中",
     kind: "live",
-    remain: fmtRelative(remainMs),
+    remain: fmtUntilEnd(remainMs),
     pct,
-    tip: `已过 ${elapsedDays.toFixed(1)} 天 / 共 ${totalDays.toFixed(1)} 天`,
+    tip: `将于 ${fmtDate(ev.end)} 结束 · 已过 ${elapsedDays.toFixed(1)} / 共 ${totalDays.toFixed(1)} 天`,
   };
 }
 
