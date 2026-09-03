@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-09-02T00:40:55.920267+08:00",
-  "count": 4,
+  "fetchedAt": "2026-09-04T00:26:20.753300+08:00",
+  "count": 7,
   "events": [
     {
       "id": "al-信标META布里斯托尔META-0605",
@@ -13,11 +13,11 @@
       "start": "2026-06-05T15:00:00+08:00",
       "end": "2026-09-04T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天9时",
-      "progress": 97.4,
+      "remain": "剩9小时",
+      "progress": 99.6,
       "days": {
-        "elapsedDays": 88.4,
-        "remainDays": 2.4,
+        "elapsedDays": 90.4,
+        "remainDays": 0.4,
         "totalDays": 90.8
       },
       "hasSchedule": true,
@@ -28,29 +28,6 @@
       "summary": "2026年6月5日10:00港区改建"
     },
     {
-      "id": "al-作战准备埃塞克斯级-0806",
-      "title": "作战准备：埃塞克斯级",
-      "header": "开启限时活动·作战准备：埃塞克斯级",
-      "banner": "./covers/al-3e2af33c7d-cbce484b.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B48%E6%9C%886%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-08-06T16:00:00+08:00",
-      "end": "2026-09-03T23:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1天23时",
-      "progress": 93.1,
-      "days": {
-        "elapsedDays": 26.4,
-        "remainDays": 2.0,
-        "totalDays": 28.3
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年8月6日10:00港区改建"
-    },
-    {
       "id": "al-限界挑战处女座-0901",
       "title": "限界挑战：处女座",
       "header": "开启限时复刻活动·限界挑战：处女座",
@@ -59,11 +36,11 @@
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩28天23时",
-      "progress": 3.4,
+      "remain": "剩26天23时",
+      "progress": 10.1,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 29.0,
+        "elapsedDays": 3.0,
+        "remainDays": 27.0,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -74,6 +51,75 @@
       "summary": "2026年8月27日10:00港区改建"
     },
     {
+      "id": "al-作战准备新纪元都市NO7-0904",
+      "title": "作战准备：新纪元都市NO.7",
+      "header": "开启限时活动·作战准备：新纪元都市NO.7",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-04T15:00:00+08:00",
+      "end": "2026-10-07T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "14小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 34.0,
+        "totalDays": 33.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年9月4日10:00港区改建"
+    },
+    {
+      "id": "al-Fight都市求职大作战-0904",
+      "title": "Fight！都市求职大作战！",
+      "header": "开启限时活动·Fight！都市求职大作战！",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-04T15:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "14小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 27.0,
+        "totalDays": 26.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年9月4日10:00港区改建"
+    },
+    {
+      "id": "al-信标META萨拉托加META-0904",
+      "title": "信标·META：萨拉托加·META",
+      "header": "信标·META·信标·META：萨拉托加·META",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-04T15:00:00+08:00",
+      "end": "2026-12-10T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "14小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 97.4,
+        "totalDays": 96.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年9月4日10:00港区改建"
+    },
+    {
       "id": "al-世界巡游-0801",
       "title": "世界巡游",
       "header": "开启新一期·世界巡游",
@@ -82,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩28天23时",
-      "progress": 52.5,
+      "remain": "剩26天23时",
+      "progress": 55.8,
       "days": {
-        "elapsedDays": 32.0,
-        "remainDays": 29.0,
+        "elapsedDays": 34.0,
+        "remainDays": 27.0,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -95,12 +141,39 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年7月30日10:00港区改建"
+    },
+    {
+      "id": "al-闪耀的魔法-0904",
+      "title": "闪耀的“魔法”",
+      "header": "开启限时活动·闪耀的“魔法”",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-04T15:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "14小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 27.0,
+        "totalDays": 26.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月4日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
   "notes": [
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
-    "可能漏抓：含「怪谈纪实」的进行中活动"
+    "可能漏抓：含「怪谈纪实」的进行中活动",
+    "无配图：作战准备：新纪元都市NO.7",
+    "无配图：Fight！都市求职大作战！",
+    "无配图：信标·META：萨拉托加·META",
+    "无配图：闪耀的“魔法”"
   ]
 }
