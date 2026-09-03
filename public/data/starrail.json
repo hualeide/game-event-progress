@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-09-03T05:03:50.292057+08:00",
+  "fetchedAt": "2026-09-03T19:15:07.468482+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 4,
   "notes": [
     "跳过 4.5版本游戏优化及已知问题说明",
     "跳过 4.5版本「挥掷千星的筹码」版本更新说明",
@@ -12,7 +12,7 @@
     "常驻跳过 《崩坏：星穹铁道》社媒聚合页上线",
     "跳过 《崩坏：星穹铁道》防沉迷系统公告",
     "跳过 《崩坏：星穹铁道》公平运营声明",
-    "日历补跃迁 4 条"
+    "跃迁日历失败: HTTP Error 530: <none>"
   ],
   "events": [
     {
@@ -24,11 +24,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天",
-      "progress": 33.6,
+      "remain": "剩24天10时",
+      "progress": 35.2,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 25.0,
+        "elapsedDays": 13.3,
+        "remainDays": 24.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -47,11 +47,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天",
-      "progress": 33.6,
+      "remain": "剩24天10时",
+      "progress": 35.2,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 25.0,
+        "elapsedDays": 13.3,
+        "remainDays": 24.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -62,52 +62,6 @@
       "summary": "4.5版本开拓任务说明"
     },
     {
-      "id": "sr-banner-91",
-      "title": "跃迁·Robin • Summeretto / Hyacine",
-      "header": "跃迁·Robin • Summeretto / Hyacine",
-      "banner": "./covers/starrail-sr-banner-91-044f2e69.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-08-26T10:00:00+08:00",
-      "end": "2026-09-12T18:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天13时",
-      "progress": 44.9,
-      "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 9.6,
-        "totalDays": 17.4
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Robin • Summeretto / Hyacine / Dan Heng / Qingque / Gallagher"
-    },
-    {
-      "id": "sr-banner-92",
-      "title": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
-      "header": "跃迁·Rise and Sing / Long May Rainbows Adorn the Sky",
-      "banner": "./covers/starrail-sr-banner-92-71364dd0.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-08-26T10:00:00+08:00",
-      "end": "2026-09-12T18:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天13时",
-      "progress": 44.9,
-      "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 9.6,
-        "totalDays": 17.4
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Rise and Sing / Long May Rainbows Adorn the Sky / Dream's Montage / Geniuses' Greetings / A Little Getaway"
-    },
-    {
       "id": "1360",
       "title": "4.5版本商店上新",
       "header": "「4.5版本商店上新」",
@@ -116,11 +70,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天",
-      "progress": 43.6,
+      "remain": "剩24天10时",
+      "progress": 45.0,
       "days": {
-        "elapsedDays": 19.4,
-        "remainDays": 25.0,
+        "elapsedDays": 20.0,
+        "remainDays": 24.4,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -139,11 +93,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩24天22时",
-      "progress": 40.1,
+      "remain": "剩24天8时",
+      "progress": 41.6,
       "days": {
-        "elapsedDays": 16.7,
-        "remainDays": 25.0,
+        "elapsedDays": 17.3,
+        "remainDays": 24.4,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -152,52 +106,6 @@
       "category": "event",
       "allRanges": [],
       "summary": "「无名勋礼」更新说明"
-    },
-    {
-      "id": "sr-banner-93",
-      "title": "跃迁·Aventurine • Waveflair / Ashveil",
-      "header": "跃迁·Aventurine • Waveflair / Ashveil",
-      "banner": "./covers/starrail-sr-banner-93-ffce9c54.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-09-12T19:00:00+08:00",
-      "end": "2026-09-28T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "9天后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 25.0,
-        "totalDays": 15.4
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Aventurine • Waveflair / Ashveil / Sampo / Hook / Guinaifen"
-    },
-    {
-      "id": "sr-banner-94",
-      "title": "跃迁·Summer Rides the Surf / The Finale of a Lie",
-      "header": "跃迁·Summer Rides the Surf / The Finale of a Lie",
-      "banner": "./covers/starrail-sr-banner-94-e8a58802.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-09-12T19:00:00+08:00",
-      "end": "2026-09-28T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "9天后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 25.0,
-        "totalDays": 15.4
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "Summer Rides the Surf / The Finale of a Lie / Only Silence Remains / Perfect Timing / The Story's Next Page"
     }
   ]
 }
