@@ -1,7 +1,7 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-09-04T05:03:08.600404+08:00",
+  "fetchedAt": "2026-09-04T12:34:26.806356+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩24天",
-      "progress": 36.2,
+      "remain": "剩23天17时",
+      "progress": 37.1,
       "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 24.0,
+        "elapsedDays": 14.0,
+        "remainDays": 23.7,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -47,11 +47,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩24天",
-      "progress": 36.2,
+      "remain": "剩23天17时",
+      "progress": 37.1,
       "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 24.0,
+        "elapsedDays": 14.0,
+        "remainDays": 23.7,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -70,11 +70,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天13时",
-      "progress": 50.6,
+      "remain": "剩8天6时",
+      "progress": 52.4,
       "days": {
-        "elapsedDays": 8.8,
-        "remainDays": 8.6,
+        "elapsedDays": 9.1,
+        "remainDays": 8.3,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -93,11 +93,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天13时",
-      "progress": 50.6,
+      "remain": "剩8天6时",
+      "progress": 52.4,
       "days": {
-        "elapsedDays": 8.8,
-        "remainDays": 8.6,
+        "elapsedDays": 9.1,
+        "remainDays": 8.3,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -116,11 +116,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩24天",
-      "progress": 45.9,
+      "remain": "剩23天17时",
+      "progress": 46.6,
       "days": {
-        "elapsedDays": 20.4,
-        "remainDays": 24.0,
+        "elapsedDays": 20.7,
+        "remainDays": 23.7,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -139,11 +139,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23天22时",
-      "progress": 42.5,
+      "remain": "剩23天15时",
+      "progress": 43.3,
       "days": {
-        "elapsedDays": 17.7,
-        "remainDays": 24.0,
+        "elapsedDays": 18.0,
+        "remainDays": 23.6,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -166,7 +166,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 24.0,
+        "remainDays": 23.6,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -189,7 +189,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 24.0,
+        "remainDays": 23.6,
         "totalDays": 15.4
       },
       "hasSchedule": true,

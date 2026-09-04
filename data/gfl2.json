@@ -1,7 +1,7 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-09-04T05:04:49.085368+08:00",
+  "fetchedAt": "2026-09-04T12:34:40.574618+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 2,
@@ -16,11 +16,11 @@
       "start": "2026-08-31T18:00:00+08:00",
       "end": "2026-09-14T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天12时",
-      "progress": 24.7,
+      "remain": "剩10天5时",
+      "progress": 27.0,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 10.5,
+        "elapsedDays": 3.8,
+        "remainDays": 10.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-08-31T18:30:00+08:00",
       "end": "2026-09-14T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩10天13时",
-      "progress": 24.6,
+      "remain": "剩10天5时",
+      "progress": 26.8,
       "days": {
-        "elapsedDays": 3.4,
-        "remainDays": 10.6,
+        "elapsedDays": 3.8,
+        "remainDays": 10.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
