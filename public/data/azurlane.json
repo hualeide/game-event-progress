@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-09-04T19:18:45.267714+08:00",
+  "fetchedAt": "2026-09-05T00:22:41.201396+08:00",
   "count": 6,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天4时",
-      "progress": 12.7,
+      "remain": "剩25天23时",
+      "progress": 13.4,
       "days": {
-        "elapsedDays": 3.8,
-        "remainDays": 26.2,
+        "elapsedDays": 4.0,
+        "remainDays": 26.0,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -31,16 +31,16 @@
       "id": "al-作战准备新纪元都市NO7-0904",
       "title": "作战准备：新纪元都市NO.7",
       "header": "开启限时活动·作战准备：新纪元都市NO.7",
-      "banner": "",
+      "banner": "./covers/al--NO-7-a8441e80cd-1fb4d932.png",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩33天4时",
-      "progress": 0.5,
+      "remain": "剩32天23时",
+      "progress": 1.2,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 33.2,
+        "elapsedDays": 0.4,
+        "remainDays": 33.0,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天4时",
-      "progress": 0.7,
+      "remain": "剩25天23时",
+      "progress": 1.5,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 26.2,
+        "elapsedDays": 0.4,
+        "remainDays": 26.0,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩96天14时",
-      "progress": 0.2,
+      "remain": "剩96天9时",
+      "progress": 0.4,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 96.6,
+        "elapsedDays": 0.4,
+        "remainDays": 96.4,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天4时",
-      "progress": 57.1,
+      "remain": "剩25天23时",
+      "progress": 57.4,
       "days": {
-        "elapsedDays": 34.8,
-        "remainDays": 26.2,
+        "elapsedDays": 35.0,
+        "remainDays": 26.0,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天4时",
-      "progress": 0.7,
+      "remain": "剩25天23时",
+      "progress": 1.5,
       "days": {
-        "elapsedDays": 0.2,
-        "remainDays": 26.2,
+        "elapsedDays": 0.4,
+        "remainDays": 26.0,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -148,7 +148,6 @@
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：作战准备：新纪元都市NO.7",
     "无配图：Fight！都市求职大作战！",
     "无配图：闪耀的“魔法”"
   ]
