@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-09-05T00:22:41.201396+08:00",
+  "fetchedAt": "2026-09-05T12:30:18.422545+08:00",
   "count": 6,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天23时",
-      "progress": 13.4,
+      "remain": "剩25天11时",
+      "progress": 15.1,
       "days": {
-        "elapsedDays": 4.0,
-        "remainDays": 26.0,
+        "elapsedDays": 4.5,
+        "remainDays": 25.5,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩32天23时",
-      "progress": 1.2,
+      "remain": "剩32天11时",
+      "progress": 2.7,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 33.0,
+        "elapsedDays": 0.9,
+        "remainDays": 32.5,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天23时",
-      "progress": 1.5,
+      "remain": "剩25天11时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 26.0,
+        "elapsedDays": 0.9,
+        "remainDays": 25.5,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩96天9时",
-      "progress": 0.4,
+      "remain": "剩95天21时",
+      "progress": 0.9,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 96.4,
+        "elapsedDays": 0.9,
+        "remainDays": 95.9,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天23时",
-      "progress": 57.4,
+      "remain": "剩25天11时",
+      "progress": 58.2,
       "days": {
-        "elapsedDays": 35.0,
-        "remainDays": 26.0,
+        "elapsedDays": 35.5,
+        "remainDays": 25.5,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -123,16 +123,16 @@
       "id": "al-闪耀的魔法-0904",
       "title": "闪耀的“魔法”",
       "header": "开启限时活动·闪耀的“魔法”",
-      "banner": "",
+      "banner": "./covers/al-f045dcb40d-5b5def18.jpg",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%884%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天23时",
-      "progress": 1.5,
+      "remain": "剩25天11时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 26.0,
+        "elapsedDays": 0.9,
+        "remainDays": 25.5,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -148,7 +148,6 @@
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：Fight！都市求职大作战！",
-    "无配图：闪耀的“魔法”"
+    "无配图：Fight！都市求职大作战！"
   ]
 }
