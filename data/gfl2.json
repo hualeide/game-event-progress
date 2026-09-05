@@ -1,41 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-09-05T18:36:28.840802+08:00",
+  "fetchedAt": "2026-09-05T23:15:33.149784+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 1,
+  "count": 0,
   "notes": [],
-  "events": [
-    {
-      "id": "2085",
-      "title": "【限时活动】「定向采购」活动即将开启！",
-      "header": "【限时活动】「定向采购」活动即将开启！",
-      "banner": "./covers/gfl2-2085-4fa949d5.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2085",
-      "start": "2026-08-31T18:30:00+08:00",
-      "end": "2026-09-14T18:30:00+08:00",
-      "status": "进行中",
-      "remain": "剩8天23时",
-      "progress": 35.7,
-      "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 9.0,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-08-31T18:30:00+08:00",
-          "end": "2026-09-14T18:30:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「定向采购」活动即将开启！"
-    }
-  ]
+  "events": []
 }
