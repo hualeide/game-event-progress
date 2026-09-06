@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-09-06T12:39:34.869595+08:00",
-  "count": 6,
+  "fetchedAt": "2026-09-06T18:57:30.840420+08:00",
+  "count": 14,
   "events": [
     {
       "id": "al-限界挑战处女座-0901",
@@ -13,11 +13,11 @@
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩24天11时",
-      "progress": 18.4,
+      "remain": "剩24天4时",
+      "progress": 19.3,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 24.5,
+        "elapsedDays": 5.8,
+        "remainDays": 24.2,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩31天11时",
-      "progress": 5.7,
+      "remain": "剩31天4时",
+      "progress": 6.5,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 31.5,
+        "elapsedDays": 2.2,
+        "remainDays": 31.2,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩24天11时",
-      "progress": 7.2,
+      "remain": "剩24天4时",
+      "progress": 8.2,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 24.5,
+        "elapsedDays": 2.2,
+        "remainDays": 24.2,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩94天21时",
-      "progress": 2.0,
+      "remain": "剩94天15时",
+      "progress": 2.2,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 94.9,
+        "elapsedDays": 2.2,
+        "remainDays": 94.6,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -97,6 +97,29 @@
       "summary": "2026年9月4日10:00港区改建"
     },
     {
+      "id": "al-幽影迷城-0908",
+      "title": "幽影迷城",
+      "header": "开启限时大型活动·幽影迷城",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
       "id": "al-世界巡游-0801",
       "title": "世界巡游",
       "header": "开启新一期·世界巡游",
@@ -105,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩24天11时",
-      "progress": 59.9,
+      "remain": "剩24天4时",
+      "progress": 60.3,
       "days": {
-        "elapsedDays": 36.5,
-        "remainDays": 24.5,
+        "elapsedDays": 36.8,
+        "remainDays": 24.2,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -128,11 +151,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩24天11时",
-      "progress": 7.2,
+      "remain": "剩24天4时",
+      "progress": 8.2,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 24.5,
+        "elapsedDays": 2.2,
+        "remainDays": 24.2,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -141,6 +164,167 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年9月4日10:00港区改建"
+    },
+    {
+      "id": "al-异常的日常进行中-0908",
+      "title": "异常的日常进行中",
+      "header": "开启限时活动·异常的日常进行中",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-幽影收容协议-0908",
+      "title": "幽影收容协议",
+      "header": "开启限时活动·幽影收容协议",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-特别庆典再开-0908",
+      "title": "特别庆典再开",
+      "header": "开启限时活动·特别庆典再开",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-特别纪念签到-0908",
+      "title": "特别纪念签到",
+      "header": "开启限时活动·特别纪念签到",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-限定祈愿建造-0908",
+      "title": "限定祈愿建造",
+      "header": "开启限时活动·限定祈愿建造",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-司令部动员指令-0908",
+      "title": "司令部动员指令",
+      "header": "开启限时活动·司令部动员指令",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-09-30T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 24.2,
+        "totalDays": 22.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
+    },
+    {
+      "id": "al-新人指挥官双倍经验活动-0908",
+      "title": "新人指挥官双倍经验活动",
+      "header": "开启限时活动·新人指挥官双倍经验活动",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-09-08T16:00:00+08:00",
+      "end": "2026-10-31T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "1天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 55.2,
+        "totalDays": 53.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年9月8日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
@@ -148,6 +332,14 @@
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：Fight！都市求职大作战！"
+    "无配图：Fight！都市求职大作战！",
+    "无配图：幽影迷城",
+    "无配图：异常的日常进行中",
+    "无配图：幽影收容协议",
+    "无配图：特别庆典再开",
+    "无配图：特别纪念签到",
+    "无配图：限定祈愿建造",
+    "无配图：司令部动员指令",
+    "无配图：新人指挥官双倍经验活动"
   ]
 }
