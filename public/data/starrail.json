@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-09-07T12:42:03.625547+08:00",
+  "fetchedAt": "2026-09-07T20:32:57.006424+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 9,
+  "count": 10,
   "notes": [
     "跳过 「砂金•戏浪」角色绘画征集：投稿赢星琼、周边奖励！",
     "跳过 4.5版本游戏优化及已知问题说明",
@@ -25,11 +25,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天17时",
-      "progress": 45.0,
+      "remain": "剩20天9时",
+      "progress": 45.9,
       "days": {
-        "elapsedDays": 17.0,
-        "remainDays": 20.7,
+        "elapsedDays": 17.3,
+        "remainDays": 20.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天17时",
-      "progress": 45.0,
+      "remain": "剩20天9时",
+      "progress": 45.9,
       "days": {
-        "elapsedDays": 17.0,
-        "remainDays": 20.7,
+        "elapsedDays": 17.3,
+        "remainDays": 20.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-06T11:00:00+08:00",
       "end": "2026-09-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天15时",
-      "progress": 7.3,
+      "remain": "剩13天7时",
+      "progress": 9.5,
       "days": {
-        "elapsedDays": 1.1,
-        "remainDays": 13.6,
+        "elapsedDays": 1.4,
+        "remainDays": 13.3,
         "totalDays": 14.7
       },
       "hasSchedule": true,
@@ -86,6 +86,29 @@
       "summary": "「位面分裂」活动说明"
     },
     {
+      "id": "1425",
+      "title": "大白兔联名 | 那刻夏风堇联名开启！",
+      "header": "「「大白兔联名」现已开启」",
+      "banner": "./covers/starrail-1425-96e4a69b.jpg",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-09-07T19:00:00+08:00",
+      "end": "2026-09-15T12:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩7天15时",
+      "progress": 0.8,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 7.6,
+        "totalDays": 7.7
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「大白兔联名」现已开启"
+    },
+    {
       "id": "sr-banner-91",
       "title": "跃迁·Robin • Summeretto / Hyacine",
       "header": "跃迁·Robin • Summeretto / Hyacine",
@@ -94,11 +117,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 69.7,
+      "remain": "剩4天22时",
+      "progress": 71.6,
       "days": {
-        "elapsedDays": 12.1,
-        "remainDays": 5.3,
+        "elapsedDays": 12.4,
+        "remainDays": 4.9,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -117,11 +140,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-12T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 69.7,
+      "remain": "剩4天22时",
+      "progress": 71.6,
       "days": {
-        "elapsedDays": 12.1,
-        "remainDays": 5.3,
+        "elapsedDays": 12.4,
+        "remainDays": 4.9,
         "totalDays": 17.4
       },
       "hasSchedule": true,
@@ -140,11 +163,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩20天17时",
-      "progress": 53.3,
+      "remain": "剩20天9时",
+      "progress": 54.1,
       "days": {
-        "elapsedDays": 23.7,
-        "remainDays": 20.7,
+        "elapsedDays": 24.0,
+        "remainDays": 20.4,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -163,11 +186,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天15时",
-      "progress": 50.5,
+      "remain": "剩20天7时",
+      "progress": 51.3,
       "days": {
-        "elapsedDays": 21.1,
-        "remainDays": 20.6,
+        "elapsedDays": 21.4,
+        "remainDays": 20.3,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -186,11 +209,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "remainDays": 20.3,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -209,11 +232,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "remainDays": 20.3,
         "totalDays": 15.4
       },
       "hasSchedule": true,
