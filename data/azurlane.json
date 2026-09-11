@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-09-11T04:53:09.964833+08:00",
+  "fetchedAt": "2026-09-11T12:41:15.342952+08:00",
   "count": 14,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 34.0,
+      "remain": "剩19天11时",
+      "progress": 35.1,
       "days": {
-        "elapsedDays": 10.2,
-        "remainDays": 19.8,
+        "elapsedDays": 10.5,
+        "remainDays": 19.5,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩26天19时",
-      "progress": 19.7,
+      "remain": "剩26天11时",
+      "progress": 20.7,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 26.8,
+        "elapsedDays": 6.9,
+        "remainDays": 26.5,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 25.0,
+      "remain": "剩19天11时",
+      "progress": 26.2,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 19.8,
+        "elapsedDays": 6.9,
+        "remainDays": 19.5,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩90天5时",
-      "progress": 6.8,
+      "remain": "剩89天21时",
+      "progress": 7.1,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 90.2,
+        "elapsedDays": 6.9,
+        "remainDays": 89.9,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -100,16 +100,16 @@
       "id": "al-幽影迷城-0908",
       "title": "幽影迷城",
       "header": "开启限时大型活动·幽影迷城",
-      "banner": "./covers/al-64af8700c3-3489f0e2.png",
+      "banner": "",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -128,11 +128,11 @@
       "start": "2026-08-01T00:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 67.6,
+      "remain": "剩19天11时",
+      "progress": 68.1,
       "days": {
-        "elapsedDays": 41.2,
-        "remainDays": 19.8,
+        "elapsedDays": 41.5,
+        "remainDays": 19.5,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 25.0,
+      "remain": "剩19天11时",
+      "progress": 26.2,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 19.8,
+        "elapsedDays": 6.9,
+        "remainDays": 19.5,
         "totalDays": 26.4
       },
       "hasSchedule": true,
@@ -174,11 +174,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -197,11 +197,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -220,11 +220,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -243,11 +243,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -266,11 +266,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -289,11 +289,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-09-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 11.4,
+      "remain": "剩19天11时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 19.8,
+        "elapsedDays": 2.9,
+        "remainDays": 19.5,
         "totalDays": 22.3
       },
       "hasSchedule": true,
@@ -312,11 +312,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩50天19时",
-      "progress": 4.8,
+      "remain": "剩50天11时",
+      "progress": 5.4,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 50.8,
+        "elapsedDays": 2.9,
+        "remainDays": 50.5,
         "totalDays": 53.3
       },
       "hasSchedule": true,
@@ -333,6 +333,7 @@
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
     "无配图：Fight！都市求职大作战！",
+    "无配图：幽影迷城",
     "无配图：异常的日常进行中"
   ]
 }
