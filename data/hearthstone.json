@@ -1,10 +1,10 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-09-12T23:37:50.707330+08:00",
+  "fetchedAt": "2026-09-13T04:34:38.901522+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 4,
+  "count": 5,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-08-19T00:05:00+08:00",
       "end": "2026-09-16T00:05:00+08:00",
       "status": "进行中",
-      "remain": "剩3天",
-      "progress": 89.2,
+      "remain": "剩2天19时",
+      "progress": 90.0,
       "days": {
-        "elapsedDays": 25.0,
-        "remainDays": 3.0,
+        "elapsedDays": 25.2,
+        "remainDays": 2.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-16T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天4时",
-      "progress": 84.7,
+      "remain": "剩2天23时",
+      "progress": 85.7,
       "days": {
-        "elapsedDays": 17.6,
-        "remainDays": 3.2,
+        "elapsedDays": 17.8,
+        "remainDays": 3.0,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-09-08T15:58:00+08:00",
       "end": "2026-10-06T15:58:00+08:00",
       "status": "进行中",
-      "remain": "剩23天16时",
-      "progress": 15.4,
+      "remain": "剩23天11时",
+      "progress": 16.2,
       "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 23.7,
+        "elapsedDays": 4.5,
+        "remainDays": 23.5,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -98,6 +98,36 @@
       "summary": "36.4.2补丁说明"
     },
     {
+      "id": "b8904c68",
+      "title": "畸变怪将在暴雪嘉年华上加入酒馆战棋！",
+      "header": "畸变怪将在暴雪嘉年华上加入酒馆战棋！",
+      "banner": "./covers/hs-b8904c68-903be700.jpg",
+      "link": "https://hs.blizzard.cn/news/24302091/index.html",
+      "start": "2026-09-13T03:05:00+08:00",
+      "end": "2026-10-11T03:05:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天22时",
+      "progress": 0.2,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 27.9,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-09-13T03:05:00+08:00",
+          "end": "2026-10-11T03:05:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "畸变怪将在暴雪嘉年华上加入酒馆战棋！"
+    },
+    {
       "id": "c32d1266-1",
       "title": "通灵师（9/9-10/14）",
       "header": "通灵师（9/9-10/14）",
@@ -106,11 +136,11 @@
       "start": "2026-09-09T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天4时",
-      "progress": 10.3,
+      "remain": "剩30天23时",
+      "progress": 10.9,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 31.2,
+        "elapsedDays": 3.8,
+        "remainDays": 31.0,
         "totalDays": 34.8
       },
       "hasSchedule": true,
