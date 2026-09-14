@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-14T04:50:37.965778+08:00",
+  "fetchedAt": "2026-09-14T12:57:21.041833+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 6,
+  "count": 7,
   "notes": [
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩34天23时",
-      "progress": 14.0,
+      "remain": "剩34天15时",
+      "progress": 14.8,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 35.0,
+        "elapsedDays": 6.0,
+        "remainDays": 34.6,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩37天1时",
-      "progress": 13.3,
+      "remain": "剩36天17时",
+      "progress": 14.0,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 37.0,
+        "elapsedDays": 6.0,
+        "remainDays": 36.7,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩35天23时",
-      "progress": 13.6,
+      "remain": "剩35天15时",
+      "progress": 14.4,
       "days": {
-        "elapsedDays": 5.6,
-        "remainDays": 36.0,
+        "elapsedDays": 6.0,
+        "remainDays": 35.6,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩37天1时",
-      "progress": 13.1,
+      "remain": "剩36天17时",
+      "progress": 13.9,
       "days": {
-        "elapsedDays": 5.6,
-        "remainDays": 37.0,
+        "elapsedDays": 5.9,
+        "remainDays": 36.7,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -109,6 +109,29 @@
       "summary": "3.2版本「商城」上新说明"
     },
     {
+      "id": "1301",
+      "title": "「虚境逐影争锋」活动说明",
+      "header": "「「虚境逐影争锋」活动说明」",
+      "banner": "./covers/zzz-1301-0b33487a.jpg",
+      "link": "https://zzz.mihoyo.com/",
+      "start": "2026-09-14T12:00:00+08:00",
+      "end": "2026-10-05T03:59:59+08:00",
+      "status": "进行中",
+      "remain": "剩20天15时",
+      "progress": 0.2,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 20.6,
+        "totalDays": 20.7
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「虚境逐影争锋」活动说明"
+    },
+    {
       "id": "1313",
       "title": "新品情报丨2026AW服饰等多款周边上新",
       "header": "「新品情报丨2026AW服饰等多款周边上新」",
@@ -117,11 +140,11 @@
       "start": "2026-09-01T12:00:00+08:00",
       "end": "2026-09-23T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩9天19时",
-      "progress": 56.5,
+      "remain": "剩9天11时",
+      "progress": 58.0,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 9.8,
+        "elapsedDays": 13.0,
+        "remainDays": 9.5,
         "totalDays": 22.5
       },
       "hasSchedule": true,
@@ -140,11 +163,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩26天19时",
-      "progress": 14.9,
+      "remain": "剩26天11时",
+      "progress": 16.0,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 26.8,
+        "elapsedDays": 5.0,
+        "remainDays": 26.5,
         "totalDays": 31.5
       },
       "hasSchedule": true,
