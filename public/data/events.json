@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-15T12:55:01.777204+08:00",
+  "fetchedAt": "2026-09-15T19:44:19.243630+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -57,11 +57,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-18T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天15时",
-      "progress": 80.8,
+      "remain": "剩2天8时",
+      "progress": 82.9,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 2.6,
+        "elapsedDays": 11.3,
+        "remainDays": 2.3,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -93,11 +93,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-18T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天15时",
-      "progress": 80.8,
+      "remain": "剩2天8时",
+      "progress": 82.9,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 2.6,
+        "elapsedDays": 11.3,
+        "remainDays": 2.3,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -129,11 +129,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-18T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天15时",
-      "progress": 80.8,
+      "remain": "剩2天8时",
+      "progress": 82.9,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 2.6,
+        "elapsedDays": 11.3,
+        "remainDays": 2.3,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -165,11 +165,11 @@
       "start": "2026-09-10T16:00:00+08:00",
       "end": "2026-09-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天15时",
-      "progress": 36.1,
+      "remain": "剩8天8时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.9,
-        "remainDays": 8.6,
+        "elapsedDays": 5.2,
+        "remainDays": 8.3,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -213,11 +213,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天15时",
-      "progress": 53.4,
+      "remain": "剩9天8时",
+      "progress": 54.8,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 9.6,
+        "elapsedDays": 11.3,
+        "remainDays": 9.3,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -233,7 +233,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-15T12:55:01.777204+08:00",
+      "updatedAt": "2026-09-15T19:44:19.243630+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -248,11 +248,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天15时",
-      "progress": 53.4,
+      "remain": "剩9天8时",
+      "progress": 54.8,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 9.6,
+        "elapsedDays": 11.3,
+        "remainDays": 9.3,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -267,7 +267,7 @@
       "type": "活动",
       "banner": "./covers/6775.jpg",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-11T11:41:35+08:00",
+      "updatedAt": "2026-09-15T17:49:10+08:00",
       "primaryLabel": "关卡开放时间",
       "allRanges": [
         {
@@ -282,13 +282,13 @@
       "start": "2026-09-20T16:00:00+08:00",
       "end": "2026-09-30T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.1,
+        "remainDays": 4.8,
         "totalDays": 9.5,
-        "untilStartDays": 5.1
+        "untilStartDays": 4.8
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -301,7 +301,7 @@
       "type": "活动",
       "banner": "./covers/6775.jpg",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-11T11:41:35+08:00",
+      "updatedAt": "2026-09-15T17:49:10+08:00",
       "primaryLabel": "活动时间",
       "allRanges": [
         {
@@ -346,13 +346,13 @@
       "start": "2026-09-20T16:00:00+08:00",
       "end": "2026-10-04T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 5.1,
+        "remainDays": 4.8,
         "totalDays": 13.5,
-        "untilStartDays": 5.1
+        "untilStartDays": 4.8
       },
       "hasSchedule": true,
       "kind": "preview",
