@@ -1,42 +1,12 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-09-15T19:49:08.742233+08:00",
+  "fetchedAt": "2026-09-16T01:02:30.117441+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 6,
   "notes": [],
   "events": [
-    {
-      "id": "530a3adb",
-      "title": "36.2.2补丁说明",
-      "header": "36.2.2补丁说明",
-      "banner": "./covers/hs-530a3adb-b36de213.jpg",
-      "link": "https://hs.blizzard.cn/news/24293284/index.html",
-      "start": "2026-08-19T00:05:00+08:00",
-      "end": "2026-09-16T00:05:00+08:00",
-      "status": "进行中",
-      "remain": "剩4小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 27.8,
-        "remainDays": 0.2,
-        "totalDays": 28.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-08-19T00:05:00+08:00",
-          "end": "2026-09-16T00:05:00+08:00",
-          "raw": "估"
-        }
-      ],
-      "summary": "36.2.2补丁说明"
-    },
     {
       "id": "c32d1266-0",
       "title": "逃离紫罗兰监狱（8/26-9/16）",
@@ -46,11 +16,11 @@
       "start": "2026-08-26T10:00:00+08:00",
       "end": "2026-09-16T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8小时",
-      "progress": 98.4,
+      "remain": "剩2小时",
+      "progress": 99.4,
       "days": {
-        "elapsedDays": 20.4,
-        "remainDays": 0.3,
+        "elapsedDays": 20.6,
+        "remainDays": 0.1,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-09-08T15:58:00+08:00",
       "end": "2026-10-06T15:58:00+08:00",
       "status": "进行中",
-      "remain": "剩20天20时",
-      "progress": 25.6,
+      "remain": "剩20天14时",
+      "progress": 26.4,
       "days": {
-        "elapsedDays": 7.2,
-        "remainDays": 20.8,
+        "elapsedDays": 7.4,
+        "remainDays": 20.6,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -106,11 +76,11 @@
       "start": "2026-09-13T03:05:00+08:00",
       "end": "2026-10-11T03:05:00+08:00",
       "status": "进行中",
-      "remain": "剩25天7时",
-      "progress": 9.6,
+      "remain": "剩25天2时",
+      "progress": 10.4,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 2.9,
+        "remainDays": 25.1,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -136,11 +106,11 @@
       "start": "2026-09-09T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩28天8时",
-      "progress": 18.4,
+      "remain": "剩28天2时",
+      "progress": 19.1,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 28.3,
+        "elapsedDays": 6.6,
+        "remainDays": 28.1,
         "totalDays": 34.8
       },
       "hasSchedule": true,
@@ -166,11 +136,11 @@
       "start": "2026-09-16T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "14小时后",
+      "remain": "8小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.3,
+        "remainDays": 28.1,
         "totalDays": 27.8
       },
       "hasSchedule": true,
@@ -186,6 +156,36 @@
         }
       ],
       "summary": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！"
+    },
+    {
+      "id": "530a3adb",
+      "title": "36.2.2补丁说明",
+      "header": "36.2.2补丁说明",
+      "banner": "./covers/hs-530a3adb-b36de213.jpg",
+      "link": "https://hs.blizzard.cn/news/24293284/index.html",
+      "start": "2026-08-19T00:05:00+08:00",
+      "end": "2026-09-16T00:05:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 28.0,
+        "remainDays": 0.0,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": true,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-08-19T00:05:00+08:00",
+          "end": "2026-09-16T00:05:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "36.2.2补丁说明"
     }
   ]
 }
