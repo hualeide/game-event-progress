@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-09-17T00:55:36.377407+08:00",
+  "fetchedAt": "2026-09-17T05:18:34.244250+08:00",
   "timezone": "Asia/Shanghai",
   "count": 10,
   "notes": [
@@ -48,36 +48,6 @@
   ],
   "events": [
     {
-      "id": "1902",
-      "title": "【预告】无限制决战：获刻玛 • 重装甲",
-      "header": "「无限制决战：获刻玛 • 重装甲」",
-      "banner": "./covers/ba-1902-323adcce.jpg",
-      "link": "https://bluearchive-cn.com/news/1902",
-      "start": "2026-08-28T14:00:00+08:00",
-      "end": "2026-09-17T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 19.5,
-        "remainDays": 0.1,
-        "totalDays": 19.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-08-28T14:00:00+08:00",
-          "end": "2026-09-17T03:59:00+08:00",
-          "raw": " • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59"
-        }
-      ],
-      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"获刻玛\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
-    },
-    {
       "id": "1919",
       "title": "【预告】大决战：希罗尼穆斯 • 街区战",
       "header": "「大决战·希罗尼穆斯 • 街区战」",
@@ -86,11 +56,11 @@
       "start": "2026-09-09T00:00:00+08:00",
       "end": "2026-10-02T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天13时",
-      "progress": 34.1,
+      "remain": "剩15天8时",
+      "progress": 34.9,
       "days": {
-        "elapsedDays": 8.0,
-        "remainDays": 15.5,
+        "elapsedDays": 8.2,
+        "remainDays": 15.4,
         "totalDays": 23.6
       },
       "hasSchedule": true,
@@ -126,48 +96,6 @@
       "summary": "在崔尼蒂地区古圣堂遗迹地下所发现的神秘存在。 \n 希罗尼穆斯，传说是被称为【诸圣相通】的人造天使系列的完成品，也有传闻说是数秘会根据太古教义制作出来的实验体。 \n 不能对希罗尼穆斯压倒性的力量放任不管，为了基沃托斯的和平，必须马上行动！ \n  \n ■ 活动时间 \n • 赛季持续时间：09月03日 14:00 ~ 09月…"
     },
     {
-      "id": "1926",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1926-a1534609.jpg",
-      "link": "https://bluearchive-cn.com/news/1926",
-      "start": "2026-09-10T04:00:00+08:00",
-      "end": "2026-09-17T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 98.2,
-      "days": {
-        "elapsedDays": 6.9,
-        "remainDays": 0.1,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-09-10T04:00:00+08:00",
-          "end": "2026-09-17T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 09月10日 04:00 ~ 09月17日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-09-17T04:00:00+08:00",
-          "end": "2026-09-21T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 09月17日 04:00 ~ 09月21日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-09-21T04:00:00+08:00",
-          "end": "2026-09-24T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 09月21日 04:00 ~ 09月24日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【学院交流会】道具掉落量2倍 \n ■ 活动时间 \n 09月10日 04:00 ~ 09月17日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 09月17日 04:00 ~ 09月21日 03…"
-    },
-    {
       "id": "1931",
       "title": "【预告】总力战：格兹 • 室内战",
       "header": "「总力战·格兹 • 室内战」",
@@ -176,11 +104,11 @@
       "start": "2026-09-18T00:00:00+08:00",
       "end": "2026-09-24T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "18小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 7.5,
+        "remainDays": 7.4,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -216,7 +144,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.1,
+        "remainDays": 20.9,
         "totalDays": 18.6
       },
       "hasSchedule": true,
@@ -246,7 +174,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -276,7 +204,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -306,7 +234,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -336,7 +264,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -366,7 +294,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.5,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -382,6 +310,78 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【纵知此景终将逝 离情亦难却】即将开启！在本次招募中，3★成员\"三森（泳装）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 09月10日 维护结束后 ~ 09月24日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“桔梗（泳装）”、“紫（泳装）”、“泉…"
+    },
+    {
+      "id": "1902",
+      "title": "【预告】无限制决战：获刻玛 • 重装甲",
+      "header": "「无限制决战：获刻玛 • 重装甲」",
+      "banner": "./covers/ba-1902-323adcce.jpg",
+      "link": "https://bluearchive-cn.com/news/1902",
+      "start": "2026-08-28T14:00:00+08:00",
+      "end": "2026-09-17T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 19.6,
+        "remainDays": 0.0,
+        "totalDays": 19.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-08-28T14:00:00+08:00",
+          "end": "2026-09-17T03:59:00+08:00",
+          "raw": " • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59"
+        }
+      ],
+      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"获刻玛\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：08月28日 14:00 ~ 09月17日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
+    },
+    {
+      "id": "1926",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1926-a1534609.jpg",
+      "link": "https://bluearchive-cn.com/news/1926",
+      "start": "2026-09-10T04:00:00+08:00",
+      "end": "2026-09-17T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 7.0,
+        "remainDays": 0.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-09-10T04:00:00+08:00",
+          "end": "2026-09-17T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 09月10日 04:00 ~ 09月17日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-09-17T04:00:00+08:00",
+          "end": "2026-09-21T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 09月17日 04:00 ~ 09月21日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-09-21T04:00:00+08:00",
+          "end": "2026-09-24T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 09月21日 04:00 ~ 09月24日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【学院交流会】道具掉落量2倍 \n ■ 活动时间 \n 09月10日 04:00 ~ 09月17日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 09月17日 04:00 ~ 09月21日 03…"
     }
   ]
 }
