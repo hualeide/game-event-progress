@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-09-16T05:25:40.952040+08:00",
+  "fetchedAt": "2026-09-16T12:50:41.563245+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 9,
@@ -16,11 +16,11 @@
       "start": "2026-09-08T15:58:00+08:00",
       "end": "2026-10-06T15:58:00+08:00",
       "status": "进行中",
-      "remain": "剩20天10时",
-      "progress": 27.0,
+      "remain": "剩20天3时",
+      "progress": 28.1,
       "days": {
-        "elapsedDays": 7.6,
-        "remainDays": 20.4,
+        "elapsedDays": 7.9,
+        "remainDays": 20.1,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-09-13T03:05:00+08:00",
       "end": "2026-10-11T03:05:00+08:00",
       "status": "进行中",
-      "remain": "剩24天21时",
-      "progress": 11.1,
+      "remain": "剩24天14时",
+      "progress": 12.2,
       "days": {
-        "elapsedDays": 3.1,
-        "remainDays": 24.9,
+        "elapsedDays": 3.4,
+        "remainDays": 24.6,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -68,6 +68,66 @@
       "summary": "畸变怪将在暴雪嘉年华上加入酒馆战棋！"
     },
     {
+      "id": "b74ec8f5-0",
+      "title": "纯净圣母（9/16-10/14）",
+      "header": "纯净圣母（9/16-10/14）",
+      "banner": "./covers/hs-b74ec8f5-0-963fb477.jpg",
+      "link": "https://hs.blizzard.cn/news/24294373/index.html",
+      "start": "2026-09-16T10:00:00+08:00",
+      "end": "2026-10-14T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天15时",
+      "progress": 0.4,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 27.6,
+        "totalDays": 27.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-09-16T10:00:00+08:00",
+          "end": "2026-10-14T04:00:00+08:00",
+          "raw": "9月16日至10月14日"
+        }
+      ],
+      "summary": "36.6补丁说明"
+    },
+    {
+      "id": "166a448c",
+      "title": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！",
+      "header": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！",
+      "banner": "./covers/hs-166a448c-1234ddc3.jpg",
+      "link": "https://hs.blizzard.cn/news/24302069/index.html",
+      "start": "2026-09-16T10:00:00+08:00",
+      "end": "2026-10-14T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩27天15时",
+      "progress": 0.4,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 27.6,
+        "totalDays": 27.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-09-16T10:00:00+08:00",
+          "end": "2026-10-14T04:00:00+08:00",
+          "raw": "9月16日至10月14日"
+        }
+      ],
+      "summary": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！"
+    },
+    {
       "id": "c32d1266-1",
       "title": "通灵师（9/9-10/14）",
       "header": "通灵师（9/9-10/14）",
@@ -76,11 +136,11 @@
       "start": "2026-09-09T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩27天22时",
-      "progress": 19.6,
+      "remain": "剩27天15时",
+      "progress": 20.5,
       "days": {
-        "elapsedDays": 6.8,
-        "remainDays": 27.9,
+        "elapsedDays": 7.1,
+        "remainDays": 27.6,
         "totalDays": 34.8
       },
       "hasSchedule": true,
@@ -98,36 +158,6 @@
       "summary": "36.4补丁说明"
     },
     {
-      "id": "b74ec8f5-0",
-      "title": "纯净圣母（9/16-10/14）",
-      "header": "纯净圣母（9/16-10/14）",
-      "banner": "./covers/hs-b74ec8f5-0-963fb477.jpg",
-      "link": "https://hs.blizzard.cn/news/24294373/index.html",
-      "start": "2026-09-16T10:00:00+08:00",
-      "end": "2026-10-14T04:00:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 27.9,
-        "totalDays": 27.8
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-16T10:00:00+08:00",
-          "end": "2026-10-14T04:00:00+08:00",
-          "raw": "9月16日至10月14日"
-        }
-      ],
-      "summary": "36.6补丁说明"
-    },
-    {
       "id": "b74ec8f5-2",
       "title": "异画合集（9/19-10/14）",
       "header": "异画合集（9/19-10/14）",
@@ -136,11 +166,11 @@
       "start": "2026-09-19T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "3天后",
+      "remain": "2天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 27.9,
+        "remainDays": 27.6,
         "totalDays": 24.8
       },
       "hasSchedule": true,
@@ -158,36 +188,6 @@
       "summary": "36.6补丁说明"
     },
     {
-      "id": "166a448c",
-      "title": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！",
-      "header": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！",
-      "banner": "./covers/hs-166a448c-1234ddc3.jpg",
-      "link": "https://hs.blizzard.cn/news/24302069/index.html",
-      "start": "2026-09-16T10:00:00+08:00",
-      "end": "2026-10-14T04:00:00+08:00",
-      "status": "即将开始",
-      "remain": "4小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 27.9,
-        "totalDays": 27.8
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-16T10:00:00+08:00",
-          "end": "2026-10-14T04:00:00+08:00",
-          "raw": "9月16日至10月14日"
-        }
-      ],
-      "summary": "2026暴雪嘉年华：武僧加入《炉石传说》，上古之神回归，还有更多精彩内容！"
-    },
-    {
       "id": "b74ec8f5-1",
       "title": "英雄皮肤（9/30-10/21）",
       "header": "英雄皮肤（9/30-10/21）",
@@ -196,11 +196,11 @@
       "start": "2026-09-30T10:00:00+08:00",
       "end": "2026-10-21T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 34.9,
+        "remainDays": 34.6,
         "totalDays": 20.8
       },
       "hasSchedule": true,
