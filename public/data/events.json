@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-18T00:59:51.719673+08:00",
+  "fetchedAt": "2026-09-18T05:22:40.550427+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -18,11 +18,10 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
-    "8219 寻访「中坚寻访」对齐长公告时段",
+    "8219 寻访「中坚寻访」用展示日估时",
     "4848 寻访「常驻标准寻访」用展示日估时",
-    "8212 寻访「石白深蓝之夜」对齐长公告时段",
-    "4849 寻访「中坚寻访」对齐长公告时段",
-    "6777 寻访「石白深蓝之夜 说明」对齐长公告时段",
+    "4849 寻访「中坚寻访」用展示日估时",
+    "补全寻访卡「石白深蓝之夜」（无独立海报公告）",
     "补全寻访卡「圣城春日学生寻访」（无独立海报公告）"
   ],
   "analysis": {
@@ -36,114 +35,6 @@
     ]
   },
   "events": [
-    {
-      "id": "8219",
-      "title": "中坚寻访 干员出率上升",
-      "header": "「中坚寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-8219.jpg",
-      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_77_0_1",
-      "updatedAt": "2026-09-16T18:52:36+08:00",
-      "primaryLabel": "活动时间",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-04T12:00:00+08:00",
-          "end": "2026-09-18T03:59:00+08:00",
-          "raw": "活动时间： 09月04日 12:00 - 09月18日 03:59"
-        }
-      ],
-      "summary": "卡池「中坚寻访」",
-      "textPreview": "",
-      "start": "2026-09-04T12:00:00+08:00",
-      "end": "2026-09-18T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.1,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260916/69305dfda43e93aea280bc986c684f3f.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": false
-    },
-    {
-      "id": "8212",
-      "title": "石白深蓝之夜 限时寻访开启",
-      "header": "「石白深蓝之夜」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-8212.jpg",
-      "link": "uniwebview://move?target=recruit&param1=LINKAGE_77_0_1",
-      "updatedAt": "2026-09-03T14:34:28+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-09-04T12:00:00+08:00",
-          "end": "2026-09-18T03:59:00+08:00",
-          "raw": "【石白深蓝之夜】限时寻访开启 活动时间： 09月04日 12:00 - 09月18日 03:59"
-        }
-      ],
-      "summary": "卡池「石白深蓝之夜」",
-      "textPreview": "",
-      "start": "2026-09-04T12:00:00+08:00",
-      "end": "2026-09-18T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.1,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260901/1ce4dc15236b52a648a03b59a06c034e.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": false
-    },
-    {
-      "id": "6777",
-      "title": "石白深蓝之夜 限时寻访说明",
-      "header": "「石白深蓝之夜 说明」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-6777.jpg",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-08-25T14:19:14+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-09-04T12:00:00+08:00",
-          "end": "2026-09-18T03:59:00+08:00",
-          "raw": "【石白深蓝之夜】限时寻访开启 活动时间： 09月04日 12:00 - 09月18日 03:59"
-        }
-      ],
-      "summary": "卡池「石白深蓝之夜 说明」",
-      "textPreview": "活动时间： 09月04日 12:00 - 09月18日 03:59\n 活动说明： 活动期间【石白深蓝之夜】限时寻访开启，该寻访中以下干员出现率上升\n ★★★★★★：结城理（占6★出率的50%） \n ★★★★★：埃癸斯 / 岳羽由加莉（占5★出率的50%） \n \n 注意： \n ◆【石白深蓝之夜】寻访为【圣城春日学生寻访】\n ◆新增干员【结城理】、【埃癸斯】、【岳羽由加莉】为【圣城春日学生寻访】限时寻访干员，以上角色仅在【圣城春日学生寻访】寻访开启期间可以获取，不会加入任何【标准寻访】及【中坚寻访】\n \n 【圣城春日学生寻访】抽取概率公示：\n 六星干员出率：2%\n 五星干员出率：8%\n 四星干员出率：50%\n 三星干员出率：40%\n \n 【圣城春日学生寻访】说明 \n ◆在【圣城春日学生寻访】中，每120次寻访必定能获得干员【结城理】， 每次获得干员【结城理】后重新累计次数 。\n ◆在【圣城春日学生寻访】中，首次获得任意一名当期概率上升的5星干员后，下一次获得5星干员时必定是另一名当期概率上升的5星干员，仅限一次。\n ◆在【圣城春日学生寻访】中，如果前50次寻访没有获得本期出率上升的5星干员，则下一次招募到的5星干员必定为本期出率上升的5星干员。\n ◆在【圣城春日学生寻访】中，如果连续50次没有获得6星干员，则下一次获得6星干员的概率将从原本的2%提升至4%，如果该次还没有寻访到6星干员，则下一次寻访获得6星的概率由4%提升到6%。依此类推，每次提高2%获得6星干员的概率，直至达到100%时必定获得6星干员。\n ◆在【圣城春日学生寻访】中，没有获得6星干员的累计次数不会累计到其他任意寻访，该次数会因为【圣城春日学生寻访】的结束而清零。因为累计次数而增加的获得概率，不会应用于接下来其他任意寻访。\n \n 更多活动内容请持续关注《明日方舟》游戏内公告及官方公告。 \n \n 【明日方舟】运营组\n 2026年08月29日",
-      "start": "2026-09-04T12:00:00+08:00",
-      "end": "2026-09-18T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.1,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260825/0f8fc25f182436266518a1753b588353.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": false
-    },
     {
       "id": "4848",
       "title": "常驻标准寻访 限时出率上升",
@@ -166,11 +57,11 @@
       "start": "2026-09-10T16:00:00+08:00",
       "end": "2026-09-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天2时",
-      "progress": 54.6,
+      "remain": "剩5天22时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 7.4,
-        "remainDays": 6.1,
+        "elapsedDays": 7.6,
+        "remainDays": 5.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -214,11 +105,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天2时",
-      "progress": 65.5,
+      "remain": "剩6天22时",
+      "progress": 66.4,
       "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 7.1,
+        "elapsedDays": 13.7,
+        "remainDays": 6.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -234,7 +125,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-18T00:59:51.719673+08:00",
+      "updatedAt": "2026-09-18T05:22:40.550427+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -249,17 +140,53 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天2时",
-      "progress": 65.5,
+      "remain": "剩6天22时",
+      "progress": 66.4,
       "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 7.1,
+        "elapsedDays": 13.7,
+        "remainDays": 6.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
       "kind": "live",
       "playable": false,
       "category": "gacha"
+    },
+    {
+      "id": "8219",
+      "title": "中坚寻访 干员出率上升",
+      "header": "「中坚寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-8219.jpg",
+      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_77_0_1",
+      "updatedAt": "2026-09-16T18:52:36+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-09-17T16:00:00+08:00",
+          "end": "2026-10-01T03:59:00+08:00",
+          "raw": "displayTime=2026-09-17"
+        }
+      ],
+      "summary": "卡池「中坚寻访」",
+      "textPreview": "",
+      "start": "2026-09-17T16:00:00+08:00",
+      "end": "2026-10-01T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩12天22时",
+      "progress": 4.1,
+      "days": {
+        "elapsedDays": 0.6,
+        "remainDays": 12.9,
+        "totalDays": 13.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260916/69305dfda43e93aea280bc986c684f3f.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     },
     {
       "id": "6775-next0",
@@ -287,9 +214,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.6,
+        "remainDays": 2.4,
         "totalDays": 9.5,
-        "untilStartDays": 2.6
+        "untilStartDays": 2.4
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -351,15 +278,85 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.6,
+        "remainDays": 2.4,
         "totalDays": 13.5,
-        "untilStartDays": 2.6
+        "untilStartDays": 2.4
       },
       "hasSchedule": true,
       "kind": "preview",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260911/7f5081bb4aac74faa0185f634d07762d.JPG",
       "playable": true,
       "category": "combat"
+    },
+    {
+      "id": "4849",
+      "title": "中坚寻访 干员出率上升",
+      "header": "「中坚寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-4849.jpg",
+      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_76_0_3",
+      "updatedAt": "2026-09-01T23:50:21+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-09-03T16:00:00+08:00",
+          "end": "2026-09-17T03:59:00+08:00",
+          "raw": "displayTime=2026-09-03"
+        }
+      ],
+      "summary": "卡池「中坚寻访」",
+      "textPreview": "",
+      "start": "2026-09-03T16:00:00+08:00",
+      "end": "2026-09-17T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 13.5,
+        "remainDays": 0,
+        "totalDays": 13.5
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20260901/5b0f21855d245c46723abd3f5e258a66.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
+    },
+    {
+      "id": "gacha-b66c5cf1e0",
+      "title": "【石白深蓝之夜】限时寻访",
+      "header": "「石白深蓝之夜」限时寻访",
+      "type": "寻访",
+      "banner": "",
+      "link": "https://ak.hypergryph.com/",
+      "updatedAt": "2026-09-18T05:22:40.550427+08:00",
+      "primaryLabel": "活动时间·寻访",
+      "allRanges": [
+        {
+          "label": "活动时间·寻访",
+          "start": "2026-09-04T12:00:00+08:00",
+          "end": "2026-09-18T03:59:00+08:00",
+          "raw": "【石白深蓝之夜】限时寻访开启 活动时间： 09月04日 12:00 - 09月18日 03:59"
+        }
+      ],
+      "summary": "卡池「石白深蓝之夜」",
+      "textPreview": "",
+      "start": "2026-09-04T12:00:00+08:00",
+      "end": "2026-09-18T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 13.7,
+        "remainDays": 0,
+        "totalDays": 13.7
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "playable": false,
+      "category": "gacha"
     }
   ]
 }
