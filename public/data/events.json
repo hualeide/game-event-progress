@@ -1,9 +1,9 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-19T00:24:02.742612+08:00",
+  "fetchedAt": "2026-09-19T04:54:39.270713+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 7,
   "notes": [
     "9128 跳过：月行水上 历程报告",
     "8210 跳过：中秋节未成年人 游戏限时通知",
@@ -22,7 +22,6 @@
     "8219 寻访「中坚寻访」用展示日估时",
     "4848 寻访「常驻标准寻访」用展示日估时",
     "4849 寻访「中坚寻访」用展示日估时",
-    "补全寻访卡「石白深蓝之夜」（无独立海报公告）",
     "补全寻访卡「圣城春日学生寻访」（无独立海报公告）"
   ],
   "analysis": {
@@ -58,11 +57,11 @@
       "start": "2026-09-10T16:00:00+08:00",
       "end": "2026-09-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天3时",
-      "progress": 61.9,
+      "remain": "剩4天23时",
+      "progress": 63.2,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 5.1,
+        "elapsedDays": 8.5,
+        "remainDays": 5.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -106,11 +105,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天3时",
-      "progress": 70.2,
+      "remain": "剩5天23时",
+      "progress": 71.2,
       "days": {
-        "elapsedDays": 14.5,
-        "remainDays": 6.1,
+        "elapsedDays": 14.7,
+        "remainDays": 6.0,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -126,7 +125,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-19T00:24:02.742612+08:00",
+      "updatedAt": "2026-09-19T04:54:39.270713+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -141,11 +140,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天3时",
-      "progress": 70.2,
+      "remain": "剩5天23时",
+      "progress": 71.2,
       "days": {
-        "elapsedDays": 14.5,
-        "remainDays": 6.1,
+        "elapsedDays": 14.7,
+        "remainDays": 6.0,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -175,11 +174,11 @@
       "start": "2026-09-17T16:00:00+08:00",
       "end": "2026-10-01T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天3时",
-      "progress": 10.0,
+      "remain": "剩11天23时",
+      "progress": 11.4,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.1,
+        "elapsedDays": 1.5,
+        "remainDays": 12.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -215,9 +214,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 1.6,
+        "remainDays": 1.5,
         "totalDays": 9.5,
-        "untilStartDays": 1.6
+        "untilStartDays": 1.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -279,9 +278,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 1.6,
+        "remainDays": 1.5,
         "totalDays": 13.5,
-        "untilStartDays": 1.6
+        "untilStartDays": 1.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -324,40 +323,6 @@
       "playable": false,
       "category": "gacha",
       "fuzzy": true
-    },
-    {
-      "id": "gacha-b66c5cf1e0",
-      "title": "【石白深蓝之夜】限时寻访",
-      "header": "「石白深蓝之夜」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-19T00:24:02.742612+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-09-04T12:00:00+08:00",
-          "end": "2026-09-18T03:59:00+08:00",
-          "raw": "【石白深蓝之夜】限时寻访开启 活动时间： 09月04日 12:00 - 09月18日 03:59"
-        }
-      ],
-      "summary": "卡池「石白深蓝之夜」",
-      "textPreview": "",
-      "start": "2026-09-04T12:00:00+08:00",
-      "end": "2026-09-18T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "playable": false,
-      "category": "gacha"
     }
   ]
 }
