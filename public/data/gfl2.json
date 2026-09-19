@@ -1,72 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-09-19T12:39:05.324554+08:00",
+  "fetchedAt": "2026-09-19T19:00:02.048646+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 4,
+  "count": 1,
   "notes": [],
   "events": [
-    {
-      "id": "2104",
-      "title": "【限时活动】「裂变·深度搜索」即将开启！",
-      "header": "【限时活动】「裂变·深度搜索」即将开启！",
-      "banner": "./covers/gfl2-2104-c375d80e.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2104",
-      "start": "2026-09-16T05:00:00+08:00",
-      "end": "2026-09-22T04:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2天16时",
-      "progress": 55.3,
-      "days": {
-        "elapsedDays": 3.3,
-        "remainDays": 2.7,
-        "totalDays": 6.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-16T05:00:00+08:00",
-          "end": "2026-09-22T04:59:00+08:00",
-          "raw": "9月16日5:00~9月22日4:59"
-        }
-      ],
-      "summary": "【限时活动】「裂变·深度搜索」即将开启！"
-    },
-    {
-      "id": "2102",
-      "title": "【限时活动】「模拟习练」即将开启！",
-      "header": "【限时活动】「模拟习练」即将开启！",
-      "banner": "./covers/gfl2-2102-7483a950.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2102",
-      "start": "2026-09-10T05:00:00+08:00",
-      "end": "2026-09-22T08:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2天20时",
-      "progress": 76.6,
-      "days": {
-        "elapsedDays": 9.3,
-        "remainDays": 2.8,
-        "totalDays": 12.2
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-10T05:00:00+08:00",
-          "end": "2026-09-22T08:59:00+08:00",
-          "raw": "9月10日5:00~9月22日8:59"
-        }
-      ],
-      "summary": "【限时活动】「模拟习练」即将开启！"
-    },
     {
       "id": "2105",
       "title": "【限时活动】「情报补给」即将开启！",
@@ -76,11 +16,11 @@
       "start": "2026-09-19T05:00:00+08:00",
       "end": "2026-09-24T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天16时",
-      "progress": 6.4,
+      "remain": "剩4天9时",
+      "progress": 11.7,
       "days": {
-        "elapsedDays": 0.3,
-        "remainDays": 4.7,
+        "elapsedDays": 0.6,
+        "remainDays": 4.4,
         "totalDays": 5.0
       },
       "hasSchedule": true,
@@ -96,36 +36,6 @@
         }
       ],
       "summary": "【限时活动】「情报补给」即将开启！"
-    },
-    {
-      "id": "2103",
-      "title": "【限时活动】「战前补给」七日签到活动即将开启",
-      "header": "【限时活动】「战前补给」七日签到活动即将开启",
-      "banner": "./covers/gfl2-2103-8841925c.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2103",
-      "start": "2026-09-15T05:00:00+08:00",
-      "end": "2026-09-25T04:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩5天16时",
-      "progress": 43.2,
-      "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 5.7,
-        "totalDays": 10.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动时间",
-          "start": "2026-09-15T05:00:00+08:00",
-          "end": "2026-09-25T04:59:00+08:00",
-          "raw": "9月15日05:00~9月25日04:59"
-        }
-      ],
-      "summary": "【限时活动】「战前补给」七日签到活动即将开启"
     }
   ]
 }
