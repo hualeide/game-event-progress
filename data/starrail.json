@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-09-21T00:06:45.992593+08:00",
+  "fetchedAt": "2026-09-21T04:49:33.075930+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 15,
+  "count": 14,
   "notes": [
     "跳过 4.5版本「挥掷千星的筹码」满意度调研问卷",
     "跳过 4.5版本游戏优化及已知问题说明",
@@ -25,11 +25,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天5时",
-      "progress": 80.8,
+      "remain": "剩7天1时",
+      "progress": 81.3,
       "days": {
-        "elapsedDays": 30.5,
-        "remainDays": 7.2,
+        "elapsedDays": 30.7,
+        "remainDays": 7.0,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天5时",
-      "progress": 80.8,
+      "remain": "剩7天1时",
+      "progress": 81.3,
       "days": {
-        "elapsedDays": 30.5,
-        "remainDays": 7.2,
+        "elapsedDays": 30.7,
+        "remainDays": 7.0,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -63,29 +63,6 @@
       "summary": "4.5版本开拓任务说明"
     },
     {
-      "id": "1391",
-      "title": "「位面分裂」活动：位面饰品限时双倍掉落",
-      "header": "「「位面分裂」活动说明」",
-      "banner": "./covers/starrail-1391-4a47f239.png",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-09-06T11:00:00+08:00",
-      "end": "2026-09-21T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 98.9,
-      "days": {
-        "elapsedDays": 14.5,
-        "remainDays": 0.2,
-        "totalDays": 14.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「位面分裂」活动说明"
-    },
-    {
       "id": "1392",
       "title": "「异器盈界」活动：隧洞遗器限时双倍掉落",
       "header": "「「异器盈界」活动说明」",
@@ -94,11 +71,11 @@
       "start": "2026-09-17T12:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 32.9,
+      "remain": "剩6天23时",
+      "progress": 34.7,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 7.2,
+        "elapsedDays": 3.7,
+        "remainDays": 7.0,
         "totalDays": 10.7
       },
       "hasSchedule": true,
@@ -117,11 +94,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 53.4,
+      "remain": "剩6天23时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 8.2,
-        "remainDays": 7.2,
+        "elapsedDays": 8.4,
+        "remainDays": 7.0,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -140,11 +117,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 53.4,
+      "remain": "剩6天23时",
+      "progress": 54.7,
       "days": {
-        "elapsedDays": 8.2,
-        "remainDays": 7.2,
+        "elapsedDays": 8.4,
+        "remainDays": 7.0,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -163,11 +140,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天5时",
-      "progress": 83.7,
+      "remain": "剩7天1时",
+      "progress": 84.1,
       "days": {
-        "elapsedDays": 37.2,
-        "remainDays": 7.2,
+        "elapsedDays": 37.4,
+        "remainDays": 7.0,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -186,11 +163,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 82.8,
+      "remain": "剩6天23时",
+      "progress": 83.3,
       "days": {
-        "elapsedDays": 34.5,
-        "remainDays": 7.2,
+        "elapsedDays": 34.7,
+        "remainDays": 7.0,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -209,11 +186,11 @@
       "start": "2026-09-16T18:00:00+08:00",
       "end": "2026-09-22T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天17时",
-      "progress": 70.9,
+      "remain": "剩1天13时",
+      "progress": 74.2,
       "days": {
-        "elapsedDays": 4.3,
-        "remainDays": 1.7,
+        "elapsedDays": 4.5,
+        "remainDays": 1.5,
         "totalDays": 6.0
       },
       "hasSchedule": true,
@@ -236,7 +213,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.6,
         "totalDays": 23.4
       },
       "hasSchedule": true,
@@ -259,7 +236,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 50.9,
+        "remainDays": 50.7,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -282,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.6,
         "totalDays": 23.4
       },
       "hasSchedule": true,
@@ -305,7 +282,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 50.9,
+        "remainDays": 50.7,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -328,7 +305,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 50.9,
+        "remainDays": 50.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -351,7 +328,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 50.9,
+        "remainDays": 50.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
