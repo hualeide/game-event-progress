@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-21T04:49:35.367308+08:00",
+  "fetchedAt": "2026-09-21T12:56:20.949453+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 9,
   "notes": [
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩27天23时",
-      "progress": 31.2,
+      "remain": "剩27天15时",
+      "progress": 32.0,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 28.0,
+        "elapsedDays": 13.0,
+        "remainDays": 27.6,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩30天1时",
-      "progress": 29.6,
+      "remain": "剩29天17时",
+      "progress": 30.4,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 30.0,
+        "elapsedDays": 13.0,
+        "remainDays": 29.7,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩28天23时",
-      "progress": 30.4,
+      "remain": "剩28天15时",
+      "progress": 31.2,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 29.0,
+        "elapsedDays": 13.0,
+        "remainDays": 28.6,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天1时",
-      "progress": 29.5,
+      "remain": "剩29天17时",
+      "progress": 30.3,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 30.0,
+        "elapsedDays": 12.9,
+        "remainDays": 29.7,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-14T12:00:00+08:00",
       "end": "2026-10-05T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 32.4,
+      "remain": "剩13天15时",
+      "progress": 34.1,
       "days": {
-        "elapsedDays": 6.7,
-        "remainDays": 14.0,
+        "elapsedDays": 7.0,
+        "remainDays": 13.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-09-19T13:00:00+08:00",
       "end": "2026-09-29T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩8天19时",
-      "progress": 15.9,
+      "remain": "剩8天11时",
+      "progress": 19.1,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 8.8,
+        "elapsedDays": 2.0,
+        "remainDays": 8.5,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -155,6 +155,29 @@
       "summary": "洛克茜养成材料预告"
     },
     {
+      "id": "1303",
+      "title": "「先遣赏金-区域巡防」活动说明",
+      "header": "「「先遣赏金-区域巡防」活动说明」",
+      "banner": "./covers/zzz-1303-78f4567c.png",
+      "link": "https://zzz.mihoyo.com/",
+      "start": "2026-09-21T12:30:00+08:00",
+      "end": "2026-09-28T03:59:59+08:00",
+      "status": "进行中",
+      "remain": "剩6天15时",
+      "progress": 0.3,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 6.6,
+        "totalDays": 6.6
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「先遣赏金-区域巡防」活动说明"
+    },
+    {
       "id": "1313",
       "title": "新品情报丨2026AW服饰等多款周边上新",
       "header": "「新品情报丨2026AW服饰等多款周边上新」",
@@ -163,11 +186,11 @@
       "start": "2026-09-01T12:00:00+08:00",
       "end": "2026-09-23T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩2天19时",
-      "progress": 87.6,
+      "remain": "剩2天11时",
+      "progress": 89.1,
       "days": {
-        "elapsedDays": 19.7,
-        "remainDays": 2.8,
+        "elapsedDays": 20.0,
+        "remainDays": 2.5,
         "totalDays": 22.5
       },
       "hasSchedule": true,
@@ -186,11 +209,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩19天19时",
-      "progress": 37.1,
+      "remain": "剩19天11时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 11.7,
-        "remainDays": 19.8,
+        "elapsedDays": 12.0,
+        "remainDays": 19.5,
         "totalDays": 31.5
       },
       "hasSchedule": true,
