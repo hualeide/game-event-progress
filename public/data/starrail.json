@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-09-22T12:57:15.234505+08:00",
+  "fetchedAt": "2026-09-22T19:38:57.422084+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 14,
+  "count": 13,
   "notes": [
     "跳过 4.5版本「挥掷千星的筹码」满意度调研问卷",
     "跳过 4.5版本游戏优化及已知问题说明",
@@ -25,11 +25,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天17时",
-      "progress": 84.9,
+      "remain": "剩5天10时",
+      "progress": 85.6,
       "days": {
-        "elapsedDays": 32.0,
-        "remainDays": 5.7,
+        "elapsedDays": 32.3,
+        "remainDays": 5.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-08-21T13:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天17时",
-      "progress": 84.9,
+      "remain": "剩5天10时",
+      "progress": 85.6,
       "days": {
-        "elapsedDays": 32.0,
-        "remainDays": 5.7,
+        "elapsedDays": 32.3,
+        "remainDays": 5.4,
         "totalDays": 37.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-17T12:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 47.3,
+      "remain": "剩5天8时",
+      "progress": 49.9,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 5.6,
+        "elapsedDays": 5.3,
+        "remainDays": 5.3,
         "totalDays": 10.7
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 63.4,
+      "remain": "剩5天8时",
+      "progress": 65.2,
       "days": {
-        "elapsedDays": 9.7,
-        "remainDays": 5.6,
+        "elapsedDays": 10.0,
+        "remainDays": 5.3,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-12T19:00:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 63.4,
+      "remain": "剩5天8时",
+      "progress": 65.2,
       "days": {
-        "elapsedDays": 9.7,
-        "remainDays": 5.6,
+        "elapsedDays": 10.0,
+        "remainDays": 5.3,
         "totalDays": 15.4
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-08-14T20:00:00+08:00",
       "end": "2026-09-28T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天17时",
-      "progress": 87.1,
+      "remain": "剩5天10时",
+      "progress": 87.8,
       "days": {
-        "elapsedDays": 38.7,
-        "remainDays": 5.7,
+        "elapsedDays": 39.0,
+        "remainDays": 5.4,
         "totalDays": 44.4
       },
       "hasSchedule": true,
@@ -163,11 +163,11 @@
       "start": "2026-08-17T11:30:00+08:00",
       "end": "2026-09-28T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 86.5,
+      "remain": "剩5天8时",
+      "progress": 87.2,
       "days": {
-        "elapsedDays": 36.1,
-        "remainDays": 5.6,
+        "elapsedDays": 36.3,
+        "remainDays": 5.3,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -176,29 +176,6 @@
       "category": "event",
       "allRanges": [],
       "summary": "「无名勋礼」更新说明"
-    },
-    {
-      "id": "1429",
-      "title": "周边上新 手办服饰多款新品登场",
-      "header": "「周边上新 手办服饰多款新品登场」",
-      "banner": "./covers/starrail-1429-9ce00f7e.jpg",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-09-16T18:00:00+08:00",
-      "end": "2026-09-22T18:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩5小时",
-      "progress": 96.5,
-      "days": {
-        "elapsedDays": 5.8,
-        "remainDays": 0.2,
-        "totalDays": 6.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "周边上新 手办服饰多款新品登场"
     },
     {
       "id": "sr-banner-96",
@@ -213,7 +190,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.3,
+        "remainDays": 29.0,
         "totalDays": 23.4
       },
       "hasSchedule": true,
@@ -236,7 +213,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 49.4,
+        "remainDays": 49.1,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -259,7 +236,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.3,
+        "remainDays": 29.0,
         "totalDays": 23.4
       },
       "hasSchedule": true,
@@ -282,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 49.4,
+        "remainDays": 49.1,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -301,11 +278,11 @@
       "start": "2026-10-21T19:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "29天后",
+      "remain": "28天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 49.4,
+        "remainDays": 49.1,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -324,11 +301,11 @@
       "start": "2026-10-21T19:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "29天后",
+      "remain": "28天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 49.4,
+        "remainDays": 49.1,
         "totalDays": 20.1
       },
       "hasSchedule": true,
