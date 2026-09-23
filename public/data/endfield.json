@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-09-23T12:45:31.429010+08:00",
+  "fetchedAt": "2026-09-23T19:37:15.429666+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
@@ -10,8 +10,7 @@
     "4775 跳过：完成高校认证，领专属福利",
     "1164 跳过：「雪凇幽梦」版本预下载与更新预告",
     "4776 跳过：「雪凇幽梦」版本研发通讯",
-    "7216 已过期：「明曜申领」限时特卖说明",
-    "3809 跳过：【2026年08月06日】封禁处理公示"
+    "7216 已过期：「明曜申领」限时特卖说明"
   ],
   "events": [
     {
@@ -23,11 +22,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 76.3,
+      "remain": "剩13天16时",
+      "progress": 76.8,
       "days": {
-        "elapsedDays": 45.0,
-        "remainDays": 14.0,
+        "elapsedDays": 45.3,
+        "remainDays": 13.7,
         "totalDays": 59.0
       },
       "hasSchedule": true,
@@ -56,11 +55,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 75.1,
+      "remain": "剩6天16时",
+      "progress": 76.1,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 7.0,
+        "elapsedDays": 21.3,
+        "remainDays": 6.7,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -90,11 +89,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-26T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天23时",
-      "progress": 87.6,
+      "remain": "剩2天16时",
+      "progress": 88.8,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 3.0,
+        "elapsedDays": 21.3,
+        "remainDays": 2.7,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -115,52 +114,19 @@
       "updatedAt": "2026-09-01T12:30:00+08:00"
     },
     {
-      "id": "2653-gacha-绚丽异彩",
-      "title": "「绚丽异彩」特许寻访",
-      "header": "「绚丽异彩」",
-      "banner": "./covers/ef-gacha-2653-498ad64948-7f063623.jpg",
-      "link": "https://endfield.hypergryph.com/news/2653",
-      "start": "2026-09-24T12:00:00+08:00",
-      "end": "2026-10-08T12:00:00+08:00",
-      "status": "即将开始",
-      "remain": "23小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 15.0,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "卡池 · 绚丽异彩",
-          "start": "2026-09-24T12:00:00+08:00",
-          "end": "2026-10-08T12:00:00+08:00",
-          "raw": "开放时间：2026/09/24 12:00 - 版本更新维护前",
-          "fuzzy": true,
-          "category": "gacha"
-        }
-      ],
-      "summary": "绚丽异彩 · 「绚丽异彩」重构寻访#1中，6星干员【伊冯】获取概率提升，全部可能出现的6星干员包括：伊冯/余烬/黎风/艾尔黛拉/别礼/骏卫。 · 奖励：【伊冯】",
-      "body": "· 开放时间：2026/09/24 12:00（服务器时间） - 版本更新维护前\n · 寻访说明：「绚丽异彩」重构寻访#1中，6星干员【伊冯】获取概率提升，全部可能出现的6星干员包括：伊冯/余烬/黎风/艾尔黛拉/别礼/骏卫。\n ※ 「绚丽异彩」属于全新的寻访类型「重构寻访」，寻访规则与其他的干员寻访不同。\n \n 4.「点绘申领」重构申领#1"
-    },
-    {
       "id": "2653-gacha-点绘申领",
       "title": "「点绘申领」",
       "header": "「点绘申领」",
-      "banner": "./covers/ef-gacha-2653-fcdb4dce4e-7b1eb6c9.jpg",
+      "banner": "./covers/ef-gacha-2653-fcdb4dce4e-e36ad190.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "16小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.0,
+        "remainDays": 14.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -181,6 +147,38 @@
       "body": "· 开放时间：2026/09/24 12:00（服务器时间） - 版本更新维护前\n · 申领说明：「点绘申领」重构申领#1中，概率提升的6星武器为【艺术暴君（手铳）】，全部可能出现的6星武器包括：艺术暴君（手铳）/楔子（手铳）/扶摇（单手剑）/白夜新星（单手剑）/J.E.T.（长柄武器）/骑士精神（施术单元）/破碎君王（双手剑）。\n ※ 「点绘申领」属于全新的申领类型「重构申领」，申领规则与其他的武库申领不同。\n \n ※ 更多寻访及申领的详细说明，请前往游戏内查看。\n \n 1.「雾隐冬梦深林中」叙事活动"
     },
     {
+      "id": "2651",
+      "title": "「绚丽异彩」重构寻访#1与「点绘申领」重构申领#1开放",
+      "header": "「绚丽异彩」",
+      "banner": "./covers/ef-2651-d30fe6e1.png",
+      "link": "https://endfield.hypergryph.com/news/2651",
+      "start": "2026-09-24T12:00:00+08:00",
+      "end": "2026-10-08T12:00:00+08:00",
+      "status": "即将开始",
+      "remain": "16小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 14.7,
+        "totalDays": 14.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "估时（寻访）",
+          "start": "2026-09-24T12:00:00+08:00",
+          "end": "2026-10-08T12:00:00+08:00",
+          "raw": "single-node"
+        }
+      ],
+      "summary": "亲爱的管理员：「绚丽异彩」重构寻访#1开放期间，6星干员【伊冯】获取概率提升！「点绘申领」重构申领#1开放期间，6星武器【艺术暴君（手铳）】获取概率提升！▼//开放时间2026/09/24 12:00",
+      "body": "亲爱的管理员： \n 「绚丽异彩」重构寻访#1开放期间，6星干员【伊冯】获取概率提升！ \n 「点绘申领」重构申领#1开放期间，6星武器【艺术暴君（手铳）】获取概率提升！ \n \n ▼//开放时间 \n 2026/09/24 12:00（服务器时间） - 版本更新维护前 \n \n ▼//开放条件 \n 完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n \n ▼//「绚丽异彩」重构寻访#1说明 \n ■ 寻访说明 \n 「绚丽异彩」重构寻访中，概率提升的6星干员为【伊冯】。在本寻访中，前120次寻访必定能获取6星干员【伊冯】，该规则在所有「绚丽异彩」重构寻访中仅生效1次。该计数将继承到后续的「绚丽异彩」重构寻访中。 \n \n ■ 寻访奖励 \n 「绚丽异彩」重构寻访中，累计达到指定寻访次数，即可获得对应奖励。其中累计的寻访次数，将继承至后续的「绚丽异彩」重构寻访中。 \n \n · 加急招募 \n 累计寻访次数达到30/60/90次时，将分别额外获得10次加急招募（即分别额外获得1次免费十连），该规则在所有「绚丽异彩」重构寻访中仅生效1次。未使用的加急招募，将保留到后续的「绚丽异彩」重构寻访中。 \n \n · 信物赠礼 \n 在所有「绚丽异彩」重构寻访中，每累计寻访240次，可额外获得【伊冯的信物】×1。该计数将继承到后续的「绚丽异彩」重构寻访中。 \n \n ▼//「点绘申领」重构申领#1说明 \n ■ 申领说明 \n · 「点绘申领」重构申领中，概率提升的6星武器为【艺术暴君（手铳）】。 \n · 在本申领中，如果连续3次申领均没有获取6星武器，则第4次申领必定获得6星武器。该保底计数仅在「点绘申领」重构申领#1中生效，不会继承到其他申领（含后续的「点绘申领」重构申领）中。 \n · 在本申领中，如果前7次申领均没有获取概率提升的6星武器，则第8次申领必定获得概率提升的6星武器。该规则在所有「点绘申领」重构申领中仅生效1次。该保底计数将继承到后续的「点绘申领」重构申领中。 \n \n ■ 申领奖励 \n 累计达到指定重构申领次数，即可交替获得【补充武库箱·点绘】或【艺术暴君（手铳）】。累计的重构申领次数，将继承到后续的「点绘申领」重构申领中。 \n \n ※ 更多详细说明，请前往游戏内查看。",
+      "updatedAt": "2026-09-23T18:00:00+08:00"
+    },
+    {
       "id": "2653-combat-丰碑留名刻影",
       "title": "「丰碑留名·刻影」",
       "header": "「丰碑留名·刻影」",
@@ -193,7 +191,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.6,
+        "remainDays": 25.3,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -221,11 +219,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 75.1,
+      "remain": "剩6天16时",
+      "progress": 76.1,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 7.0,
+        "elapsedDays": 21.3,
+        "remainDays": 6.7,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -249,16 +247,16 @@
       "id": "2653-event-虚像赛季",
       "title": "「虚像赛季」",
       "header": "「虚像赛季」",
-      "banner": "./covers/ef-event-2653-7e2522bb52-a1d46665.jpg",
+      "banner": "./covers/ef-event-2653-7e2522bb52-deb91ea3.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-24T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.6,
+      "remain": "剩16小时",
+      "progress": 96.9,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 1.0,
+        "elapsedDays": 21.3,
+        "remainDays": 0.7,
         "totalDays": 22.0
       },
       "hasSchedule": true,
@@ -287,11 +285,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 75.1,
+      "remain": "剩6天16时",
+      "progress": 76.1,
       "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 7.0,
+        "elapsedDays": 21.3,
+        "remainDays": 6.7,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -407,11 +405,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 50.1,
+      "remain": "剩13天16时",
+      "progress": 51.1,
       "days": {
-        "elapsedDays": 14.0,
-        "remainDays": 14.0,
+        "elapsedDays": 14.3,
+        "remainDays": 13.7,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -440,11 +438,11 @@
       "start": "2026-09-16T12:00:00+08:00",
       "end": "2026-09-30T16:00:00+08:00",
       "status": "进行中",
-      "remain": "剩7天3时",
-      "progress": 49.6,
+      "remain": "剩6天20时",
+      "progress": 51.7,
       "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 7.1,
+        "elapsedDays": 7.3,
+        "remainDays": 6.8,
         "totalDays": 14.2
       },
       "hasSchedule": true,
@@ -472,11 +470,11 @@
       "start": "2026-09-17T04:00:00+08:00",
       "end": "2026-09-24T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩15小时",
-      "progress": 90.9,
+      "remain": "剩8小时",
+      "progress": 95.0,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 0.6,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -511,11 +509,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "16小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.0,
+        "remainDays": 14.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -539,16 +537,16 @@
       "id": "2653-event-于钟鸣的旧城",
       "title": "「于钟鸣的旧城」",
       "header": "「于钟鸣的旧城」",
-      "banner": "./covers/ef-event-2653-1fcea26999-71569257.jpg",
+      "banner": "./covers/ef-event-2653-1fcea26999-7f063623.jpg",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "16小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.0,
+        "remainDays": 14.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -572,16 +570,16 @@
       "id": "2653-event-错视赛季",
       "title": "「错视赛季」",
       "header": "「错视赛季」",
-      "banner": "./covers/ef-event-2653-1fac0662e3-4f2aa1b7.jpg",
+      "banner": "./covers/ef-event-2653-1fac0662e3-f95653eb.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "16小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.0,
+        "remainDays": 14.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -605,7 +603,7 @@
       "id": "2653-event-陵水渡秋",
       "title": "「陵水渡秋」",
       "header": "「陵水渡秋」",
-      "banner": "./covers/ef-event-2653-acc5c69f39-e2e703ce.png",
+      "banner": "./covers/ef-event-2653-acc5c69f39-c6104bf2.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
@@ -614,7 +612,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.0,
+        "remainDays": 21.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -638,7 +636,7 @@
       "id": "2653-event-跑者运动会",
       "title": "「跑者运动会」",
       "header": "「跑者运动会」",
-      "banner": "./covers/ef-event-2653-5fa4d266ba-deb91ea3.png",
+      "banner": "./covers/ef-event-2653-5fa4d266ba-71569257.jpg",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
@@ -647,7 +645,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.0,
+        "remainDays": 21.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -671,7 +669,7 @@
       "id": "2653-event-融合山团团",
       "title": "「融合！山团团！」",
       "header": "「融合！山团团！」",
-      "banner": "./covers/ef-event-2653-b81b3fdedc-f95653eb.png",
+      "banner": "./covers/ef-event-2653-b81b3fdedc-e2e703ce.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
@@ -680,7 +678,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.0,
+        "remainDays": 21.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
