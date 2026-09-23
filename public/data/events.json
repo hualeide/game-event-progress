@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-23T05:19:15.843694+08:00",
+  "fetchedAt": "2026-09-23T12:45:18.795945+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-09-10T16:00:00+08:00",
       "end": "2026-09-24T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 93.0,
+      "remain": "剩15小时",
+      "progress": 95.3,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 0.9,
+        "elapsedDays": 12.9,
+        "remainDays": 0.6,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -104,11 +104,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天22时",
-      "progress": 90.6,
+      "remain": "剩1天15时",
+      "progress": 92.1,
       "days": {
-        "elapsedDays": 18.7,
-        "remainDays": 1.9,
+        "elapsedDays": 19.0,
+        "remainDays": 1.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -124,7 +124,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-23T05:19:15.843694+08:00",
+      "updatedAt": "2026-09-23T12:45:18.795945+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -139,11 +139,11 @@
       "start": "2026-09-04T12:00:00+08:00",
       "end": "2026-09-25T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天22时",
-      "progress": 90.6,
+      "remain": "剩1天15时",
+      "progress": 92.1,
       "days": {
-        "elapsedDays": 18.7,
-        "remainDays": 1.9,
+        "elapsedDays": 19.0,
+        "remainDays": 1.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -173,11 +173,11 @@
       "start": "2026-09-17T16:00:00+08:00",
       "end": "2026-10-01T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天22时",
-      "progress": 41.2,
+      "remain": "剩7天15时",
+      "progress": 43.4,
       "days": {
-        "elapsedDays": 5.6,
-        "remainDays": 7.9,
+        "elapsedDays": 5.9,
+        "remainDays": 7.6,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -239,11 +239,11 @@
       "start": "2026-09-20T16:00:00+08:00",
       "end": "2026-10-04T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天22时",
-      "progress": 18.9,
+      "remain": "剩10天15时",
+      "progress": 21.2,
       "days": {
-        "elapsedDays": 2.6,
-        "remainDays": 10.9,
+        "elapsedDays": 2.9,
+        "remainDays": 10.6,
         "totalDays": 13.5
       },
       "hasSchedule": true,
