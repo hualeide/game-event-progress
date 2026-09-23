@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-23T05:19:34.529876+08:00",
+  "fetchedAt": "2026-09-24T00:58:58.748612+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 9,
+  "count": 8,
   "notes": [
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩25天22时",
-      "progress": 36.2,
+      "remain": "剩25天3时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 25.9,
+        "elapsedDays": 15.5,
+        "remainDays": 25.1,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩28天",
-      "progress": 34.4,
+      "remain": "剩27天5时",
+      "progress": 36.3,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 28.0,
+        "elapsedDays": 15.5,
+        "remainDays": 27.2,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩26天22时",
-      "progress": 35.3,
+      "remain": "剩26天3时",
+      "progress": 37.2,
       "days": {
-        "elapsedDays": 14.7,
-        "remainDays": 26.9,
+        "elapsedDays": 15.5,
+        "remainDays": 26.1,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩28天",
-      "progress": 34.2,
+      "remain": "剩27天5时",
+      "progress": 36.2,
       "days": {
-        "elapsedDays": 14.6,
-        "remainDays": 28.0,
+        "elapsedDays": 15.4,
+        "remainDays": 27.2,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-14T12:00:00+08:00",
       "end": "2026-10-05T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩11天22时",
-      "progress": 42.2,
+      "remain": "剩11天3时",
+      "progress": 46.2,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 11.9,
+        "elapsedDays": 9.5,
+        "remainDays": 11.1,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-09-19T13:00:00+08:00",
       "end": "2026-09-29T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩6天18时",
-      "progress": 35.2,
+      "remain": "剩5天23时",
+      "progress": 43.0,
       "days": {
-        "elapsedDays": 3.7,
-        "remainDays": 6.8,
+        "elapsedDays": 4.5,
+        "remainDays": 6.0,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -163,11 +163,11 @@
       "start": "2026-09-21T12:30:00+08:00",
       "end": "2026-09-28T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩4天22时",
-      "progress": 25.6,
+      "remain": "剩4天3时",
+      "progress": 37.9,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 4.9,
+        "elapsedDays": 2.5,
+        "remainDays": 4.1,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -178,29 +178,6 @@
       "summary": "「先遣赏金-区域巡防」活动说明"
     },
     {
-      "id": "1313",
-      "title": "新品情报丨2026AW服饰等多款周边上新",
-      "header": "「新品情报丨2026AW服饰等多款周边上新」",
-      "banner": "./covers/zzz-1313-4f1b867a.jpg",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-09-01T12:00:00+08:00",
-      "end": "2026-09-23T23:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩18小时",
-      "progress": 96.5,
-      "days": {
-        "elapsedDays": 21.7,
-        "remainDays": 0.8,
-        "totalDays": 22.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "新品情报丨2026AW服饰等多款周边上新"
-    },
-    {
       "id": "1322",
       "title": "「维尔乌姆假日相册」网页活动开启",
       "header": "「「维尔乌姆假日相册」网页活动」",
@@ -209,11 +186,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩17天18时",
-      "progress": 43.6,
+      "remain": "剩16天23时",
+      "progress": 46.2,
       "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 17.8,
+        "elapsedDays": 14.5,
+        "remainDays": 17.0,
         "totalDays": 31.5
       },
       "hasSchedule": true,
