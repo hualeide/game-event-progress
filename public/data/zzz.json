@@ -1,7 +1,7 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-24T12:51:21.668129+08:00",
+  "fetchedAt": "2026-09-24T19:46:29.450590+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩24天15时",
-      "progress": 39.4,
+      "remain": "剩24天8时",
+      "progress": 40.1,
       "days": {
-        "elapsedDays": 16.0,
-        "remainDays": 24.6,
+        "elapsedDays": 16.3,
+        "remainDays": 24.3,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩26天17时",
-      "progress": 37.4,
+      "remain": "剩26天10时",
+      "progress": 38.1,
       "days": {
-        "elapsedDays": 16.0,
-        "remainDays": 26.7,
+        "elapsedDays": 16.3,
+        "remainDays": 26.4,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩25天15时",
-      "progress": 38.4,
+      "remain": "剩25天8时",
+      "progress": 39.1,
       "days": {
-        "elapsedDays": 16.0,
-        "remainDays": 25.6,
+        "elapsedDays": 16.3,
+        "remainDays": 25.3,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩26天17时",
-      "progress": 37.3,
+      "remain": "剩26天10时",
+      "progress": 38.0,
       "days": {
-        "elapsedDays": 15.9,
-        "remainDays": 26.7,
+        "elapsedDays": 16.2,
+        "remainDays": 26.4,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-14T12:00:00+08:00",
       "end": "2026-10-05T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩10天15时",
-      "progress": 48.6,
+      "remain": "剩10天8时",
+      "progress": 50.0,
       "days": {
-        "elapsedDays": 10.0,
-        "remainDays": 10.6,
+        "elapsedDays": 10.3,
+        "remainDays": 10.3,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-09-19T13:00:00+08:00",
       "end": "2026-09-29T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩5天11时",
-      "progress": 47.8,
+      "remain": "剩5天4时",
+      "progress": 50.5,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 5.5,
+        "elapsedDays": 5.3,
+        "remainDays": 5.2,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -163,11 +163,11 @@
       "start": "2026-09-21T12:30:00+08:00",
       "end": "2026-09-28T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩3天15时",
-      "progress": 45.4,
+      "remain": "剩3天8时",
+      "progress": 49.7,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 3.6,
+        "elapsedDays": 3.3,
+        "remainDays": 3.3,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -186,11 +186,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩16天11时",
-      "progress": 47.7,
+      "remain": "剩16天4时",
+      "progress": 48.6,
       "days": {
-        "elapsedDays": 15.0,
-        "remainDays": 16.5,
+        "elapsedDays": 15.3,
+        "remainDays": 16.2,
         "totalDays": 31.5
       },
       "hasSchedule": true,

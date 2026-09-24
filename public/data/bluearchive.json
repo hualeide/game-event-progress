@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-09-24T12:51:03.837894+08:00",
+  "fetchedAt": "2026-09-24T19:46:05.442070+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-09-09T00:00:00+08:00",
       "end": "2026-10-02T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天1时",
-      "progress": 65.9,
+      "remain": "剩7天18时",
+      "progress": 67.1,
       "days": {
-        "elapsedDays": 15.5,
-        "remainDays": 8.0,
+        "elapsedDays": 15.8,
+        "remainDays": 7.8,
         "totalDays": 23.6
       },
       "hasSchedule": true,
@@ -96,42 +96,6 @@
       "summary": "在崔尼蒂地区古圣堂遗迹地下所发现的神秘存在。 \n 希罗尼穆斯，传说是被称为【诸圣相通】的人造天使系列的完成品，也有传闻说是数秘会根据太古教义制作出来的实验体。 \n 不能对希罗尼穆斯压倒性的力量放任不管，为了基沃托斯的和平，必须马上行动！ \n  \n ■ 活动时间 \n • 赛季持续时间：09月03日 14:00 ~ 09月…"
     },
     {
-      "id": "1931",
-      "title": "【预告】总力战：格兹 • 室内战",
-      "header": "「总力战·格兹 • 室内战」",
-      "banner": "./covers/ba-1931-b3439ce5.png",
-      "link": "https://bluearchive-cn.com/news/1931",
-      "start": "2026-09-18T00:00:00+08:00",
-      "end": "2026-09-24T13:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩1小时",
-      "progress": 99.3,
-      "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.0,
-        "totalDays": 6.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-09-17T04:00:00+08:00",
-          "end": "2026-09-17T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：09月17日 04:00 ~ 09月17日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-09-18T00:00:00+08:00",
-          "end": "2026-09-24T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：09月18日 00:00 ~ 09月24日 13:59"
-        }
-      ],
-      "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶格兹在空荡荡的【斯兰匹亚】继续唱着只属于自己的独角戏。 \n 隐藏在那奇异微笑下的本性究竟是善还是恶？我们难以推测。 \n  \n ■ 活动简介 \n • 总力战是…"
-    },
-    {
       "id": "1929",
       "title": "【预告】无限制决战：赛特之怒 • 轻装甲",
       "header": "「无限制决战：赛特之怒 • 轻装甲」",
@@ -140,11 +104,11 @@
       "start": "2026-09-19T14:00:00+08:00",
       "end": "2026-10-08T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天15时",
-      "progress": 26.7,
+      "remain": "剩13天8时",
+      "progress": 28.2,
       "days": {
-        "elapsedDays": 5.0,
-        "remainDays": 13.6,
+        "elapsedDays": 5.2,
+        "remainDays": 13.3,
         "totalDays": 18.6
       },
       "hasSchedule": true,
@@ -170,11 +134,11 @@
       "start": "2026-09-24T04:00:00+08:00",
       "end": "2026-10-01T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天15时",
-      "progress": 5.3,
+      "remain": "剩6天8时",
+      "progress": 9.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 6.6,
+        "elapsedDays": 0.7,
+        "remainDays": 6.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -205,16 +169,16 @@
       "link": "https://bluearchive-cn.com/news/1936",
       "start": "2026-09-24T13:59:00+08:00",
       "end": "2026-10-01T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -235,16 +199,16 @@
       "link": "https://bluearchive-cn.com/news/1935",
       "start": "2026-09-24T13:59:00+08:00",
       "end": "2026-10-01T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -265,16 +229,16 @@
       "link": "https://bluearchive-cn.com/news/1934",
       "start": "2026-09-24T13:59:00+08:00",
       "end": "2026-10-01T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -295,16 +259,16 @@
       "link": "https://bluearchive-cn.com/news/1933",
       "start": "2026-09-24T13:59:00+08:00",
       "end": "2026-10-01T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -325,16 +289,16 @@
       "link": "https://bluearchive-cn.com/news/1932",
       "start": "2026-09-24T13:59:00+08:00",
       "end": "2026-10-01T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "1小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天18时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.2,
+        "remainDays": 6.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -356,11 +320,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "remainDays": 13.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -386,11 +350,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "remainDays": 13.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -416,11 +380,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "remainDays": 13.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -446,11 +410,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "remainDays": 13.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -476,11 +440,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "remainDays": 13.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -510,7 +474,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 12.0,
+        "remainDays": 11.8,
         "totalDays": 4.6
       },
       "hasSchedule": true,
@@ -546,7 +510,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.0,
+        "remainDays": 20.8,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -596,11 +560,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.0,
+        "remainDays": 20.8,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -630,7 +594,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 34.6,
+        "remainDays": 34.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -646,6 +610,42 @@
         }
       ],
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石和可互动家具，可千万不要错过啦！ \n  \n ■ 活动时间 \n 09月24日 维护结束后 ~ 10月22日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3…"
+    },
+    {
+      "id": "1931",
+      "title": "【预告】总力战：格兹 • 室内战",
+      "header": "「总力战·格兹 • 室内战」",
+      "banner": "./covers/ba-1931-b3439ce5.png",
+      "link": "https://bluearchive-cn.com/news/1931",
+      "start": "2026-09-18T00:00:00+08:00",
+      "end": "2026-09-24T13:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 6.6,
+        "remainDays": 0.0,
+        "totalDays": 6.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-09-17T04:00:00+08:00",
+          "end": "2026-09-17T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：09月17日 04:00 ~ 09月17日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-09-18T00:00:00+08:00",
+          "end": "2026-09-24T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：09月18日 00:00 ~ 09月24日 13:59"
+        }
+      ],
+      "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶格兹在空荡荡的【斯兰匹亚】继续唱着只属于自己的独角戏。 \n 隐藏在那奇异微笑下的本性究竟是善还是恶？我们难以推测。 \n  \n ■ 活动简介 \n • 总力战是…"
     }
   ]
 }
