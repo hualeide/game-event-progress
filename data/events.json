@@ -1,10 +1,12 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-09-25T12:57:37.864660+08:00",
+  "fetchedAt": "2026-09-25T19:51:35.844590+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 7,
+  "count": 8,
   "notes": [
+    "4847 通讯正文 841 字",
+    "4847 模糊预告：昨日海 10月上旬",
     "5690 解析寻访「定向甄选」时段",
     "1067 跳过：国庆节未成年人 游戏限时通知",
     "9128 跳过：月行水上 历程报告",
@@ -51,11 +53,11 @@
       "start": "2026-09-17T16:00:00+08:00",
       "end": "2026-10-01T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 58.3,
+      "remain": "剩5天8时",
+      "progress": 60.5,
       "days": {
-        "elapsedDays": 7.9,
-        "remainDays": 5.6,
+        "elapsedDays": 8.2,
+        "remainDays": 5.3,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -117,11 +119,11 @@
       "start": "2026-09-20T16:00:00+08:00",
       "end": "2026-10-04T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天15时",
-      "progress": 36.1,
+      "remain": "剩8天8时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.9,
-        "remainDays": 8.6,
+        "elapsedDays": 5.2,
+        "remainDays": 8.3,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -152,11 +154,11 @@
       "start": "2026-09-24T16:00:00+08:00",
       "end": "2026-10-08T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天15时",
-      "progress": 6.5,
+      "remain": "剩12天8时",
+      "progress": 8.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 12.6,
+        "elapsedDays": 1.2,
+        "remainDays": 12.3,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -164,6 +166,42 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260915/0b8c9956f587106bafda47bbdba56915.jpg",
       "playable": false,
       "category": "gacha",
+      "fuzzy": true
+    },
+    {
+      "id": "4847-f0",
+      "title": "预告·昨日海",
+      "header": "「昨日海」预计10月上旬开启",
+      "type": "活动",
+      "banner": "./covers/event-aa31766de8.jpg",
+      "link": "https://ak.hypergryph.com/",
+      "updatedAt": "2026-09-23T15:22:47+08:00",
+      "primaryLabel": "10月上旬（估）",
+      "allRanges": [
+        {
+          "label": "10月上旬（估）",
+          "start": "2026-10-01T16:00:00+08:00",
+          "end": "2026-10-09T16:00:00+08:00",
+          "raw": "SideStory「昨日海」限时活动将于10月上旬"
+        }
+      ],
+      "summary": "",
+      "textPreview": "感谢大家一直以来对《明日方舟》的关注与支持，很高兴和大家再次见面。在本期制作组通讯发布之际，「逐影集趣」限时活动已经开启，欢迎大家体验，同时也再次感谢大家对于此前SideStory「月行水上」的喜爱与支持。\n \n 以下，则是本次制作组通讯为大家带来的最新一期的相关活动及版本内容：\n \n 【通讯节点·一】 \n ●伊比利亚，伊比利亚。\n 人们甚至不知如何哀悼她，连悲伤都成了愤怒和仇恨。\n 她的身躯在海床上沉睡，她的灵魂在咸水中腐烂。\n 只是把这些都打捞起来，一切就都能复归原样吗？\n 伊比利亚人也好、岛民也好、异乡的阿戈尔来客也好，没人知道。\n 但他们看得到，海一直都是同一副模样，\n 昨日也好，今天也罢。\n \n ●SideStory「昨日海」限时活动将于10月上旬开启，该活动除包含全新活动关卡与剧情外，新干员和新时装以及相关主题家具也将伴随本次活动登场及上架。\n \n 【通讯节点·二】 \n ●【明日方舟×国家图书馆】「恒远津梁」限时活动将于10月中旬开启，活动期间玩家登录签到可获得活动家具，联动系列时装、头像将同步上架贩售。\n \n 【通讯节点·三】 \n ●集成战略主题【沉沦者的黑流树海】内容拓展一将于10月中旬开启，本次内容拓展将包含全新结局、关卡、分队、保密等级、生命游戏节点等内容，更多内容请关注后续官方自媒体相关介绍。\n \n 【通讯节点·四】 \n ●「视相博物馆：演化」限时活动将于10月下旬开启，该活动将开启全新的活动关卡，主题场景等奖励也可在本次活动中获取。\n \n 最后，感谢大家阅读本期制作组通讯，以下为本次的制作组通讯奖励：\n \n 奖励内容： 合成玉*200、糖组*5\n 发放时间： 09月25日17:00（邮件领取有效期：7日）\n 发放范围： 09月25日17:00前所有注册并创建角色的玩家\n \n \n *制作组通讯并不代表版本更新及活动最终内容，详细活动计划与版本更新内容等请以届时相关公告为准*\n \n \n \n 《明日方舟》制作组\n 2026年09月25日",
+      "start": "2026-10-01T16:00:00+08:00",
+      "end": "2026-10-09T16:00:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 5.8,
+        "totalDays": 8.0,
+        "untilStartDays": 5.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "playable": true,
+      "category": "combat",
       "fuzzy": true
     },
     {
@@ -200,13 +238,13 @@
       "start": "2026-09-29T16:00:00+08:00",
       "end": "2026-10-13T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.1,
+        "remainDays": 3.8,
         "totalDays": 13.5,
-        "untilStartDays": 4.1
+        "untilStartDays": 3.8
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -221,7 +259,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-09-25T12:57:37.864660+08:00",
+      "updatedAt": "2026-09-25T19:51:35.844590+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -236,13 +274,13 @@
       "start": "2026-09-29T16:00:00+08:00",
       "end": "2026-10-13T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.1,
+        "remainDays": 3.8,
         "totalDays": 13.5,
-        "untilStartDays": 4.1
+        "untilStartDays": 3.8
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -271,13 +309,13 @@
       "start": "2026-09-29T16:00:00+08:00",
       "end": "2026-10-20T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.1,
+        "remainDays": 3.8,
         "totalDays": 20.5,
-        "untilStartDays": 4.1
+        "untilStartDays": 3.8
       },
       "hasSchedule": true,
       "kind": "preview",
