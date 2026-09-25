@@ -1,9 +1,9 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-09-25T05:31:20.207582+08:00",
+  "fetchedAt": "2026-09-25T12:57:50.628891+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 18,
+  "count": 17,
   "notes": [
     "当前版本开启估：2026-09-02T12:00:00+08:00",
     "9331 跳过：「雪凇幽梦」版本创作征集活动进行中",
@@ -22,11 +22,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 79.2,
+      "remain": "剩11天23时",
+      "progress": 79.7,
       "days": {
-        "elapsedDays": 46.7,
-        "remainDays": 12.3,
+        "elapsedDays": 47.0,
+        "remainDays": 12.0,
         "totalDays": 59.0
       },
       "hasSchedule": true,
@@ -55,11 +55,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 81.2,
+      "remain": "剩4天23时",
+      "progress": 82.3,
       "days": {
-        "elapsedDays": 22.7,
-        "remainDays": 5.3,
+        "elapsedDays": 23.0,
+        "remainDays": 5.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -89,11 +89,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-26T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天6时",
-      "progress": 94.7,
+      "remain": "剩23小时",
+      "progress": 96.0,
       "days": {
-        "elapsedDays": 22.7,
-        "remainDays": 1.3,
+        "elapsedDays": 23.0,
+        "remainDays": 1.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -122,11 +122,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -155,11 +155,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -187,11 +187,11 @@
       "start": "2026-10-05T12:00:00+08:00",
       "end": "2026-10-19T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "10天后",
+      "remain": "9天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.9,
+        "remainDays": 23.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -219,11 +219,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 81.2,
+      "remain": "剩4天23时",
+      "progress": 82.3,
       "days": {
-        "elapsedDays": 22.7,
-        "remainDays": 5.3,
+        "elapsedDays": 23.0,
+        "remainDays": 5.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天6时",
-      "progress": 81.2,
+      "remain": "剩4天23时",
+      "progress": 82.3,
       "days": {
-        "elapsedDays": 22.7,
-        "remainDays": 5.3,
+        "elapsedDays": 23.0,
+        "remainDays": 5.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -372,11 +372,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 56.2,
+      "remain": "剩11天23时",
+      "progress": 57.3,
       "days": {
-        "elapsedDays": 15.7,
-        "remainDays": 12.3,
+        "elapsedDays": 16.0,
+        "remainDays": 12.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -405,11 +405,11 @@
       "start": "2026-09-16T12:00:00+08:00",
       "end": "2026-09-30T16:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天10时",
-      "progress": 61.6,
+      "remain": "剩5天3时",
+      "progress": 63.8,
       "days": {
-        "elapsedDays": 8.7,
-        "remainDays": 5.4,
+        "elapsedDays": 9.0,
+        "remainDays": 5.1,
         "totalDays": 14.2
       },
       "hasSchedule": true,
@@ -437,11 +437,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -470,11 +470,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -498,16 +498,16 @@
       "id": "2653-event-错视赛季",
       "title": "「错视赛季」",
       "header": "「错视赛季」",
-      "banner": "./covers/ef-event-2653-1fac0662e3-f95653eb.png",
+      "banner": "./covers/ef-event-2653-1fac0662e3-deb91ea3.png",
       "link": "https://endfield.hypergryph.com/news/2653",
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -536,11 +536,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.3,
+        "remainDays": 20.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -569,11 +569,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.3,
+        "remainDays": 20.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -602,11 +602,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.3,
+        "remainDays": 20.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -639,7 +639,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.9,
+        "remainDays": 19.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -664,39 +664,6 @@
       ],
       "summary": "理智补给 · 活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
       "body": "· 活动时间：\n 2026/09/17 04:00 - 2026/09/24 04:00（服务器时间）\n 2026/10/08 04:00 - 2026/10/15 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 6.「我们的大菲林！来袭！」馈赠活动"
-    },
-    {
-      "id": "2653-event-虚像赛季",
-      "title": "「虚像赛季」",
-      "header": "「虚像赛季」",
-      "banner": "./covers/ef-event-2653-7e2522bb52-deb91ea3.png",
-      "link": "https://endfield.hypergryph.com/news/2653",
-      "start": "2026-09-02T12:00:00+08:00",
-      "end": "2026-09-24T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 22.0,
-        "remainDays": 0.0,
-        "totalDays": 22.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 虚像赛季",
-          "start": "2026-09-02T12:00:00+08:00",
-          "end": "2026-09-24T11:59:00+08:00",
-          "raw": "「雪凇幽梦」版本更新后 - 2026/09/24 11:59",
-          "fuzzy": false,
-          "category": "event"
-        }
-      ],
-      "summary": "虚像赛季 · 奖励：【嵌晶玉】",
-      "body": "· 赛季更新：「雪凇幽梦」版本更新后 - 2026/09/24 11:59（服务器时间）\n · 更新说明：全新赛季「虚像赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「虚像赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。\n \n ○「错视赛季」"
     }
   ]
 }
