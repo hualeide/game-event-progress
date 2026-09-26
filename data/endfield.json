@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-09-26T05:35:05.231291+08:00",
+  "fetchedAt": "2026-09-26T12:58:18.040982+08:00",
   "timezone": "Asia/Shanghai",
   "count": 17,
   "notes": [
@@ -22,11 +22,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 80.9,
+      "remain": "剩10天23时",
+      "progress": 81.4,
       "days": {
-        "elapsedDays": 47.7,
-        "remainDays": 11.3,
+        "elapsedDays": 48.0,
+        "remainDays": 11.0,
         "totalDays": 59.0
       },
       "hasSchedule": true,
@@ -55,11 +55,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天6时",
-      "progress": 84.8,
+      "remain": "剩3天23时",
+      "progress": 85.9,
       "days": {
-        "elapsedDays": 23.7,
-        "remainDays": 4.3,
+        "elapsedDays": 24.0,
+        "remainDays": 4.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -81,39 +81,6 @@
       "updatedAt": "2026-09-01T12:00:00+08:00"
     },
     {
-      "id": "5989",
-      "title": "「幽寒申领」限时特卖说明",
-      "header": "「幽寒申领」",
-      "banner": "./covers/ef-5989-edb01f15.jpg",
-      "link": "https://endfield.hypergryph.com/news/5989",
-      "start": "2026-09-02T12:00:00+08:00",
-      "end": "2026-09-26T12:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.9,
-      "days": {
-        "elapsedDays": 23.7,
-        "remainDays": 0.3,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "开放时间（估）",
-          "start": "2026-09-02T12:00:00+08:00",
-          "end": "2026-09-26T12:00:00+08:00",
-          "raw": "「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）",
-          "fuzzy": true
-        }
-      ],
-      "summary": "亲爱的管理员：「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！▼//「幽寒申领」· 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）· 开放条件：",
-      "body": "亲爱的管理员： \n 「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！ \n \n ▼//「幽寒申领」 \n · 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「幽寒申领」中，概率提升的6星武器为【寒夜幽影（施术单元）】。 \n · 「幽寒申领」中，全部可能出现的6星武器包括：寒夜幽影（施术单元）/典范（双手剑）/同类相食（手铳）/骁勇（长柄武器）/遗忘（施术单元）/爆破单元（施术单元）/扶摇（单手剑）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
-      "updatedAt": "2026-09-01T12:30:00+08:00"
-    },
-    {
       "id": "2653-gacha-点绘申领",
       "title": "「点绘申领」",
       "header": "「点绘申领」",
@@ -122,11 +89,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩11天23时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -155,11 +122,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩11天23时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -179,6 +146,39 @@
       "updatedAt": "2026-09-23T18:00:00+08:00"
     },
     {
+      "id": "5989",
+      "title": "「幽寒申领」限时特卖说明",
+      "header": "「幽寒申领」",
+      "banner": "./covers/ef-5989-edb01f15.jpg",
+      "link": "https://endfield.hypergryph.com/news/5989",
+      "start": "2026-09-02T12:00:00+08:00",
+      "end": "2026-09-26T12:00:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 24.0,
+        "remainDays": 0.0,
+        "totalDays": 24.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [
+        {
+          "label": "开放时间（估）",
+          "start": "2026-09-02T12:00:00+08:00",
+          "end": "2026-09-26T12:00:00+08:00",
+          "raw": "「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）",
+          "fuzzy": true
+        }
+      ],
+      "summary": "亲爱的管理员：「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！▼//「幽寒申领」· 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）· 开放条件：",
+      "body": "亲爱的管理员： \n 「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！ \n \n ▼//「幽寒申领」 \n · 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「幽寒申领」中，概率提升的6星武器为【寒夜幽影（施术单元）】。 \n · 「幽寒申领」中，全部可能出现的6星武器包括：寒夜幽影（施术单元）/典范（双手剑）/同类相食（手铳）/骁勇（长柄武器）/遗忘（施术单元）/爆破单元（施术单元）/扶摇（单手剑）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
+      "updatedAt": "2026-09-01T12:30:00+08:00"
+    },
+    {
       "id": "2653-combat-丰碑留名刻影",
       "title": "「丰碑留名·刻影」",
       "header": "「丰碑留名·刻影」",
@@ -187,11 +187,11 @@
       "start": "2026-10-05T12:00:00+08:00",
       "end": "2026-10-19T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.9,
+        "remainDays": 22.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -219,11 +219,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天6时",
-      "progress": 84.8,
+      "remain": "剩3天23时",
+      "progress": 85.9,
       "days": {
-        "elapsedDays": 23.7,
-        "remainDays": 4.3,
+        "elapsedDays": 24.0,
+        "remainDays": 4.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天6时",
-      "progress": 84.8,
+      "remain": "剩3天23时",
+      "progress": 85.9,
       "days": {
-        "elapsedDays": 23.7,
-        "remainDays": 4.3,
+        "elapsedDays": 24.0,
+        "remainDays": 4.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -372,11 +372,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 59.8,
+      "remain": "剩10天23时",
+      "progress": 60.9,
       "days": {
-        "elapsedDays": 16.7,
-        "remainDays": 11.3,
+        "elapsedDays": 17.0,
+        "remainDays": 11.0,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -405,11 +405,11 @@
       "start": "2026-09-16T12:00:00+08:00",
       "end": "2026-09-30T16:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天10时",
-      "progress": 68.7,
+      "remain": "剩4天3时",
+      "progress": 70.9,
       "days": {
-        "elapsedDays": 9.7,
-        "remainDays": 4.4,
+        "elapsedDays": 10.0,
+        "remainDays": 4.1,
         "totalDays": 14.2
       },
       "hasSchedule": true,
@@ -437,11 +437,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩11天23时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -470,11 +470,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩11天23时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -503,11 +503,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.4,
+      "remain": "剩11天23时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -536,11 +536,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.3,
+        "remainDays": 19.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -569,11 +569,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.3,
+        "remainDays": 19.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -602,11 +602,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.3,
+        "remainDays": 19.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -639,7 +639,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.9,
+        "remainDays": 18.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
