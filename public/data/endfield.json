@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-09-27T05:10:43.091283+08:00",
+  "fetchedAt": "2026-09-27T13:19:01.802413+08:00",
   "timezone": "Asia/Shanghai",
   "count": 17,
   "notes": [
@@ -22,11 +22,11 @@
       "start": "2026-08-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 82.6,
+      "remain": "剩9天22时",
+      "progress": 83.1,
       "days": {
-        "elapsedDays": 48.7,
-        "remainDays": 10.3,
+        "elapsedDays": 49.1,
+        "remainDays": 9.9,
         "totalDays": 59.0
       },
       "hasSchedule": true,
@@ -55,11 +55,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 88.3,
+      "remain": "剩2天22时",
+      "progress": 89.5,
       "days": {
-        "elapsedDays": 24.7,
-        "remainDays": 3.3,
+        "elapsedDays": 25.1,
+        "remainDays": 2.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -89,11 +89,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.4,
+      "remain": "剩10天22时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.1,
+        "remainDays": 10.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -122,11 +122,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.4,
+      "remain": "剩10天22时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.1,
+        "remainDays": 10.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -187,11 +187,11 @@
       "start": "2026-10-05T12:00:00+08:00",
       "end": "2026-10-19T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "8天后",
+      "remain": "7天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.0,
+        "remainDays": 21.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -219,11 +219,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 88.3,
+      "remain": "剩2天22时",
+      "progress": 89.5,
       "days": {
-        "elapsedDays": 24.7,
-        "remainDays": 3.3,
+        "elapsedDays": 25.1,
+        "remainDays": 2.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-09-02T12:00:00+08:00",
       "end": "2026-09-30T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天6时",
-      "progress": 88.3,
+      "remain": "剩2天22时",
+      "progress": 89.5,
       "days": {
-        "elapsedDays": 24.7,
-        "remainDays": 3.3,
+        "elapsedDays": 25.1,
+        "remainDays": 2.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -270,14 +270,6 @@
           "end": "2026-09-30T11:59:00+08:00",
           "raw": "「雪凇幽梦」版本更新后 - 2026/09/30 11:59",
           "fuzzy": false,
-          "category": "gacha"
-        },
-        {
-          "label": "卡池 · 幽寒申领",
-          "start": "2026-09-02T12:00:00+08:00",
-          "end": "2026-09-26T12:00:00+08:00",
-          "raw": "「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）",
-          "fuzzy": true,
           "category": "gacha"
         },
         {
@@ -357,6 +349,14 @@
           "raw": "开放时间：2026/10/01 12:00 - 版本更新维护前",
           "fuzzy": true,
           "category": "event"
+        },
+        {
+          "label": "活动 · 融合！山团团！",
+          "start": "2026-10-01T12:00:00+08:00",
+          "end": "2026-10-15T12:00:00+08:00",
+          "raw": "开放时间：2026/10/01 12:00 - 版本更新维护前",
+          "fuzzy": true,
+          "category": "event"
         }
       ],
       "summary": "穿过雪与雾，进入幽暗深林和漫长的梦。亲爱的管理员：欢迎来到全新版本「雪凇幽梦」！▼//更新维护及补偿说明■ 更新维护时间2026/09/02 06:00 - 2026/09/02 12:00（UTC+",
@@ -372,11 +372,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-07T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 63.3,
+      "remain": "剩9天22时",
+      "progress": 64.5,
       "days": {
-        "elapsedDays": 17.7,
-        "remainDays": 10.3,
+        "elapsedDays": 18.1,
+        "remainDays": 9.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -405,11 +405,11 @@
       "start": "2026-09-16T12:00:00+08:00",
       "end": "2026-09-30T16:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天10时",
-      "progress": 75.6,
+      "remain": "剩3天2时",
+      "progress": 78.0,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 3.5,
+        "elapsedDays": 11.1,
+        "remainDays": 3.1,
         "totalDays": 14.2
       },
       "hasSchedule": true,
@@ -437,11 +437,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.4,
+      "remain": "剩10天22时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.1,
+        "remainDays": 10.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -470,11 +470,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.4,
+      "remain": "剩10天22时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.1,
+        "remainDays": 10.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -503,11 +503,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天6时",
-      "progress": 19.4,
+      "remain": "剩10天22时",
+      "progress": 21.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 11.3,
+        "elapsedDays": 3.1,
+        "remainDays": 10.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -536,11 +536,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.3,
+        "remainDays": 17.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -569,11 +569,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.3,
+        "remainDays": 17.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -602,11 +602,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.3,
+        "remainDays": 17.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -639,7 +639,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.0,
+        "remainDays": 17.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
