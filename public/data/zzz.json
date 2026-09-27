@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-27T13:19:07.386747+08:00",
+  "fetchedAt": "2026-09-28T05:21:10.561850+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 7,
   "notes": [
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩21天14时",
-      "progress": 46.8,
+      "remain": "剩20天22时",
+      "progress": 48.5,
       "days": {
-        "elapsedDays": 19.0,
-        "remainDays": 21.6,
+        "elapsedDays": 19.7,
+        "remainDays": 20.9,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩23天16时",
-      "progress": 44.5,
+      "remain": "剩23天",
+      "progress": 46.1,
       "days": {
-        "elapsedDays": 19.0,
-        "remainDays": 23.7,
+        "elapsedDays": 19.7,
+        "remainDays": 23.0,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩22天14时",
-      "progress": 45.7,
+      "remain": "剩21天22时",
+      "progress": 47.3,
       "days": {
-        "elapsedDays": 19.0,
-        "remainDays": 22.6,
+        "elapsedDays": 19.7,
+        "remainDays": 21.9,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23天16时",
-      "progress": 44.4,
+      "remain": "剩23天",
+      "progress": 46.0,
       "days": {
-        "elapsedDays": 18.9,
-        "remainDays": 23.7,
+        "elapsedDays": 19.6,
+        "remainDays": 23.0,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-14T12:00:00+08:00",
       "end": "2026-10-05T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩7天14时",
-      "progress": 63.2,
+      "remain": "剩6天22时",
+      "progress": 66.4,
       "days": {
-        "elapsedDays": 13.1,
-        "remainDays": 7.6,
+        "elapsedDays": 13.7,
+        "remainDays": 6.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-09-19T13:00:00+08:00",
       "end": "2026-09-29T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩2天10时",
-      "progress": 76.6,
+      "remain": "剩1天18时",
+      "progress": 83.0,
       "days": {
-        "elapsedDays": 8.0,
-        "remainDays": 2.4,
+        "elapsedDays": 8.7,
+        "remainDays": 1.8,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -155,29 +155,6 @@
       "summary": "洛克茜养成材料预告"
     },
     {
-      "id": "1303",
-      "title": "「先遣赏金-区域巡防」活动说明",
-      "header": "「「先遣赏金-区域巡防」活动说明」",
-      "banner": "./covers/zzz-1303-78f4567c.png",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-09-21T12:30:00+08:00",
-      "end": "2026-09-28T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩14小时",
-      "progress": 90.8,
-      "days": {
-        "elapsedDays": 6.0,
-        "remainDays": 0.6,
-        "totalDays": 6.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「先遣赏金-区域巡防」活动说明"
-    },
-    {
       "id": "1322",
       "title": "「维尔乌姆假日相册」网页活动开启",
       "header": "「「维尔乌姆假日相册」网页活动」",
@@ -186,11 +163,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩13天10时",
-      "progress": 57.3,
+      "remain": "剩12天18时",
+      "progress": 59.4,
       "days": {
-        "elapsedDays": 18.1,
-        "remainDays": 13.4,
+        "elapsedDays": 18.7,
+        "remainDays": 12.8,
         "totalDays": 31.5
       },
       "hasSchedule": true,
