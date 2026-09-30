@@ -1,9 +1,125 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-09-29T20:53:36.668340+08:00",
-  "count": 0,
-  "events": [],
+  "fetchedAt": "2026-09-30T13:33:43.656792+08:00",
+  "count": 5,
+  "events": [
+    {
+      "id": "wuwa-5569-但愿长圆如此夜",
+      "title": "但愿长圆如此夜",
+      "header": "但愿长圆如此夜·唤取",
+      "banner": "",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5569",
+      "start": "2026-09-30T04:00:00+08:00",
+      "end": "2026-11-01T09:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩31天20时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.4,
+        "remainDays": 31.9,
+        "totalDays": 32.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5569-余心所向九死未悔",
+      "title": "余心所向九死未悔",
+      "header": "余心所向九死未悔·唤取",
+      "banner": "./covers/wuwa-5569-3eb199f24d-f7f1eeba.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5569",
+      "start": "2026-09-30T04:00:00+08:00",
+      "end": "2026-11-01T09:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩31天20时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.4,
+        "remainDays": 31.9,
+        "totalDays": 32.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5569-玉阙玄华",
+      "title": "玉阙玄华",
+      "header": "玉阙玄华·唤取",
+      "banner": "./covers/wuwa-5569-a3a39d8eab-f7f1eeba.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5569",
+      "start": "2026-09-30T04:00:00+08:00",
+      "end": "2026-11-01T09:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩31天20时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.4,
+        "remainDays": 31.9,
+        "totalDays": 32.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5569-沉冥",
+      "title": "沉冥",
+      "header": "沉冥·唤取",
+      "banner": "./covers/wuwa-5569-c30cf5be76-f53f2ce7.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5569",
+      "start": "2026-09-30T04:00:00+08:00",
+      "end": "2026-11-01T09:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩31天20时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.4,
+        "remainDays": 31.9,
+        "totalDays": 32.2
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5569-朝月鱼涌",
+      "title": "朝月鱼涌",
+      "header": "朝月鱼涌·网页活动",
+      "banner": "./covers/wuwa-5569-5253c7237c-2705a612.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5569",
+      "start": "2026-10-15T10:00:00+08:00",
+      "end": "2026-11-01T09:59:00+08:00",
+      "status": "即将开始",
+      "remain": "14天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 31.9,
+        "totalDays": 17.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "web",
+      "allRanges": [],
+      "summary": ""
+    }
+  ],
   "source": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json",
   "notes": [
     "封面：独立公告 > Fandom 角色/武器图 > GameKee 系列图；不用版本总图凑数"
