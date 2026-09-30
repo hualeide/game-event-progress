@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-09-29T20:53:33.542488+08:00",
+  "fetchedAt": "2026-10-01T06:16:27.730037+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 7,
+  "count": 6,
   "notes": [
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-09-08T12:45:00+08:00",
       "end": "2026-10-19T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩19天7时",
-      "progress": 52.5,
+      "remain": "剩17天21时",
+      "progress": 55.9,
       "days": {
-        "elapsedDays": 21.3,
-        "remainDays": 19.3,
+        "elapsedDays": 22.7,
+        "remainDays": 17.9,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩21天9时",
-      "progress": 49.9,
+      "remain": "剩19天23时",
+      "progress": 53.2,
       "days": {
-        "elapsedDays": 21.3,
-        "remainDays": 21.4,
+        "elapsedDays": 22.7,
+        "remainDays": 20.0,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩20天7时",
-      "progress": 51.2,
+      "remain": "剩18天21时",
+      "progress": 54.6,
       "days": {
-        "elapsedDays": 21.3,
-        "remainDays": 20.3,
+        "elapsedDays": 22.7,
+        "remainDays": 18.9,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天9时",
-      "progress": 49.8,
+      "remain": "剩19天23时",
+      "progress": 53.1,
       "days": {
-        "elapsedDays": 21.2,
-        "remainDays": 21.4,
+        "elapsedDays": 22.6,
+        "remainDays": 20.0,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-09-14T12:00:00+08:00",
       "end": "2026-10-05T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩5天7时",
-      "progress": 74.4,
+      "remain": "剩3天21时",
+      "progress": 81.1,
       "days": {
-        "elapsedDays": 15.4,
-        "remainDays": 5.3,
+        "elapsedDays": 16.8,
+        "remainDays": 3.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -132,29 +132,6 @@
       "summary": "「虚境逐影争锋」活动说明"
     },
     {
-      "id": "1326",
-      "title": "养成指南上新丨洛克茜养成材料预告",
-      "header": "「洛克茜养成材料预告」",
-      "banner": "./covers/zzz-1326-ebd936b7.jpg",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-09-19T13:00:00+08:00",
-      "end": "2026-09-29T23:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 98.8,
-      "days": {
-        "elapsedDays": 10.3,
-        "remainDays": 0.1,
-        "totalDays": 10.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "洛克茜养成材料预告"
-    },
-    {
       "id": "1322",
       "title": "「维尔乌姆假日相册」网页活动开启",
       "header": "「「维尔乌姆假日相册」网页活动」",
@@ -163,11 +140,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩11天3时",
-      "progress": 64.7,
+      "remain": "剩9天17时",
+      "progress": 69.1,
       "days": {
-        "elapsedDays": 20.4,
-        "remainDays": 11.1,
+        "elapsedDays": 21.8,
+        "remainDays": 9.7,
         "totalDays": 31.5
       },
       "hasSchedule": true,
