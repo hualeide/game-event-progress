@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-10-02T13:37:26.718769+08:00",
+  "fetchedAt": "2026-10-02T20:35:06.928109+08:00",
   "timezone": "Asia/Shanghai",
   "count": 17,
   "notes": [
@@ -48,54 +48,6 @@
   ],
   "events": [
     {
-      "id": "1919",
-      "title": "【预告】大决战：希罗尼穆斯 • 街区战",
-      "header": "「大决战·希罗尼穆斯 • 街区战」",
-      "banner": "./covers/ba-1919-f0aba82d.png",
-      "link": "https://bluearchive-cn.com/news/1919",
-      "start": "2026-09-09T00:00:00+08:00",
-      "end": "2026-10-02T13:59:00+08:00",
-      "status": "进行中",
-      "remain": "将结束",
-      "progress": 99.9,
-      "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 0.0,
-        "totalDays": 23.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-09-03T14:00:00+08:00",
-          "end": "2026-09-08T03:59:00+08:00",
-          "raw": " • 赛季持续时间：09月03日 14:00 ~ 09月08日 03:59"
-        },
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-09-08T04:00:00+08:00",
-          "end": "2026-09-08T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：09月08日 04:00 ~ 09月08日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-09-09T00:00:00+08:00",
-          "end": "2026-10-02T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：09月09日 00:00 ~ 10月02日 13:59"
-        },
-        {
-          "label": "可领取时间",
-          "start": "2026-09-04T11:00:00+08:00",
-          "end": "2026-09-08T03:59:00+08:00",
-          "raw": " 可领取时间：09月04日 11:00 ~ 09月08日 03:59"
-        }
-      ],
-      "summary": "在崔尼蒂地区古圣堂遗迹地下所发现的神秘存在。 \n 希罗尼穆斯，传说是被称为【诸圣相通】的人造天使系列的完成品，也有传闻说是数秘会根据太古教义制作出来的实验体。 \n 不能对希罗尼穆斯压倒性的力量放任不管，为了基沃托斯的和平，必须马上行动！ \n  \n ■ 活动时间 \n • 赛季持续时间：09月03日 14:00 ~ 09月…"
-    },
-    {
       "id": "1929",
       "title": "【预告】无限制决战：赛特之怒 • 轻装甲",
       "header": "「无限制决战：赛特之怒 • 轻装甲」",
@@ -104,11 +56,11 @@
       "start": "2026-09-19T14:00:00+08:00",
       "end": "2026-10-08T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天14时",
-      "progress": 69.9,
+      "remain": "剩5天7时",
+      "progress": 71.4,
       "days": {
-        "elapsedDays": 13.0,
-        "remainDays": 5.6,
+        "elapsedDays": 13.3,
+        "remainDays": 5.3,
         "totalDays": 18.6
       },
       "hasSchedule": true,
@@ -134,11 +86,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 14.1,
+      "remain": "剩5天17时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 6.0,
+        "elapsedDays": 1.3,
+        "remainDays": 5.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -164,11 +116,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 14.1,
+      "remain": "剩5天17时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 6.0,
+        "elapsedDays": 1.3,
+        "remainDays": 5.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -194,11 +146,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 14.1,
+      "remain": "剩5天17时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 6.0,
+        "elapsedDays": 1.3,
+        "remainDays": 5.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -224,11 +176,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 14.1,
+      "remain": "剩5天17时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 6.0,
+        "elapsedDays": 1.3,
+        "remainDays": 5.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -254,11 +206,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天",
-      "progress": 14.1,
+      "remain": "剩5天17时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 1.0,
-        "remainDays": 6.0,
+        "elapsedDays": 1.3,
+        "remainDays": 5.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -284,11 +236,11 @@
       "start": "2026-10-02T00:00:00+08:00",
       "end": "2026-10-06T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天",
-      "progress": 12.4,
+      "remain": "剩3天17时",
+      "progress": 18.7,
       "days": {
-        "elapsedDays": 0.6,
-        "remainDays": 4.0,
+        "elapsedDays": 0.9,
+        "remainDays": 3.7,
         "totalDays": 4.6
       },
       "hasSchedule": true,
@@ -324,7 +276,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.0,
+        "remainDays": 12.7,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -374,11 +326,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 13.0,
+        "remainDays": 12.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -408,7 +360,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.6,
+        "remainDays": 26.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -424,6 +376,54 @@
         }
       ],
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石和可互动家具，可千万不要错过啦！ \n  \n ■ 活动时间 \n 09月24日 维护结束后 ~ 10月22日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3…"
+    },
+    {
+      "id": "1919",
+      "title": "【预告】大决战：希罗尼穆斯 • 街区战",
+      "header": "「大决战·希罗尼穆斯 • 街区战」",
+      "banner": "./covers/ba-1919-f0aba82d.png",
+      "link": "https://bluearchive-cn.com/news/1919",
+      "start": "2026-09-09T00:00:00+08:00",
+      "end": "2026-10-02T13:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 23.6,
+        "remainDays": 0.0,
+        "totalDays": 23.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-09-03T14:00:00+08:00",
+          "end": "2026-09-08T03:59:00+08:00",
+          "raw": " • 赛季持续时间：09月03日 14:00 ~ 09月08日 03:59"
+        },
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-09-08T04:00:00+08:00",
+          "end": "2026-09-08T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：09月08日 04:00 ~ 09月08日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-09-09T00:00:00+08:00",
+          "end": "2026-10-02T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：09月09日 00:00 ~ 10月02日 13:59"
+        },
+        {
+          "label": "可领取时间",
+          "start": "2026-09-04T11:00:00+08:00",
+          "end": "2026-09-08T03:59:00+08:00",
+          "raw": " 可领取时间：09月04日 11:00 ~ 09月08日 03:59"
+        }
+      ],
+      "summary": "在崔尼蒂地区古圣堂遗迹地下所发现的神秘存在。 \n 希罗尼穆斯，传说是被称为【诸圣相通】的人造天使系列的完成品，也有传闻说是数秘会根据太古教义制作出来的实验体。 \n 不能对希罗尼穆斯压倒性的力量放任不管，为了基沃托斯的和平，必须马上行动！ \n  \n ■ 活动时间 \n • 赛季持续时间：09月03日 14:00 ~ 09月…"
     },
     {
       "id": "1941",
