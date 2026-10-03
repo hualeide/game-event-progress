@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-10-03T19:40:14.263232+08:00",
+  "fetchedAt": "2026-10-04T05:14:47.132127+08:00",
   "count": 5,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天4时",
-      "progress": 87.5,
+      "remain": "剩3天18时",
+      "progress": 88.7,
       "days": {
-        "elapsedDays": 29.2,
-        "remainDays": 4.2,
+        "elapsedDays": 29.6,
+        "remainDays": 3.8,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩67天14时",
-      "progress": 30.2,
+      "remain": "剩67天4时",
+      "progress": 30.6,
       "days": {
-        "elapsedDays": 29.2,
-        "remainDays": 67.6,
+        "elapsedDays": 29.6,
+        "remainDays": 67.2,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩28天4时",
-      "progress": 9.1,
+      "remain": "剩27天18时",
+      "progress": 10.4,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 28.2,
+        "elapsedDays": 3.2,
+        "remainDays": 27.8,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩28天4时",
-      "progress": 47.2,
+      "remain": "剩27天18时",
+      "progress": 47.9,
       "days": {
-        "elapsedDays": 25.2,
-        "remainDays": 28.2,
+        "elapsedDays": 25.6,
+        "remainDays": 27.8,
         "totalDays": 53.3
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩58天4时",
-      "progress": 4.6,
+      "remain": "剩57天18时",
+      "progress": 5.3,
       "days": {
-        "elapsedDays": 2.8,
-        "remainDays": 58.2,
+        "elapsedDays": 3.2,
+        "remainDays": 57.8,
         "totalDays": 61.0
       },
       "hasSchedule": true,
