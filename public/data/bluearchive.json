@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-10-07T21:23:42.581528+08:00",
+  "fetchedAt": "2026-10-08T07:05:25.291513+08:00",
   "timezone": "Asia/Shanghai",
   "count": 10,
   "notes": [
@@ -48,36 +48,6 @@
   ],
   "events": [
     {
-      "id": "1929",
-      "title": "【预告】无限制决战：赛特之怒 • 轻装甲",
-      "header": "「无限制决战：赛特之怒 • 轻装甲」",
-      "banner": "./covers/ba-1929-4ec7498e.png",
-      "link": "https://bluearchive-cn.com/news/1929",
-      "start": "2026-09-19T14:00:00+08:00",
-      "end": "2026-10-08T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.5,
-      "days": {
-        "elapsedDays": 18.3,
-        "remainDays": 0.3,
-        "totalDays": 18.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 赛季持续时间",
-          "start": "2026-09-19T14:00:00+08:00",
-          "end": "2026-10-08T03:59:00+08:00",
-          "raw": " • 赛季持续时间：09月19日 14:00 ~ 10月08日 03:59"
-        }
-      ],
-      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：09月19日 14:00 ~ 10月08日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决…"
-    },
-    {
       "id": "1961",
       "title": "【预告】限时招募：莲见（泳装）",
       "header": "「限时招募：莲见（泳装）」",
@@ -86,11 +56,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 90.1,
+      "remain": "剩6小时",
+      "progress": 95.9,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 0.7,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -116,11 +86,11 @@
       "start": "2026-10-01T13:59:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 90.1,
+      "remain": "剩6小时",
+      "progress": 95.9,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 0.7,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -146,11 +116,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 90.1,
+      "remain": "剩6小时",
+      "progress": 95.9,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 0.7,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -176,11 +146,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 90.1,
+      "remain": "剩6小时",
+      "progress": 95.9,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 0.7,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -206,11 +176,11 @@
       "start": "2026-10-01T14:00:00+08:00",
       "end": "2026-10-08T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16小时",
-      "progress": 90.1,
+      "remain": "剩6小时",
+      "progress": 95.9,
       "days": {
-        "elapsedDays": 6.3,
-        "remainDays": 0.7,
+        "elapsedDays": 6.7,
+        "remainDays": 0.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -236,11 +206,11 @@
       "start": "2026-10-07T00:00:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天16时",
-      "progress": 10.4,
+      "remain": "剩7天6时",
+      "progress": 15.1,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 7.7,
+        "elapsedDays": 1.3,
+        "remainDays": 7.3,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -290,11 +260,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "16小时后",
+      "remain": "6小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 7.7,
+        "remainDays": 7.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -320,11 +290,11 @@
       "start": "2026-10-22T03:59:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -340,6 +310,36 @@
         }
       ],
       "summary": "“欢迎连接【什亭之箱】，老师。” \n 纪念登录活动即将开始，活动期间累计登录游戏，即可获得青辉石和可互动家具，可千万不要错过啦！ \n  \n ■ 活动时间 \n 09月24日 维护结束后 ~ 10月22日 03:59 \n  \n ■ 奖励内容 \n 累计登录1天：青辉石×200 \n 累计登录2天：青辉石×200 \n 累计登录3…"
+    },
+    {
+      "id": "1929",
+      "title": "【预告】无限制决战：赛特之怒 • 轻装甲",
+      "header": "「无限制决战：赛特之怒 • 轻装甲」",
+      "banner": "./covers/ba-1929-4ec7498e.png",
+      "link": "https://bluearchive-cn.com/news/1929",
+      "start": "2026-09-19T14:00:00+08:00",
+      "end": "2026-10-08T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 18.6,
+        "remainDays": 0.0,
+        "totalDays": 18.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 赛季持续时间",
+          "start": "2026-09-19T14:00:00+08:00",
+          "end": "2026-10-08T03:59:00+08:00",
+          "raw": " • 赛季持续时间：09月19日 14:00 ~ 10月08日 03:59"
+        }
+      ],
+      "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"赛特之怒\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：09月19日 14:00 ~ 10月08日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决…"
     },
     {
       "id": "1953",
