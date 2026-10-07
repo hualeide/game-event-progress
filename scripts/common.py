@@ -8,11 +8,14 @@ import hashlib
 import json
 import os
 import re
+import tempfile
 from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 from typing import Any
-from urllib.request import Request, urlopen
+from urllib.error import URLError
+from urllib.parse import urlsplit
+from urllib.request import HTTPRedirectHandler, Request, build_opener
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -25,12 +28,32 @@ def now_cn() -> datetime:
     return datetime.now(TZ)
 
 
+def _is_http_url(url: str) -> bool:
+    """绝对 http/https 且有 host。不拦截私网地址。"""
+    try:
+        parts = urlsplit(url)
+        host = parts.hostname
+    except ValueError:
+        return False
+    return parts.scheme in ("http", "https") and bool(host)
+
+
+class _SafeRedirect(HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not _is_http_url(newurl):
+            raise URLError(f"拒绝重定向: {newurl}")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
 def http_get(url: str, headers: dict[str, str] | None = None, timeout: int = 40) -> bytes:
+    if not _is_http_url(url):
+        raise URLError(f"拒绝URL: {url}")
     h = {"User-Agent": UA, "Accept": "*/*"}
     if headers:
         h.update(headers)
     req = Request(url, headers=h)
-    with urlopen(req, timeout=timeout) as resp:
+    opener = build_opener(_SafeRedirect)
+    with opener.open(req, timeout=timeout) as resp:
         return resp.read()
 
 
@@ -58,7 +81,7 @@ def safe_stem(name: str) -> str:
 
 
 def cache_cover(cid: str, url: str, referer: str = "") -> str:
-    if not url:
+    if not _is_http_url(url):
         return ""
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     ext = ".jpg"
@@ -149,8 +172,36 @@ def parse_ranges(text: str, ref: datetime | None = None) -> list[dict[str, Any]]
         ),
     ]
 
-    for pat in patterns:
+    # 带年份的模式先占住原文区间，避免无年模式把同一段再按 ref 年截一遍。
+    ordered = [
+        (patterns[2], True),
+        (patterns[3], True),
+        (patterns[4], True),
+        (patterns[0], False),
+        (patterns[1], False),
+    ]
+    covered: list[tuple[int, int]] = []
+
+    def date_span(m: re.Match) -> tuple[int, int]:
+        g = m.groupdict()
+        start = m.start("y1") if g.get("y1") is not None else m.start("m1")
+        if g.get("min2") is not None:
+            end = m.end("min2")
+        elif g.get("d2") is not None:
+            end = m.end("d2")
+        elif g.get("tail") is not None:
+            end = m.end("tail")
+        else:
+            end = m.end("min1")
+        return start, end
+
+    for pat, explicit in ordered:
         for m in pat.finditer(text):
+            span = date_span(m)
+            if explicit:
+                covered.append(span)
+            elif any(a < span[1] and span[0] < b for a, b in covered):
+                continue
             g = m.groupdict()
             label = (g.get("label") or "活动时间").strip(" ：:")
             y1 = int(g["y1"]) if g.get("y1") else ref.year
@@ -158,7 +209,10 @@ def parse_ranges(text: str, ref: datetime | None = None) -> list[dict[str, Any]]
             m1, d1 = int(g["m1"]), int(g["d1"])
             # 单点截止：用 ref→截止
             if g.get("tail") and not g.get("m2"):
-                end = make_dt(y1, m1, d1, int(g["h1"]), int(g["min1"]))
+                try:
+                    end = make_dt(y1, m1, d1, int(g["h1"]), int(g["min1"]))
+                except ValueError:
+                    continue
                 start = ref.replace(hour=10, minute=0, second=0, microsecond=0)
                 if start >= end:
                     start = end - timedelta(days=21)
@@ -179,14 +233,17 @@ def parse_ranges(text: str, ref: datetime | None = None) -> list[dict[str, Any]]
                 )
                 continue
             m2, d2 = int(g["m2"]), int(g["d2"])
-            if y2 == y1 and (m2, d2) < (m1, d1):
+            if g.get("y2") is None and (m2, d2) < (m1, d1):
                 y2 += 1
             h1 = int(g["h1"]) if g.get("h1") is not None else 10
             min1 = int(g["min1"]) if g.get("min1") is not None else 0
             h2 = int(g["h2"]) if g.get("h2") is not None else 4
             min2 = int(g["min2"]) if g.get("min2") is not None else 0
-            start = make_dt(y1, m1, d1, h1, min1)
-            end = make_dt(y2, m2, d2, h2, min2)
+            try:
+                start = make_dt(y1, m1, d1, h1, min1)
+                end = make_dt(y2, m2, d2, h2, min2)
+            except ValueError:
+                continue
             key = (start.isoformat(), end.isoformat())
             if key in seen:
                 continue
@@ -228,7 +285,7 @@ def status_of(start: datetime | None, end: datetime | None, now: datetime) -> st
     if start and end:
         if now < start:
             return "即将开始"
-        if now > end:
+        if now >= end:
             return "已结束"
         return "进行中"
     return "未知"
@@ -449,5 +506,14 @@ def write_events(path: Path, payload: dict[str, Any]) -> None:
             f"{payload.get('count', len(payload.get('events', [])))} 条"
         )
         return
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
+    fd, name = tempfile.mkstemp(prefix=".events-", suffix=".tmp", dir=path.parent)
+    os.close(fd)
+    tmp = Path(name)
+    try:
+        tmp.write_text(text, encoding="utf-8")
+        os.replace(tmp, path)
+    finally:
+        if tmp.exists():
+            tmp.unlink()
     print(f"[ok] 写入 {path} · {payload.get('count', len(payload.get('events', [])))} 条")

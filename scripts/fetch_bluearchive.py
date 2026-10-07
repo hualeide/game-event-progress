@@ -103,21 +103,28 @@ def main() -> int:
         primary = pick_primary(ranges)
         if not primary:
             # 预告常只有开启点：XX月XX日 14:00 开启 → 估 7 天窗口
-            m = re.search(
+            matches = re.finditer(
                 r"(?P<m>\d{1,2})月(?P<d>\d{1,2})日\s*(?P<h>\d{1,2})[:：](?P<min>\d{2})",
                 content,
             )
-            if not m:
+            start = None
+            y = now.year
+            for m in matches:
+                try:
+                    candidate = datetime(
+                        y, int(m["m"]), int(m["d"]), int(m["h"]), int(m["min"]), tzinfo=TZ
+                    )
+                    if candidate < now - __import__("datetime").timedelta(days=60):
+                        candidate = datetime(
+                            y + 1, int(m["m"]), int(m["d"]), int(m["h"]), int(m["min"]), tzinfo=TZ
+                        )
+                except ValueError:
+                    continue
+                start = candidate
+                break
+            if start is None:
                 notes.append(f"{r.get('id')} 无时段：{title[:40]}")
                 continue
-            y = now.year
-            start = datetime(
-                y, int(m["m"]), int(m["d"]), int(m["h"]), int(m["min"]), tzinfo=TZ
-            )
-            if start < now - __import__("datetime").timedelta(days=60):
-                start = datetime(
-                    y + 1, int(m["m"]), int(m["d"]), int(m["h"]), int(m["min"]), tzinfo=TZ
-                )
             end = start + __import__("datetime").timedelta(days=7)
             primary = {
                 "label": "估时（仅有开启点）",

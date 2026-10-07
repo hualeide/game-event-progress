@@ -11,7 +11,9 @@ from datetime import datetime, timedelta, timezone
 from html import unescape
 from pathlib import Path
 from typing import Any
-from urllib.request import Request, urlopen
+from urllib.request import urlopen
+
+from common import _is_http_url, http_get, write_events
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "events.json"
@@ -31,7 +33,7 @@ DETAIL_URL = "https://ak-webview.hypergryph.com/api/game/bulletin/{cid}"
 RANGE_PATTERNS = [
     # 07月10日 12:00 - 07月17日 03:59
     re.compile(
-        r"(?P<label>[【\[]?[^：:\n]{0,20}?(?:时间|开放|开启|结束|截止)[^：:\n]{0,12})[：:]\s*"
+        r"(?P<label>(?<![\d:：])[【\[]?[^：:\n]{0,20}?(?:时间|开放|开启|结束|截止)[^：:\n]{0,12})[：:]\s*"
         r"(?P<m1>\d{1,2})月(?P<d1>\d{1,2})日\s*(?P<h1>\d{1,2})[:：](?P<min1>\d{2})"
         r"\s*[-–—~至到]\s*"
         r"(?P<m2>\d{1,2})月(?P<d2>\d{1,2})日\s*(?P<h2>\d{1,2})[:：](?P<min2>\d{2})",
@@ -39,7 +41,7 @@ RANGE_PATTERNS = [
     ),
     # 2026年7月10日12:00 - 2026年7月24日03:59
     re.compile(
-        r"(?P<label>[【\[]?[^：:\n]{0,20}?(?:时间|开放|开启|结束|截止)[^：:\n]{0,12})[：:]\s*"
+        r"(?:(?P<label>(?<![\d:：])[【\[]?[^：:\n]{0,20}?(?:时间|开放|开启|结束|截止)[^：:\n]{0,12})[：:])?\s*"
         r"(?P<y1>20\d{2})年(?P<m1>\d{1,2})月(?P<d1>\d{1,2})日\s*(?P<h1>\d{1,2})[:：](?P<min1>\d{2})"
         r"\s*[-–—~至到]\s*"
         r"(?:(?P<y2>20\d{2})年)?(?P<m2>\d{1,2})月(?P<d2>\d{1,2})日\s*(?P<h2>\d{1,2})[:：](?P<min2>\d{2})",
@@ -123,8 +125,13 @@ def parse_gacha_pools(text: str, ref: datetime) -> list[dict[str, Any]]:
         m2, d2 = int(m.group("m2")), int(m.group("d2"))
         if (m2, d2) < (m1, d1):
             y2 += 1
-        start = make_dt(y1, m1, d1, int(m.group("h1")), int(m.group("min1")))
-        end = make_dt(y2, m2, d2, int(m.group("h2")), int(m.group("min2")))
+        try:
+            start = make_dt(y1, m1, d1, int(m.group("h1")), int(m.group("min1")))
+            end = make_dt(y2, m2, d2, int(m.group("h2")), int(m.group("min2")))
+        except ValueError:
+            continue
+        if end <= start:
+            continue
         primary = {
             "label": f"{m.group('label')}·寻访",
             "start": start.isoformat(),
@@ -160,9 +167,8 @@ def gacha_fallback_range(display_time: str | None, updated: datetime | None, now
 
 
 def http_get_json(url: str) -> dict[str, Any]:
-    req = Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    with urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    raw = http_get(url, {"User-Agent": UA, "Accept": "application/json"}, timeout=30)
+    return json.loads(raw.decode("utf-8"))
 
 
 def safe_stem(name: str) -> str:
@@ -178,7 +184,7 @@ def safe_stem(name: str) -> str:
 
 def cache_cover(cid: str, url: str) -> str:
     """把活动图下到 public/covers，避免外链防盗链导致页面空白。"""
-    if not url:
+    if not _is_http_url(url):
         return ""
     COVER_DIR.mkdir(parents=True, exist_ok=True)
     ext = ".jpg"
@@ -192,16 +198,15 @@ def cache_cover(cid: str, url: str) -> str:
     if dest.exists() and dest.stat().st_size > 1000:
         return f"./covers/{dest.name}"
     try:
-        req = Request(
+        data = http_get(
             url,
-            headers={
+            {
                 "User-Agent": UA,
                 "Referer": "https://ak.hypergryph.com/",
                 "Accept": "image/*,*/*",
             },
+            timeout=40,
         )
-        with urlopen(req, timeout=40) as resp:
-            data = resp.read()
         if len(data) < 500:
             return url
         dest.write_bytes(data)
@@ -253,17 +258,43 @@ def parse_ranges(text: str, ref: datetime) -> list[dict[str, Any]]:
     """从公告正文抽出多段起止时间。"""
     found: list[dict[str, Any]] = []
     seen: set[tuple[str, str]] = set()
+    covered: list[tuple[int, int]] = []
+
+    def date_span(m: re.Match) -> tuple[int, int]:
+        g = m.groupdict()
+        if g.get("y1") is not None:
+            start = m.start("y1")
+        elif g.get("m1") is not None:
+            start = m.start("m1")
+        elif g.get("y2") is not None:
+            start = m.start("y2")
+        else:
+            start = m.start()
+        end = m.end("min2") if g.get("min2") is not None else m.end()
+        return start, end
+
+    def overlaps(span: tuple[int, int]) -> bool:
+        a, b = span
+        return any(a < d and b > c for c, d in covered)
 
     for pat in RANGE_PATTERNS:
         for m in pat.finditer(text):
             g = m.groupdict()
+            span = date_span(m)
+            if g.get("y1") is not None:
+                covered.append(span)
+            elif overlaps(span):
+                continue
             label = (g.get("label") or "活动时间").strip(" ：:")
             y1 = int(g["y1"]) if g.get("y1") else ref.year
             y2 = int(g["y2"]) if g.get("y2") else y1
 
             # 只有结束时间的「即日起～截止」
             if g.get("m1") is None and g.get("m2"):
-                end = make_dt(y2, int(g["m2"]), int(g["d2"]), int(g["h2"]), int(g["min2"]))
+                try:
+                    end = make_dt(y2, int(g["m2"]), int(g["d2"]), int(g["h2"]), int(g["min2"]))
+                except ValueError:
+                    continue
                 start = ref
                 key = (start.isoformat(), end.isoformat())
                 if key in seen:
@@ -284,12 +315,17 @@ def parse_ranges(text: str, ref: datetime) -> list[dict[str, Any]]:
             h1, min1 = int(g["h1"]), int(g["min1"])
             h2, min2 = int(g["h2"]), int(g["min2"])
 
-            # 跨年：结束月 < 开始月
-            if y2 == y1 and (m2, d2) < (m1, d1):
+            # 只有没写结束年时才把倒序月日看成跨年
+            if g.get("y2") is None and (m2, d2) < (m1, d1):
                 y2 += 1
 
-            start = make_dt(y1, m1, d1, h1, min1)
-            end = make_dt(y2, m2, d2, h2, min2)
+            try:
+                start = make_dt(y1, m1, d1, h1, min1)
+                end = make_dt(y2, m2, d2, h2, min2)
+            except ValueError:
+                continue
+            if end <= start:
+                continue
             key = (start.isoformat(), end.isoformat())
             if key in seen:
                 continue
@@ -310,6 +346,8 @@ def parse_ranges(text: str, ref: datetime) -> list[dict[str, Any]]:
         r"(?P<m2>\d{1,2})月(?P<d2>\d{1,2})日\s*(?P<h2>\d{1,2})[:：](?P<min2>\d{2})"
     )
     for m in bare.finditer(text):
+        if overlaps((m.start("m1"), m.end("min2"))):
+            continue
         g = m.groupdict()
         y1 = ref.year
         y2 = y1
@@ -317,8 +355,11 @@ def parse_ranges(text: str, ref: datetime) -> list[dict[str, Any]]:
         m2, d2 = int(g["m2"]), int(g["d2"])
         if (m2, d2) < (m1, d1):
             y2 += 1
-        start = make_dt(y1, m1, d1, int(g["h1"]), int(g["min1"]))
-        end = make_dt(y2, m2, d2, int(g["h2"]), int(g["min2"]))
+        try:
+            start = make_dt(y1, m1, d1, int(g["h1"]), int(g["min1"]))
+            end = make_dt(y2, m2, d2, int(g["h2"]), int(g["min2"]))
+        except ValueError:
+            continue
         key = (start.isoformat(), end.isoformat())
         if key in seen:
             continue
@@ -365,10 +406,10 @@ def status_of(start: datetime | None, end: datetime | None, now: datetime) -> st
     if start and end:
         if now < start:
             return "即将开始"
-        if now > end:
+        if now >= end:
             return "已结束"
         return "进行中"
-    if end and now > end:
+    if end and now >= end:
         return "已结束"
     if start and now < start:
         return "即将开始"
@@ -386,7 +427,7 @@ def remain_text(start: datetime | None, end: datetime | None, now: datetime) -> 
             return f"{hours}小时后"
         return "即将开始"
     if end:
-        if now > end:
+        if now >= end:
             return "已结束"
         d = end - now
         days = d.days
@@ -956,8 +997,7 @@ def fetch_all() -> dict[str, Any]:
 def main() -> int:
     OUT.parent.mkdir(parents=True, exist_ok=True)
     data = fetch_all()
-    OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[ok] 写入 {OUT} （{data['count']} 条）")
+    write_events(OUT, data)
     scheduled = sum(1 for e in data["events"] if e["hasSchedule"])
     print(f"[ok] 解析到时间表 {scheduled}/{data['count']}")
     for e in data["events"][:8]:
