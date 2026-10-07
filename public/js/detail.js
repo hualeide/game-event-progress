@@ -1,4 +1,4 @@
-import { $, endingSoon } from "./util.js?v=20260903v15";
+import { $, endingSoon, escapeHtml } from "./util.js?v=20260903v15";
 import { eventIndex, state, toolsFor, wikiFor, allGames } from "./state.js?v=20260903v15";
 import {
   bodyText,
@@ -14,7 +14,7 @@ import {
 import { ensureGameLoaded } from "./data.js?v=20260903v15";
 
 function accentColor(gameId) {
-  const row = document.querySelector(`.game-row[data-game="${gameId}"]`);
+  const row = document.querySelector(`.game-row[data-game="${CSS.escape(gameId)}"]`);
   if (row) {
     const v = getComputedStyle(row).getPropertyValue("--g-accent").trim();
     if (v) return v;
@@ -44,9 +44,9 @@ function timelineHtml(ranges) {
     .map((r) => {
       const left = ((r.s - min) / span) * 100;
       const width = Math.max(2, ((r.e - r.s) / span) * 100);
-      const rc = r.category || "event";
+      const rc = escapeHtml(r.category || "event");
       const live = r.s <= now && now <= r.e;
-      return `<div class="tl-bar cat-${rc} ${live ? "is-live" : ""}" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%" title="${r.label || ""} ${fmtDate(r.start)} → ${fmtDate(r.end)}"></div>`;
+      return `<div class="tl-bar cat-${rc} ${live ? "is-live" : ""}" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%" title="${escapeHtml(r.label || "")} ${fmtDate(r.start)} → ${fmtDate(r.end)}"></div>`;
     })
     .join("");
 
@@ -80,15 +80,15 @@ export function openDetail(gameId, eventId) {
     <span class="${kindClass}${soon ? " soon" : ""}">${statusLabel}</span>
     <span>${catLabel(cat)}</span>`;
   $("#detailBanner").innerHTML = ev.banner
-    ? `<img src="${ev.banner}" alt="${name}" />`
+    ? `<img src="${escapeHtml(ev.banner)}" alt="${escapeHtml(name)}" />`
     : `<div class="cover-fallback" style="height:100%"></div>`;
 
   const rangeItems = (ev.allRanges || []).slice(0, 12);
   const ranges = rangeItems
     .map((r) => {
       const rc = r.category || "";
-      const tag = rc ? `<span class="range-cat cat-${rc}">${catLabel(rc)}</span>` : "";
-      return `<li>${tag}<b>${r.label || "时段"}</b> <span class="range-when">${fmtDate(r.start)} → ${fmtDate(r.end)}</span></li>`;
+      const tag = rc ? `<span class="range-cat cat-${escapeHtml(rc)}">${catLabel(rc)}</span>` : "";
+      return `<li>${tag}<b>${escapeHtml(r.label || "时段")}</b> <span class="range-when">${fmtDate(r.start)} → ${fmtDate(r.end)}</span></li>`;
     })
     .join("");
   const days = ev.days || {};
@@ -106,7 +106,7 @@ export function openDetail(gameId, eventId) {
     <div class="detail-progress" title="${live.tip || ""}"><i style="width:${live.pct.toFixed(1)}%"></i></div>
     ${
       days.totalDays != null
-        ? `<p class="detail-days">已过 ${days.elapsedDays ?? "?"} / 共 ${days.totalDays} 天 · 剩 ${days.remainDays ?? "?"} 天</p>`
+        ? `<p class="detail-days">已过 ${escapeHtml(days.elapsedDays ?? "?")} / 共 ${escapeHtml(days.totalDays)} 天 · 剩 ${escapeHtml(days.remainDays ?? "?")} 天</p>`
         : ""
     }
     ${timelineHtml(rangeItems)}
@@ -118,16 +118,16 @@ export function openDetail(gameId, eventId) {
   const tools = toolsFor(game);
   const primaryLabel = isWebEvent(ev) ? "打开网页活动" : "打开链接";
   const wikiBtn = wiki?.url
-    ? `<a class="ghost" href="${wiki.url}" target="_blank" rel="noopener">Wiki</a>`
+    ? `<a class="ghost" href="${escapeHtml(wiki.url)}" target="_blank" rel="noopener">Wiki</a>`
     : "";
   const toolBtns = tools
     .map(
       (t) =>
-        `<a class="ghost" href="${t.url}" target="_blank" rel="noopener" title="${t.desc || ""}">${t.name}</a>`
+        `<a class="ghost" href="${escapeHtml(t.url)}" target="_blank" rel="noopener" title="${escapeHtml(t.desc || "")}">${escapeHtml(t.name)}</a>`
     )
     .join("");
   $("#detailFoot").innerHTML = `
-    ${jump ? `<a class="primary" href="${jump}" target="_blank" rel="noopener">${primaryLabel}</a>` : ""}
+    ${jump ? `<a class="primary" href="${escapeHtml(jump)}" target="_blank" rel="noopener">${primaryLabel}</a>` : ""}
     ${wikiBtn}
     ${toolBtns}
     <button type="button" class="ghost" data-copy-link>复制链接</button>
@@ -137,12 +137,12 @@ export function openDetail(gameId, eventId) {
     const block = document.createElement("div");
     block.className = "detail-block";
     const wikiHtml = wiki?.url
-      ? `<a class="tool-link wiki" href="${wiki.url}" target="_blank" rel="noopener">${wiki.name || "Wiki"}<small>资料站</small></a>`
+      ? `<a class="tool-link wiki" href="${escapeHtml(wiki.url)}" target="_blank" rel="noopener">${escapeHtml(wiki.name || "Wiki")}<small>资料站</small></a>`
       : "";
     const toolsHtmlInner = tools
       .map(
         (t) =>
-          `<a class="tool-link" href="${t.url}" target="_blank" rel="noopener" title="${t.desc || t.name}">${t.name}<small>${t.desc || ""}</small></a>`
+          `<a class="tool-link" href="${escapeHtml(t.url)}" target="_blank" rel="noopener" title="${escapeHtml(t.desc || t.name)}">${escapeHtml(t.name)}<small>${escapeHtml(t.desc || "")}</small></a>`
       )
       .join("");
     block.innerHTML = `<h3>相关链接</h3><div class="tool-row">${wikiHtml}${toolsHtmlInner}</div>`;

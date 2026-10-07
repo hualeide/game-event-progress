@@ -1,4 +1,4 @@
-import { $, adaptCover, endingSoon, fmtUpdated } from "./util.js?v=20260903v15";
+import { $, adaptCover, endingSoon, escapeHtml, fmtUpdated } from "./util.js?v=20260903v15";
 import {
   CAT_ORDER,
   allGames,
@@ -29,12 +29,12 @@ export function toolsHtml(game, { compact = false } = {}) {
   const parts = [];
   if (wiki?.url) {
     parts.push(
-      `<a class="tool-link wiki" href="${wiki.url}" target="_blank" rel="noopener" title="Wiki" data-tool>${wiki.name || "Wiki"}</a>`
+      `<a class="tool-link wiki" href="${escapeHtml(wiki.url)}" target="_blank" rel="noopener" title="Wiki" data-tool>${escapeHtml(wiki.name || "Wiki")}</a>`
     );
   }
   tools.slice(0, compact ? 2 : 5).forEach((t) => {
     parts.push(
-      `<a class="tool-link" href="${t.url}" target="_blank" rel="noopener" title="${t.desc || t.name}" data-tool>${t.name}</a>`
+      `<a class="tool-link" href="${escapeHtml(t.url)}" target="_blank" rel="noopener" title="${escapeHtml(t.desc || t.name)}" data-tool>${escapeHtml(t.name)}</a>`
     );
   });
   if (!parts.length) return "";
@@ -87,27 +87,27 @@ export function cardHtml(game, ev) {
   const coverStatus = soon ? "即将结束" : stateText;
   const accent = ACCENT_BY_GAME[game.accent] || "card--accent-blue";
   const coverInner = src
-    ? `<img class="cover-blur" src="${src}" alt="" aria-hidden="true" loading="lazy" />
-       <img class="cover-img" src="${src}" alt="${name}" loading="lazy"
+    ? `<img class="cover-blur" src="${escapeHtml(src)}" alt="" aria-hidden="true" loading="lazy" />
+       <img class="cover-img" src="${escapeHtml(src)}" alt="${escapeHtml(name)}" loading="lazy"
          onload="adaptCover(this)"
          onerror="const c=this.parentElement;const b=this.previousElementSibling;if(b)b.remove();this.remove();if(c)c.classList.add('cover-fallback');" />`
     : "";
   const coverTag = jump
-    ? `a class="cover cover-link ${src ? "" : "cover-fallback"}" href="${jump}" target="_blank" rel="noopener" data-jump title="打开链接"`
+    ? `a class="cover cover-link ${src ? "" : "cover-fallback"}" href="${escapeHtml(jump)}" target="_blank" rel="noopener" data-jump title="打开链接"`
     : `div class="cover ${src ? "" : "cover-fallback"}"`;
   const coverClose = jump ? "a" : "div";
   return `
   <article class="card briefing-card ${accent} ${kindClass === "preview" ? "preview" : ""} ${web ? "is-web" : ""} ${soon ? "is-soon" : ""}" title="${soon ? "即将结束 · " : ""}${live.tip || ""} · 点击正文看详情${jump ? " · 点击封面打开链接" : ""}"
-    data-event-id="${eid}" data-game-id="${game.id}" data-cat="${cat}" tabindex="0">
+    data-event-id="${escapeHtml(eid)}" data-game-id="${escapeHtml(game.id)}" data-cat="${escapeHtml(cat)}" tabindex="0">
     <${coverTag}>
       ${coverInner}
       <div class="cover-overlay"></div>
       <span class="badge ${kindClass}${soon ? " soon" : ""}">${coverStatus}</span>
-      <span class="badge badge-cat cat-${cat}">${catLabel(cat)}</span>
+      <span class="badge badge-cat cat-${escapeHtml(cat)}">${catLabel(cat)}</span>
     </${coverClose}>
     <div class="bar briefing-body">
-      <p class="bar-title">${name}</p>
-      ${sub ? `<p class="bar-sub">${sub}</p>` : ""}
+      <p class="bar-title">${escapeHtml(name)}</p>
+      ${sub ? `<p class="bar-sub">${escapeHtml(sub)}</p>` : ""}
       <div class="briefing-grid">
         <div class="remain ${kindClass} ${soon ? "soon" : ""}">
           <span class="metric">${live.remain}</span>
@@ -223,11 +223,11 @@ export function gameRowHtml(game, payload) {
   const countLabel = load === "ready" ? String(total) : load === "loading" ? "…" : "·";
 
   return `
-  <section class="game-row ${collapsed ? "collapsed" : ""}" data-game="${game.id}" data-accent="${game.accent || ""}" data-load="${load}">
+  <section class="game-row ${collapsed ? "collapsed" : ""}" data-game="${escapeHtml(game.id)}" data-accent="${escapeHtml(game.accent || "")}" data-load="${load}">
     <div class="game-head">
-      <button type="button" class="game-bar" data-toggle="${game.id}" aria-expanded="${!collapsed}">
-        <img class="game-icon" src="${game.icon}" alt="${game.name}" onerror="this.src='./icons/custom.svg'" />
-        <div class="game-name">${game.name}<small>${game.en}</small></div>
+      <button type="button" class="game-bar" data-toggle="${escapeHtml(game.id)}" aria-expanded="${!collapsed}">
+        <img class="game-icon" src="${escapeHtml(game.icon)}" alt="${escapeHtml(game.name)}" onerror="this.src='./icons/custom.svg'" />
+        <div class="game-name">${escapeHtml(game.name)}<small>${escapeHtml(game.en)}</small></div>
         <span class="game-count ${load === "ready" && total === 0 ? "is-zero" : ""}">${countLabel}</span>
         <svg class="chev" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -273,7 +273,7 @@ export function observeGameRows() {
 export async function patchGameRow(gameId) {
   const game = allGames().find((g) => g.id === gameId);
   if (!game) return;
-  const row = document.querySelector(`#games .game-row[data-game="${gameId}"]`);
+  const row = document.querySelector(`#games .game-row[data-game="${CSS.escape(gameId)}"]`);
   if (!row) {
     render();
     return;
@@ -379,17 +379,17 @@ export function renderPicker() {
           const idx = en.indexOf(g.id);
           const ord = on
             ? `<span class="pick-ord" title="显示顺序 ${idx + 1}">
-                  <button type="button" class="ord-btn" data-move="up" data-game="${g.id}" ${idx === 0 ? "disabled" : ""} aria-label="上移">↑</button>
-                  <button type="button" class="ord-btn" data-move="down" data-game="${g.id}" ${idx === en.length - 1 ? "disabled" : ""} aria-label="下移">↓</button>
+                  <button type="button" class="ord-btn" data-move="up" data-game="${escapeHtml(g.id)}" ${idx === 0 ? "disabled" : ""} aria-label="上移">↑</button>
+                  <button type="button" class="ord-btn" data-move="down" data-game="${escapeHtml(g.id)}" ${idx === en.length - 1 ? "disabled" : ""} aria-label="下移">↓</button>
                 </span>`
             : "";
           return `
         <label class="pick-item ${on ? "is-on" : ""}">
-          <input type="checkbox" data-game="${g.id}" ${on ? "checked" : ""} />
-          <img src="${g.icon}" alt="" onerror="this.src='./icons/custom.svg'" />
-          <span class="pick-name">${g.name}</span>
+          <input type="checkbox" data-game="${escapeHtml(g.id)}" ${on ? "checked" : ""} />
+          <img src="${escapeHtml(g.icon)}" alt="" onerror="this.src='./icons/custom.svg'" />
+          <span class="pick-name">${escapeHtml(g.name)}</span>
           ${ord}
-          ${g.custom ? `<button type="button" class="rm" data-rm="${g.id}" title="删除自定义">删</button>` : ""}
+          ${g.custom ? `<button type="button" class="rm" data-rm="${escapeHtml(g.id)}" title="删除自定义">删</button>` : ""}
         </label>`;
         })
         .join("")}
@@ -403,7 +403,7 @@ export function renderPicker() {
       <select name="gameId" required>
         <option value="">选择自定义游戏…</option>
         ${loadCustomGames()
-          .map((g) => `<option value="${g.id}">${g.name}</option>`)
+          .map((g) => `<option value="${escapeHtml(g.id)}">${escapeHtml(g.name)}</option>`)
           .join("")}
       </select>
       <input name="title" placeholder="活动名" required maxlength="40" />
