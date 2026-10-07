@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-10-04T13:54:12.747893+08:00",
-  "count": 5,
+  "fetchedAt": "2026-10-07T18:53:02.160971+08:00",
+  "count": 6,
   "events": [
     {
       "id": "al-作战准备新纪元都市NO7-0904",
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-10-07T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天10时",
-      "progress": 89.8,
+      "remain": "剩5小时",
+      "progress": 99.4,
       "days": {
-        "elapsedDays": 30.0,
-        "remainDays": 3.4,
+        "elapsedDays": 33.2,
+        "remainDays": 0.2,
         "totalDays": 33.4
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩66天20时",
-      "progress": 30.9,
+      "remain": "剩63天15时",
+      "progress": 34.3,
       "days": {
-        "elapsedDays": 30.0,
-        "remainDays": 66.8,
+        "elapsedDays": 33.2,
+        "remainDays": 63.6,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩27天10时",
-      "progress": 11.5,
+      "remain": "剩24天5时",
+      "progress": 21.9,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 27.4,
+        "elapsedDays": 6.8,
+        "remainDays": 24.2,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -74,6 +74,29 @@
       "summary": "2026年9月24日10:00港区改建"
     },
     {
+      "id": "al-自选轻量复刻-1008",
+      "title": "自选轻量复刻",
+      "header": "开启限时活动·自选轻量复刻",
+      "banner": "./covers/al-8c0a27d4b6-7a91e2bb.jpg",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-10-08T16:00:00+08:00",
+      "end": "2026-10-15T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "21小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 7.6,
+        "totalDays": 6.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年10月8日10:00港区改建"
+    },
+    {
       "id": "al-新人指挥官双倍经验活动-0908",
       "title": "新人指挥官双倍经验活动",
       "header": "开启限时活动·新人指挥官双倍经验活动",
@@ -82,11 +105,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩27天10时",
-      "progress": 48.6,
+      "remain": "剩24天5时",
+      "progress": 54.6,
       "days": {
-        "elapsedDays": 25.9,
-        "remainDays": 27.4,
+        "elapsedDays": 29.1,
+        "remainDays": 24.2,
         "totalDays": 53.3
       },
       "hasSchedule": true,
@@ -105,11 +128,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩57天10时",
-      "progress": 5.9,
+      "remain": "剩54天5时",
+      "progress": 11.1,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 57.4,
+        "elapsedDays": 6.8,
+        "remainDays": 54.2,
         "totalDays": 61.0
       },
       "hasSchedule": true,

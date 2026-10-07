@@ -1,42 +1,12 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-10-02T20:37:35.028256+08:00",
+  "fetchedAt": "2026-10-07T18:53:40.150252+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 8,
   "notes": [],
   "events": [
-    {
-      "id": "2280d567",
-      "title": "36.4.2补丁说明",
-      "header": "36.4.2补丁说明",
-      "banner": "./covers/hs-2280d567-24341c66.jpg",
-      "link": "https://hs.blizzard.cn/news/24296231/index.html",
-      "start": "2026-09-08T15:58:00+08:00",
-      "end": "2026-10-06T15:58:00+08:00",
-      "status": "进行中",
-      "remain": "剩3天19时",
-      "progress": 86.4,
-      "days": {
-        "elapsedDays": 24.2,
-        "remainDays": 3.8,
-        "totalDays": 28.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-09-08T15:58:00+08:00",
-          "end": "2026-10-06T15:58:00+08:00",
-          "raw": "估"
-        }
-      ],
-      "summary": "36.4.2补丁说明"
-    },
     {
       "id": "b8904c68",
       "title": "畸变怪将在暴雪嘉年华上加入酒馆战棋！",
@@ -46,11 +16,11 @@
       "start": "2026-09-13T03:05:00+08:00",
       "end": "2026-10-11T03:05:00+08:00",
       "status": "进行中",
-      "remain": "剩8天6时",
-      "progress": 70.5,
+      "remain": "剩3天8时",
+      "progress": 88.1,
       "days": {
-        "elapsedDays": 19.7,
-        "remainDays": 8.3,
+        "elapsedDays": 24.7,
+        "remainDays": 3.3,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-09-16T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天7时",
-      "progress": 59.3,
+      "remain": "剩6天9时",
+      "progress": 77.0,
       "days": {
-        "elapsedDays": 16.4,
-        "remainDays": 11.3,
+        "elapsedDays": 21.4,
+        "remainDays": 6.4,
         "totalDays": 27.8
       },
       "hasSchedule": true,
@@ -106,11 +76,11 @@
       "start": "2026-09-19T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天7时",
-      "progress": 54.3,
+      "remain": "剩6天9时",
+      "progress": 74.2,
       "days": {
-        "elapsedDays": 13.4,
-        "remainDays": 11.3,
+        "elapsedDays": 18.4,
+        "remainDays": 6.4,
         "totalDays": 24.8
       },
       "hasSchedule": true,
@@ -136,11 +106,11 @@
       "start": "2026-09-16T10:00:00+08:00",
       "end": "2026-10-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天7时",
-      "progress": 59.3,
+      "remain": "剩6天9时",
+      "progress": 77.0,
       "days": {
-        "elapsedDays": 16.4,
-        "remainDays": 11.3,
+        "elapsedDays": 21.4,
+        "remainDays": 6.4,
         "totalDays": 27.8
       },
       "hasSchedule": true,
@@ -166,11 +136,11 @@
       "start": "2026-09-30T10:00:00+08:00",
       "end": "2026-10-21T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩18天7时",
-      "progress": 11.8,
+      "remain": "剩13天9时",
+      "progress": 35.5,
       "days": {
-        "elapsedDays": 2.4,
-        "remainDays": 18.3,
+        "elapsedDays": 7.4,
+        "remainDays": 13.4,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -196,11 +166,11 @@
       "start": "2026-10-01T10:03:00+08:00",
       "end": "2026-10-29T10:03:00+08:00",
       "status": "进行中",
-      "remain": "剩26天13时",
-      "progress": 5.1,
+      "remain": "剩21天15时",
+      "progress": 22.7,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 26.6,
+        "elapsedDays": 6.4,
+        "remainDays": 21.6,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -218,6 +188,36 @@
       "summary": "36.6.3补丁说明"
     },
     {
+      "id": "e6331cd3",
+      "title": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
+      "header": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
+      "banner": "./covers/hs-e6331cd3-568e9f2b.jpg",
+      "link": "https://hs.blizzard.cn/news/24307307/index.html",
+      "start": "2026-10-03T01:00:00+08:00",
+      "end": "2026-10-31T01:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩23天6时",
+      "progress": 16.9,
+      "days": {
+        "elapsedDays": 4.7,
+        "remainDays": 23.3,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-10-03T01:00:00+08:00",
+          "end": "2026-10-31T01:00:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗"
+    },
+    {
       "id": "ccb4e5c9",
       "title": "关于“胜地历险记”金色卡牌包定价异常问题的处理进展说明",
       "header": "关于“胜地历险记”金色卡牌包定价异常问题的处理进展说明",
@@ -226,11 +226,11 @@
       "start": "2026-10-14T10:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "11天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 60.3,
+        "remainDays": 55.4,
         "totalDays": 48.8
       },
       "hasSchedule": true,
