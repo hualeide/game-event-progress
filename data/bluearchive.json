@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-10-08T14:04:21.867472+08:00",
+  "fetchedAt": "2026-10-08T21:29:39.629775+08:00",
   "timezone": "Asia/Shanghai",
   "count": 19,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-10-07T00:00:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 18.5,
+      "remain": "剩6天16时",
+      "progress": 22.1,
       "days": {
-        "elapsedDays": 1.6,
-        "remainDays": 7.0,
+        "elapsedDays": 1.9,
+        "remainDays": 6.7,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -110,11 +110,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 2.9,
+      "remain": "剩13天16时",
+      "progress": 5.1,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 14.0,
+        "elapsedDays": 0.7,
+        "remainDays": 13.7,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -146,11 +146,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天13时",
-      "progress": 6.0,
+      "remain": "剩6天6时",
+      "progress": 10.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 6.6,
+        "elapsedDays": 0.7,
+        "remainDays": 6.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 0.1,
+      "remain": "剩6天16时",
+      "progress": 4.5,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.0,
+        "elapsedDays": 0.3,
+        "remainDays": 6.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -213,16 +213,16 @@
       "id": "1974",
       "title": "【预告】限时活动：-ive aLIVE!",
       "header": "「-ive aLIVE!」",
-      "banner": "",
+      "banner": "./covers/ba-1974-c97120cf.png",
       "link": "https://bluearchive-cn.com/news/1974",
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 0.0,
+      "remain": "剩13天16时",
+      "progress": 2.2,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "elapsedDays": 0.3,
+        "remainDays": 13.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -254,11 +254,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 0.0,
+      "remain": "剩13天16时",
+      "progress": 2.2,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "elapsedDays": 0.3,
+        "remainDays": 13.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -284,11 +284,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 0.0,
+      "remain": "剩13天16时",
+      "progress": 2.2,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "elapsedDays": 0.3,
+        "remainDays": 13.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -314,11 +314,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天23时",
-      "progress": 0.0,
+      "remain": "剩13天16时",
+      "progress": 2.2,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 14.0,
+        "elapsedDays": 0.3,
+        "remainDays": 13.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -344,11 +344,11 @@
       "start": "2026-10-09T14:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "23小时后",
+      "remain": "16小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "remainDays": 20.3,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -378,7 +378,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.0,
+        "remainDays": 20.7,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -420,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "remainDays": 20.3,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -450,7 +450,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.0,
+        "remainDays": 29.7,
         "totalDays": 15.6
       },
       "hasSchedule": true,
