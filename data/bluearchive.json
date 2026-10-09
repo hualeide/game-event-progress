@@ -1,9 +1,9 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-10-09T07:21:04.636770+08:00",
+  "fetchedAt": "2026-10-09T14:08:51.022270+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 19,
+  "count": 18,
   "notes": [
     "1966 跳过：【预告】家具互动即将更新",
     "1965 跳过：【预告】区域29更新",
@@ -15,6 +15,7 @@
     "1945 跳过：【预告】3★必得招募即将开启！",
     "1944 跳过：【预告】3★限定必得招募即将开启！",
     "1943 跳过：【预告】3★自选招募即将开启！",
+    "1953 已过期：【预告】总力战：霍德 • 街区战",
     "1949 跳过：【预告】社团故事即将更新",
     "1951 跳过：【预告】家具互动即将更新",
     "1950 跳过：【预告】家具互动即将更新",
@@ -43,8 +44,7 @@
     "1919 已过期：【预告】大决战：希罗尼穆斯 • 街区战",
     "1918 跳过：【预告】家具互动即将更新",
     "1917 已过期：【预告】掉落量2倍活动即将开启！",
-    "1915 跳过：组合月卡内容焕新说明",
-    "1914 跳过：08月20日维护更新说明"
+    "1915 跳过：组合月卡内容焕新说明"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-10-07T00:00:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天6时",
-      "progress": 26.9,
+      "remain": "剩5天23时",
+      "progress": 30.2,
       "days": {
-        "elapsedDays": 2.3,
-        "remainDays": 6.3,
+        "elapsedDays": 2.6,
+        "remainDays": 6.0,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -110,11 +110,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 7.9,
+      "remain": "剩12天23时",
+      "progress": 9.9,
       "days": {
-        "elapsedDays": 1.1,
-        "remainDays": 13.3,
+        "elapsedDays": 1.4,
+        "remainDays": 13.0,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -146,11 +146,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天20时",
-      "progress": 16.3,
+      "remain": "剩5天13时",
+      "progress": 20.3,
       "days": {
-        "elapsedDays": 1.1,
-        "remainDays": 5.9,
+        "elapsedDays": 1.4,
+        "remainDays": 5.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天6时",
-      "progress": 10.3,
+      "remain": "剩5天23时",
+      "progress": 14.4,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 6.3,
+        "elapsedDays": 1.0,
+        "remainDays": 6.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -218,11 +218,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -254,11 +254,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -284,11 +284,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -314,11 +314,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天6时",
-      "progress": 5.2,
+      "remain": "剩12天23时",
+      "progress": 7.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.0,
+        "remainDays": 13.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -343,16 +343,16 @@
       "link": "https://bluearchive-cn.com/news/1967",
       "start": "2026-10-09T14:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "6小时后",
+      "status": "进行中",
+      "remain": "剩19天13时",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.9,
+        "remainDays": 19.6,
         "totalDays": 19.6
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": false,
       "category": "combat",
       "allRanges": [
@@ -378,7 +378,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.3,
+        "remainDays": 20.0,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -420,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.9,
+        "remainDays": 19.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -450,7 +450,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.3,
+        "remainDays": 29.0,
         "totalDays": 15.6
       },
       "hasSchedule": true,
@@ -652,42 +652,6 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 庆典复刻招募【温柔地奏响天空的方式】即将开启！在本次招募中，3★限定成员\"日奈（礼服）\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 10月01日 14:00 ~ 10月08日 13:59 \n  \n ■ 注意事项 \n • 在本次庆典招募中，3★成员的整体招募概率将从3%提升至…"
-    },
-    {
-      "id": "1953",
-      "title": "【预告】总力战：霍德 • 街区战",
-      "header": "「总力战·霍德 • 街区战」",
-      "banner": "./covers/ba-1953-f413240b.png",
-      "link": "https://bluearchive-cn.com/news/1953",
-      "start": "2026-10-02T00:00:00+08:00",
-      "end": "2026-10-06T13:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 4.6,
-        "remainDays": 0.0,
-        "totalDays": 4.6
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-10-01T04:00:00+08:00",
-          "end": "2026-10-01T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：10月01日 04:00 ~ 10月01日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-10-02T00:00:00+08:00",
-          "end": "2026-10-06T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：10月02日 00:00 ~ 10月06日 13:59"
-        }
-      ],
-      "summary": "霍德原本是千禧年自管区通讯网的AI处理器，受到不明AI攻击后，开始宣称自己是神名十文字的第8个先知。 \n 如果这个集结千禧年技术精华的运算系统持续失控，千禧年自管区的安全将失去保障。 \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领进行战斗的任务。 \n • 一天内可以参加战斗的次数是有限的，所以要慎重考虑后再进…"
     }
   ]
 }
