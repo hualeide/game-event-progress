@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-10-09T14:09:24.419477+08:00",
+  "fetchedAt": "2026-10-09T21:18:19.071297+08:00",
   "count": 5,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩61天19时",
-      "progress": 36.1,
+      "remain": "剩61天12时",
+      "progress": 36.4,
       "days": {
-        "elapsedDays": 35.0,
-        "remainDays": 61.8,
+        "elapsedDays": 35.3,
+        "remainDays": 61.5,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天9时",
-      "progress": 27.7,
+      "remain": "剩22天2时",
+      "progress": 28.7,
       "days": {
-        "elapsedDays": 8.6,
-        "remainDays": 22.4,
+        "elapsedDays": 8.9,
+        "remainDays": 22.1,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -54,16 +54,16 @@
       "id": "al-自选轻量复刻-1008",
       "title": "自选轻量复刻",
       "header": "开启限时活动·自选轻量复刻",
-      "banner": "./covers/al-8c0a27d4b6-223ea53b.jpg",
+      "banner": "./covers/al-8c0a27d4b6-7a91e2bb.jpg",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-10-08T16:00:00+08:00",
       "end": "2026-10-15T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩5天19时",
-      "progress": 13.7,
+      "remain": "剩5天12时",
+      "progress": 18.1,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 5.8,
+        "elapsedDays": 1.2,
+        "remainDays": 5.5,
         "totalDays": 6.8
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天9时",
-      "progress": 58.0,
+      "remain": "剩22天2时",
+      "progress": 58.5,
       "days": {
-        "elapsedDays": 30.9,
-        "remainDays": 22.4,
+        "elapsedDays": 31.2,
+        "remainDays": 22.1,
         "totalDays": 53.3
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩52天9时",
-      "progress": 14.1,
+      "remain": "剩52天2时",
+      "progress": 14.6,
       "days": {
-        "elapsedDays": 8.6,
-        "remainDays": 52.4,
+        "elapsedDays": 8.9,
+        "remainDays": 52.1,
         "totalDays": 61.0
       },
       "hasSchedule": true,
