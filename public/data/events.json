@@ -1,9 +1,9 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-13T22:12:01.231270+08:00",
+  "fetchedAt": "2026-10-14T06:45:05.007366+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 7,
+  "count": 6,
   "notes": [
     "2930 跳过：昨日海 战绩查询更新",
     "0401 跳过：昨日海 限时任务",
@@ -17,8 +17,7 @@
     "7738 跳过：《明日方舟》 公平运营申明",
     "1065 寻访「海渊巡游」对齐长公告时段",
     "2932 寻访「常驻标准寻访」用展示日估时",
-    "2931 寻访「中坚寻访」用展示日估时",
-    "补全寻访卡「定向甄选」（无独立海报公告）"
+    "2931 寻访「中坚寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -53,11 +52,11 @@
       "start": "2026-10-01T16:00:00+08:00",
       "end": "2026-10-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天5时",
-      "progress": 90.8,
+      "remain": "剩21小时",
+      "progress": 93.4,
       "days": {
-        "elapsedDays": 12.3,
-        "remainDays": 1.2,
+        "elapsedDays": 12.6,
+        "remainDays": 0.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -89,11 +88,11 @@
       "start": "2026-10-08T16:00:00+08:00",
       "end": "2026-10-22T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天5时",
-      "progress": 39.0,
+      "remain": "剩7天21时",
+      "progress": 41.6,
       "days": {
-        "elapsedDays": 5.3,
-        "remainDays": 8.2,
+        "elapsedDays": 5.6,
+        "remainDays": 7.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -125,11 +124,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 32.4,
+      "remain": "剩8天21时",
+      "progress": 35.0,
       "days": {
-        "elapsedDays": 4.4,
-        "remainDays": 9.2,
+        "elapsedDays": 4.8,
+        "remainDays": 8.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -179,11 +178,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩16天5时",
-      "progress": 21.4,
+      "remain": "剩15天21时",
+      "progress": 23.1,
       "days": {
-        "elapsedDays": 4.4,
-        "remainDays": 16.2,
+        "elapsedDays": 4.8,
+        "remainDays": 15.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -230,9 +229,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 2.7,
+        "remainDays": 2.4,
         "totalDays": 13.5,
-        "untilStartDays": 2.7
+        "untilStartDays": 2.4
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -286,40 +285,6 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260923/58fb9a6b91c8a03de830dbe60c4359e4.JPG",
       "playable": true,
       "category": "combat"
-    },
-    {
-      "id": "gacha-05f0240eab",
-      "title": "【定向甄选】限时寻访",
-      "header": "「定向甄选」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-10-13T22:12:01.231270+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-09-29T16:00:00+08:00",
-          "end": "2026-10-13T03:59:00+08:00",
-          "raw": "【定向甄选】限时寻访开启 活动时间： 09月29日 16:00 - 10月13日 03:59"
-        }
-      ],
-      "summary": "卡池「定向甄选」",
-      "textPreview": "",
-      "start": "2026-09-29T16:00:00+08:00",
-      "end": "2026-10-13T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "playable": false,
-      "category": "gacha"
     }
   ]
 }
