@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-10-13T08:39:47.196863+08:00",
+  "fetchedAt": "2026-10-13T22:12:01.224368+08:00",
   "timezone": "Asia/Shanghai",
   "count": 12,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-10-07T00:00:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天5时",
-      "progress": 74.1,
+      "remain": "剩1天15时",
+      "progress": 80.7,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 2.2,
+        "elapsedDays": 6.9,
+        "remainDays": 1.7,
         "totalDays": 8.6
       },
       "hasSchedule": true,
@@ -110,11 +110,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 36.0,
+      "remain": "剩8天15时",
+      "progress": 39.9,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 9.2,
+        "elapsedDays": 5.8,
+        "remainDays": 8.7,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -146,11 +146,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-15T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天19时",
-      "progress": 74.2,
+      "remain": "剩1天5时",
+      "progress": 82.3,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 1.8,
+        "elapsedDays": 5.8,
+        "remainDays": 1.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-10-08T13:59:00+08:00",
       "end": "2026-10-15T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天5时",
-      "progress": 68.3,
+      "remain": "剩1天15时",
+      "progress": 76.3,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 2.2,
+        "elapsedDays": 5.3,
+        "remainDays": 1.7,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -218,11 +218,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.1,
+      "remain": "剩8天15时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 5.3,
+        "remainDays": 8.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -254,11 +254,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.1,
+      "remain": "剩8天15时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 5.3,
+        "remainDays": 8.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -284,11 +284,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.1,
+      "remain": "剩8天15时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 5.3,
+        "remainDays": 8.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -314,11 +314,11 @@
       "start": "2026-10-08T14:00:00+08:00",
       "end": "2026-10-22T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.1,
+      "remain": "剩8天15时",
+      "progress": 38.2,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 5.3,
+        "remainDays": 8.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -344,11 +344,11 @@
       "start": "2026-10-09T14:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天19时",
-      "progress": 19.3,
+      "remain": "剩15天5时",
+      "progress": 22.2,
       "days": {
-        "elapsedDays": 3.8,
-        "remainDays": 15.8,
+        "elapsedDays": 4.3,
+        "remainDays": 15.2,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -378,7 +378,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.2,
+        "remainDays": 15.7,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -420,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 15.8,
+        "remainDays": 15.2,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -450,7 +450,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.2,
+        "remainDays": 24.7,
         "totalDays": 15.6
       },
       "hasSchedule": true,
