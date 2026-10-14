@@ -1,52 +1,21 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-10-14T06:45:13.580432+08:00",
+  "fetchedAt": "2026-10-14T12:54:10.665847+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 13,
+  "count": 12,
   "notes": [
     "下次版本维护估：2026-10-15T06:00:00+08:00",
     "2650 跳过：「丹青渡」版本预下载与更新预告",
     "3805 跳过：「丹青渡」版本研发通讯",
     "4774 跳过：「丹青渡」新版本导览上线，浏览领嵌晶玉！",
     "5987 跳过：「融合！山团团！」趣味活动说明",
+    "6095 跳过：官方漫画《溯始先声：缘起》上线",
     "9339 跳过：【2026年10月08日】封禁处理公示",
     "9331 跳过：「雪凇幽梦」版本创作征集活动进行中",
     "4775 跳过：完成高校认证，领专属福利"
   ],
   "events": [
-    {
-      "id": "5989",
-      "title": "「幽寒申领」限时特卖说明",
-      "header": "「幽寒申领」",
-      "banner": "./covers/ef-5989-edb01f15.jpg",
-      "link": "https://endfield.hypergryph.com/news/5989",
-      "start": "2026-09-01T12:30:00+08:00",
-      "end": "2026-10-15T06:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 97.8,
-      "days": {
-        "elapsedDays": 42.8,
-        "remainDays": 1.0,
-        "totalDays": 43.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "估时（至版本维护前）",
-          "start": "2026-09-01T12:30:00+08:00",
-          "end": "2026-10-15T06:00:00+08:00",
-          "raw": "single-node"
-        }
-      ],
-      "summary": "亲爱的管理员：「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！▼//「幽寒申领」· 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算）· 开放条件：",
-      "body": "亲爱的管理员： \n 「幽寒申领」开放期间，6星武器【寒夜幽影（施术单元）】获取概率提升！ \n \n ▼//「幽寒申领」 \n · 开放时间：「雪凇幽梦」版本更新后开启，于3次「特许寻访」后结束（从「冬猎」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「幽寒申领」中，概率提升的6星武器为【寒夜幽影（施术单元）】。 \n · 「幽寒申领」中，全部可能出现的6星武器包括：寒夜幽影（施术单元）/典范（双手剑）/同类相食（手铳）/骁勇（长柄武器）/遗忘（施术单元）/爆破单元（施术单元）/扶摇（单手剑）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
-      "updatedAt": "2026-09-01T12:30:00+08:00"
-    },
     {
       "id": "2653-gacha-点绘申领",
       "title": "「点绘申领」",
@@ -56,11 +25,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.3,
+      "remain": "剩17小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 19.8,
-        "remainDays": 1.0,
+        "elapsedDays": 20.0,
+        "remainDays": 0.7,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -89,11 +58,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.3,
+      "remain": "剩17小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 19.8,
-        "remainDays": 1.0,
+        "elapsedDays": 20.0,
+        "remainDays": 0.7,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -121,11 +90,11 @@
       "start": "2026-10-05T12:00:00+08:00",
       "end": "2026-10-19T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天21时",
-      "progress": 64.3,
+      "remain": "剩4天15时",
+      "progress": 66.1,
       "days": {
-        "elapsedDays": 8.8,
-        "remainDays": 4.9,
+        "elapsedDays": 9.0,
+        "remainDays": 4.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -153,11 +122,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 97.3,
+      "remain": "剩17小时",
+      "progress": 98.0,
       "days": {
-        "elapsedDays": 34.8,
-        "remainDays": 1.0,
+        "elapsedDays": 35.0,
+        "remainDays": 0.7,
         "totalDays": 35.8
       },
       "hasSchedule": true,
@@ -186,11 +155,11 @@
       "start": "2026-09-09T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 97.3,
+      "remain": "剩17小时",
+      "progress": 98.0,
       "days": {
-        "elapsedDays": 34.8,
-        "remainDays": 1.0,
+        "elapsedDays": 35.0,
+        "remainDays": 0.7,
         "totalDays": 35.8
       },
       "hasSchedule": true,
@@ -298,11 +267,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.3,
+      "remain": "剩17小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 19.8,
-        "remainDays": 1.0,
+        "elapsedDays": 20.0,
+        "remainDays": 0.7,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -331,11 +300,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.3,
+      "remain": "剩17小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 19.8,
-        "remainDays": 1.0,
+        "elapsedDays": 20.0,
+        "remainDays": 0.7,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -364,11 +333,11 @@
       "start": "2026-09-24T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 95.3,
+      "remain": "剩17小时",
+      "progress": 96.6,
       "days": {
-        "elapsedDays": 19.8,
-        "remainDays": 1.0,
+        "elapsedDays": 20.0,
+        "remainDays": 0.7,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -397,11 +366,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 93.0,
+      "remain": "剩17小时",
+      "progress": 94.8,
       "days": {
-        "elapsedDays": 12.8,
-        "remainDays": 1.0,
+        "elapsedDays": 13.0,
+        "remainDays": 0.7,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -430,11 +399,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 93.0,
+      "remain": "剩17小时",
+      "progress": 94.8,
       "days": {
-        "elapsedDays": 12.8,
-        "remainDays": 1.0,
+        "elapsedDays": 13.0,
+        "remainDays": 0.7,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -463,11 +432,11 @@
       "start": "2026-10-01T12:00:00+08:00",
       "end": "2026-10-15T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩23小时",
-      "progress": 93.0,
+      "remain": "剩17小时",
+      "progress": 94.8,
       "days": {
-        "elapsedDays": 12.8,
-        "remainDays": 1.0,
+        "elapsedDays": 13.0,
+        "remainDays": 0.7,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -496,11 +465,11 @@
       "start": "2026-10-08T04:00:00+08:00",
       "end": "2026-10-15T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21小时",
-      "progress": 87.4,
+      "remain": "剩15小时",
+      "progress": 91.0,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 0.9,
+        "elapsedDays": 6.4,
+        "remainDays": 0.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
