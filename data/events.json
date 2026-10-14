@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-15T01:10:24.392570+08:00",
+  "fetchedAt": "2026-10-15T05:41:25.743991+08:00",
   "timezone": "Asia/Shanghai",
   "count": 6,
   "notes": [
@@ -15,9 +15,9 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "1064 寻访「中坚寻访」用展示日估时",
     "1065 寻访「海渊巡游」对齐长公告时段",
-    "2932 寻访「常驻标准寻访」用展示日估时",
-    "2931 寻访「中坚寻访」用展示日估时"
+    "2932 寻访「常驻标准寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -30,42 +30,6 @@
     ]
   },
   "events": [
-    {
-      "id": "2931",
-      "title": "中坚寻访 干员出率上升",
-      "header": "「中坚寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-2931.jpg",
-      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_77_0_2",
-      "updatedAt": "2026-09-30T11:12:10+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-10-01T16:00:00+08:00",
-          "end": "2026-10-15T03:59:00+08:00",
-          "raw": "displayTime=2026-10-01"
-        }
-      ],
-      "summary": "卡池「中坚寻访」",
-      "textPreview": "",
-      "start": "2026-10-01T16:00:00+08:00",
-      "end": "2026-10-15T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 13.4,
-        "remainDays": 0.1,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260930/a2750f381e65a0619f76d358f0f0f9db.jpg",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
     {
       "id": "2932",
       "title": "常驻标准寻访 限时出率上升",
@@ -88,11 +52,11 @@
       "start": "2026-10-08T16:00:00+08:00",
       "end": "2026-10-22T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天2时",
-      "progress": 47.3,
+      "remain": "剩6天22时",
+      "progress": 48.7,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 7.1,
+        "elapsedDays": 6.6,
+        "remainDays": 6.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -124,11 +88,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天2时",
-      "progress": 40.6,
+      "remain": "剩7天22时",
+      "progress": 42.0,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 8.1,
+        "elapsedDays": 5.7,
+        "remainDays": 7.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -178,11 +142,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天2时",
-      "progress": 26.9,
+      "remain": "剩14天22时",
+      "progress": 27.8,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 15.1,
+        "elapsedDays": 5.7,
+        "remainDays": 14.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -190,6 +154,43 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
       "playable": true,
       "category": "combat"
+    },
+    {
+      "id": "1064",
+      "title": "中坚寻访 干员出率上升",
+      "header": "「中坚寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-1064.jpg",
+      "link": "uniwebview://move?target=recruit&param1=CLASSIC_DOUBLE_78_0_1",
+      "updatedAt": "2026-10-14T20:51:25+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-10-15T16:00:00+08:00",
+          "end": "2026-10-29T03:59:00+08:00",
+          "raw": "displayTime=2026-10-15"
+        }
+      ],
+      "summary": "卡池「中坚寻访」",
+      "textPreview": "",
+      "start": "2026-10-15T16:00:00+08:00",
+      "end": "2026-10-29T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "10小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 0.4,
+        "totalDays": 13.5,
+        "untilStartDays": 0.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20261014/0baf70cfb92535322a68eeb8341abde9.jpg",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     },
     {
       "id": "4846",
@@ -229,9 +230,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 1.6,
+        "remainDays": 1.4,
         "totalDays": 13.5,
-        "untilStartDays": 1.6
+        "untilStartDays": 1.4
       },
       "hasSchedule": true,
       "kind": "preview",
