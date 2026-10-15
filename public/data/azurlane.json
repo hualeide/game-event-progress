@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-10-12T05:58:45.436108+08:00",
+  "fetchedAt": "2026-10-16T05:23:37.201275+08:00",
   "count": 5,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩59天4时",
-      "progress": 38.9,
+      "remain": "剩55天4时",
+      "progress": 43.0,
       "days": {
-        "elapsedDays": 37.6,
-        "remainDays": 59.2,
+        "elapsedDays": 41.6,
+        "remainDays": 55.2,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天17时",
-      "progress": 36.3,
+      "remain": "剩15天18时",
+      "progress": 49.1,
       "days": {
-        "elapsedDays": 11.2,
-        "remainDays": 19.7,
+        "elapsedDays": 15.2,
+        "remainDays": 15.8,
         "totalDays": 31.0
       },
       "hasSchedule": true,
@@ -51,29 +51,6 @@
       "summary": "2026年9月24日10:00港区改建"
     },
     {
-      "id": "al-自选轻量复刻-1008",
-      "title": "自选轻量复刻",
-      "header": "开启限时活动·自选轻量复刻",
-      "banner": "./covers/al-8c0a27d4b6-ec2f7404.png",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-10-08T16:00:00+08:00",
-      "end": "2026-10-15T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩3天4时",
-      "progress": 53.1,
-      "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 3.2,
-        "totalDays": 6.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年10月8日10:00港区改建"
-    },
-    {
       "id": "al-新人指挥官双倍经验活动-0908",
       "title": "新人指挥官双倍经验活动",
       "header": "开启限时活动·新人指挥官双倍经验活动",
@@ -82,11 +59,11 @@
       "start": "2026-09-08T16:00:00+08:00",
       "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天17时",
-      "progress": 63.0,
+      "remain": "剩15天18时",
+      "progress": 70.4,
       "days": {
-        "elapsedDays": 33.6,
-        "remainDays": 19.7,
+        "elapsedDays": 37.6,
+        "remainDays": 15.8,
         "totalDays": 53.3
       },
       "hasSchedule": true,
@@ -105,11 +82,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩49天17时",
-      "progress": 18.4,
+      "remain": "剩45天18时",
+      "progress": 25.0,
       "days": {
-        "elapsedDays": 11.2,
-        "remainDays": 49.7,
+        "elapsedDays": 15.2,
+        "remainDays": 45.8,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -118,6 +95,29 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年9月24日10:00港区改建"
+    },
+    {
+      "id": "al-严厉女仆不严厉-1015",
+      "title": "严厉女仆不严厉",
+      "header": "开启限时活动·严厉女仆不严厉",
+      "banner": "./covers/al-acc2b35a37-0c8925ad.jpg",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8815%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-10-15T15:00:00+08:00",
+      "end": "2026-11-05T10:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天4时",
+      "progress": 2.9,
+      "days": {
+        "elapsedDays": 0.6,
+        "remainDays": 20.2,
+        "totalDays": 20.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年10月15日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
