@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-10-16T19:25:24.269948+08:00",
+  "fetchedAt": "2026-10-17T05:08:58.222963+08:00",
   "count": 5,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-30T04:00:00+08:00",
       "end": "2026-11-01T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天14时",
-      "progress": 51.6,
+      "remain": "剩15天4时",
+      "progress": 52.9,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 15.6,
+        "elapsedDays": 17.0,
+        "remainDays": 15.2,
         "totalDays": 32.2
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-09-30T04:00:00+08:00",
       "end": "2026-11-01T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天14时",
-      "progress": 51.6,
+      "remain": "剩15天4时",
+      "progress": 52.9,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 15.6,
+        "elapsedDays": 17.0,
+        "remainDays": 15.2,
         "totalDays": 32.2
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-09-30T04:00:00+08:00",
       "end": "2026-11-01T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天14时",
-      "progress": 51.6,
+      "remain": "剩15天4时",
+      "progress": 52.9,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 15.6,
+        "elapsedDays": 17.0,
+        "remainDays": 15.2,
         "totalDays": 32.2
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-09-30T04:00:00+08:00",
       "end": "2026-11-01T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天14时",
-      "progress": 51.6,
+      "remain": "剩15天4时",
+      "progress": 52.9,
       "days": {
-        "elapsedDays": 16.6,
-        "remainDays": 15.6,
+        "elapsedDays": 17.0,
+        "remainDays": 15.2,
         "totalDays": 32.2
       },
       "hasSchedule": true,
@@ -105,11 +105,11 @@
       "start": "2026-10-15T10:00:00+08:00",
       "end": "2026-11-01T09:59:00+08:00",
       "status": "进行中",
-      "remain": "剩15天14时",
-      "progress": 8.2,
+      "remain": "剩15天4时",
+      "progress": 10.6,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 15.6,
+        "elapsedDays": 1.8,
+        "remainDays": 15.2,
         "totalDays": 17.0
       },
       "hasSchedule": true,
