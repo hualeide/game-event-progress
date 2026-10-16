@@ -1,42 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-10-16T12:33:25.957637+08:00",
+  "fetchedAt": "2026-10-16T19:26:24.222727+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 2,
+  "count": 1,
   "notes": [],
   "events": [
-    {
-      "id": "2196",
-      "title": "【限时活动】「定向采购」活动即将开启！",
-      "header": "【限时活动】「定向采购」活动即将开启！",
-      "banner": "./covers/gfl2-2196-c69cf41b.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2196",
-      "start": "2026-10-11T19:00:00+08:00",
-      "end": "2026-10-25T19:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天6时",
-      "progress": 33.8,
-      "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 9.3,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-10-11T19:00:00+08:00",
-          "end": "2026-10-25T19:00:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「定向采购」活动即将开启！"
-    },
     {
       "id": "2201",
       "title": "【限时活动】「隐秘终幕」七日签到活动现已开启！",
@@ -46,11 +16,11 @@
       "start": "2026-10-13T12:30:00+08:00",
       "end": "2026-10-27T12:30:00+08:00",
       "status": "进行中",
-      "remain": "剩10天23时",
-      "progress": 21.4,
+      "remain": "剩10天17时",
+      "progress": 23.5,
       "days": {
-        "elapsedDays": 3.0,
-        "remainDays": 11.0,
+        "elapsedDays": 3.3,
+        "remainDays": 10.7,
         "totalDays": 14.0
       },
       "hasSchedule": true,
