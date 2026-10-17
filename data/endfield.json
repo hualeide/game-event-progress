@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-10-17T23:34:47.523820+08:00",
+  "fetchedAt": "2026-10-18T04:37:02.664991+08:00",
   "timezone": "Asia/Shanghai",
   "count": 20,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天12时",
-      "progress": 11.8,
+      "remain": "剩18天7时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 18.5,
+        "elapsedDays": 2.7,
+        "remainDays": 18.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -58,11 +58,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天12时",
-      "progress": 10.3,
+      "remain": "剩21天7时",
+      "progress": 11.2,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 21.5,
+        "elapsedDays": 2.7,
+        "remainDays": 21.3,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -95,7 +95,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -127,7 +127,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -159,7 +159,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -192,7 +192,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.2,
+        "remainDays": 18.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -224,7 +224,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 46.2,
+        "remainDays": 46.0,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -256,7 +256,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 39.5,
+        "remainDays": 39.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -285,11 +285,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天12时",
-      "progress": 11.8,
+      "remain": "剩18天7时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 18.5,
+        "elapsedDays": 2.7,
+        "remainDays": 18.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -318,11 +318,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩18天12时",
-      "progress": 11.8,
+      "remain": "剩18天7时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 18.5,
+        "elapsedDays": 2.7,
+        "remainDays": 18.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -351,11 +351,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天12时",
-      "progress": 11.8,
+      "remain": "剩18天7时",
+      "progress": 12.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 18.5,
+        "elapsedDays": 2.7,
+        "remainDays": 18.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -384,11 +384,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天12时",
-      "progress": 10.3,
+      "remain": "剩21天7时",
+      "progress": 11.2,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 21.5,
+        "elapsedDays": 2.7,
+        "remainDays": 21.3,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -504,7 +504,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.2,
+        "remainDays": 18.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -532,11 +532,11 @@
       "start": "2026-10-29T04:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "11天后",
+      "remain": "10天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.2,
+        "remainDays": 18.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -568,7 +568,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.2,
+        "remainDays": 32.0,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -600,7 +600,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 27.2,
+        "remainDays": 27.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -632,7 +632,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -665,7 +665,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -698,7 +698,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -727,11 +727,11 @@
       "start": "2026-11-19T04:00:00+08:00",
       "end": "2026-11-26T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "32天后",
+      "remain": "31天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 39.2,
+        "remainDays": 39.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
