@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-10-19T12:41:07.262441+08:00",
+  "fetchedAt": "2026-10-19T21:15:50.127090+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 4,
+  "count": 5,
   "notes": [
     "跳过 3.3版本「重返天空的旅程」预下载开启&更新通知",
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
@@ -26,11 +26,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天17时",
-      "progress": 96.0,
+      "remain": "剩1天8时",
+      "progress": 96.8,
       "days": {
-        "elapsedDays": 41.0,
-        "remainDays": 1.7,
+        "elapsedDays": 41.3,
+        "remainDays": 1.4,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -49,11 +49,11 @@
       "start": "2026-09-08T13:15:00+08:00",
       "end": "2026-10-20T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩15小时",
-      "progress": 98.5,
+      "remain": "剩6小时",
+      "progress": 99.3,
       "days": {
-        "elapsedDays": 41.0,
-        "remainDays": 0.6,
+        "elapsedDays": 41.3,
+        "remainDays": 0.3,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -72,11 +72,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天17时",
-      "progress": 96.0,
+      "remain": "剩1天8时",
+      "progress": 96.8,
       "days": {
-        "elapsedDays": 40.9,
-        "remainDays": 1.7,
+        "elapsedDays": 41.3,
+        "remainDays": 1.4,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -95,11 +95,11 @@
       "start": "2026-10-10T13:00:00+08:00",
       "end": "2026-10-20T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天11时",
-      "progress": 85.9,
+      "remain": "剩1天2时",
+      "progress": 89.3,
       "days": {
-        "elapsedDays": 9.0,
-        "remainDays": 1.5,
+        "elapsedDays": 9.3,
+        "remainDays": 1.1,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -108,6 +108,29 @@
       "category": "combat",
       "allRanges": [],
       "summary": "菲欧妮养成材料预告"
+    },
+    {
+      "id": "1338",
+      "title": "新品情报丨客制化三模键盘等多款周边上新",
+      "header": "「新品情报丨客制化三模键盘等多款周边上新」",
+      "banner": "./covers/zzz-1338-e4174084.jpg",
+      "link": "https://zzz.mihoyo.com/",
+      "start": "2026-10-19T12:00:00+08:00",
+      "end": "2026-11-11T23:59:59+08:00",
+      "status": "进行中",
+      "remain": "剩23天2时",
+      "progress": 1.6,
+      "days": {
+        "elapsedDays": 0.4,
+        "remainDays": 23.1,
+        "totalDays": 23.5
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "新品情报丨客制化三模键盘等多款周边上新"
     }
   ]
 }
