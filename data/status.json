@@ -1,10 +1,10 @@
 {
   "site": "活动进度",
-  "updatedAt": "2026-10-20T06:28:38.232878+08:00",
+  "updatedAt": "2026-10-20T12:53:31.896621+08:00",
   "timezone": "Asia/Shanghai",
   "fetchOk": false,
   "auditHard": 0,
   "auditSoft": 1,
-  "durationSec": 446.5,
+  "durationSec": 135.2,
   "message": "部分失败，见 audit-report"
 }

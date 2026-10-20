@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-10-19T21:15:50.127090+08:00",
+  "fetchedAt": "2026-10-20T12:51:36.822766+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 5,
+  "count": 4,
   "notes": [
     "跳过 3.3版本「重返天空的旅程」预下载开启&更新通知",
     "跳过 3.2版本「她与她的隐秘往事」更新公告",
@@ -26,11 +26,11 @@
       "start": "2026-09-08T13:00:00+08:00",
       "end": "2026-10-21T05:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天8时",
-      "progress": 96.8,
+      "remain": "剩17小时",
+      "progress": 98.3,
       "days": {
-        "elapsedDays": 41.3,
-        "remainDays": 1.4,
+        "elapsedDays": 42.0,
+        "remainDays": 0.7,
         "totalDays": 42.7
       },
       "hasSchedule": true,
@@ -41,29 +41,6 @@
       "summary": "「潜能预演·烈火重锤」活动说明"
     },
     {
-      "id": "1300",
-      "title": "「全新放送」活动说明",
-      "header": "「「全新放送」活动说明」",
-      "banner": "./covers/zzz-1300-c9a33006.jpg",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-09-08T13:15:00+08:00",
-      "end": "2026-10-20T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.3,
-      "days": {
-        "elapsedDays": 41.3,
-        "remainDays": 0.3,
-        "totalDays": 41.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「全新放送」活动说明"
-    },
-    {
       "id": "1299",
       "title": "3.2版本「商城」上新说明",
       "header": "「3.2版本「商城」上新说明」",
@@ -72,11 +49,11 @@
       "start": "2026-09-08T15:00:00+08:00",
       "end": "2026-10-21T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩1天8时",
-      "progress": 96.8,
+      "remain": "剩17小时",
+      "progress": 98.3,
       "days": {
-        "elapsedDays": 41.3,
-        "remainDays": 1.4,
+        "elapsedDays": 41.9,
+        "remainDays": 0.7,
         "totalDays": 42.6
       },
       "hasSchedule": true,
@@ -95,11 +72,11 @@
       "start": "2026-10-10T13:00:00+08:00",
       "end": "2026-10-20T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天2时",
-      "progress": 89.3,
+      "remain": "剩11小时",
+      "progress": 95.6,
       "days": {
-        "elapsedDays": 9.3,
-        "remainDays": 1.1,
+        "elapsedDays": 10.0,
+        "remainDays": 0.5,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -118,11 +95,11 @@
       "start": "2026-10-19T12:00:00+08:00",
       "end": "2026-11-11T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩23天2时",
-      "progress": 1.6,
+      "remain": "剩22天11时",
+      "progress": 4.4,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 23.1,
+        "elapsedDays": 1.0,
+        "remainDays": 22.5,
         "totalDays": 23.5
       },
       "hasSchedule": true,
