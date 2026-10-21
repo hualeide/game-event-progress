@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-22T01:12:33.186204+08:00",
+  "fetchedAt": "2026-10-22T05:43:02.975026+08:00",
   "timezone": "Asia/Shanghai",
   "count": 5,
   "notes": [
@@ -13,9 +13,9 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "5688 寻访「常驻标准寻访」用展示日估时",
     "1064 寻访「中坚寻访」用展示日估时",
-    "1065 寻访「海渊巡游」对齐长公告时段",
-    "2932 寻访「常驻标准寻访」用展示日估时"
+    "1065 寻访「海渊巡游」对齐长公告时段"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -28,42 +28,6 @@
     ]
   },
   "events": [
-    {
-      "id": "2932",
-      "title": "常驻标准寻访 限时出率上升",
-      "header": "「常驻标准寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-2932.png",
-      "link": "uniwebview://move?target=recruit&param1=DOUBLE_77_0_5",
-      "updatedAt": "2026-09-29T17:55:12+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-10-08T16:00:00+08:00",
-          "end": "2026-10-22T03:59:00+08:00",
-          "raw": "displayTime=2026-10-08"
-        }
-      ],
-      "summary": "卡池「常驻标准寻访」",
-      "textPreview": "",
-      "start": "2026-10-08T16:00:00+08:00",
-      "end": "2026-10-22T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩2小时",
-      "progress": 99.1,
-      "days": {
-        "elapsedDays": 13.4,
-        "remainDays": 0.1,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20260929/42d7dfc8323a670853e487f74208276a.png",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
     {
       "id": "1065",
       "title": "【海渊巡游】 限时寻访开启",
@@ -86,11 +50,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天2时",
-      "progress": 91.8,
+      "remain": "剩22小时",
+      "progress": 93.2,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 1.1,
+        "elapsedDays": 12.7,
+        "remainDays": 0.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -122,11 +86,11 @@
       "start": "2026-10-15T16:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天2时",
-      "progress": 47.3,
+      "remain": "剩6天22时",
+      "progress": 48.7,
       "days": {
-        "elapsedDays": 6.4,
-        "remainDays": 7.1,
+        "elapsedDays": 6.6,
+        "remainDays": 6.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -170,11 +134,11 @@
       "start": "2026-10-16T16:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天2时",
-      "progress": 39.9,
+      "remain": "剩7天22时",
+      "progress": 41.3,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 8.1,
+        "elapsedDays": 5.6,
+        "remainDays": 7.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -223,11 +187,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天2时",
-      "progress": 60.7,
+      "remain": "剩7天22时",
+      "progress": 61.6,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 8.1,
+        "elapsedDays": 12.7,
+        "remainDays": 7.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -235,6 +199,43 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20260929/77e4be6e8952f9027dd611befc59111a.jpg",
       "playable": true,
       "category": "combat"
+    },
+    {
+      "id": "5688",
+      "title": "常驻标准寻访 限时出率上升",
+      "header": "「常驻标准寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-5688.png",
+      "link": "uniwebview://move?target=recruit&param1=DOUBLE_78_0_2",
+      "updatedAt": "2026-10-20T15:06:08+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-10-22T16:00:00+08:00",
+          "end": "2026-11-05T03:59:00+08:00",
+          "raw": "displayTime=2026-10-22"
+        }
+      ],
+      "summary": "卡池「常驻标准寻访」",
+      "textPreview": "",
+      "start": "2026-10-22T16:00:00+08:00",
+      "end": "2026-11-05T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "10小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0,
+        "remainDays": 0.4,
+        "totalDays": 13.5,
+        "untilStartDays": 0.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20261020/61113db9ca24dd15c4d9c31afd313c5c.png",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     }
   ]
 }
