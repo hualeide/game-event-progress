@@ -1,10 +1,11 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-24T01:07:16.862727+08:00",
+  "fetchedAt": "2026-10-24T05:24:25.425799+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 5,
+  "count": 4,
   "notes": [
+    "8200 跳过：罗德岛风尚回顾 限时开启",
     "0496 跳过：昨日海 历程报告",
     "6772 通讯正文 669 字",
     "2930 跳过：昨日海 战绩查询更新",
@@ -14,8 +15,7 @@
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
     "5688 寻访「常驻标准寻访」用展示日估时",
-    "1064 寻访「中坚寻访」用展示日估时",
-    "补全寻访卡「海渊巡游」（无独立海报公告）"
+    "1064 寻访「中坚寻访」用展示日估时"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -50,11 +50,11 @@
       "start": "2026-10-15T16:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天2时",
-      "progress": 62.1,
+      "remain": "剩4天22时",
+      "progress": 63.4,
       "days": {
-        "elapsedDays": 8.4,
-        "remainDays": 5.1,
+        "elapsedDays": 8.6,
+        "remainDays": 4.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -98,11 +98,11 @@
       "start": "2026-10-16T16:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天2时",
-      "progress": 54.7,
+      "remain": "剩5天22时",
+      "progress": 56.0,
       "days": {
-        "elapsedDays": 7.4,
-        "remainDays": 6.1,
+        "elapsedDays": 7.6,
+        "remainDays": 5.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天2时",
-      "progress": 70.4,
+      "remain": "剩5天22时",
+      "progress": 71.3,
       "days": {
-        "elapsedDays": 14.5,
-        "remainDays": 6.1,
+        "elapsedDays": 14.7,
+        "remainDays": 5.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -186,11 +186,11 @@
       "start": "2026-10-22T16:00:00+08:00",
       "end": "2026-11-05T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天2时",
-      "progress": 10.2,
+      "remain": "剩11天22时",
+      "progress": 11.5,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.1,
+        "elapsedDays": 1.6,
+        "remainDays": 11.9,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -199,40 +199,6 @@
       "playable": false,
       "category": "gacha",
       "fuzzy": true
-    },
-    {
-      "id": "gacha-869fbbc7d2",
-      "title": "【海渊巡游】限时寻访",
-      "header": "「海渊巡游」限时寻访",
-      "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-10-24T01:07:16.862727+08:00",
-      "primaryLabel": "活动时间·寻访",
-      "allRanges": [
-        {
-          "label": "活动时间·寻访",
-          "start": "2026-10-09T12:00:00+08:00",
-          "end": "2026-10-23T03:59:00+08:00",
-          "raw": "【海渊巡游】限时寻访开启 活动时间： 10月09日 12:00 - 10月23日 03:59"
-        }
-      ],
-      "summary": "卡池「海渊巡游」",
-      "textPreview": "",
-      "start": "2026-10-09T12:00:00+08:00",
-      "end": "2026-10-23T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "playable": false,
-      "category": "gacha"
     }
   ]
 }
