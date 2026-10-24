@@ -1,7 +1,7 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-10-24T05:24:44.691484+08:00",
+  "fetchedAt": "2026-10-24T12:37:08.817382+08:00",
   "timezone": "Asia/Shanghai",
   "count": 3,
   "notes": [
@@ -25,11 +25,11 @@
       "start": "2026-10-20T14:00:00+08:00",
       "end": "2026-11-30T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩36天22时",
-      "progress": 9.0,
+      "remain": "剩36天15时",
+      "progress": 9.7,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 36.9,
+        "elapsedDays": 3.9,
+        "remainDays": 36.6,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-10-20T14:15:00+08:00",
       "end": "2026-12-01T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩37天22时",
-      "progress": 8.7,
+      "remain": "剩37天15时",
+      "progress": 9.5,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 37.9,
+        "elapsedDays": 3.9,
+        "remainDays": 37.6,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-10-19T12:00:00+08:00",
       "end": "2026-11-11T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩18天18时",
-      "progress": 20.1,
+      "remain": "剩18天11时",
+      "progress": 21.4,
       "days": {
-        "elapsedDays": 4.7,
-        "remainDays": 18.8,
+        "elapsedDays": 5.0,
+        "remainDays": 18.5,
         "totalDays": 23.5
       },
       "hasSchedule": true,
