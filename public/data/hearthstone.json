@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-10-24T23:58:59.823278+08:00",
+  "fetchedAt": "2026-10-25T04:51:07.172331+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 10,
@@ -16,11 +16,11 @@
       "start": "2026-10-01T10:03:00+08:00",
       "end": "2026-10-29T10:03:00+08:00",
       "status": "进行中",
-      "remain": "剩4天10时",
-      "progress": 84.2,
+      "remain": "剩4天5时",
+      "progress": 84.9,
       "days": {
-        "elapsedDays": 23.6,
-        "remainDays": 4.4,
+        "elapsedDays": 23.8,
+        "remainDays": 4.2,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-10-03T01:00:00+08:00",
       "end": "2026-10-31T01:00:00+08:00",
       "status": "进行中",
-      "remain": "剩6天1时",
-      "progress": 78.4,
+      "remain": "剩5天20时",
+      "progress": 79.1,
       "days": {
-        "elapsedDays": 22.0,
-        "remainDays": 6.0,
+        "elapsedDays": 22.2,
+        "remainDays": 5.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-10-13T01:00:00+08:00",
       "end": "2026-11-10T01:00:00+08:00",
       "status": "进行中",
-      "remain": "剩16天1时",
-      "progress": 42.7,
+      "remain": "剩15天20时",
+      "progress": 43.4,
       "days": {
-        "elapsedDays": 12.0,
-        "remainDays": 16.0,
+        "elapsedDays": 12.2,
+        "remainDays": 15.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -106,11 +106,11 @@
       "start": "2026-10-21T10:00:00+08:00",
       "end": "2026-11-11T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩17天4时",
-      "progress": 17.3,
+      "remain": "剩16天23时",
+      "progress": 18.2,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 17.2,
+        "elapsedDays": 3.8,
+        "remainDays": 17.0,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -136,11 +136,11 @@
       "start": "2026-10-24T10:00:00+08:00",
       "end": "2026-11-11T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩17天4时",
-      "progress": 3.3,
+      "remain": "剩16天23时",
+      "progress": 4.4,
       "days": {
-        "elapsedDays": 0.6,
-        "remainDays": 17.2,
+        "elapsedDays": 0.8,
+        "remainDays": 17.0,
         "totalDays": 17.8
       },
       "hasSchedule": true,
@@ -166,11 +166,11 @@
       "start": "2026-10-24T10:00:00+08:00",
       "end": "2026-12-01T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩37天4时",
-      "progress": 1.5,
+      "remain": "剩36天23时",
+      "progress": 2.1,
       "days": {
-        "elapsedDays": 0.6,
-        "remainDays": 37.2,
+        "elapsedDays": 0.8,
+        "remainDays": 37.0,
         "totalDays": 37.8
       },
       "hasSchedule": true,
@@ -196,11 +196,11 @@
       "start": "2026-10-14T10:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩38天4时",
-      "progress": 21.7,
+      "remain": "剩37天23时",
+      "progress": 22.1,
       "days": {
-        "elapsedDays": 10.6,
-        "remainDays": 38.2,
+        "elapsedDays": 10.8,
+        "remainDays": 38.0,
         "totalDays": 48.8
       },
       "hasSchedule": true,
@@ -226,11 +226,11 @@
       "start": "2026-10-21T10:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩38天4时",
-      "progress": 8.6,
+      "remain": "剩37天23时",
+      "progress": 9.1,
       "days": {
-        "elapsedDays": 3.6,
-        "remainDays": 38.2,
+        "elapsedDays": 3.8,
+        "remainDays": 38.0,
         "totalDays": 41.8
       },
       "hasSchedule": true,
@@ -260,7 +260,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 38.2,
+        "remainDays": 38.0,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -290,7 +290,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 45.2,
+        "remainDays": 45.0,
         "totalDays": 27.8
       },
       "hasSchedule": true,
