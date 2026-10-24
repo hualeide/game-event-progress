@@ -1,10 +1,11 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-24T12:36:51.055880+08:00",
+  "fetchedAt": "2026-10-24T19:00:11.055053+08:00",
   "timezone": "Asia/Shanghai",
   "count": 4,
   "notes": [
+    "2923 跳过：10月24日 闪断更新公告",
     "8200 跳过：罗德岛风尚回顾 限时开启",
     "0496 跳过：昨日海 历程报告",
     "6772 通讯正文 669 字",
@@ -50,11 +51,11 @@
       "start": "2026-10-15T16:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天15时",
-      "progress": 65.6,
+      "remain": "剩4天8时",
+      "progress": 67.6,
       "days": {
-        "elapsedDays": 8.9,
-        "remainDays": 4.6,
+        "elapsedDays": 9.1,
+        "remainDays": 4.4,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -98,11 +99,11 @@
       "start": "2026-10-16T16:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 58.2,
+      "remain": "剩5天8时",
+      "progress": 60.2,
       "days": {
-        "elapsedDays": 7.9,
-        "remainDays": 5.6,
+        "elapsedDays": 8.1,
+        "remainDays": 5.4,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -151,11 +152,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩5天15时",
-      "progress": 72.7,
+      "remain": "剩5天8时",
+      "progress": 74.0,
       "days": {
-        "elapsedDays": 15.0,
-        "remainDays": 5.6,
+        "elapsedDays": 15.3,
+        "remainDays": 5.4,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -186,11 +187,11 @@
       "start": "2026-10-22T16:00:00+08:00",
       "end": "2026-11-05T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天15时",
-      "progress": 13.8,
+      "remain": "剩11天8时",
+      "progress": 15.7,
       "days": {
-        "elapsedDays": 1.9,
-        "remainDays": 11.6,
+        "elapsedDays": 2.1,
+        "remainDays": 11.4,
         "totalDays": 13.5
       },
       "hasSchedule": true,
