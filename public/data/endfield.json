@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-10-26T21:03:02.289956+08:00",
+  "fetchedAt": "2026-10-27T06:40:18.777419+08:00",
   "timezone": "Asia/Shanghai",
   "count": 20,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 54.2,
+      "remain": "剩9天5时",
+      "progress": 56.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 9.6,
+        "elapsedDays": 11.8,
+        "remainDays": 9.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -58,11 +58,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天14时",
-      "progress": 47.4,
+      "remain": "剩12天5时",
+      "progress": 49.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 12.6,
+        "elapsedDays": 11.8,
+        "remainDays": 12.2,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -95,7 +95,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -127,7 +127,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -150,7 +150,7 @@
       "id": "6094-gacha-烟火邀星河",
       "title": "「烟火邀星河」特许寻访",
       "header": "「烟火邀星河」",
-      "banner": "./covers/ef-gacha-6094-968d478e3a-706fc0d0.jpg",
+      "banner": "./covers/ef-gacha-6094-968d478e3a-50933b9e.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
@@ -159,7 +159,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-10-22T12:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天6时",
-      "progress": 32.0,
+      "remain": "剩8天21时",
+      "progress": 35.0,
       "days": {
-        "elapsedDays": 4.4,
-        "remainDays": 9.3,
+        "elapsedDays": 4.8,
+        "remainDays": 8.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -224,7 +224,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 37.3,
+        "remainDays": 36.9,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -256,7 +256,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.6,
+        "remainDays": 30.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -285,11 +285,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 54.2,
+      "remain": "剩9天5时",
+      "progress": 56.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 9.6,
+        "elapsedDays": 11.8,
+        "remainDays": 9.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -318,11 +318,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 54.2,
+      "remain": "剩9天5时",
+      "progress": 56.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 9.6,
+        "elapsedDays": 11.8,
+        "remainDays": 9.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -346,16 +346,16 @@
       "id": "6094-event-异想赛季",
       "title": "「异想赛季」",
       "header": "「异想赛季」",
-      "banner": "./covers/ef-event-6094-0da4a27f9c-b99c93c1.jpg",
+      "banner": "./covers/ef-event-6094-0da4a27f9c-55cf635b.png",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天14时",
-      "progress": 54.2,
+      "remain": "剩9天5时",
+      "progress": 56.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 9.6,
+        "elapsedDays": 11.8,
+        "remainDays": 9.2,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -384,11 +384,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天14时",
-      "progress": 47.4,
+      "remain": "剩12天5时",
+      "progress": 49.1,
       "days": {
-        "elapsedDays": 11.4,
-        "remainDays": 12.6,
+        "elapsedDays": 11.8,
+        "remainDays": 12.2,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -500,11 +500,11 @@
       "start": "2026-10-22T12:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天6时",
-      "progress": 32.0,
+      "remain": "剩8天21时",
+      "progress": 35.0,
       "days": {
-        "elapsedDays": 4.4,
-        "remainDays": 9.3,
+        "elapsedDays": 4.8,
+        "remainDays": 8.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -532,11 +532,11 @@
       "start": "2026-10-29T04:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 9.3,
+        "remainDays": 8.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -568,7 +568,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.3,
+        "remainDays": 22.9,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -600,7 +600,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 18.3,
+        "remainDays": 17.9,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -632,7 +632,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -665,7 +665,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -698,7 +698,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.6,
+        "remainDays": 23.2,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -727,11 +727,11 @@
       "start": "2026-11-19T04:00:00+08:00",
       "end": "2026-11-26T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "23天后",
+      "remain": "22天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.3,
+        "remainDays": 29.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
