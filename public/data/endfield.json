@@ -1,7 +1,7 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-10-27T06:40:18.777419+08:00",
+  "fetchedAt": "2026-10-27T13:05:12.480472+08:00",
   "timezone": "Asia/Shanghai",
   "count": 20,
   "notes": [
@@ -24,11 +24,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.1,
+      "remain": "剩8天22时",
+      "progress": 57.4,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 12.0,
+        "remainDays": 9.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -58,11 +58,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天5时",
-      "progress": 49.1,
+      "remain": "剩11天22时",
+      "progress": 50.2,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 12.2,
+        "elapsedDays": 12.0,
+        "remainDays": 12.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -91,11 +91,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -123,11 +123,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -150,16 +150,16 @@
       "id": "6094-gacha-烟火邀星河",
       "title": "「烟火邀星河」特许寻访",
       "header": "「烟火邀星河」",
-      "banner": "./covers/ef-gacha-6094-968d478e3a-50933b9e.jpg",
+      "banner": "./covers/ef-gacha-6094-968d478e3a-706fc0d0.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-10-22T12:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天21时",
-      "progress": 35.0,
+      "remain": "剩8天14时",
+      "progress": 36.9,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 8.9,
+        "elapsedDays": 5.0,
+        "remainDays": 8.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -220,11 +220,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-12-03T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 36.9,
+        "remainDays": 36.6,
         "totalDays": 27.7
       },
       "hasSchedule": true,
@@ -252,11 +252,11 @@
       "start": "2026-11-12T12:00:00+08:00",
       "end": "2026-11-26T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "16天后",
+      "remain": "15天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.2,
+        "remainDays": 30.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -285,11 +285,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.1,
+      "remain": "剩8天22时",
+      "progress": 57.4,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 12.0,
+        "remainDays": 9.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -318,11 +318,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.1,
+      "remain": "剩8天22时",
+      "progress": 57.4,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 12.0,
+        "remainDays": 9.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -346,16 +346,16 @@
       "id": "6094-event-异想赛季",
       "title": "「异想赛季」",
       "header": "「异想赛季」",
-      "banner": "./covers/ef-event-6094-0da4a27f9c-55cf635b.png",
+      "banner": "./covers/ef-event-6094-0da4a27f9c-b99c93c1.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-05T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.1,
+      "remain": "剩8天22时",
+      "progress": 57.4,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 12.0,
+        "remainDays": 9.0,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -384,11 +384,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩12天5时",
-      "progress": 49.1,
+      "remain": "剩11天22时",
+      "progress": 50.2,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 12.2,
+        "elapsedDays": 12.0,
+        "remainDays": 12.0,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -500,11 +500,11 @@
       "start": "2026-10-22T12:00:00+08:00",
       "end": "2026-11-05T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天21时",
-      "progress": 35.0,
+      "remain": "剩8天14时",
+      "progress": 36.9,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 8.9,
+        "elapsedDays": 5.0,
+        "remainDays": 8.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -536,7 +536,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 8.9,
+        "remainDays": 8.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -564,11 +564,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "1天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 22.9,
+        "remainDays": 22.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -596,11 +596,11 @@
       "start": "2026-10-31T12:00:00+08:00",
       "end": "2026-11-14T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.9,
+        "remainDays": 17.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -628,11 +628,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -661,11 +661,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -694,11 +694,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "9天后",
+      "remain": "8天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 23.2,
+        "remainDays": 23.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -731,7 +731,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 29.9,
+        "remainDays": 29.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
