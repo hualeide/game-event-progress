@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-10-27T20:11:36.355469+08:00",
+  "fetchedAt": "2026-10-28T02:03:13.773766+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -60,11 +60,11 @@
       "start": "2026-10-15T16:00:00+08:00",
       "end": "2026-10-29T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩1天7时",
-      "progress": 90.2,
+      "remain": "剩1天1时",
+      "progress": 92.0,
       "days": {
-        "elapsedDays": 12.2,
-        "remainDays": 1.3,
+        "elapsedDays": 12.4,
+        "remainDays": 1.1,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -108,11 +108,11 @@
       "start": "2026-10-16T16:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天7时",
-      "progress": 82.8,
+      "remain": "剩2天1时",
+      "progress": 84.6,
       "days": {
-        "elapsedDays": 11.2,
-        "remainDays": 2.3,
+        "elapsedDays": 11.4,
+        "remainDays": 2.1,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -161,11 +161,11 @@
       "start": "2026-10-09T12:00:00+08:00",
       "end": "2026-10-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天7时",
-      "progress": 88.8,
+      "remain": "剩2天1时",
+      "progress": 89.9,
       "days": {
-        "elapsedDays": 18.3,
-        "remainDays": 2.3,
+        "elapsedDays": 18.6,
+        "remainDays": 2.1,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -196,11 +196,11 @@
       "start": "2026-10-22T16:00:00+08:00",
       "end": "2026-11-05T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天7时",
-      "progress": 38.3,
+      "remain": "剩8天1时",
+      "progress": 40.1,
       "days": {
-        "elapsedDays": 5.2,
-        "remainDays": 8.3,
+        "elapsedDays": 5.4,
+        "remainDays": 8.1,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -332,9 +332,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.7,
+        "remainDays": 4.4,
         "totalDays": 13.7,
-        "untilStartDays": 4.7
+        "untilStartDays": 4.4
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -368,9 +368,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 4.7,
+        "remainDays": 4.4,
         "totalDays": 16.7,
-        "untilStartDays": 4.7
+        "untilStartDays": 4.4
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -386,7 +386,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-10-27T20:11:36.355469+08:00",
+      "updatedAt": "2026-10-28T02:03:13.773766+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -405,9 +405,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 19.8,
+        "remainDays": 19.6,
         "totalDays": 13.5,
-        "untilStartDays": 19.8
+        "untilStartDays": 19.6
       },
       "hasSchedule": true,
       "kind": "preview",
