@@ -1,10 +1,12 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-10-30T06:45:57.024137+08:00",
+  "fetchedAt": "2026-10-30T20:56:20.621604+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 9,
+  "count": 16,
   "notes": [
+    "跳过 「货币战争•入画奇航」专题展示页现已上线",
+    "跳过 4.6版本「月升之前，与兽共舞」满意度调研问卷",
     "跳过 4.6版本「月升之前，与兽共舞」版本更新说明",
     "跳过 4.6版本游戏优化及已知问题说明",
     "跳过 跃迁记录统计上线！前往小程序，查看专属跃迁档案",
@@ -12,7 +14,7 @@
     "常驻跳过 《崩坏：星穹铁道》社媒聚合页上线",
     "跳过 《崩坏：星穹铁道》防沉迷系统公告",
     "跳过 《崩坏：星穹铁道》公平运营声明",
-    "日历补跃迁 4 条"
+    "日历补跃迁 10 条"
   ],
   "events": [
     {
@@ -24,11 +26,11 @@
       "start": "2026-09-24T13:00:00+08:00",
       "end": "2026-11-11T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天23时",
-      "progress": 74.9,
+      "remain": "剩11天9时",
+      "progress": 76.2,
       "days": {
-        "elapsedDays": 35.7,
-        "remainDays": 12.0,
+        "elapsedDays": 36.3,
+        "remainDays": 11.4,
         "totalDays": 47.7
       },
       "hasSchedule": true,
@@ -47,11 +49,11 @@
       "start": "2026-09-24T13:30:00+08:00",
       "end": "2026-11-11T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天23时",
-      "progress": 74.9,
+      "remain": "剩11天9时",
+      "progress": 76.1,
       "days": {
-        "elapsedDays": 35.7,
-        "remainDays": 12.0,
+        "elapsedDays": 36.3,
+        "remainDays": 11.4,
         "totalDays": 47.7
       },
       "hasSchedule": true,
@@ -70,11 +72,11 @@
       "start": "2026-10-29T11:00:00+08:00",
       "end": "2026-11-11T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天21时",
-      "progress": 6.5,
+      "remain": "剩11天7时",
+      "progress": 11.1,
       "days": {
-        "elapsedDays": 0.8,
-        "remainDays": 11.9,
+        "elapsedDays": 1.4,
+        "remainDays": 11.3,
         "totalDays": 12.7
       },
       "hasSchedule": true,
@@ -93,11 +95,11 @@
       "start": "2026-09-28T10:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天15时",
-      "progress": 73.3,
+      "remain": "剩11天1时",
+      "progress": 74.6,
       "days": {
-        "elapsedDays": 31.9,
-        "remainDays": 11.6,
+        "elapsedDays": 32.5,
+        "remainDays": 11.0,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -116,11 +118,11 @@
       "start": "2026-09-28T10:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天15时",
-      "progress": 73.3,
+      "remain": "剩11天1时",
+      "progress": 74.6,
       "days": {
-        "elapsedDays": 31.9,
-        "remainDays": 11.6,
+        "elapsedDays": 32.5,
+        "remainDays": 11.0,
         "totalDays": 43.5
       },
       "hasSchedule": true,
@@ -139,11 +141,11 @@
       "start": "2026-10-21T19:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天15时",
-      "progress": 42.2,
+      "remain": "剩11天1时",
+      "progress": 45.1,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 11.6,
+        "elapsedDays": 9.1,
+        "remainDays": 11.0,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -162,11 +164,11 @@
       "start": "2026-10-21T19:00:00+08:00",
       "end": "2026-11-10T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天15时",
-      "progress": 42.2,
+      "remain": "剩11天1时",
+      "progress": 45.1,
       "days": {
-        "elapsedDays": 8.5,
-        "remainDays": 11.6,
+        "elapsedDays": 9.1,
+        "remainDays": 11.0,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -185,11 +187,11 @@
       "start": "2026-09-23T11:00:00+08:00",
       "end": "2026-11-11T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天23时",
-      "progress": 75.5,
+      "remain": "剩11天9时",
+      "progress": 76.7,
       "days": {
-        "elapsedDays": 36.8,
-        "remainDays": 12.0,
+        "elapsedDays": 37.4,
+        "remainDays": 11.4,
         "totalDays": 48.8
       },
       "hasSchedule": true,
@@ -208,11 +210,11 @@
       "start": "2026-09-25T11:30:00+08:00",
       "end": "2026-11-09T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天21时",
-      "progress": 77.9,
+      "remain": "剩9天7时",
+      "progress": 79.2,
       "days": {
-        "elapsedDays": 34.8,
-        "remainDays": 9.9,
+        "elapsedDays": 35.4,
+        "remainDays": 9.3,
         "totalDays": 44.7
       },
       "hasSchedule": true,
@@ -221,6 +223,167 @@
       "category": "event",
       "allRanges": [],
       "summary": "「无名勋礼」更新说明"
+    },
+    {
+      "id": "1455",
+      "title": "4.7版本商店上新",
+      "header": "「4.7版本商店上新」",
+      "banner": "./covers/starrail-1455-77afcd9f.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-10-30T20:55:00+08:00",
+      "end": "2026-12-23T06:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩53天9时",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 53.4,
+        "totalDays": 53.4
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "4.7版本商店上新"
+    },
+    {
+      "id": "sr-banner-105",
+      "title": "跃迁·Aeon ★ Aha / Asta",
+      "header": "跃迁·Aeon ★ Aha / Asta",
+      "banner": "./covers/starrail-sr-banner-105-cae1fa4e.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-22T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 53.0,
+        "totalDays": 41.5
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Aeon ★ Aha / Asta / Lynx / Yukong"
+    },
+    {
+      "id": "sr-banner-101",
+      "title": "跃迁·Silver Wolf LV.999 / Sparxie",
+      "header": "跃迁·Silver Wolf LV.999 / Sparxie",
+      "banner": "./covers/starrail-sr-banner-101-497f91ba.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-02T18:59:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 32.9,
+        "totalDays": 21.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Silver Wolf LV.999 / Sparxie / Yao Guang / Asta / Lynx / Yukong"
+    },
+    {
+      "id": "sr-banner-106",
+      "title": "跃迁·Upon the First Echo of \"Aha\" / Trend of the Universal Market",
+      "header": "跃迁·Upon the First Echo of \"Aha\" / Trend of the Universal Market",
+      "banner": "./covers/starrail-sr-banner-106-85543008.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-22T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 53.0,
+        "totalDays": 41.5
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Upon the First Echo of \"Aha\" / Trend of the Universal Market / Geniuses' Repose / Shadowed by Night"
+    },
+    {
+      "id": "sr-banner-103",
+      "title": "跃迁·Welcome to the Cosmic City / Dazzled by a Flowery World",
+      "header": "跃迁·Welcome to the Cosmic City / Dazzled by a Flowery World",
+      "banner": "./covers/starrail-sr-banner-103-3fab166f.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-11-11T10:00:00+08:00",
+      "end": "2026-12-02T18:59:00+08:00",
+      "status": "即将开始",
+      "remain": "11天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 32.9,
+        "totalDays": 21.4
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Welcome to the Cosmic City / Dazzled by a Flowery World / When She Decided to See / Trend of the Universal Market / Geniuses' Repose / Shadowed by Night"
+    },
+    {
+      "id": "sr-banner-102",
+      "title": "跃迁·Acheron / Dan Heng • Imbibitor Lunae",
+      "header": "跃迁·Acheron / Dan Heng • Imbibitor Lunae",
+      "banner": "./covers/starrail-sr-banner-102-b3dcfe89.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-12-02T19:00:00+08:00",
+      "end": "2026-12-22T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "32天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 53.0,
+        "totalDays": 20.1
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Acheron / Dan Heng • Imbibitor Lunae / Jing Yuan / Asta / Lynx / Yukong"
+    },
+    {
+      "id": "sr-banner-104",
+      "title": "跃迁·Along the Passing Shore / Brighter Than the Sun",
+      "header": "跃迁·Along the Passing Shore / Brighter Than the Sun",
+      "banner": "./covers/starrail-sr-banner-104-ba2d2f3c.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-12-02T19:00:00+08:00",
+      "end": "2026-12-22T22:00:00+08:00",
+      "status": "即将开始",
+      "remain": "32天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 53.0,
+        "totalDays": 20.1
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": "Along the Passing Shore / Brighter Than the Sun / Before Dawn / Trend of the Universal Market / Geniuses' Repose / Shadowed by Night"
     }
   ]
 }
