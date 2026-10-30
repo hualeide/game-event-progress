@@ -1,42 +1,12 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-10-30T20:57:28.357035+08:00",
+  "fetchedAt": "2026-10-31T06:22:22.694012+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 10,
   "notes": [],
   "events": [
-    {
-      "id": "e6331cd3",
-      "title": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
-      "header": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
-      "banner": "./covers/hs-e6331cd3-568e9f2b.jpg",
-      "link": "https://hs.blizzard.cn/news/24307307/index.html",
-      "start": "2026-10-03T01:00:00+08:00",
-      "end": "2026-10-31T01:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩4小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 27.8,
-        "remainDays": 0.2,
-        "totalDays": 28.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-10-03T01:00:00+08:00",
-          "end": "2026-10-31T01:00:00+08:00",
-          "raw": "估"
-        }
-      ],
-      "summary": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗"
-    },
     {
       "id": "8da04e04",
       "title": "“黑暗帝国的统治”奖励路线更新",
@@ -46,11 +16,11 @@
       "start": "2026-10-13T01:00:00+08:00",
       "end": "2026-11-10T01:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天4时",
-      "progress": 63.7,
+      "remain": "剩9天18时",
+      "progress": 65.1,
       "days": {
-        "elapsedDays": 17.8,
-        "remainDays": 10.2,
+        "elapsedDays": 18.2,
+        "remainDays": 9.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -76,11 +46,11 @@
       "start": "2026-10-21T10:00:00+08:00",
       "end": "2026-11-11T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天7时",
-      "progress": 45.6,
+      "remain": "剩10天21时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 9.5,
-        "remainDays": 11.3,
+        "elapsedDays": 9.8,
+        "remainDays": 10.9,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -106,11 +76,11 @@
       "start": "2026-10-24T10:00:00+08:00",
       "end": "2026-11-11T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天7时",
-      "progress": 36.4,
+      "remain": "剩10天21时",
+      "progress": 38.6,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 11.3,
+        "elapsedDays": 6.8,
+        "remainDays": 10.9,
         "totalDays": 17.8
       },
       "hasSchedule": true,
@@ -136,11 +106,11 @@
       "start": "2026-10-24T10:00:00+08:00",
       "end": "2026-12-01T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天7时",
-      "progress": 17.1,
+      "remain": "剩30天21时",
+      "progress": 18.1,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 31.3,
+        "elapsedDays": 6.8,
+        "remainDays": 30.9,
         "totalDays": 37.8
       },
       "hasSchedule": true,
@@ -166,11 +136,11 @@
       "start": "2026-10-14T10:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩32天7时",
-      "progress": 33.8,
+      "remain": "剩31天21时",
+      "progress": 34.6,
       "days": {
-        "elapsedDays": 16.5,
-        "remainDays": 32.3,
+        "elapsedDays": 16.8,
+        "remainDays": 31.9,
         "totalDays": 48.8
       },
       "hasSchedule": true,
@@ -196,11 +166,11 @@
       "start": "2026-10-21T10:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩32天7时",
-      "progress": 22.7,
+      "remain": "剩31天21时",
+      "progress": 23.6,
       "days": {
-        "elapsedDays": 9.5,
-        "remainDays": 32.3,
+        "elapsedDays": 9.8,
+        "remainDays": 31.9,
         "totalDays": 41.8
       },
       "hasSchedule": true,
@@ -230,7 +200,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.9,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -260,7 +230,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 39.3,
+        "remainDays": 38.9,
         "totalDays": 27.8
       },
       "hasSchedule": true,
@@ -306,6 +276,36 @@
         }
       ],
       "summary": "36.6.3补丁说明"
+    },
+    {
+      "id": "e6331cd3",
+      "title": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
+      "header": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗",
+      "banner": "./covers/hs-e6331cd3-568e9f2b.jpg",
+      "link": "https://hs.blizzard.cn/news/24307307/index.html",
+      "start": "2026-10-03T01:00:00+08:00",
+      "end": "2026-10-31T01:00:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 28.0,
+        "remainDays": 0.0,
+        "totalDays": 28.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": true,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "估时",
+          "start": "2026-10-03T01:00:00+08:00",
+          "end": "2026-10-31T01:00:00+08:00",
+          "raw": "估"
+        }
+      ],
+      "summary": "“黑暗帝国的统治”预构筑直播与抢先体验乱斗"
     }
   ]
 }
