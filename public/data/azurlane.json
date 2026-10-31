@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-10-31T20:30:10.223435+08:00",
-  "count": 8,
+  "fetchedAt": "2026-11-01T05:34:58.752603+08:00",
+  "count": 6,
   "events": [
     {
       "id": "al-信标META萨拉托加META-0904",
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩39天13时",
-      "progress": 59.1,
+      "remain": "剩39天4时",
+      "progress": 59.5,
       "days": {
-        "elapsedDays": 57.2,
-        "remainDays": 39.6,
+        "elapsedDays": 57.6,
+        "remainDays": 39.2,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -28,29 +28,6 @@
       "summary": "2026年9月4日10:00港区改建"
     },
     {
-      "id": "al-限界挑战天秤座-1001",
-      "title": "限界挑战：天秤座",
-      "header": "开启限时复刻活动·限界挑战：天秤座",
-      "banner": "./covers/al-2869f7ffc3-ad510def.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%8824%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-10-01T00:00:00+08:00",
-      "end": "2026-10-31T23:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.5,
-      "days": {
-        "elapsedDays": 30.9,
-        "remainDays": 0.1,
-        "totalDays": 31.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年9月24日10:00港区改建"
-    },
-    {
       "id": "al-飓风与雾霭回廊-1022",
       "title": "飓风与雾霭回廊",
       "header": "开启限时大型活动·飓风与雾霭回廊",
@@ -59,11 +36,11 @@
       "start": "2026-10-22T16:00:00+08:00",
       "end": "2026-11-05T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天13时",
-      "progress": 66.8,
+      "remain": "剩4天4时",
+      "progress": 69.6,
       "days": {
-        "elapsedDays": 9.2,
-        "remainDays": 4.6,
+        "elapsedDays": 9.6,
+        "remainDays": 4.2,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -77,47 +54,24 @@
       "id": "al-限界挑战天蝎座-1101",
       "title": "限界挑战：天蝎座",
       "header": "开启限时复刻活动·限界挑战：天蝎座",
-      "banner": "",
+      "banner": "./covers/al-daf6eff23e-ad510def.jpg",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8822%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-11-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
-      "status": "即将开始",
-      "remain": "3小时后",
-      "progress": 0.0,
-      "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 30.1,
-        "totalDays": 30.0
-      },
-      "hasSchedule": true,
-      "kind": "preview",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年10月22日10:00港区改建"
-    },
-    {
-      "id": "al-新人指挥官双倍经验活动-0908",
-      "title": "新人指挥官双倍经验活动",
-      "header": "开启限时活动·新人指挥官双倍经验活动",
-      "banner": "./covers/al-9cca36dcb3-b808567d.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B49%E6%9C%888%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-09-08T16:00:00+08:00",
-      "end": "2026-10-31T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3小时",
-      "progress": 99.7,
+      "remain": "剩29天18时",
+      "progress": 0.8,
       "days": {
-        "elapsedDays": 53.2,
-        "remainDays": 0.1,
-        "totalDays": 53.3
+        "elapsedDays": 0.2,
+        "remainDays": 29.8,
+        "totalDays": 30.0
       },
       "hasSchedule": true,
       "kind": "live",
       "fuzzy": false,
-      "category": "event",
+      "category": "combat",
       "allRanges": [],
-      "summary": "2026年9月8日10:00港区改建"
+      "summary": "2026年10月22日10:00港区改建"
     },
     {
       "id": "al-世界巡游-1001",
@@ -128,11 +82,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩30天3时",
-      "progress": 50.6,
+      "remain": "剩29天18时",
+      "progress": 51.2,
       "days": {
-        "elapsedDays": 30.9,
-        "remainDays": 30.1,
+        "elapsedDays": 31.2,
+        "remainDays": 29.8,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -151,11 +105,11 @@
       "start": "2026-10-15T15:00:00+08:00",
       "end": "2026-11-05T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天13时",
-      "progress": 78.1,
+      "remain": "剩4天4时",
+      "progress": 79.9,
       "days": {
-        "elapsedDays": 16.2,
-        "remainDays": 4.6,
+        "elapsedDays": 16.6,
+        "remainDays": 4.2,
         "totalDays": 20.8
       },
       "hasSchedule": true,
@@ -169,16 +123,16 @@
       "id": "al-港区假日故事集光与暗的邀约-1022",
       "title": "港区假日故事集 光与暗的邀约",
       "header": "开启限时活动·港区假日故事集 光与暗的邀约",
-      "banner": "./covers/al-8fa03d91f5-05395b57.jpg",
+      "banner": "",
       "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8822%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
       "start": "2026-10-22T16:00:00+08:00",
       "end": "2026-11-05T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩4天13时",
-      "progress": 66.8,
+      "remain": "剩4天4时",
+      "progress": 69.6,
       "days": {
-        "elapsedDays": 9.2,
-        "remainDays": 4.6,
+        "elapsedDays": 9.6,
+        "remainDays": 4.2,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -194,6 +148,6 @@
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
     "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：限界挑战：天蝎座"
+    "无配图：港区假日故事集 光与暗的邀约"
   ]
 }
