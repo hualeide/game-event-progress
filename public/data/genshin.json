@@ -1,9 +1,9 @@
 {
   "game": "原神",
   "source": "https://hk4e-api.mihoyo.com/common/hk4e_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-11-03T08:58:36.503859+08:00",
+  "fetchedAt": "2026-11-03T22:14:51.202873+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 28,
+  "count": 22,
   "notes": [
     "跳过总览 全新内容一览：角色·祈愿·武器·剧情·版本活动等",
     "跳过 7.2版本更新维护预告",
@@ -19,7 +19,6 @@
     "常驻跳过 「晶石如林生长之地」时限内完成探索任务，可额外获得原石*400奖励",
     "常驻跳过 「巡历雪境，凝铸锋锐」活动：新手自选邀请「奔行世间」常驻祈愿5星角色",
     "常驻跳过 「砺行修远」：勤修馈赠",
-    "常驻跳过 「无神怜爱的冻土」时限内完成探索任务，可额外获得原石*400奖励",
     "常驻跳过 「狩猎开始！」活动：推进魔神任务「无神怜爱的雪国」，邀请「疾掠弋缇·阿罗",
     "常驻跳过 千星奇域声明"
   ],
@@ -33,11 +32,11 @@
       "start": "2026-09-12T22:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 98.2,
+      "remain": "剩8小时",
+      "progress": 99.3,
       "days": {
-        "elapsedDays": 51.5,
-        "remainDays": 0.9,
+        "elapsedDays": 52.0,
+        "remainDays": 0.4,
         "totalDays": 52.4
       },
       "hasSchedule": true,
@@ -56,11 +55,11 @@
       "start": "2026-09-21T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.2,
       "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.9,
+        "elapsedDays": 43.4,
+        "remainDays": 0.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -71,29 +70,6 @@
       "summary": "「虹旅藏金·耀星烁熠」"
     },
     {
-      "id": "21924",
-      "title": "「桌上剧团·冒险的前夜会」活动：自选邀请限定5星角色",
-      "header": "「「桌上剧团·冒险的前夜会」」",
-      "banner": "./covers/genshin-21924-aa7bd709.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-09-21T12:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.3,
-        "totalDays": 43.1
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「桌上剧团·冒险的前夜会」"
-    },
-    {
       "id": "21881",
       "title": "「风仙亦是仙，古剑通幽玄！」世界任务说明",
       "header": "「「风仙亦是仙，古剑通幽玄！」」",
@@ -102,11 +78,11 @@
       "start": "2026-09-21T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.2,
       "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.9,
+        "elapsedDays": 43.4,
+        "remainDays": 0.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -125,11 +101,11 @@
       "start": "2026-09-21T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.2,
       "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.9,
+        "elapsedDays": 43.4,
+        "remainDays": 0.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -148,11 +124,11 @@
       "start": "2026-09-21T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.2,
       "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.9,
+        "elapsedDays": 43.4,
+        "remainDays": 0.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -171,11 +147,11 @@
       "start": "2026-09-22T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.1,
       "days": {
-        "elapsedDays": 41.9,
-        "remainDays": 0.9,
+        "elapsedDays": 42.4,
+        "remainDays": 0.4,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -194,11 +170,11 @@
       "start": "2026-09-22T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.1,
       "days": {
-        "elapsedDays": 41.9,
-        "remainDays": 0.9,
+        "elapsedDays": 42.4,
+        "remainDays": 0.4,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -217,11 +193,11 @@
       "start": "2026-09-22T12:00:00+08:00",
       "end": "2026-11-04T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 97.9,
+      "remain": "剩8小时",
+      "progress": 99.1,
       "days": {
-        "elapsedDays": 41.9,
-        "remainDays": 0.9,
+        "elapsedDays": 42.4,
+        "remainDays": 0.4,
         "totalDays": 42.8
       },
       "hasSchedule": true,
@@ -240,11 +216,11 @@
       "start": "2026-10-31T12:00:00+08:00",
       "end": "2026-11-06T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩3天15时",
-      "progress": 44.2,
+      "remain": "剩3天1时",
+      "progress": 52.7,
       "days": {
-        "elapsedDays": 2.9,
-        "remainDays": 3.6,
+        "elapsedDays": 3.4,
+        "remainDays": 3.1,
         "totalDays": 6.5
       },
       "hasSchedule": true,
@@ -263,11 +239,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-16T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天22时",
-      "progress": 2.0,
+      "remain": "剩42天8时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.9,
+        "elapsedDays": 1.4,
+        "remainDays": 42.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -286,11 +262,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-15T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩42天6时",
-      "progress": 2.0,
+      "remain": "剩41天16时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.3,
+        "elapsedDays": 1.4,
+        "remainDays": 41.7,
         "totalDays": 43.1
       },
       "hasSchedule": true,
@@ -309,11 +285,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-11-18T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩15天15时",
-      "progress": 5.3,
+      "remain": "剩15天1时",
+      "progress": 8.6,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 15.6,
+        "elapsedDays": 1.4,
+        "remainDays": 15.1,
         "totalDays": 16.5
       },
       "hasSchedule": true,
@@ -332,11 +308,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-15T14:59:59+08:00",
       "status": "进行中",
-      "remain": "剩42天6时",
-      "progress": 2.0,
+      "remain": "剩41天16时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.3,
+        "elapsedDays": 1.4,
+        "remainDays": 41.7,
         "totalDays": 43.1
       },
       "hasSchedule": true,
@@ -355,11 +331,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-14T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩40天19时",
-      "progress": 2.1,
+      "remain": "剩40天5时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 40.8,
+        "elapsedDays": 1.4,
+        "remainDays": 40.2,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -378,11 +354,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-16T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天22时",
-      "progress": 2.0,
+      "remain": "剩42天8时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.9,
+        "elapsedDays": 1.4,
+        "remainDays": 42.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -401,11 +377,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-16T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天22时",
-      "progress": 2.0,
+      "remain": "剩42天8时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.9,
+        "elapsedDays": 1.4,
+        "remainDays": 42.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -424,11 +400,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-16T07:00:00+08:00",
       "status": "进行中",
-      "remain": "剩42天22时",
-      "progress": 2.0,
+      "remain": "剩42天8时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 42.9,
+        "elapsedDays": 1.4,
+        "remainDays": 42.4,
         "totalDays": 43.8
       },
       "hasSchedule": true,
@@ -447,11 +423,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-14T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩40天19时",
-      "progress": 2.1,
+      "remain": "剩40天5时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 40.8,
+        "elapsedDays": 1.4,
+        "remainDays": 40.2,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -470,11 +446,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-12-14T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩40天19时",
-      "progress": 2.1,
+      "remain": "剩40天5时",
+      "progress": 3.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 40.8,
+        "elapsedDays": 1.4,
+        "remainDays": 40.2,
         "totalDays": 41.7
       },
       "hasSchedule": true,
@@ -485,98 +461,6 @@
       "summary": "「奇域秘藏·覆音谐度」"
     },
     {
-      "id": "21885",
-      "title": "「巡历雪境，凝铸锋锐」活动：自选邀请「奔行世间」常驻祈愿5星角色",
-      "header": "「「巡历雪境，凝铸锋锐」」",
-      "banner": "./covers/genshin-21885-cffaf015.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-09-21T12:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.3,
-        "totalDays": 43.1
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "「巡历雪境，凝铸锋锐」"
-    },
-    {
-      "id": "21888",
-      "title": "「虚星临渡」祈愿：「虚渊暗星·丝柯克(冰)」概率UP！",
-      "header": "「「虚星临渡」祈愿」",
-      "banner": "./covers/genshin-21888-af16011b.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-10-08T16:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.0,
-      "days": {
-        "elapsedDays": 25.7,
-        "remainDays": 0.3,
-        "totalDays": 26.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "「虚星临渡」祈愿"
-    },
-    {
-      "id": "21889",
-      "title": "「莓色香颂」祈愿：「明绚千韵·爱可菲(冰)」概率UP！",
-      "header": "「「莓色香颂」祈愿」",
-      "banner": "./covers/genshin-21889-258b0631.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-10-08T16:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.0,
-      "days": {
-        "elapsedDays": 25.7,
-        "remainDays": 0.3,
-        "totalDays": 26.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "「莓色香颂」祈愿"
-    },
-    {
-      "id": "21890",
-      "title": "「神铸赋形」祈愿：「单手剑·苍耀」「长柄武器·香韵奏者」概率UP！",
-      "header": "「「神铸赋形」祈愿」",
-      "banner": "./covers/genshin-21890-6cfbd0f8.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-10-08T16:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.0,
-      "days": {
-        "elapsedDays": 25.7,
-        "remainDays": 0.3,
-        "totalDays": 26.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [],
-      "summary": "「神铸赋形」祈愿"
-    },
-    {
       "id": "21975",
       "title": "「万序衍盈」祈愿：「列律名虚·米提亚(雷)」概率UP！",
       "header": "「「万序衍盈」祈愿」",
@@ -585,11 +469,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-11-24T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩21天9时",
-      "progress": 3.9,
+      "remain": "剩20天19时",
+      "progress": 6.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 21.4,
+        "elapsedDays": 1.4,
+        "remainDays": 20.8,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -608,11 +492,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-11-24T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩21天9时",
-      "progress": 3.9,
+      "remain": "剩20天19时",
+      "progress": 6.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 21.4,
+        "elapsedDays": 1.4,
+        "remainDays": 20.8,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -631,11 +515,11 @@
       "start": "2026-11-02T12:00:00+08:00",
       "end": "2026-11-24T17:59:00+08:00",
       "status": "进行中",
-      "remain": "剩21天9时",
-      "progress": 3.9,
+      "remain": "剩20天19时",
+      "progress": 6.4,
       "days": {
-        "elapsedDays": 0.9,
-        "remainDays": 21.4,
+        "elapsedDays": 1.4,
+        "remainDays": 20.8,
         "totalDays": 22.2
       },
       "hasSchedule": true,
@@ -644,29 +528,6 @@
       "category": "gacha",
       "allRanges": [],
       "summary": "「神铸赋形」祈愿"
-    },
-    {
-      "id": "21880",
-      "title": "「往冥府的安魂歌」时限内完成魔神任务，可额外获得原石、角色突破素材等奖励",
-      "header": "「「往冥府的安魂歌」」",
-      "banner": "./covers/genshin-21880-1007be87.jpg",
-      "link": "https://ys.mihoyo.com/",
-      "start": "2026-09-21T12:00:00+08:00",
-      "end": "2026-11-03T14:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 99.4,
-      "days": {
-        "elapsedDays": 42.9,
-        "remainDays": 0.3,
-        "totalDays": 43.1
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "「往冥府的安魂歌」"
     }
   ]
 }
