@@ -1,9 +1,9 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-11-06T03:57:15.252857+08:00",
+  "fetchedAt": "2026-11-06T14:46:06.463010+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 21,
+  "count": 15,
   "notes": [
     "当前版本开启估：2026-10-15T12:00:00+08:00",
     "4774 跳过：「丹青渡」新版本导览上线，浏览领嵌晶玉！",
@@ -21,11 +21,11 @@
       "start": "2026-10-15T12:00:00+08:00",
       "end": "2026-11-08T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩2天8时",
-      "progress": 90.3,
+      "remain": "剩1天21时",
+      "progress": 92.2,
       "days": {
-        "elapsedDays": 21.7,
-        "remainDays": 2.3,
+        "elapsedDays": 22.1,
+        "remainDays": 1.9,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -54,11 +54,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 36.5,
+      "remain": "剩12天21时",
+      "progress": 38.6,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 13.3,
+        "elapsedDays": 8.1,
+        "remainDays": 12.9,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 36.5,
+      "remain": "剩12天21时",
+      "progress": 38.6,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 13.3,
+        "elapsedDays": 8.1,
+        "remainDays": 12.9,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -118,11 +118,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 4.8,
+      "remain": "剩12天21时",
+      "progress": 8.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.1,
+        "remainDays": 12.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -151,11 +151,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 4.8,
+      "remain": "剩12天21时",
+      "progress": 8.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.1,
+        "remainDays": 12.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -217,11 +217,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩26天",
-      "progress": 2.5,
+      "remain": "剩25天13时",
+      "progress": 4.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 26.0,
+        "elapsedDays": 1.1,
+        "remainDays": 25.6,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -244,16 +244,16 @@
       "id": "6094-combat-密境行者",
       "title": "「密境行者」",
       "header": "「密境行者」",
-      "banner": "./covers/ef-combat-6094-c1340d941c-11c90853.jpg",
+      "banner": "./covers/ef-combat-6094-c1340d941c-5b368cef.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-12T12:00:00+08:00",
       "end": "2026-11-26T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "6天后",
+      "remain": "5天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.3,
+        "remainDays": 19.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -274,51 +274,19 @@
       "body": "· 更新时间：2026/11/12 12:00（服务器时间）\n · 更新说明：「密境行者」解谜活动将更新新空间组「画外遗光」，率先开放3个协议空间，并在2026/11/19 04:00（服务器时间）开放后续3个协议空间。完成该空间组挑战，累计可领取【嵌晶玉】×1200、【存续的痕迹】等活动奖励。\n ※ 更多活动及玩法内容请关注后续官方公告。\n \n · 开放「协议通行证·墨卷」，「丹青渡」版本期间，管理员可在「协议通行证」中获得武库工程师列出的各类支援项目。每期协议通行证开启时，将默认解锁「基础配给」。提升通行证等级，可获得【基础寻访凭证】【嵌晶玉】【兑换惊喜箱】【培养素材】等奖励。其中，奖励【高阶培养自选箱Ⅰ】更改为【高阶培养自选箱Ⅱ】，并追加可选择的培养素材【跃迁浆体涂片】。\n · 【采购中心 - 组合包】新增【奇妙视线收藏包】【协议源流组合包】【万象寻访组合包】【天河寻访组合包】；【特惠武库配额包】可购买次数更新。\n ※ 更多组合包及相关详细说明，请前往游戏内【采购中心 - 组合包】查看。\n \n · 「武陵」地区建设等级上限提升；「武陵 - 应龙关」物资调度终端等级上限提升；「武陵物资调度」中新增部分可兑换物资。\n · 新增【自动农植机】：解锁【自动农植机】后，可以对「祀的画」中的种植区进行自动育苗和自动收获。随着相关剧情推进，「武陵城」中的种植区也可使用【自动农植机】。\n \n · 新增连携技优先级设置：可在【编队】界面调整干员连携技优先级；局内同一时点触发多个连携技时，将按所设优先级依次施放。\n · 新增第六、第七小队：管理员可在编队界面配置并保存更多小队阵容。\n \n · 新增【装备方案】功能：可保存多套装备方案并自定义命名，便于按编队需求为干员快速切换装备。\n · 新增限时理智药剂到期自动使用功能：限时理智药剂到期时将自动转化为理智；超出理智上限的部分，将通过【理智萃取器】转化为不限时的【理智精粹药剂】。若理智已达上限，且【理智精粹药剂】已达持有上限或无可用【理智萃取器】，剩余的限时理智药剂将被销毁。\n · 新增舱室班组功能：每个舱室最多可设置 A、B 两个班组，支持手动【启用班组】或【自动轮换】；请注意，若班组预计工时不足以覆盖所分配工作时段，舱室生产有概率中断。\n \n · 新增部分【干员教学】【能量淤积点】【危境再现】【NPC】【蚀刻章】【名片主题】【头像】【头像框】【滤镜】【贴纸】【消耗品】【材料】【理智药剂】【百科条目】【情报档案】【随身装置】【装饰物品】【唱片】【拍照动作】【地区醚质提交阶段】等内容，将随管理员的进度逐渐解锁。\n · 装备套组【50式应龙】【脉冲式】【长息】【涉渊】【集成实训】新增部分装备部件。\n · 新增珍贵培养素材【跃迁浆体涂片】。\n…"
     },
     {
-      "id": "6094-combat-丰碑留名魇林",
-      "title": "「丰碑留名·魇林」",
-      "header": "「丰碑留名·魇林」",
-      "banner": "./covers/ef-combat-6094-9303f363ce-11c90853.jpg",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-22T12:00:00+08:00",
-      "end": "2026-11-05T04:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0.0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "作战 · 丰碑留名·魇林",
-          "start": "2026-10-22T12:00:00+08:00",
-          "end": "2026-11-05T04:00:00+08:00",
-          "raw": "开放时间：2026/10/22 12:00 - 2026/11/05 04:00",
-          "category": "combat"
-        }
-      ],
-      "summary": "丰碑留名·魇林 · 「深林呓语」系列开放后，将开启「丰碑留名·魇林」限时活动。活动期间在「影拓丰碑」完成对应挑战，即可领取【嵌晶玉】×1200、【高阶培养自选箱Ⅱ】等活动奖励。 · 奖励：【嵌晶玉】、【高阶培养自选箱Ⅱ】",
-      "body": "· 活动时间：2026/10/22 12:00 - 2026/11/05 04:00（服务器时间）\n · 活动说明：「深林呓语」系列开放后，将开启「丰碑留名·魇林」限时活动。活动期间在「影拓丰碑」完成对应挑战，即可领取【嵌晶玉】×1200、【高阶培养自选箱Ⅱ】等活动奖励。\n \n 3.「密境行者」空间组更新"
-    },
-    {
       "id": "6094-event-百趣演武",
       "title": "「百趣演武」",
       "header": "「百趣演武」",
-      "banner": "./covers/ef-event-6094-67d3918e32-e4a4ed97.png",
+      "banner": "./covers/ef-event-6094-67d3918e32-c7dde94f.png",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天",
-      "progress": 37.1,
+      "remain": "剩12天13时",
+      "progress": 39.3,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 13.0,
+        "elapsedDays": 8.1,
+        "remainDays": 12.6,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -341,16 +309,16 @@
       "id": "6094-event-予众魂的新光影",
       "title": "「予众魂的新光影」",
       "header": "「予众魂的新光影」",
-      "banner": "./covers/ef-event-6094-ef7a4410c2-31f37a22.jpg",
+      "banner": "./covers/ef-event-6094-ef7a4410c2-08383bfa.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-10-31T12:00:00+08:00",
       "end": "2026-11-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天",
-      "progress": 41.5,
+      "remain": "剩7天13时",
+      "progress": 44.8,
       "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 8.0,
+        "elapsedDays": 6.1,
+        "remainDays": 7.6,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -373,16 +341,16 @@
       "id": "6094-event-归野",
       "title": "「归野」",
       "header": "「归野」",
-      "banner": "./covers/ef-event-6094-5b0fecdefb-af39e34f.jpg",
+      "banner": "./covers/ef-event-6094-5b0fecdefb-c44eb317.png",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 4.8,
+      "remain": "剩12天21时",
+      "progress": 8.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.1,
+        "remainDays": 12.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -406,16 +374,16 @@
       "id": "6094-event-星河共我",
       "title": "「星河共我」",
       "header": "「星河共我」",
-      "banner": "./covers/ef-event-6094-4014e55356-b5d86a86.png",
+      "banner": "./covers/ef-event-6094-4014e55356-08a319d4.png",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 4.8,
+      "remain": "剩12天21时",
+      "progress": 8.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.1,
+        "remainDays": 12.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -439,16 +407,16 @@
       "id": "6094-event-狂热赛季",
       "title": "「狂热赛季」",
       "header": "「狂热赛季」",
-      "banner": "./covers/ef-event-6094-0bf1c683ee-5b368cef.jpg",
+      "banner": "./covers/ef-event-6094-0bf1c683ee-31f37a22.jpg",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13天8时",
-      "progress": 4.8,
+      "remain": "剩12天21时",
+      "progress": 8.0,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 13.3,
+        "elapsedDays": 1.1,
+        "remainDays": 12.9,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -477,11 +445,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩26天",
-      "progress": 2.5,
+      "remain": "剩25天13时",
+      "progress": 4.2,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 26.0,
+        "elapsedDays": 1.1,
+        "remainDays": 25.6,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -489,14 +457,6 @@
       "fuzzy": false,
       "category": "event",
       "allRanges": [
-        {
-          "label": "卡池 · 万物更新",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T11:59:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 11:59",
-          "fuzzy": false,
-          "category": "gacha"
-        },
         {
           "label": "卡池 · 篆玉申领",
           "start": "2026-10-15T12:00:00+08:00",
@@ -528,36 +488,6 @@
           "category": "gacha"
         },
         {
-          "label": "活动 · 万物有灵",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T11:59:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 11:59",
-          "fuzzy": false,
-          "category": "event"
-        },
-        {
-          "label": "活动 · 墨分诸彩",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T12:00:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 12:00",
-          "fuzzy": false,
-          "category": "event"
-        },
-        {
-          "label": "活动 · 卡莉的芳菲童话",
-          "start": "2026-10-22T12:00:00+08:00",
-          "end": "2026-11-05T04:00:00+08:00",
-          "raw": "开放时间：2026/10/22 12:00 - 2026/11/05 04:00",
-          "category": "event"
-        },
-        {
-          "label": "活动 · 危机筹备",
-          "start": "2026-10-29T04:00:00+08:00",
-          "end": "2026-11-05T04:00:00+08:00",
-          "raw": "开放时间：2026/10/29 04:00 - 2026/11/05 04:00",
-          "category": "event"
-        },
-        {
           "label": "活动 · 百趣演武",
           "start": "2026-10-29T12:00:00+08:00",
           "end": "2026-11-19T04:00:00+08:00",
@@ -578,6 +508,44 @@
           "raw": "开放时间：2026/11/05 12:00 - 版本更新维护前",
           "fuzzy": true,
           "category": "event"
+        },
+        {
+          "label": "活动 · 星河共我",
+          "start": "2026-11-05T12:00:00+08:00",
+          "end": "2026-11-19T12:00:00+08:00",
+          "raw": "开放时间：2026/11/05 12:00 - 版本更新维护前",
+          "fuzzy": true,
+          "category": "event"
+        },
+        {
+          "label": "作战 · 危机合约 浸蓝测试作战",
+          "start": "2026-11-05T12:00:00+08:00",
+          "end": "2026-12-02T04:00:00+08:00",
+          "raw": "开放时间：2026/11/05 12:00 - 2026/12/02 04:00",
+          "category": "combat"
+        },
+        {
+          "label": "活动 · 理智补给",
+          "start": "2026-11-18T04:00:00+08:00",
+          "end": "2026-11-25T04:00:00+08:00",
+          "raw": "开放时间：2026/11/18 04:00 - 2026/11/25 04:00",
+          "category": "event"
+        },
+        {
+          "label": "活动 · 狂热赛季",
+          "start": "2026-11-05T12:00:00+08:00",
+          "end": "2026-11-19T12:00:00+08:00",
+          "raw": "开放时间：2026/11/05 12:00 - 版本更新维护前",
+          "fuzzy": true,
+          "category": "event"
+        },
+        {
+          "label": "作战 · 密境行者",
+          "start": "2026-11-12T12:00:00+08:00",
+          "end": "2026-11-26T12:00:00+08:00",
+          "raw": "2026/11/12 12:00",
+          "fuzzy": true,
+          "category": "combat"
         }
       ],
       "summary": "秋景现，丹青垂，渡过千般崎岖，万种嶙峋。亲爱的管理员：欢迎来到全新版本「丹青渡」！▼//更新维护及补偿说明■ 更新维护时间2026/10/15 06:00 - 2026/10/15 12:00（UTC",
@@ -588,16 +556,16 @@
       "id": "6094-event-理智补给",
       "title": "「理智补给」",
       "header": "「理智补给」",
-      "banner": "./covers/ef-event-6094-295584ecfe-f22d37cb.jpg",
+      "banner": "./covers/ef-event-6094-295584ecfe-e4a4ed97.png",
       "link": "https://endfield.hypergryph.com/news/6094",
       "start": "2026-11-18T04:00:00+08:00",
       "end": "2026-11-25T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "12天后",
+      "remain": "11天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 19.0,
+        "remainDays": 18.6,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -615,169 +583,6 @@
       ],
       "summary": "理智补给 · 活动期间，每日完成指定任务即可领取理智补给奖励【理智消耗许可】及【应急理智加强剂】。 · 奖励：【理智消耗许可】、【应急理智加强剂】",
       "body": "· 活动时间：2026/11/18 04:00 - 2026/11/25 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可领取理智补给奖励【理智消耗许可】及【应急理智加强剂】。\n \n 1.「战争回响」常驻挑战玩法更新\n ○「异想赛季」"
-    },
-    {
-      "id": "6094-event-万物有灵",
-      "title": "「万物有灵」",
-      "header": "「万物有灵」",
-      "banner": "./covers/ef-event-6094-70724423e4-c7dde94f.png",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-15T12:00:00+08:00",
-      "end": "2026-11-05T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 万物有灵",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T11:59:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 11:59",
-          "fuzzy": false,
-          "category": "event"
-        }
-      ],
-      "summary": "万物有灵 · 累计签到7日，即可获得【万物有灵寻访凭证】×5等奖励。 · 奖励：【万物有灵寻访凭证】",
-      "body": "· 活动时间：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）\n · 活动说明：累计签到7日，即可获得【万物有灵寻访凭证】×5等奖励。\n \n 3.「墨分诸彩」引入活动"
-    },
-    {
-      "id": "6094-event-墨分诸彩",
-      "title": "「墨分诸彩」",
-      "header": "「墨分诸彩」",
-      "banner": "./covers/ef-event-6094-3548c407b7-08383bfa.jpg",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-15T12:00:00+08:00",
-      "end": "2026-11-05T12:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 墨分诸彩",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T12:00:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 12:00",
-          "fuzzy": false,
-          "category": "event"
-        }
-      ],
-      "summary": "墨分诸彩 · 前往「武陵」地区的「祀的画」区域完成指定任务，即可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。 · 奖励：【嵌晶玉】、【存续的痕迹】",
-      "body": "· 活动时间：「丹青渡」版本更新后 - 2026/11/05 12:00（服务器时间）\n · 活动说明：前往「武陵」地区的「祀的画」区域完成指定任务，即可领取【嵌晶玉】×1200、【存续的痕迹】活动奖励。\n \n 4.「卡莉的芳菲童话」拍照活动"
-    },
-    {
-      "id": "6094-event-异想赛季",
-      "title": "「异想赛季」",
-      "header": "「异想赛季」",
-      "banner": "./covers/ef-event-6094-0da4a27f9c-b262fb4c.jpg",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-15T12:00:00+08:00",
-      "end": "2026-11-05T11:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 21.0,
-        "remainDays": 0.0,
-        "totalDays": 21.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 异想赛季",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-05T11:59:00+08:00",
-          "raw": "「丹青渡」版本更新后 - 2026/11/05 11:59",
-          "fuzzy": false,
-          "category": "event"
-        }
-      ],
-      "summary": "异想赛季 · 奖励：【嵌晶玉】",
-      "body": "· 赛季更新：「丹青渡」版本更新后 - 2026/11/05 11:59（服务器时间）\n · 更新说明：全新赛季「异想赛季」开放，该赛季分为3个轮换周期，每个轮换周期包含3个关卡。「异想赛季」新增3个关卡，完成所有新增关卡的普通难度即可领取【嵌晶玉】×300等奖励。\n ○「狂热赛季」"
-    },
-    {
-      "id": "6094-event-卡莉的芳菲童话",
-      "title": "「卡莉的芳菲童话」",
-      "header": "「卡莉的芳菲童话」",
-      "banner": "./covers/ef-event-6094-b3c00839df-c44eb317.png",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-22T12:00:00+08:00",
-      "end": "2026-11-05T04:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 13.7,
-        "remainDays": 0.0,
-        "totalDays": 13.7
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 卡莉的芳菲童话",
-          "start": "2026-10-22T12:00:00+08:00",
-          "end": "2026-11-05T04:00:00+08:00",
-          "raw": "开放时间：2026/10/22 12:00 - 2026/11/05 04:00",
-          "category": "event"
-        }
-      ],
-      "summary": "卡莉的芳菲童话 · 完成拍照任务，即可获得【嵌晶玉】×1500、【头像框·卡莉的芳菲集】、【存续的痕迹】等活动奖励。 · 奖励：【嵌晶玉】、【头像框·卡莉的芳菲集】、【存续的痕迹】",
-      "body": "· 活动时间：2026/10/22 12:00 - 2026/11/05 04:00（服务器时间）\n · 活动说明：完成拍照任务，即可获得【嵌晶玉】×1500、【头像框·卡莉的芳菲集】、【存续的痕迹】等活动奖励。\n \n 5.「危机筹备」限时活动"
-    },
-    {
-      "id": "6094-event-危机筹备",
-      "title": "「危机筹备」",
-      "header": "「危机筹备」",
-      "banner": "./covers/ef-event-6094-7b09c6e06b-08a319d4.png",
-      "link": "https://endfield.hypergryph.com/news/6094",
-      "start": "2026-10-29T04:00:00+08:00",
-      "end": "2026-11-05T04:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "活动 · 危机筹备",
-          "start": "2026-10-29T04:00:00+08:00",
-          "end": "2026-11-05T04:00:00+08:00",
-          "raw": "开放时间：2026/10/29 04:00 - 2026/11/05 04:00",
-          "category": "event"
-        }
-      ],
-      "summary": "危机筹备 · 活动期间，每日完成指定任务即可获得【理智消耗许可】【应急理智加强剂】【武陵精锻助剂】及【冷却脂】活动奖励。 · 奖励：【理智消耗许可】、【应急理智加强剂】、【武陵精锻助剂】",
-      "body": "· 活动时间：2026/10/29 04:00 - 2026/11/05 04:00（服务器时间）\n · 活动说明：活动期间，每日完成指定任务即可获得【理智消耗许可】【应急理智加强剂】【武陵精锻助剂】及【冷却脂】活动奖励。\n \n 6.「百趣演武」挑战活动"
     }
   ]
 }

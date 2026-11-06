@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-11-05T03:46:45.631391+08:00",
-  "count": 6,
+  "fetchedAt": "2026-11-06T14:46:40.221981+08:00",
+  "count": 3,
   "events": [
     {
       "id": "al-信标META萨拉托加META-0904",
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩35天6时",
-      "progress": 63.6,
+      "remain": "剩33天19时",
+      "progress": 65.1,
       "days": {
-        "elapsedDays": 61.5,
-        "remainDays": 35.3,
+        "elapsedDays": 63.0,
+        "remainDays": 33.8,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -28,29 +28,6 @@
       "summary": "2026年9月4日10:00港区改建"
     },
     {
-      "id": "al-飓风与雾霭回廊-1022",
-      "title": "飓风与雾霭回廊",
-      "header": "开启限时大型活动·飓风与雾霭回廊",
-      "banner": "./covers/al-dac72a9366-dee1bbcf.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8822%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-10-22T16:00:00+08:00",
-      "end": "2026-11-05T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.1,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.3,
-        "totalDays": 13.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "2026年10月22日10:00港区改建"
-    },
-    {
       "id": "al-限界挑战天蝎座-1101",
       "title": "限界挑战：天蝎座",
       "header": "开启限时复刻活动·限界挑战：天蝎座",
@@ -59,11 +36,11 @@
       "start": "2026-11-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天20时",
-      "progress": 13.9,
+      "remain": "剩24天9时",
+      "progress": 18.7,
       "days": {
-        "elapsedDays": 4.2,
-        "remainDays": 25.8,
+        "elapsedDays": 5.6,
+        "remainDays": 24.4,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -82,11 +59,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天20时",
-      "progress": 57.6,
+      "remain": "剩24天9时",
+      "progress": 60.0,
       "days": {
-        "elapsedDays": 35.2,
-        "remainDays": 25.8,
+        "elapsedDays": 36.6,
+        "remainDays": 24.4,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -95,59 +72,12 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年9月24日10:00港区改建"
-    },
-    {
-      "id": "al-严厉女仆不严厉-1015",
-      "title": "严厉女仆不严厉",
-      "header": "开启限时活动·严厉女仆不严厉",
-      "banner": "./covers/al-acc2b35a37-0c8925ad.jpg",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8815%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-10-15T15:00:00+08:00",
-      "end": "2026-11-05T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.8,
-      "days": {
-        "elapsedDays": 20.5,
-        "remainDays": 0.3,
-        "totalDays": 20.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "2026年10月15日10:00港区改建"
-    },
-    {
-      "id": "al-港区假日故事集光与暗的邀约-1022",
-      "title": "港区假日故事集 光与暗的邀约",
-      "header": "开启限时活动·港区假日故事集 光与暗的邀约",
-      "banner": "",
-      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B410%E6%9C%8822%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
-      "start": "2026-10-22T16:00:00+08:00",
-      "end": "2026-11-05T10:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩6小时",
-      "progress": 98.1,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.3,
-        "totalDays": 13.8
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "2026年10月22日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
   "notes": [
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
-    "可能漏抓：含「怪谈纪实」的进行中活动",
-    "无配图：港区假日故事集 光与暗的邀约"
+    "可能漏抓：含「怪谈纪实」的进行中活动"
   ]
 }
