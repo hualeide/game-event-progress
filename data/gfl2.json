@@ -1,42 +1,12 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-11-06T14:47:28.276829+08:00",
+  "fetchedAt": "2026-11-07T03:26:36.857240+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 2,
+  "count": 1,
   "notes": [],
   "events": [
-    {
-      "id": "2239",
-      "title": "【限时活动】「定向采购」活动即将开启！",
-      "header": "【限时活动】「定向采购」活动即将开启！",
-      "banner": "./covers/gfl2-2239-4a8cfd7d.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2239",
-      "start": "2026-11-01T18:00:00+08:00",
-      "end": "2026-11-15T18:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩9天3时",
-      "progress": 34.8,
-      "days": {
-        "elapsedDays": 4.9,
-        "remainDays": 9.1,
-        "totalDays": 14.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时",
-          "start": "2026-11-01T18:00:00+08:00",
-          "end": "2026-11-15T18:00:00+08:00",
-          "raw": "Date+14d"
-        }
-      ],
-      "summary": "【限时活动】「定向采购」活动即将开启！"
-    },
     {
       "id": "2242",
       "title": "【限时活动】「热寂悖论」即将开启！",
@@ -46,11 +16,11 @@
       "start": "2026-11-02T18:00:00+08:00",
       "end": "2026-11-16T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天3时",
-      "progress": 27.6,
+      "remain": "剩9天14时",
+      "progress": 31.4,
       "days": {
-        "elapsedDays": 3.9,
-        "remainDays": 10.1,
+        "elapsedDays": 4.4,
+        "remainDays": 9.6,
         "totalDays": 14.0
       },
       "hasSchedule": true,
