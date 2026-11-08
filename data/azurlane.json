@@ -1,7 +1,7 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-11-08T05:51:18.117963+08:00",
+  "fetchedAt": "2026-11-09T06:06:19.329086+08:00",
   "count": 3,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩32天4时",
-      "progress": 66.8,
+      "remain": "剩31天3时",
+      "progress": 67.8,
       "days": {
-        "elapsedDays": 64.6,
-        "remainDays": 32.2,
+        "elapsedDays": 65.6,
+        "remainDays": 31.2,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-11-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天18时",
-      "progress": 24.1,
+      "remain": "剩21天17时",
+      "progress": 27.5,
       "days": {
-        "elapsedDays": 7.2,
-        "remainDays": 22.8,
+        "elapsedDays": 8.3,
+        "remainDays": 21.7,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22天18时",
-      "progress": 62.7,
+      "remain": "剩21天17时",
+      "progress": 64.4,
       "days": {
-        "elapsedDays": 38.2,
-        "remainDays": 22.8,
+        "elapsedDays": 39.3,
+        "remainDays": 21.7,
         "totalDays": 61.0
       },
       "hasSchedule": true,

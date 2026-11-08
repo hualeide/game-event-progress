@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-11-08T05:51:10.347714+08:00",
+  "fetchedAt": "2026-11-09T06:05:38.310147+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 7,
+  "count": 6,
   "notes": [
     "跳过 3.3版本「重返天空的旅程」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-10-20T14:00:00+08:00",
       "end": "2026-11-30T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩21天22时",
-      "progress": 46.0,
+      "remain": "剩20天21时",
+      "progress": 48.5,
       "days": {
-        "elapsedDays": 18.7,
-        "remainDays": 21.9,
+        "elapsedDays": 19.7,
+        "remainDays": 20.9,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-10-20T14:15:00+08:00",
       "end": "2026-12-01T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩22天22时",
-      "progress": 44.9,
+      "remain": "剩21天21时",
+      "progress": 47.3,
       "days": {
-        "elapsedDays": 18.7,
-        "remainDays": 22.9,
+        "elapsedDays": 19.7,
+        "remainDays": 21.9,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-10-26T12:30:00+08:00",
       "end": "2026-11-16T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩7天22时",
-      "progress": 61.6,
+      "remain": "剩6天21时",
+      "progress": 66.5,
       "days": {
-        "elapsedDays": 12.7,
-        "remainDays": 7.9,
+        "elapsedDays": 13.7,
+        "remainDays": 6.9,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-10-31T13:00:00+08:00",
       "end": "2026-11-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩2天18时",
-      "progress": 73.6,
+      "remain": "剩1天17时",
+      "progress": 83.3,
       "days": {
-        "elapsedDays": 7.7,
-        "remainDays": 2.8,
+        "elapsedDays": 8.7,
+        "remainDays": 1.7,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -109,29 +109,6 @@
       "summary": "赛维里安养成材料预告"
     },
     {
-      "id": "1334",
-      "title": "「先遣赏金-区域巡防」活动说明",
-      "header": "「「先遣赏金-区域巡防」活动说明」",
-      "banner": "./covers/zzz-1334-3563cd14.png",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-11-02T12:00:00+08:00",
-      "end": "2026-11-09T03:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 86.2,
-      "days": {
-        "elapsedDays": 5.7,
-        "remainDays": 0.9,
-        "totalDays": 6.7
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "「先遣赏金-区域巡防」活动说明"
-    },
-    {
       "id": "1348",
       "title": "《绝区零》对iPhone Duo机型的适配说明",
       "header": "「iPhone Duo适配说明」",
@@ -140,11 +117,11 @@
       "start": "2026-11-05T14:00:00+08:00",
       "end": "2026-12-02T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩24天",
-      "progress": 10.0,
+      "remain": "剩22天23时",
+      "progress": 13.8,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 24.0,
+        "elapsedDays": 3.7,
+        "remainDays": 23.0,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -163,11 +140,11 @@
       "start": "2026-10-19T12:00:00+08:00",
       "end": "2026-11-11T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩3天18时",
-      "progress": 84.0,
+      "remain": "剩2天17时",
+      "progress": 88.3,
       "days": {
-        "elapsedDays": 19.7,
-        "remainDays": 3.8,
+        "elapsedDays": 20.8,
+        "remainDays": 2.7,
         "totalDays": 23.5
       },
       "hasSchedule": true,
