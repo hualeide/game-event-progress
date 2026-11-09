@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-11-09T14:28:38.247579+08:00",
+  "fetchedAt": "2026-11-10T06:21:58.511123+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 7,
+  "count": 8,
   "notes": [
     "跳过 3.3版本「重返天空的旅程」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-10-20T14:00:00+08:00",
       "end": "2026-11-30T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩20天13时",
-      "progress": 49.3,
+      "remain": "剩19天21时",
+      "progress": 51.0,
       "days": {
-        "elapsedDays": 20.0,
-        "remainDays": 20.6,
+        "elapsedDays": 20.7,
+        "remainDays": 19.9,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-10-20T14:15:00+08:00",
       "end": "2026-12-01T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩21天13时",
-      "progress": 48.1,
+      "remain": "剩20天21时",
+      "progress": 49.7,
       "days": {
-        "elapsedDays": 20.0,
-        "remainDays": 21.6,
+        "elapsedDays": 20.7,
+        "remainDays": 20.9,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-10-26T12:30:00+08:00",
       "end": "2026-11-16T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩6天13时",
-      "progress": 68.2,
+      "remain": "剩5天21时",
+      "progress": 71.4,
       "days": {
-        "elapsedDays": 14.1,
-        "remainDays": 6.6,
+        "elapsedDays": 14.7,
+        "remainDays": 5.9,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-10-31T13:00:00+08:00",
       "end": "2026-11-10T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩1天9时",
-      "progress": 86.6,
+      "remain": "剩17小时",
+      "progress": 93.0,
       "days": {
-        "elapsedDays": 9.1,
-        "remainDays": 1.4,
+        "elapsedDays": 9.7,
+        "remainDays": 0.7,
         "totalDays": 10.5
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-11-05T14:00:00+08:00",
       "end": "2026-12-02T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩22天15时",
-      "progress": 15.1,
+      "remain": "剩21天23时",
+      "progress": 17.6,
       "days": {
-        "elapsedDays": 4.0,
-        "remainDays": 22.6,
+        "elapsedDays": 4.7,
+        "remainDays": 22.0,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-11-09T14:15:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天13时",
-      "progress": 0.0,
+      "remain": "剩19天21时",
+      "progress": 3.3,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 20.6,
+        "elapsedDays": 0.7,
+        "remainDays": 19.9,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -155,6 +155,29 @@
       "summary": "「跛脚乌鸦奇踪记」活动说明"
     },
     {
+      "id": "1344",
+      "title": "「『嗯呢』从天降」活动说明",
+      "header": "「「『嗯呢』从天降」活动说明」",
+      "banner": "./covers/zzz-1344-644f3a55.jpg",
+      "link": "https://zzz.mihoyo.com/",
+      "start": "2026-11-09T14:30:00+08:00",
+      "end": "2026-12-01T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩20天21时",
+      "progress": 3.1,
+      "days": {
+        "elapsedDays": 0.7,
+        "remainDays": 20.9,
+        "totalDays": 21.6
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「『嗯呢』从天降」活动说明"
+    },
+    {
       "id": "1338",
       "title": "新品情报丨客制化三模键盘等多款周边上新",
       "header": "「新品情报丨客制化三模键盘等多款周边上新」",
@@ -163,11 +186,11 @@
       "start": "2026-10-19T12:00:00+08:00",
       "end": "2026-11-11T23:59:59+08:00",
       "status": "进行中",
-      "remain": "剩2天9时",
-      "progress": 89.8,
+      "remain": "剩1天17时",
+      "progress": 92.6,
       "days": {
-        "elapsedDays": 21.1,
-        "remainDays": 2.4,
+        "elapsedDays": 21.8,
+        "remainDays": 1.7,
         "totalDays": 23.5
       },
       "hasSchedule": true,
