@@ -1,10 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-11-11T14:21:58.769643+08:00",
+  "fetchedAt": "2026-11-12T03:37:10.167521+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 2,
+  "count": 3,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-11-11T05:00:00+08:00",
       "end": "2026-11-25T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天14时",
-      "progress": 2.8,
+      "remain": "剩13天1时",
+      "progress": 6.7,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 13.6,
+        "elapsedDays": 0.9,
+        "remainDays": 13.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-11-12T05:00:00+08:00",
       "end": "2026-11-24T08:59:00+08:00",
       "status": "即将开始",
-      "remain": "14小时后",
+      "remain": "1小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 12.8,
+        "remainDays": 12.2,
         "totalDays": 12.2
       },
       "hasSchedule": true,
@@ -66,6 +66,36 @@
         }
       ],
       "summary": "【限时活动】「模拟习练」即将开启！"
+    },
+    {
+      "id": "2258",
+      "title": "【限时活动】「战前补给」七日签到活动即将开启！",
+      "header": "【限时活动】「战前补给」七日签到活动即将开启！",
+      "banner": "./covers/gfl2-2258-2a71cf04.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2258",
+      "start": "2026-11-17T05:00:00+08:00",
+      "end": "2026-11-27T04:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 15.1,
+        "totalDays": 10.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-11-17T05:00:00+08:00",
+          "end": "2026-11-27T04:59:00+08:00",
+          "raw": "11月17日05:00~11月27日04:59"
+        }
+      ],
+      "summary": "【限时活动】「战前补给」七日签到活动即将开启！"
     }
   ]
 }

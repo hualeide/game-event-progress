@@ -1,14 +1,15 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-11-10T06:21:45.254700+08:00",
+  "fetchedAt": "2026-11-12T03:35:45.349220+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 15,
+  "count": 14,
   "notes": [
     "当前版本开启估：2026-10-15T12:00:00+08:00",
     "4774 跳过：「丹青渡」新版本导览上线，浏览领嵌晶玉！",
     "9326 跳过：「丹青渡」版本创作征集活动进行中",
     "7213 跳过：《云·终末地》正式上线，新增网页版！",
+    "7212 已过期：「篆玉申领」限时特卖说明",
     "2650 跳过：「丹青渡」版本预下载与更新预告"
   ],
   "events": [
@@ -21,11 +22,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.0,
+      "remain": "剩7天8时",
+      "progress": 65.0,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 13.7,
+        "remainDays": 7.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -53,11 +54,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 56.0,
+      "remain": "剩7天8时",
+      "progress": 65.0,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 9.2,
+        "elapsedDays": 13.7,
+        "remainDays": 7.3,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -85,11 +86,11 @@
       "start": "2026-11-05T11:59:00+08:00",
       "end": "2026-11-19T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -117,11 +118,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -150,11 +151,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -174,39 +175,6 @@
       "updatedAt": "2026-11-04T18:30:00+08:00"
     },
     {
-      "id": "7212",
-      "title": "「篆玉申领」限时特卖说明",
-      "header": "「篆玉申领」",
-      "banner": "./covers/ef-7212-0bec9527.png",
-      "link": "https://endfield.hypergryph.com/news/7212",
-      "start": "2026-10-15T12:00:00+08:00",
-      "end": "2026-11-08T12:00:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 24.0,
-        "remainDays": 0.0,
-        "totalDays": 24.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "开放时间（估）",
-          "start": "2026-10-15T12:00:00+08:00",
-          "end": "2026-11-08T12:00:00+08:00",
-          "raw": "「丹青渡」版本更新后开启，于3次「特许寻访」后结束（从「万物更新」起计算）",
-          "fuzzy": true
-        }
-      ],
-      "summary": "亲爱的管理员：「篆玉申领」开放期间，6星武器【玉中身（双手剑）】获取概率提升！▼//「篆玉申领」· 开放时间：「丹青渡」版本更新后开启，于3次「特许寻访」后结束（从「万物更新」起计算）· 开放条件：完",
-      "body": "亲爱的管理员： \n 「篆玉申领」开放期间，6星武器【玉中身（双手剑）】获取概率提升！ \n \n ▼//「篆玉申领」 \n · 开放时间：「丹青渡」版本更新后开启，于3次「特许寻访」后结束（从「万物更新」起计算） \n · 开放条件：完成主线任务「第一章 - 进程Ⅰ - 基地解围」 \n · 「篆玉申领」中，概率提升的6星武器为【玉中身（双手剑）】。 \n · 「篆玉申领」中，全部可能出现的6星武器包括：玉中身（双手剑）/昔日精品（双手剑）/楔子（手铳）/J.E.T.（长柄武器）/骑士精神（施术单元）/破碎君王（双手剑）/显赫声名（单手剑）。 \n \n ▼//「武库申领」奖励 \n 在每个「武库申领」中，累计达到指定申领次数，即可交替获得「武库申领」对应的【补充武库箱】或【概率提升的6星武器】。武库申领奖励计数会在每个「武库申领」关闭时清零，不会继承到其他的「武库申领」中。 \n \n ▼//「武库申领」说明 \n · 在「武库申领」中，可使用【武库配额】进行申领。 \n · 每申领1次，可随机获得全部可能出现的武器列表中的10件武器，其中必定包含5星或以上武器。 \n \n ▼//「武库交易所」说明 \n 「武库交易所」中，可使用「武库配额」直接购买武器。部分可购买武器将不定期更新，具体内容请以【采购中心 - 武库交易所】界面显示为准。 \n \n ※ 更多详细说明及奖励规则，请前往游戏内【采购中心 - 武库交易所】查看。",
-      "updatedAt": "2026-10-14T18:30:00+08:00"
-    },
-    {
       "id": "6094-combat-危机合约浸蓝测试作战",
       "title": "「危机合约 浸蓝测试作战」",
       "header": "「危机合约 浸蓝测试作战」",
@@ -215,11 +183,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天21时",
-      "progress": 17.9,
+      "remain": "剩20天",
+      "progress": 24.9,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 21.9,
+        "elapsedDays": 6.7,
+        "remainDays": 20.0,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -247,11 +215,11 @@
       "start": "2026-11-12T12:00:00+08:00",
       "end": "2026-11-26T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "2天后",
+      "remain": "8小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 16.2,
+        "remainDays": 14.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -280,11 +248,11 @@
       "start": "2026-10-29T12:00:00+08:00",
       "end": "2026-11-19T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩8天21时",
-      "progress": 56.9,
+      "remain": "剩7天",
+      "progress": 66.1,
       "days": {
-        "elapsedDays": 11.8,
-        "remainDays": 8.9,
+        "elapsedDays": 13.7,
+        "remainDays": 7.0,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -312,11 +280,11 @@
       "start": "2026-10-31T12:00:00+08:00",
       "end": "2026-11-14T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩3天21时",
-      "progress": 71.5,
+      "remain": "剩2天",
+      "progress": 85.2,
       "days": {
-        "elapsedDays": 9.8,
-        "remainDays": 3.9,
+        "elapsedDays": 11.7,
+        "remainDays": 2.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
@@ -344,11 +312,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -377,11 +345,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -410,11 +378,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-11-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩9天5时",
-      "progress": 34.0,
+      "remain": "剩7天8时",
+      "progress": 47.5,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 9.2,
+        "elapsedDays": 6.7,
+        "remainDays": 7.3,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -443,11 +411,11 @@
       "start": "2026-11-05T12:00:00+08:00",
       "end": "2026-12-02T04:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天21时",
-      "progress": 17.9,
+      "remain": "剩20天",
+      "progress": 24.9,
       "days": {
-        "elapsedDays": 4.8,
-        "remainDays": 21.9,
+        "elapsedDays": 6.7,
+        "remainDays": 20.0,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -551,11 +519,11 @@
       "start": "2026-11-18T04:00:00+08:00",
       "end": "2026-11-25T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "7天后",
+      "remain": "6天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 13.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,

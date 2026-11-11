@@ -1,9 +1,9 @@
 {
   "game": "绝区零",
   "source": "https://announcement-api.mihoyo.com/common/nap_cn/announcement/api/getAnnList",
-  "fetchedAt": "2026-11-11T03:44:42.536477+08:00",
+  "fetchedAt": "2026-11-12T03:35:57.194515+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 8,
+  "count": 7,
   "notes": [
     "跳过 3.3版本「重返天空的旅程」更新公告",
     "跳过 已知问题及游戏优化说明",
@@ -25,11 +25,11 @@
       "start": "2026-10-20T14:00:00+08:00",
       "end": "2026-11-30T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩19天",
-      "progress": 53.2,
+      "remain": "剩18天",
+      "progress": 55.6,
       "days": {
-        "elapsedDays": 21.6,
-        "remainDays": 19.0,
+        "elapsedDays": 22.6,
+        "remainDays": 18.0,
         "totalDays": 40.6
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-10-20T14:15:00+08:00",
       "end": "2026-12-01T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩20天",
-      "progress": 51.9,
+      "remain": "剩19天",
+      "progress": 54.3,
       "days": {
-        "elapsedDays": 21.6,
-        "remainDays": 20.0,
+        "elapsedDays": 22.6,
+        "remainDays": 19.0,
         "totalDays": 41.6
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-10-26T12:30:00+08:00",
       "end": "2026-11-16T03:59:59+08:00",
       "status": "进行中",
-      "remain": "剩5天",
-      "progress": 75.7,
+      "remain": "剩4天",
+      "progress": 80.5,
       "days": {
-        "elapsedDays": 15.6,
-        "remainDays": 5.0,
+        "elapsedDays": 16.6,
+        "remainDays": 4.0,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-11-05T14:00:00+08:00",
       "end": "2026-12-02T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天2时",
-      "progress": 20.9,
+      "remain": "剩20天2时",
+      "progress": 24.6,
       "days": {
-        "elapsedDays": 5.6,
-        "remainDays": 21.1,
+        "elapsedDays": 6.6,
+        "remainDays": 20.1,
         "totalDays": 26.7
       },
       "hasSchedule": true,
@@ -117,11 +117,11 @@
       "start": "2026-11-09T14:15:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩19天",
-      "progress": 7.6,
+      "remain": "剩18天",
+      "progress": 12.4,
       "days": {
-        "elapsedDays": 1.6,
-        "remainDays": 19.0,
+        "elapsedDays": 2.6,
+        "remainDays": 18.0,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-11-09T14:30:00+08:00",
       "end": "2026-12-01T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩20天",
-      "progress": 7.2,
+      "remain": "剩19天",
+      "progress": 11.8,
       "days": {
-        "elapsedDays": 1.6,
-        "remainDays": 20.0,
+        "elapsedDays": 2.5,
+        "remainDays": 19.0,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -163,11 +163,11 @@
       "start": "2026-11-10T12:00:00+08:00",
       "end": "2026-12-02T05:59:00+08:00",
       "status": "进行中",
-      "remain": "剩21天2时",
-      "progress": 3.0,
+      "remain": "剩20天2时",
+      "progress": 7.6,
       "days": {
-        "elapsedDays": 0.7,
-        "remainDays": 21.1,
+        "elapsedDays": 1.6,
+        "remainDays": 20.1,
         "totalDays": 21.7
       },
       "hasSchedule": true,
@@ -176,29 +176,6 @@
       "category": "combat",
       "allRanges": [],
       "summary": "3.3版本「商城」上新说明"
-    },
-    {
-      "id": "1338",
-      "title": "新品情报丨客制化三模键盘等多款周边上新",
-      "header": "「新品情报丨客制化三模键盘等多款周边上新」",
-      "banner": "./covers/zzz-1338-e4174084.jpg",
-      "link": "https://zzz.mihoyo.com/",
-      "start": "2026-10-19T12:00:00+08:00",
-      "end": "2026-11-11T23:59:59+08:00",
-      "status": "进行中",
-      "remain": "剩20小时",
-      "progress": 96.4,
-      "days": {
-        "elapsedDays": 22.7,
-        "remainDays": 0.8,
-        "totalDays": 23.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [],
-      "summary": "新品情报丨客制化三模键盘等多款周边上新"
     }
   ]
 }
