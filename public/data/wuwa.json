@@ -1,9 +1,102 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-11-11T14:20:57.051594+08:00",
-  "count": 0,
-  "events": [],
+  "fetchedAt": "2026-11-12T15:11:20.776219+08:00",
+  "count": 4,
+  "events": [
+    {
+      "id": "wuwa-5779-梦野寻奇",
+      "title": "梦野寻奇",
+      "header": "梦野寻奇·战斗活动",
+      "banner": "./covers/wuwa-5779-a044363284-14638874.png",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
+      "start": "2026-12-03T10:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "20天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 38.5,
+        "totalDays": 17.7
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5779-盛放于昨日梦土的花朵",
+      "title": "盛放于昨日梦土的花朵",
+      "header": "盛放于昨日梦土的花朵·唤取",
+      "banner": "./covers/wuwa-5779-211c255bab-3412f7de.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
+      "start": "2026-11-12T04:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩38天12时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.5,
+        "remainDays": 38.5,
+        "totalDays": 39.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5779-安魂",
+      "title": "安魂",
+      "header": "安魂·唤取",
+      "banner": "./covers/wuwa-5779-ce46cf7a13-3412f7de.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
+      "start": "2026-11-12T04:00:00+08:00",
+      "end": "2026-12-21T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩38天12时",
+      "progress": 1.2,
+      "days": {
+        "elapsedDays": 0.5,
+        "remainDays": 38.5,
+        "totalDays": 39.0
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": true,
+      "category": "gacha",
+      "allRanges": [],
+      "summary": ""
+    },
+    {
+      "id": "wuwa-5779-呜呜企划整备",
+      "title": "呜呜企划・整备",
+      "header": "呜呜企划・整备·限时委托活动",
+      "banner": "./covers/wuwa-5779-d15c0c9d6c-c5fb2be8.jpg",
+      "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
+      "start": "2026-12-03T10:00:00+08:00",
+      "end": "2026-12-17T03:59:00+08:00",
+      "status": "即将开始",
+      "remain": "20天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 34.5,
+        "totalDays": 13.7
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": ""
+    }
+  ],
   "source": "https://media-cdn-mingchao.kurogame.com/akiwebsite/website2.0/json/G152/zh/ArticleMenu.json",
   "notes": [
     "封面：独立公告 > Fandom 角色/武器图 > GameKee 系列图；不用版本总图凑数"
