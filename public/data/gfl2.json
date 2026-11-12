@@ -1,10 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-11-12T15:11:56.217608+08:00",
+  "fetchedAt": "2026-11-13T03:55:17.897266+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 3,
+  "count": 4,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-11-12T05:00:00+08:00",
       "end": "2026-11-24T08:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天17时",
-      "progress": 3.5,
+      "remain": "剩11天5时",
+      "progress": 7.9,
       "days": {
-        "elapsedDays": 0.4,
-        "remainDays": 11.7,
+        "elapsedDays": 1.0,
+        "remainDays": 11.2,
         "totalDays": 12.2
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-11-11T05:00:00+08:00",
       "end": "2026-11-25T04:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天13时",
-      "progress": 10.2,
+      "remain": "剩12天1时",
+      "progress": 14.0,
       "days": {
-        "elapsedDays": 1.4,
-        "remainDays": 12.6,
+        "elapsedDays": 2.0,
+        "remainDays": 12.0,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -68,6 +68,36 @@
       "summary": "【限时活动】「格琳喵的委托」即将开启！"
     },
     {
+      "id": "2261",
+      "title": "【限时活动】「裂变·军备解析」即将开启！",
+      "header": "【限时活动】「裂变·军备解析」即将开启！",
+      "banner": "./covers/gfl2-2261-fe605233.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2261",
+      "start": "2026-11-18T05:00:00+08:00",
+      "end": "2026-11-24T04:59:00+08:00",
+      "status": "即将开始",
+      "remain": "5天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 11.0,
+        "totalDays": 6.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-11-18T05:00:00+08:00",
+          "end": "2026-11-24T04:59:00+08:00",
+          "raw": "11月18日05:00~11月24日04:59"
+        }
+      ],
+      "summary": "【限时活动】「裂变·军备解析」即将开启！"
+    },
+    {
       "id": "2258",
       "title": "【限时活动】「战前补给」七日签到活动即将开启！",
       "header": "【限时活动】「战前补给」七日签到活动即将开启！",
@@ -80,7 +110,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.6,
+        "remainDays": 14.0,
         "totalDays": 10.0
       },
       "hasSchedule": true,
