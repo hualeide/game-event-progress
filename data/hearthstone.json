@@ -1,7 +1,7 @@
 {
   "game": "炉石传说",
   "source": "https://hs.blizzard.cn/news",
-  "fetchedAt": "2026-11-15T06:25:31.789516+08:00",
+  "fetchedAt": "2026-11-15T14:32:50.481544+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 1,
@@ -16,11 +16,11 @@
       "start": "2026-11-04T11:02:00+08:00",
       "end": "2026-12-02T11:02:00+08:00",
       "status": "进行中",
-      "remain": "剩17天4时",
-      "progress": 38.6,
+      "remain": "剩16天20时",
+      "progress": 39.8,
       "days": {
-        "elapsedDays": 10.8,
-        "remainDays": 17.2,
+        "elapsedDays": 11.1,
+        "remainDays": 16.9,
         "totalDays": 28.0
       },
       "hasSchedule": true,
