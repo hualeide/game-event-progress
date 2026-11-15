@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-11-15T14:31:26.057052+08:00",
+  "fetchedAt": "2026-11-16T02:51:18.456704+08:00",
   "timezone": "Asia/Shanghai",
   "count": 7,
   "notes": [
@@ -19,11 +19,11 @@
     "2087 跳过：生息演算 使用声明",
     "2037 跳过：个人信息保护 双清单查询指引",
     "7738 跳过：《明日方舟》 公平运营申明",
+    "8206 寻访「联合行动」对齐长公告时段",
     "4835 寻访「中坚甄选」用展示日估时",
     "1058 寻访「卫戍寻访」用展示日估时",
     "8207 寻访「常驻标准寻访」用展示日估时",
-    "补全寻访卡「将雪投火」（无独立海报公告）",
-    "补全寻访卡「联合行动」（无独立海报公告）"
+    "补全寻访卡「将雪投火」（无独立海报公告）"
   ],
   "analysis": {
     "method": "官方游戏内公告 API + 正则抽取活动时间段",
@@ -58,11 +58,11 @@
       "start": "2026-11-05T16:00:00+08:00",
       "end": "2026-11-19T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天13时",
-      "progress": 73.6,
+      "remain": "剩3天1时",
+      "progress": 77.4,
       "days": {
-        "elapsedDays": 9.9,
-        "remainDays": 3.6,
+        "elapsedDays": 10.5,
+        "remainDays": 3.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-11-08T16:00:00+08:00",
       "end": "2026-11-22T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天13时",
-      "progress": 51.4,
+      "remain": "剩6天1时",
+      "progress": 55.2,
       "days": {
-        "elapsedDays": 6.9,
-        "remainDays": 6.6,
+        "elapsedDays": 7.5,
+        "remainDays": 6.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -130,11 +130,11 @@
       "start": "2026-11-12T16:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天13时",
-      "progress": 21.8,
+      "remain": "剩10天1时",
+      "progress": 25.6,
       "days": {
-        "elapsedDays": 2.9,
-        "remainDays": 10.6,
+        "elapsedDays": 3.5,
+        "remainDays": 10.0,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -145,13 +145,13 @@
       "fuzzy": true
     },
     {
-      "id": "gacha-6ce84b30df",
-      "title": "【联合行动】限时寻访",
+      "id": "8206",
+      "title": "【联合行动】 定向寻访开启",
       "header": "「联合行动」限时寻访",
       "type": "寻访",
-      "banner": "",
-      "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-11-15T14:31:26.057052+08:00",
+      "banner": "./covers/gacha-8206.jpg",
+      "link": "uniwebview://move?target=recruit&param1=NORM_79_0_4",
+      "updatedAt": "2026-11-10T18:55:03+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
@@ -166,18 +166,20 @@
       "start": "2026-11-16T16:00:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "1天后",
+      "remain": "13小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 1.1,
+        "remainDays": 0.5,
         "totalDays": 13.5,
-        "untilStartDays": 1.1
+        "untilStartDays": 0.5
       },
       "hasSchedule": true,
       "kind": "preview",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20261110/d7b01f294fade9f1e6071c8764b10621.JPG",
       "playable": false,
-      "category": "gacha"
+      "category": "gacha",
+      "fuzzy": false
     },
     {
       "id": "4846",
@@ -364,7 +366,7 @@
       "type": "寻访",
       "banner": "",
       "link": "https://ak.hypergryph.com/",
-      "updatedAt": "2026-11-15T14:31:26.057052+08:00",
+      "updatedAt": "2026-11-16T02:51:18.456704+08:00",
       "primaryLabel": "活动时间·寻访",
       "allRanges": [
         {
