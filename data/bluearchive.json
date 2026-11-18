@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-11-18T15:29:11.503086+08:00",
+  "fetchedAt": "2026-11-19T04:31:09.520631+08:00",
   "timezone": "Asia/Shanghai",
   "count": 13,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-10-30T14:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天12时",
-      "progress": 71.7,
+      "remain": "剩6天23时",
+      "progress": 73.8,
       "days": {
-        "elapsedDays": 19.1,
-        "remainDays": 7.5,
+        "elapsedDays": 19.6,
+        "remainDays": 7.0,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-11-12T00:00:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩14天22时",
-      "progress": 30.8,
+      "remain": "剩14天9时",
+      "progress": 33.3,
       "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 14.9,
+        "elapsedDays": 7.2,
+        "remainDays": 14.4,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -132,48 +132,6 @@
       "summary": "神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前在基沃托斯各地出没。 \n 切赛德是神名十文字的第4个先知，它已经掌控了千禧年外围的废弃兵工厂的生产系统。 \n 如果切赛德成功生产出无限的兵力，基沃托斯将会面临前所未有的灾难。 \n  \n ■ 活动时间 \n • 赛季持续时间：11月07日 14:00 ~…"
     },
     {
-      "id": "1998",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1998-3a35873e.jpg",
-      "link": "https://bluearchive-cn.com/news/1998",
-      "start": "2026-11-12T04:00:00+08:00",
-      "end": "2026-11-19T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩12小时",
-      "progress": 92.6,
-      "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 0.5,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-12T04:00:00+08:00",
-          "end": "2026-11-19T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-19T04:00:00+08:00",
-          "end": "2026-11-23T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-23T04:00:00+08:00",
-          "end": "2026-11-26T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月23日 04:00 ~ 11月26日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【学院交流会】道具掉落量2倍 \n ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03…"
-    },
-    {
       "id": "1993",
       "title": "【预告】限时活动：我等乃神秘学研究会！",
       "header": "「我等乃神秘学研究会！」",
@@ -182,11 +140,11 @@
       "start": "2026-11-12T13:59:00+08:00",
       "end": "2026-11-19T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 86.6,
+      "remain": "剩9小时",
+      "progress": 94.4,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 0.9,
+        "elapsedDays": 6.6,
+        "remainDays": 0.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -212,11 +170,11 @@
       "start": "2026-11-12T13:59:00+08:00",
       "end": "2026-11-19T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 86.6,
+      "remain": "剩9小时",
+      "progress": 94.4,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 0.9,
+        "elapsedDays": 6.6,
+        "remainDays": 0.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -242,11 +200,11 @@
       "start": "2026-11-12T13:59:00+08:00",
       "end": "2026-11-19T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩22小时",
-      "progress": 86.6,
+      "remain": "剩9小时",
+      "progress": 94.4,
       "days": {
-        "elapsedDays": 6.1,
-        "remainDays": 0.9,
+        "elapsedDays": 6.6,
+        "remainDays": 0.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -272,11 +230,11 @@
       "start": "2026-11-20T00:00:00+08:00",
       "end": "2026-11-26T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "1天后",
+      "remain": "19小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 7.9,
+        "remainDays": 7.4,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -312,7 +270,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -342,7 +300,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -372,7 +330,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -402,7 +360,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -432,7 +390,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -462,7 +420,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 14.9,
+        "remainDays": 14.4,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -478,6 +436,48 @@
         }
       ],
       "summary": "欢迎连接【什亭之箱】，老师。 \n 限时复刻招募【夏日炎炎 笑靥未改】即将开启！在本次招募中，3★成员\"野宫（泳装）\"的招募概率得到提升！ \n  \n ■ 招募时间 \n 11月12日 维护结束后 ~ 11月26日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“美咲（泳装）”、“纱织（泳装）”、“日和（泳…"
+    },
+    {
+      "id": "1998",
+      "title": "【预告】掉落量2倍活动即将开启！",
+      "header": "「掉落量2倍活动即将开启！」",
+      "banner": "./covers/ba-1998-3a35873e.jpg",
+      "link": "https://bluearchive-cn.com/news/1998",
+      "start": "2026-11-12T04:00:00+08:00",
+      "end": "2026-11-19T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 7.0,
+        "remainDays": 0.0,
+        "totalDays": 7.0
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "■ 活动时间",
+          "start": "2026-11-12T04:00:00+08:00",
+          "end": "2026-11-19T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-11-19T04:00:00+08:00",
+          "end": "2026-11-23T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03:59"
+        },
+        {
+          "label": "■ 活动时间",
+          "start": "2026-11-23T04:00:00+08:00",
+          "end": "2026-11-26T03:59:00+08:00",
+          "raw": " ■ 活动时间 \n 11月23日 04:00 ~ 11月26日 03:59"
+        }
+      ],
+      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【学院交流会】道具掉落量2倍 \n ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03…"
     }
   ]
 }

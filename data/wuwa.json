@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-11-18T15:30:46.291588+08:00",
+  "fetchedAt": "2026-11-19T04:31:39.600084+08:00",
   "count": 4,
   "events": [
     {
@@ -17,7 +17,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.5,
+        "remainDays": 32.0,
         "totalDays": 17.7
       },
       "hasSchedule": true,
@@ -31,16 +31,16 @@
       "id": "wuwa-5779-盛放于昨日梦土的花朵",
       "title": "盛放于昨日梦土的花朵",
       "header": "盛放于昨日梦土的花朵·唤取",
-      "banner": "./covers/wuwa-5779-211c255bab-3412f7de.jpg",
+      "banner": "./covers/wuwa-5779-211c255bab-10534fb8.jpg",
       "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
       "start": "2026-11-12T04:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩32天12时",
-      "progress": 16.6,
+      "remain": "剩31天23时",
+      "progress": 18.0,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 32.5,
+        "elapsedDays": 7.0,
+        "remainDays": 32.0,
         "totalDays": 39.0
       },
       "hasSchedule": true,
@@ -54,16 +54,16 @@
       "id": "wuwa-5779-安魂",
       "title": "安魂",
       "header": "安魂·唤取",
-      "banner": "./covers/wuwa-5779-ce46cf7a13-3412f7de.jpg",
+      "banner": "./covers/wuwa-5779-ce46cf7a13-10534fb8.jpg",
       "link": "https://wutheringwaves.kurogames.com/zh/main/news/detail/5779",
       "start": "2026-11-12T04:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩32天12时",
-      "progress": 16.6,
+      "remain": "剩31天23时",
+      "progress": 18.0,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 32.5,
+        "elapsedDays": 7.0,
+        "remainDays": 32.0,
         "totalDays": 39.0
       },
       "hasSchedule": true,
@@ -86,7 +86,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 28.5,
+        "remainDays": 28.0,
         "totalDays": 13.7
       },
       "hasSchedule": true,
