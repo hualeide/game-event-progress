@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-11-19T04:31:09.526540+08:00",
+  "fetchedAt": "2026-11-19T15:25:39.746580+08:00",
   "timezone": "Asia/Shanghai",
   "count": 9,
   "notes": [
@@ -58,11 +58,11 @@
       "start": "2026-11-08T16:00:00+08:00",
       "end": "2026-11-22T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天23时",
-      "progress": 77.9,
+      "remain": "剩2天12时",
+      "progress": 81.3,
       "days": {
-        "elapsedDays": 10.5,
-        "remainDays": 3.0,
+        "elapsedDays": 11.0,
+        "remainDays": 2.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -94,11 +94,11 @@
       "start": "2026-11-12T16:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天23时",
-      "progress": 48.3,
+      "remain": "剩6天12时",
+      "progress": 51.7,
       "days": {
-        "elapsedDays": 6.5,
-        "remainDays": 7.0,
+        "elapsedDays": 7.0,
+        "remainDays": 6.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -130,11 +130,11 @@
       "start": "2026-11-16T16:00:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天23时",
-      "progress": 18.7,
+      "remain": "剩10天12时",
+      "progress": 22.0,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 11.0,
+        "elapsedDays": 3.0,
+        "remainDays": 10.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -166,13 +166,13 @@
       "start": "2026-11-19T16:00:00+08:00",
       "end": "2026-12-03T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "11小时后",
+      "remain": "即将开始",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 0.5,
+        "remainDays": 0.0,
         "totalDays": 13.5,
-        "untilStartDays": 0.5
+        "untilStartDays": 0.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -213,9 +213,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 3.0,
+        "remainDays": 2.5,
         "totalDays": 14.0,
-        "untilStartDays": 3.0
+        "untilStartDays": 2.5
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -249,9 +249,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 12.5,
+        "remainDays": 12.0,
         "totalDays": 8.0,
-        "untilStartDays": 12.5
+        "untilStartDays": 12.0
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -285,9 +285,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 22.5,
+        "remainDays": 22.0,
         "totalDays": 8.0,
-        "untilStartDays": 22.5
+        "untilStartDays": 22.0
       },
       "hasSchedule": true,
       "kind": "preview",
