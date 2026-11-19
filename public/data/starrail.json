@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-11-19T04:31:35.249495+08:00",
+  "fetchedAt": "2026-11-20T04:37:50.942551+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 12,
+  "count": 11,
   "notes": [
     "跳过 4.7版本「此刻，将群星付之一笑」版本更新说明",
     "跳过 4.7版本游戏优化及已知问题说明",
@@ -25,11 +25,11 @@
       "start": "2026-11-09T13:00:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩34天1时",
-      "progress": 22.1,
+      "remain": "剩33天1时",
+      "progress": 24.4,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 34.1,
+        "elapsedDays": 10.7,
+        "remainDays": 33.1,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-11-09T13:15:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩34天1时",
-      "progress": 22.1,
+      "remain": "剩33天1时",
+      "progress": 24.4,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 34.1,
+        "elapsedDays": 10.6,
+        "remainDays": 33.1,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-11-09T13:30:00+08:00",
       "end": "2026-12-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩33天23时",
-      "progress": 22.1,
+      "remain": "剩32天23时",
+      "progress": 24.4,
       "days": {
-        "elapsedDays": 9.6,
-        "remainDays": 34.0,
+        "elapsedDays": 10.6,
+        "remainDays": 33.0,
         "totalDays": 43.6
       },
       "hasSchedule": true,
@@ -86,29 +86,6 @@
       "summary": "「奇库寻遗」活动说明"
     },
     {
-      "id": "1492",
-      "title": "听歌领80星琼！歌曲「无中生有」音乐活动正式上线",
-      "header": "「听歌领80星琼！歌曲「无中生有」音乐活动正式上线」",
-      "banner": "./covers/starrail-1492-85e56f1c.jpg",
-      "link": "https://sr.mihoyo.com/",
-      "start": "2026-11-12T13:00:00+08:00",
-      "end": "2026-11-19T12:00:00+08:00",
-      "status": "进行中",
-      "remain": "剩7小时",
-      "progress": 95.5,
-      "days": {
-        "elapsedDays": 6.6,
-        "remainDays": 0.3,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [],
-      "summary": "听歌领80星琼！歌曲「无中生有」音乐活动正式上线"
-    },
-    {
       "id": "sr-banner-101",
       "title": "跃迁·Silver Wolf LV.999 / Sparxie",
       "header": "跃迁·Silver Wolf LV.999 / Sparxie",
@@ -117,11 +94,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-02T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天14时",
-      "progress": 36.4,
+      "remain": "剩12天14时",
+      "progress": 41.1,
       "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 13.6,
+        "elapsedDays": 8.8,
+        "remainDays": 12.6,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -140,11 +117,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩33天17时",
-      "progress": 18.7,
+      "remain": "剩32天17时",
+      "progress": 21.1,
       "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 33.7,
+        "elapsedDays": 8.8,
+        "remainDays": 32.7,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -163,11 +140,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-02T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩13天14时",
-      "progress": 36.4,
+      "remain": "剩12天14时",
+      "progress": 41.1,
       "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 13.6,
+        "elapsedDays": 8.8,
+        "remainDays": 12.6,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -186,11 +163,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩33天17时",
-      "progress": 18.7,
+      "remain": "剩32天17时",
+      "progress": 21.1,
       "days": {
-        "elapsedDays": 7.8,
-        "remainDays": 33.7,
+        "elapsedDays": 8.8,
+        "remainDays": 32.7,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -209,11 +186,11 @@
       "start": "2026-10-30T20:55:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩34天1时",
-      "progress": 36.2,
+      "remain": "剩33天1时",
+      "progress": 38.1,
       "days": {
-        "elapsedDays": 19.3,
-        "remainDays": 34.1,
+        "elapsedDays": 20.3,
+        "remainDays": 33.1,
         "totalDays": 53.4
       },
       "hasSchedule": true,
@@ -232,11 +209,11 @@
       "start": "2026-11-07T12:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩31天23时",
-      "progress": 26.8,
+      "remain": "剩30天23时",
+      "progress": 29.1,
       "days": {
-        "elapsedDays": 11.7,
-        "remainDays": 32.0,
+        "elapsedDays": 12.7,
+        "remainDays": 31.0,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -255,11 +232,11 @@
       "start": "2026-12-02T19:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "13天后",
+      "remain": "12天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.7,
+        "remainDays": 32.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -278,11 +255,11 @@
       "start": "2026-12-02T19:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "即将开始",
-      "remain": "13天后",
+      "remain": "12天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 33.7,
+        "remainDays": 32.7,
         "totalDays": 20.1
       },
       "hasSchedule": true,
