@@ -1,7 +1,7 @@
 {
   "game": "鸣潮",
   "pending": false,
-  "fetchedAt": "2026-11-21T04:20:54.464804+08:00",
+  "fetchedAt": "2026-11-21T15:09:31.359479+08:00",
   "count": 4,
   "events": [
     {
@@ -13,11 +13,11 @@
       "start": "2026-12-03T10:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "12天后",
+      "remain": "11天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.0,
+        "remainDays": 29.5,
         "totalDays": 17.7
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-11-12T04:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩29天23时",
-      "progress": 23.1,
+      "remain": "剩29天12时",
+      "progress": 24.3,
       "days": {
-        "elapsedDays": 9.0,
-        "remainDays": 30.0,
+        "elapsedDays": 9.5,
+        "remainDays": 29.5,
         "totalDays": 39.0
       },
       "hasSchedule": true,
@@ -59,11 +59,11 @@
       "start": "2026-11-12T04:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩29天23时",
-      "progress": 23.1,
+      "remain": "剩29天12时",
+      "progress": 24.3,
       "days": {
-        "elapsedDays": 9.0,
-        "remainDays": 30.0,
+        "elapsedDays": 9.5,
+        "remainDays": 29.5,
         "totalDays": 39.0
       },
       "hasSchedule": true,
@@ -82,11 +82,11 @@
       "start": "2026-12-03T10:00:00+08:00",
       "end": "2026-12-17T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "12天后",
+      "remain": "11天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 26.0,
+        "remainDays": 25.5,
         "totalDays": 13.7
       },
       "hasSchedule": true,
