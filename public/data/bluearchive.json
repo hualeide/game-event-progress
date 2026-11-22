@@ -1,9 +1,9 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-11-22T03:16:00.125136+08:00",
+  "fetchedAt": "2026-11-22T14:47:53.590322+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 22,
+  "count": 18,
   "notes": [
     "2025 跳过：为谁而存的艺术~赝品与美学的归宿~",
     "2016 跳过：【预告】全新礼包上架",
@@ -16,10 +16,14 @@
     "2002 跳过：【预告】指引任务：阿里乌斯自管区特别授课",
     "2000 跳过：【预告】综合战术测试：突破 • 重装甲",
     "1999 跳过：【预告】家具互动即将更新",
+    "1998 已过期：【预告】掉落量2倍活动即将开启！",
     "1997 跳过：商店购买次数异常问题说明",
     "1996 跳过：10月30日临时维护更新说明",
     "1995 跳过：10月29日维护更新说明",
     "1994 跳过：阿洛娜的日程笔记（第32期）",
+    "1993 已过期：【预告】限时活动：我等乃神秘学研究会！",
+    "1992 已过期：【预告】限时招募：艾利",
+    "1991 已过期：【预告】限时招募：庚",
     "1990 已过期：【预告】总力战：佩洛洛斯拉 • 野外战",
     "1987 跳过：【预告】全新礼包上架",
     "1986 跳过：【预告】家具互动即将更新",
@@ -40,11 +44,7 @@
     "1971 已过期：【预告】限时招募：好美（乐队）",
     "1970 已过期：【预告】总力战：猫鬼黑影 • 街区战",
     "1969 已过期：【预告】大决战：比纳 • 街区战",
-    "1968 已过期：【预告】限时活动：沙勒总决算",
-    "1967 已过期：【预告】无限制决战：提翡瑞 • 重装甲",
-    "1966 跳过：【预告】家具互动即将更新",
-    "1965 跳过：【预告】区域29更新",
-    "1964 已过期：【预告】掉落量3倍活动即将开启！"
+    "1968 已过期：【预告】限时活动：沙勒总决算"
   ],
   "events": [
     {
@@ -56,11 +56,11 @@
       "start": "2026-10-30T14:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天",
-      "progress": 84.8,
+      "remain": "剩3天13时",
+      "progress": 86.6,
       "days": {
-        "elapsedDays": 22.6,
-        "remainDays": 4.0,
+        "elapsedDays": 23.0,
+        "remainDays": 3.5,
         "totalDays": 26.6
       },
       "hasSchedule": true,
@@ -86,11 +86,11 @@
       "start": "2026-11-12T00:00:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天10时",
-      "progress": 47.0,
+      "remain": "剩10天23时",
+      "progress": 49.2,
       "days": {
-        "elapsedDays": 10.1,
-        "remainDays": 11.4,
+        "elapsedDays": 10.6,
+        "remainDays": 11.0,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -140,11 +140,11 @@
       "start": "2026-11-20T00:00:00+08:00",
       "end": "2026-11-26T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天10时",
-      "progress": 32.5,
+      "remain": "剩3天23时",
+      "progress": 39.8,
       "days": {
-        "elapsedDays": 2.1,
-        "remainDays": 4.4,
+        "elapsedDays": 2.6,
+        "remainDays": 4.0,
         "totalDays": 6.6
       },
       "hasSchedule": true,
@@ -176,11 +176,11 @@
       "start": "2026-11-26T04:00:00+08:00",
       "end": "2026-12-03T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.0,
+        "remainDays": 10.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -212,11 +212,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -242,11 +242,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -272,11 +272,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -302,11 +302,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -332,11 +332,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -362,11 +362,11 @@
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 11.4,
+        "remainDays": 11.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -392,11 +392,11 @@
       "start": "2026-11-27T14:00:00+08:00",
       "end": "2026-12-17T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "5天后",
+      "remain": "4天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.0,
+        "remainDays": 24.5,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -422,11 +422,11 @@
       "start": "2026-12-03T04:00:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "11天后",
+      "remain": "10天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -462,7 +462,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -494,11 +494,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -524,11 +524,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -554,11 +554,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -584,11 +584,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 25.4,
+        "remainDays": 25.0,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -618,7 +618,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 39.4,
+        "remainDays": 39.0,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -646,138 +646,6 @@
         }
       ],
       "summary": "许久之前因财政困难而停止营业的游乐园【斯兰匹亚】发生了原因不明的诡异现象。 \n 原本已停止运行的娱乐玩偶和各种娱乐设备竟在夜晚自行启动并开始袭击市民。 \n 娱乐玩偶白和黑自行启动的原因尚未查明，但至少可以明确一点，它们想要重现游乐园昔日华丽的庆典。 \n  \n ■ 活动时间 \n • 赛季持续时间：12月03日 14:00…"
-    },
-    {
-      "id": "1998",
-      "title": "【预告】掉落量2倍活动即将开启！",
-      "header": "「掉落量2倍活动即将开启！」",
-      "banner": "./covers/ba-1998-3a35873e.jpg",
-      "link": "https://bluearchive-cn.com/news/1998",
-      "start": "2026-11-12T04:00:00+08:00",
-      "end": "2026-11-19T03:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": false,
-      "category": "event",
-      "allRanges": [
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-12T04:00:00+08:00",
-          "end": "2026-11-19T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-19T04:00:00+08:00",
-          "end": "2026-11-23T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03:59"
-        },
-        {
-          "label": "■ 活动时间",
-          "start": "2026-11-23T04:00:00+08:00",
-          "end": "2026-11-26T03:59:00+08:00",
-          "raw": " ■ 活动时间 \n 11月23日 04:00 ~ 11月26日 03:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 【掉落量2倍活动】即将开启！请不要错过哦！ \n  \n 一、【学院交流会】道具掉落量2倍 \n ■ 活动时间 \n 11月12日 04:00 ~ 11月19日 03:59 \n  \n 二、【任务（普通难度）】道具掉落量2倍 \n ■ 活动时间 \n 11月19日 04:00 ~ 11月23日 03…"
-    },
-    {
-      "id": "1993",
-      "title": "【预告】限时活动：我等乃神秘学研究会！",
-      "header": "「我等乃神秘学研究会！」",
-      "banner": "./covers/ba-1993-9d1256f2.png",
-      "link": "https://bluearchive-cn.com/news/1993",
-      "start": "2026-11-12T13:59:00+08:00",
-      "end": "2026-11-19T13:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "估时（仅有开启点）",
-          "start": "2026-11-12T13:59:00+08:00",
-          "end": "2026-11-19T13:59:00+08:00",
-          "raw": "11月12日 13:59"
-        }
-      ],
-      "summary": "艺术之乡——狂猎艺术学院。来到这里的老师，在神秘学研究会成员们的带领下，遭遇了种种离奇的现象…… \n  \n ■ 活动时间 \n • 活动持续时间：10月29日 维护结束后 ~ 11月12日 13:59 \n • 商店和奖励兑换开放时间：10月29日 维护结束后 ~ 11月19日 13:59 \n  \n ■ 参加条件 \n • …"
-    },
-    {
-      "id": "1992",
-      "title": "【预告】限时招募：艾利",
-      "header": "「限时招募：艾利」",
-      "banner": "./covers/ba-1992-4f1a55ac.png",
-      "link": "https://bluearchive-cn.com/news/1992",
-      "start": "2026-11-12T13:59:00+08:00",
-      "end": "2026-11-19T13:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "估时（仅有开启点）",
-          "start": "2026-11-12T13:59:00+08:00",
-          "end": "2026-11-19T13:59:00+08:00",
-          "raw": "11月12日 13:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【星星啊，凝视吧！驰骋于梦境的魔导之笔！】即将开启！在本次招募中，全新3★成员\"艾利\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 10月29日 维护结束后 ~ 11月12日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“庚”也有一定概率招募到，概…"
-    },
-    {
-      "id": "1991",
-      "title": "【预告】限时招募：庚",
-      "header": "「限时招募：庚」",
-      "banner": "./covers/ba-1991-ceb55284.png",
-      "link": "https://bluearchive-cn.com/news/1991",
-      "start": "2026-11-12T13:59:00+08:00",
-      "end": "2026-11-19T13:59:00+08:00",
-      "status": "已结束",
-      "remain": "已结束",
-      "progress": 100.0,
-      "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 0.0,
-        "totalDays": 7.0
-      },
-      "hasSchedule": true,
-      "kind": "done",
-      "fuzzy": true,
-      "category": "gacha",
-      "allRanges": [
-        {
-          "label": "估时（仅有开启点）",
-          "start": "2026-11-12T13:59:00+08:00",
-          "end": "2026-11-19T13:59:00+08:00",
-          "raw": "11月12日 13:59"
-        }
-      ],
-      "summary": "欢迎连接【什亭之箱】，老师。 \n 限时招募【暗影啊，倾听吧 缠绕着幻象的万千声息】即将开启！在本次招募中，全新3★成员\"庚\"登场，且招募概率得到提升！ \n  \n ■ 招募时间 \n 10月29日 维护结束后 ~ 11月12日 13:59 \n  \n ■ 注意事项 \n • 在此招募中，3★成员“艾利”也有一定概率招募到，概率…"
     }
   ]
 }

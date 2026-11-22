@@ -1,9 +1,9 @@
 {
   "game": "崩坏：星穹铁道",
   "source": "https://hkrpg-api.mihoyo.com/common/hkrpg_cn/announcement/api/getAnnList + https://api.ennead.cc/mihoyo/starrail/calendar",
-  "fetchedAt": "2026-11-22T03:16:19.285335+08:00",
+  "fetchedAt": "2026-11-22T14:48:21.372650+08:00",
   "timezone": "Asia/Shanghai",
-  "count": 11,
+  "count": 12,
   "notes": [
     "跳过 4.7版本「此刻，将群星付之一笑」版本更新说明",
     "跳过 4.7版本游戏优化及已知问题说明",
@@ -25,11 +25,11 @@
       "start": "2026-11-09T13:00:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天2时",
-      "progress": 28.8,
+      "remain": "剩30天15时",
+      "progress": 29.9,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 31.1,
+        "elapsedDays": 13.1,
+        "remainDays": 30.6,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -48,11 +48,11 @@
       "start": "2026-11-09T13:15:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天2时",
-      "progress": 28.8,
+      "remain": "剩30天15时",
+      "progress": 29.9,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 31.1,
+        "elapsedDays": 13.1,
+        "remainDays": 30.6,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -71,11 +71,11 @@
       "start": "2026-11-09T13:30:00+08:00",
       "end": "2026-12-23T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩31天",
-      "progress": 28.8,
+      "remain": "剩30天13时",
+      "progress": 29.9,
       "days": {
-        "elapsedDays": 12.6,
-        "remainDays": 31.0,
+        "elapsedDays": 13.1,
+        "remainDays": 30.5,
         "totalDays": 43.6
       },
       "hasSchedule": true,
@@ -86,6 +86,29 @@
       "summary": "「奇库寻遗」活动说明"
     },
     {
+      "id": "1453",
+      "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+      "header": "「「位面分裂」活动说明」",
+      "banner": "./covers/starrail-1453-4a47f239.png",
+      "link": "https://sr.mihoyo.com/",
+      "start": "2026-11-22T12:00:00+08:00",
+      "end": "2026-12-07T03:59:00+08:00",
+      "status": "进行中",
+      "remain": "剩14天13时",
+      "progress": 0.8,
+      "days": {
+        "elapsedDays": 0.1,
+        "remainDays": 14.5,
+        "totalDays": 14.7
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "「位面分裂」活动说明"
+    },
+    {
       "id": "sr-banner-101",
       "title": "跃迁·Silver Wolf LV.999 / Sparxie",
       "header": "跃迁·Silver Wolf LV.999 / Sparxie",
@@ -94,11 +117,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-02T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天15时",
-      "progress": 50.2,
+      "remain": "剩10天4时",
+      "progress": 52.4,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 10.7,
+        "elapsedDays": 11.2,
+        "remainDays": 10.2,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -117,11 +140,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 25.8,
+      "remain": "剩30天7时",
+      "progress": 27.0,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 30.8,
+        "elapsedDays": 11.2,
+        "remainDays": 30.3,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -140,11 +163,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-02T18:59:00+08:00",
       "status": "进行中",
-      "remain": "剩10天15时",
-      "progress": 50.2,
+      "remain": "剩10天4时",
+      "progress": 52.4,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 10.7,
+        "elapsedDays": 11.2,
+        "remainDays": 10.2,
         "totalDays": 21.4
       },
       "hasSchedule": true,
@@ -163,11 +186,11 @@
       "start": "2026-11-11T10:00:00+08:00",
       "end": "2026-12-22T22:00:00+08:00",
       "status": "进行中",
-      "remain": "剩30天18时",
-      "progress": 25.8,
+      "remain": "剩30天7时",
+      "progress": 27.0,
       "days": {
-        "elapsedDays": 10.7,
-        "remainDays": 30.8,
+        "elapsedDays": 11.2,
+        "remainDays": 30.3,
         "totalDays": 41.5
       },
       "hasSchedule": true,
@@ -186,11 +209,11 @@
       "start": "2026-10-30T20:55:00+08:00",
       "end": "2026-12-23T06:00:00+08:00",
       "status": "进行中",
-      "remain": "剩31天2时",
-      "progress": 41.7,
+      "remain": "剩30天15时",
+      "progress": 42.6,
       "days": {
-        "elapsedDays": 22.3,
-        "remainDays": 31.1,
+        "elapsedDays": 22.7,
+        "remainDays": 30.6,
         "totalDays": 53.4
       },
       "hasSchedule": true,
@@ -209,11 +232,11 @@
       "start": "2026-11-07T12:00:00+08:00",
       "end": "2026-12-21T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩29天",
-      "progress": 33.5,
+      "remain": "剩28天13时",
+      "progress": 34.6,
       "days": {
-        "elapsedDays": 14.6,
-        "remainDays": 29.0,
+        "elapsedDays": 15.1,
+        "remainDays": 28.5,
         "totalDays": 43.7
       },
       "hasSchedule": true,
@@ -236,7 +259,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.3,
         "totalDays": 20.1
       },
       "hasSchedule": true,
@@ -259,7 +282,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 30.8,
+        "remainDays": 30.3,
         "totalDays": 20.1
       },
       "hasSchedule": true,

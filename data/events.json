@@ -1,7 +1,7 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-11-22T03:16:00.133177+08:00",
+  "fetchedAt": "2026-11-22T14:47:53.598124+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
@@ -36,42 +36,6 @@
   },
   "events": [
     {
-      "id": "1058",
-      "title": "【卫戍寻访】 定向寻访开启",
-      "header": "「卫戍寻访」限时寻访",
-      "type": "寻访",
-      "banner": "./covers/gacha-1058.jpg",
-      "link": "uniwebview://move?target=recruit&param1=NORM_79_0_3",
-      "updatedAt": "2026-11-07T22:41:21+08:00",
-      "primaryLabel": "估时（纯图公告）",
-      "allRanges": [
-        {
-          "label": "估时（纯图公告）",
-          "start": "2026-11-08T16:00:00+08:00",
-          "end": "2026-11-22T03:59:00+08:00",
-          "raw": "displayTime=2026-11-08"
-        }
-      ],
-      "summary": "卡池「卫戍寻访」",
-      "textPreview": "",
-      "start": "2026-11-08T16:00:00+08:00",
-      "end": "2026-11-22T03:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩42分",
-      "progress": 99.8,
-      "days": {
-        "elapsedDays": 13.5,
-        "remainDays": 0.0,
-        "totalDays": 13.5
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "bannerRemote": "https://web.hycdn.cn/announce/images/20261107/10fc013eeb46803793013c15c5fc1bfc.JPG",
-      "playable": false,
-      "category": "gacha",
-      "fuzzy": true
-    },
-    {
       "id": "4835",
       "title": "【中坚甄选】 限时寻访开启",
       "header": "「中坚甄选」限时寻访",
@@ -93,11 +57,11 @@
       "start": "2026-11-12T16:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩4天",
-      "progress": 70.1,
+      "remain": "剩3天13时",
+      "progress": 73.7,
       "days": {
-        "elapsedDays": 9.5,
-        "remainDays": 4.0,
+        "elapsedDays": 9.9,
+        "remainDays": 3.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -129,11 +93,11 @@
       "start": "2026-11-16T16:00:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩8天",
-      "progress": 40.5,
+      "remain": "剩7天13时",
+      "progress": 44.1,
       "days": {
-        "elapsedDays": 5.5,
-        "remainDays": 8.0,
+        "elapsedDays": 5.9,
+        "remainDays": 7.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -165,11 +129,11 @@
       "start": "2026-11-19T16:00:00+08:00",
       "end": "2026-12-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩11天",
-      "progress": 18.3,
+      "remain": "剩10天13时",
+      "progress": 21.9,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 11.0,
+        "elapsedDays": 2.9,
+        "remainDays": 10.5,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -206,17 +170,16 @@
       "textPreview": "一、SideStory「雪山降临1101」限时复刻开启 \n 活动时间： 11月22日 04:00 - 12月06日 03:59\n 解锁条件： 通关主线1-10\n 活动说明： 活动期间将开放「雪山降临1101」活动关卡，玩家可通过活动关卡作战、喀兰贸易技术研发部、活动任务及活动商店兑换获取相关活动奖励\n \n 活动关卡开启时间： \n ◆「圣巡之旅」&「变革之路」&「喀兰之心」： 11月22日 04:00 - 12月02日 03:59\n \n 【喀兰贸易技术研发部】 \n 活动说明： 活动期间，玩家可完成【可重建区域】修缮获取奖励\n 主要奖励： 应急救援包（使用后随机获得指定养成素材）、高级养成素材、龙门币、作战记录等\n \n 【神谕谜题】 \n 活动说明： 活动期间，玩家可通过活动关卡作战完成【神谕谜题】中相关任务获取奖励\n 主要奖励： 活动干员【★★★★★★：溯光星源】 、 【喀兰贸易接待室】家具（部分） 、模组养成材料、雪地用多功能探测器等\n \n 【观测站后勤处】 \n 开放时间： 11月22日 04:00 - 12月06日 03:59\n 兑换说明： 活动期间，玩家可通过活动收集「雪地用多功能探测器」，消耗「雪地用多功能探测器」兑换观测站后勤处内物品\n 主要奖励： 【溯光星源】信物 、 【喀兰贸易接待室】家具（部分） 、 寻访凭证 、高级养成素材、龙门币、作战记录等\n \n 注意： \n ◆本次复刻活动对应蚀刻章套组的相关蚀刻章中，部分蚀刻章的获取条件将进行相应调整，完成相应条件可获取活动对应蚀刻章。由于部分蚀刻章获取条件进行调整，部分已参与过之前活动并满足现蚀刻章获取条件的玩家将在上线时立即获得相应蚀刻章 \n ◆本次复刻活动结束后，活动对应蚀刻章套组的相关蚀刻章无法通过【曲谱】或其他任何渠道再次进行获取 \n ◆本次复刻活动为轻量化复刻，活动关卡将继承玩家此前的活动关卡进度、首次掉落进度\n ◆本次复刻活动中部分无法重复获得的活动奖励将在重复获得时按照对应比例兑换为【情报凭证】，【情报凭证】兑换比例可参照活动中相应【情报凭证转换规则】\n ◆【情报凭证】商店内物品将在活动开启时在原有的商品数量上进行叠加补货及新增其他商品\n ◆本次活动关卡内【凛御银灰】、【圣聆初雪】、【溯光星源】、【雪猎】信赖获取提升\n ◆本次活动结束后，该活动关卡将于12月06日04:00常驻至【曲谱】\n \n 二、【雷神推进者】系列，新装限时上架 \n 活动时间： 11月22日 04:00 - 12月06日 03:59\n 活动说明： 活动期间以下干员新增时装将在时装商店上架并限时贩售：\n ◆【雷神推进者】系列 - 暗能质子 - 溯光星源 \n \n 三、主题家具限时复刻获取 \n 活动说明： 活动期间将限时复刻【谢拉格游客体验中心】系列与【喀兰贸易接待室】系列\n \n 【谢拉格游客体验中心】系列\n 获取方式： \n ◆家具商店售卖时间：11月22日 04:00 - 12月06日 03:59\n \n 【喀兰贸易接待室】系列\n 获取方式： \n ◆「雪山降临1101」活动奖励及兑换（部分）\n ◆家具商店限时售卖（部分）\n ◆家具商店售卖时间：11月22日 04:00 - 12月06日 03:59\n \n 更多活动内容请持续关注《明日方舟》游戏内公告及官方公告。\n \n 【明日方舟】运营组\n 2026年11月17日",
       "start": "2026-11-22T04:00:00+08:00",
       "end": "2026-12-06T03:59:00+08:00",
-      "status": "即将开始",
-      "remain": "即将开始",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩13天13时",
+      "progress": 3.2,
       "days": {
-        "elapsedDays": 0,
-        "remainDays": 0.0,
-        "totalDays": 14.0,
-        "untilStartDays": 0.0
+        "elapsedDays": 0.4,
+        "remainDays": 13.5,
+        "totalDays": 14.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "bannerRemote": "https://web.hycdn.cn/announce/images/20261110/36fac97b33ce9616e4267efb034b5bc9.jpg",
       "playable": true,
       "category": "combat"
@@ -247,9 +210,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 9.5,
+        "remainDays": 9.1,
         "totalDays": 8.0,
-        "untilStartDays": 9.5
+        "untilStartDays": 9.1
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -283,9 +246,9 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 19.5,
+        "remainDays": 19.1,
         "totalDays": 8.0,
-        "untilStartDays": 19.5
+        "untilStartDays": 19.1
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -423,6 +386,42 @@
       "bannerRemote": "https://web.hycdn.cn/announce/images/20261023/9bc5ac59bc1b30a785226cda0137a709.JPG",
       "playable": true,
       "category": "combat"
+    },
+    {
+      "id": "1058",
+      "title": "【卫戍寻访】 定向寻访开启",
+      "header": "「卫戍寻访」限时寻访",
+      "type": "寻访",
+      "banner": "./covers/gacha-1058.jpg",
+      "link": "uniwebview://move?target=recruit&param1=NORM_79_0_3",
+      "updatedAt": "2026-11-07T22:41:21+08:00",
+      "primaryLabel": "估时（纯图公告）",
+      "allRanges": [
+        {
+          "label": "估时（纯图公告）",
+          "start": "2026-11-08T16:00:00+08:00",
+          "end": "2026-11-22T03:59:00+08:00",
+          "raw": "displayTime=2026-11-08"
+        }
+      ],
+      "summary": "卡池「卫戍寻访」",
+      "textPreview": "",
+      "start": "2026-11-08T16:00:00+08:00",
+      "end": "2026-11-22T03:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 13.5,
+        "remainDays": 0,
+        "totalDays": 13.5
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "bannerRemote": "https://web.hycdn.cn/announce/images/20261107/10fc013eeb46803793013c15c5fc1bfc.JPG",
+      "playable": false,
+      "category": "gacha",
+      "fuzzy": true
     }
   ]
 }
