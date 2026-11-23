@@ -1,71 +1,71 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-11-23T15:39:17.493923+08:00",
+  "fetchedAt": "2026-11-24T07:54:47.395754+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
   "count": 2,
   "notes": [],
   "events": [
     {
-      "id": "2261",
-      "title": "【限时活动】「裂变·军备解析」即将开启！",
-      "header": "【限时活动】「裂变·军备解析」即将开启！",
-      "banner": "./covers/gfl2-2261-fe605233.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2261",
-      "start": "2026-11-18T05:00:00+08:00",
-      "end": "2026-11-24T04:59:00+08:00",
+      "id": "2284",
+      "title": "【限时活动】「直播重连世界海」即将开启！",
+      "header": "【限时活动】「直播重连世界海」即将开启！",
+      "banner": "./covers/gfl2-2284-fb6fa857.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2284",
+      "start": "2026-11-23T18:00:00+08:00",
+      "end": "2026-12-07T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩13小时",
-      "progress": 90.7,
+      "remain": "剩13天10时",
+      "progress": 4.1,
       "days": {
-        "elapsedDays": 5.4,
-        "remainDays": 0.6,
-        "totalDays": 6.0
+        "elapsedDays": 0.6,
+        "remainDays": 13.4,
+        "totalDays": 14.0
       },
       "hasSchedule": true,
       "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
+      "fuzzy": true,
+      "category": "event",
       "allRanges": [
         {
-          "label": "活动时间",
-          "start": "2026-11-18T05:00:00+08:00",
-          "end": "2026-11-24T04:59:00+08:00",
-          "raw": "11月18日05:00~11月24日04:59"
+          "label": "估时",
+          "start": "2026-11-23T18:00:00+08:00",
+          "end": "2026-12-07T18:00:00+08:00",
+          "raw": "Date+14d"
         }
       ],
-      "summary": "【限时活动】「裂变·军备解析」即将开启！"
+      "summary": "【限时活动】「直播重连世界海」即将开启！"
     },
     {
-      "id": "2263",
-      "title": "【限时活动】「情报补给」即将开启！",
-      "header": "【限时活动】「情报补给」即将开启！",
-      "banner": "./covers/gfl2-2263-d876ffff.jpg",
-      "link": "https://gf2-cn.sunborngame.com/news/2263",
-      "start": "2026-11-21T05:00:00+08:00",
-      "end": "2026-11-26T04:59:00+08:00",
+      "id": "2285",
+      "title": "【限时活动】「定向采购」活动即将开启！",
+      "header": "【限时活动】「定向采购」活动即将开启！",
+      "banner": "./covers/gfl2-2285-04894c4e.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2285",
+      "start": "2026-11-23T18:30:00+08:00",
+      "end": "2026-12-07T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩2天13时",
-      "progress": 48.9,
+      "remain": "剩13天10时",
+      "progress": 4.0,
       "days": {
-        "elapsedDays": 2.4,
-        "remainDays": 2.6,
-        "totalDays": 5.0
+        "elapsedDays": 0.6,
+        "remainDays": 13.4,
+        "totalDays": 14.0
       },
       "hasSchedule": true,
       "kind": "live",
-      "fuzzy": false,
+      "fuzzy": true,
       "category": "combat",
       "allRanges": [
         {
-          "label": "尊敬的指挥官，【情报补给】活动即将开启。",
-          "start": "2026-11-21T05:00:00+08:00",
-          "end": "2026-11-26T04:59:00+08:00",
-          "raw": "尊敬的指挥官，【情报补给】活动即将开启。\n11月21日05:00~11月26日04:59"
+          "label": "估时",
+          "start": "2026-11-23T18:30:00+08:00",
+          "end": "2026-12-07T18:30:00+08:00",
+          "raw": "Date+14d"
         }
       ],
-      "summary": "【限时活动】「情报补给」即将开启！"
+      "summary": "【限时活动】「定向采购」活动即将开启！"
     }
   ]
 }

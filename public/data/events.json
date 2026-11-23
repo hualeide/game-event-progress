@@ -1,17 +1,17 @@
 {
   "game": "明日方舟",
   "source": "https://ak-webview.hypergryph.com/api/game/bulletinList?target=Android",
-  "fetchedAt": "2026-11-23T15:38:38.514075+08:00",
+  "fetchedAt": "2026-11-24T07:53:51.798281+08:00",
   "timezone": "Asia/Shanghai",
   "count": 8,
   "notes": [
+    "4834 跳过：时间啊，向前！ 历程报告",
     "6768 通讯正文 992 字",
     "6768 模糊预告：星星不愿入睡 12月上旬",
     "6768 模糊预告：未许之地 12月中旬",
     "7577 跳过：卫戍协议 攻略工具上线",
     "4837 跳过：名创优品 联动活动",
     "9115 跳过：官方美术设定集 第五弹现已开售",
-    "4838 跳过：《冻土与火种》 网页活动开启",
     "7570 跳过：【网页活动】 燃烧即一切！",
     "7579 解析寻访「将雪投火」时段",
     "7579 解析寻访「联合行动」时段",
@@ -57,11 +57,11 @@
       "start": "2026-11-12T16:00:00+08:00",
       "end": "2026-11-26T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天12时",
-      "progress": 81.4,
+      "remain": "剩1天20时",
+      "progress": 86.4,
       "days": {
-        "elapsedDays": 11.0,
-        "remainDays": 2.5,
+        "elapsedDays": 11.7,
+        "remainDays": 1.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -93,11 +93,11 @@
       "start": "2026-11-16T16:00:00+08:00",
       "end": "2026-11-30T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天12时",
-      "progress": 51.7,
+      "remain": "剩5天20时",
+      "progress": 56.8,
       "days": {
-        "elapsedDays": 7.0,
-        "remainDays": 6.5,
+        "elapsedDays": 7.7,
+        "remainDays": 5.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -129,11 +129,11 @@
       "start": "2026-11-19T16:00:00+08:00",
       "end": "2026-12-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩9天12时",
-      "progress": 29.5,
+      "remain": "剩8天20时",
+      "progress": 34.5,
       "days": {
-        "elapsedDays": 4.0,
-        "remainDays": 9.5,
+        "elapsedDays": 4.7,
+        "remainDays": 8.8,
         "totalDays": 13.5
       },
       "hasSchedule": true,
@@ -171,11 +171,11 @@
       "start": "2026-11-22T04:00:00+08:00",
       "end": "2026-12-06T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩12天12时",
-      "progress": 10.6,
+      "remain": "剩11天20时",
+      "progress": 15.4,
       "days": {
-        "elapsedDays": 1.5,
-        "remainDays": 12.5,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -206,13 +206,13 @@
       "start": "2026-12-01T16:00:00+08:00",
       "end": "2026-12-09T16:00:00+08:00",
       "status": "即将开始",
-      "remain": "8天后",
+      "remain": "7天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 8.0,
+        "remainDays": 7.3,
         "totalDays": 8.0,
-        "untilStartDays": 8.0
+        "untilStartDays": 7.3
       },
       "hasSchedule": true,
       "kind": "preview",
@@ -242,13 +242,13 @@
       "start": "2026-12-11T16:00:00+08:00",
       "end": "2026-12-19T16:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0,
-        "remainDays": 18.0,
+        "remainDays": 17.3,
         "totalDays": 8.0,
-        "untilStartDays": 18.0
+        "untilStartDays": 17.3
       },
       "hasSchedule": true,
       "kind": "preview",

@@ -1,8 +1,8 @@
 {
   "game": "碧蓝航线",
   "pending": false,
-  "fetchedAt": "2026-11-23T03:40:40.049808+08:00",
-  "count": 6,
+  "fetchedAt": "2026-11-24T07:54:21.286629+08:00",
+  "count": 10,
   "events": [
     {
       "id": "al-信标META萨拉托加META-0904",
@@ -13,11 +13,11 @@
       "start": "2026-09-04T15:00:00+08:00",
       "end": "2026-12-10T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩17天6时",
-      "progress": 82.2,
+      "remain": "剩16天2时",
+      "progress": 83.4,
       "days": {
-        "elapsedDays": 79.5,
-        "remainDays": 17.3,
+        "elapsedDays": 80.7,
+        "remainDays": 16.1,
         "totalDays": 96.8
       },
       "hasSchedule": true,
@@ -36,11 +36,11 @@
       "start": "2026-11-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天20时",
-      "progress": 73.8,
+      "remain": "剩6天16时",
+      "progress": 77.8,
       "days": {
-        "elapsedDays": 22.2,
-        "remainDays": 7.8,
+        "elapsedDays": 23.3,
+        "remainDays": 6.7,
         "totalDays": 30.0
       },
       "hasSchedule": true,
@@ -51,6 +51,29 @@
       "summary": "2026年10月22日10:00港区改建"
     },
     {
+      "id": "al-限界挑战射手座-1201",
+      "title": "限界挑战：射手座",
+      "header": "开启限时复刻活动·限界挑战：射手座",
+      "banner": "",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B411%E6%9C%8824%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-12-01T00:00:00+08:00",
+      "end": "2026-12-31T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "6天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 37.7,
+        "totalDays": 31.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [],
+      "summary": "2026年11月24日10:00港区改建"
+    },
+    {
       "id": "al-世界巡游-1001",
       "title": "世界巡游",
       "header": "开启新一期·世界巡游",
@@ -59,11 +82,11 @@
       "start": "2026-10-01T00:00:00+08:00",
       "end": "2026-11-30T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天20时",
-      "progress": 87.1,
+      "remain": "剩6天16时",
+      "progress": 89.1,
       "days": {
-        "elapsedDays": 53.2,
-        "remainDays": 7.8,
+        "elapsedDays": 54.3,
+        "remainDays": 6.7,
         "totalDays": 61.0
       },
       "hasSchedule": true,
@@ -82,11 +105,11 @@
       "start": "2026-11-12T15:00:00+08:00",
       "end": "2026-11-26T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩3天20时",
-      "progress": 73.2,
+      "remain": "剩2天16时",
+      "progress": 81.4,
       "days": {
-        "elapsedDays": 10.5,
-        "remainDays": 3.8,
+        "elapsedDays": 11.7,
+        "remainDays": 2.7,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -105,11 +128,11 @@
       "start": "2026-11-19T15:00:00+08:00",
       "end": "2026-12-03T10:00:00+08:00",
       "status": "进行中",
-      "remain": "剩10天6时",
-      "progress": 25.6,
+      "remain": "剩9天2时",
+      "progress": 34.1,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 10.3,
+        "elapsedDays": 4.7,
+        "remainDays": 9.1,
         "totalDays": 13.8
       },
       "hasSchedule": true,
@@ -128,11 +151,11 @@
       "start": "2026-11-19T15:00:00+08:00",
       "end": "2026-11-25T23:59:00+08:00",
       "status": "进行中",
-      "remain": "剩2天20时",
-      "progress": 55.4,
+      "remain": "剩1天16时",
+      "progress": 73.8,
       "days": {
-        "elapsedDays": 3.5,
-        "remainDays": 2.8,
+        "elapsedDays": 4.7,
+        "remainDays": 1.7,
         "totalDays": 6.4
       },
       "hasSchedule": true,
@@ -141,12 +164,82 @@
       "category": "event",
       "allRanges": [],
       "summary": "2026年11月19日10:00港区改建"
+    },
+    {
+      "id": "al-真理学院的转校生-1124",
+      "title": "真理学院的转校生",
+      "header": "开启限时活动·真理学院的转校生",
+      "banner": "./covers/al-bba24dcd47-d72b9a0a.jpg",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B411%E6%9C%8824%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-11-24T16:00:00+08:00",
+      "end": "2026-12-10T10:00:00+08:00",
+      "status": "即将开始",
+      "remain": "8小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 16.1,
+        "totalDays": 15.8
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年11月24日10:00港区改建"
+    },
+    {
+      "id": "al-港区时尚特刊美丽水世界-1124",
+      "title": "港区时尚特刊：美丽水世界",
+      "header": "开启限时活动·港区时尚特刊：美丽水世界",
+      "banner": "./covers/al-21425180de-4b1315f6.jpg",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B411%E6%9C%8824%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-11-24T16:00:00+08:00",
+      "end": "2026-11-29T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "8小时后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 5.7,
+        "totalDays": 5.3
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年11月24日10:00港区改建"
+    },
+    {
+      "id": "al-世界巡游-1201",
+      "title": "世界巡游",
+      "header": "开启新一期·世界巡游",
+      "banner": "./covers/al-388105d19f-19a9867a.png",
+      "link": "https://wiki.biligame.com/blhx/2026%E5%B9%B411%E6%9C%8824%E6%97%A510%3A00%E6%B8%AF%E5%8C%BA%E6%94%B9%E5%BB%BA",
+      "start": "2026-12-01T00:00:00+08:00",
+      "end": "2027-01-31T23:59:00+08:00",
+      "status": "即将开始",
+      "remain": "6天后",
+      "progress": 0.0,
+      "days": {
+        "elapsedDays": 0.0,
+        "remainDays": 68.7,
+        "totalDays": 62.0
+      },
+      "hasSchedule": true,
+      "kind": "preview",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [],
+      "summary": "2026年11月24日10:00港区改建"
     }
   ],
   "source": "wiki.biligame.com/blhx 港区改建",
   "notes": [
     "可能漏抓：含「自动步兵」的进行中活动",
     "可能漏抓：含「特别竞拍」的进行中活动",
-    "可能漏抓：含「怪谈纪实」的进行中活动"
+    "可能漏抓：含「怪谈纪实」的进行中活动",
+    "无配图：限界挑战：射手座"
   ]
 }
