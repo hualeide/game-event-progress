@@ -1,10 +1,10 @@
 {
   "game": "少女前线2：追放",
   "source": "https://gf2-web-preregister-api.sunborngame.com/website/news_list",
-  "fetchedAt": "2026-11-26T05:43:04.127398+08:00",
+  "fetchedAt": "2026-11-26T16:21:10.703984+08:00",
   "timezone": "Asia/Shanghai",
   "pending": false,
-  "count": 3,
+  "count": 4,
   "notes": [],
   "events": [
     {
@@ -16,11 +16,11 @@
       "start": "2026-11-23T18:00:00+08:00",
       "end": "2026-12-07T18:00:00+08:00",
       "status": "进行中",
-      "remain": "剩11天12时",
-      "progress": 17.8,
+      "remain": "剩11天1时",
+      "progress": 20.9,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 11.5,
+        "elapsedDays": 2.9,
+        "remainDays": 11.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -46,11 +46,11 @@
       "start": "2026-11-23T18:30:00+08:00",
       "end": "2026-12-07T18:30:00+08:00",
       "status": "进行中",
-      "remain": "剩11天12时",
-      "progress": 17.6,
+      "remain": "剩11天2时",
+      "progress": 20.8,
       "days": {
-        "elapsedDays": 2.5,
-        "remainDays": 11.5,
+        "elapsedDays": 2.9,
+        "remainDays": 11.1,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -76,11 +76,11 @@
       "start": "2026-11-24T12:30:00+08:00",
       "end": "2026-12-08T12:30:00+08:00",
       "status": "进行中",
-      "remain": "剩12天6时",
-      "progress": 12.3,
+      "remain": "剩11天20时",
+      "progress": 15.4,
       "days": {
-        "elapsedDays": 1.7,
-        "remainDays": 12.3,
+        "elapsedDays": 2.2,
+        "remainDays": 11.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -96,6 +96,36 @@
         }
       ],
       "summary": "【限时活动】「暗商的惊喜回馈」现已开启！"
+    },
+    {
+      "id": "2294",
+      "title": "【邮件赠礼】全球多地区上线两周年纪念贺礼",
+      "header": "【邮件赠礼】全球多地区上线两周年纪念贺礼",
+      "banner": "./covers/gfl2-2294-0e280609.jpg",
+      "link": "https://gf2-cn.sunborngame.com/news/2294",
+      "start": "2026-11-26T10:00:00+08:00",
+      "end": "2026-12-10T04:00:00+08:00",
+      "status": "进行中",
+      "remain": "剩13天11时",
+      "progress": 1.9,
+      "days": {
+        "elapsedDays": 0.3,
+        "remainDays": 13.5,
+        "totalDays": 13.8
+      },
+      "hasSchedule": true,
+      "kind": "live",
+      "fuzzy": false,
+      "category": "event",
+      "allRanges": [
+        {
+          "label": "活动时间",
+          "start": "2026-11-26T10:00:00+08:00",
+          "end": "2026-12-10T04:00:00+08:00",
+          "raw": "11月26日~12月10日"
+        }
+      ],
+      "summary": "【邮件赠礼】全球多地区上线两周年纪念贺礼"
     }
   ]
 }

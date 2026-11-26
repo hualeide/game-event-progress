@@ -1,7 +1,7 @@
 {
   "game": "蔚蓝档案",
   "source": "https://bluearchive-cn.com/api/news/list",
-  "fetchedAt": "2026-11-26T05:41:52.154354+08:00",
+  "fetchedAt": "2026-11-26T16:17:36.352606+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
@@ -56,11 +56,11 @@
       "start": "2026-11-12T00:00:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
       "status": "进行中",
-      "remain": "剩7天8时",
-      "progress": 66.0,
+      "remain": "剩6天21时",
+      "progress": 68.0,
       "days": {
-        "elapsedDays": 14.2,
-        "remainDays": 7.3,
+        "elapsedDays": 14.7,
+        "remainDays": 6.9,
         "totalDays": 21.6
       },
       "hasSchedule": true,
@@ -102,42 +102,6 @@
       "summary": "神名十文字是一个自称为神圣求道者的人工智能系统。追随它的10名先知目前在基沃托斯各地出没。 \n 切赛德是神名十文字的第4个先知，它已经掌控了千禧年外围的废弃兵工厂的生产系统。 \n 如果切赛德成功生产出无限的兵力，基沃托斯将会面临前所未有的灾难。 \n  \n ■ 活动时间 \n • 赛季持续时间：11月07日 14:00 ~…"
     },
     {
-      "id": "2001",
-      "title": "【预告】总力战：格里高利 • 室内战",
-      "header": "「总力战·格里高利 • 室内战」",
-      "banner": "./covers/ba-2001-133f0256.png",
-      "link": "https://bluearchive-cn.com/news/2001",
-      "start": "2026-11-20T00:00:00+08:00",
-      "end": "2026-11-26T13:59:00+08:00",
-      "status": "进行中",
-      "remain": "剩8小时",
-      "progress": 94.8,
-      "days": {
-        "elapsedDays": 6.2,
-        "remainDays": 0.3,
-        "totalDays": 6.6
-      },
-      "hasSchedule": true,
-      "kind": "live",
-      "fuzzy": false,
-      "category": "combat",
-      "allRanges": [
-        {
-          "label": "• 排名奖励结算时间",
-          "start": "2026-11-19T04:00:00+08:00",
-          "end": "2026-11-19T23:59:00+08:00",
-          "raw": " • 排名奖励结算时间：11月19日 04:00 ~ 11月19日 23:59"
-        },
-        {
-          "label": "• 排名奖励领取时间",
-          "start": "2026-11-20T00:00:00+08:00",
-          "end": "2026-11-26T13:59:00+08:00",
-          "raw": " • 排名奖励领取时间：11月20日 00:00 ~ 11月26日 13:59"
-        }
-      ],
-      "summary": "在基沃托斯某处的废弃地下圣堂，观测到了因扭曲的神秘而显现的人造天使格里高利。 \n 它是被称为“诸圣相通”的人造天使系列的完成形态，是在数秘会的实验中诞生的神秘怪物。 \n 直到现在，那个怪物仍然在地下圣堂中演奏着管风琴。没有人知道，在旋律的结尾等待着的会是什么…… \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领…"
-    },
-    {
       "id": "2011",
       "title": "【预告】掉落量2倍活动即将开启！",
       "header": "「掉落量2倍活动即将开启！」",
@@ -146,11 +110,11 @@
       "start": "2026-11-26T04:00:00+08:00",
       "end": "2026-12-03T03:59:00+08:00",
       "status": "进行中",
-      "remain": "剩6天22时",
-      "progress": 1.0,
+      "remain": "剩6天11时",
+      "progress": 7.3,
       "days": {
-        "elapsedDays": 0.1,
-        "remainDays": 6.9,
+        "elapsedDays": 0.5,
+        "remainDays": 6.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -181,16 +145,16 @@
       "link": "https://bluearchive-cn.com/news/2009",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "combat",
       "allRanges": [
@@ -211,16 +175,16 @@
       "link": "https://bluearchive-cn.com/news/2007",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -241,16 +205,16 @@
       "link": "https://bluearchive-cn.com/news/2006",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -271,16 +235,16 @@
       "link": "https://bluearchive-cn.com/news/2005",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -301,16 +265,16 @@
       "link": "https://bluearchive-cn.com/news/2004",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -331,16 +295,16 @@
       "link": "https://bluearchive-cn.com/news/2003",
       "start": "2026-11-26T13:59:00+08:00",
       "end": "2026-12-03T13:59:00+08:00",
-      "status": "即将开始",
-      "remain": "8小时后",
-      "progress": 0.0,
+      "status": "进行中",
+      "remain": "剩6天21时",
+      "progress": 1.4,
       "days": {
-        "elapsedDays": 0.0,
-        "remainDays": 7.3,
+        "elapsedDays": 0.1,
+        "remainDays": 6.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
-      "kind": "preview",
+      "kind": "live",
       "fuzzy": true,
       "category": "gacha",
       "allRanges": [
@@ -362,11 +326,11 @@
       "start": "2026-11-27T14:00:00+08:00",
       "end": "2026-12-17T03:59:00+08:00",
       "status": "即将开始",
-      "remain": "1天后",
+      "remain": "21小时后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 20.9,
+        "remainDays": 20.5,
         "totalDays": 19.6
       },
       "hasSchedule": true,
@@ -396,7 +360,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 14.4
       },
       "hasSchedule": true,
@@ -432,7 +396,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 13.6
       },
       "hasSchedule": true,
@@ -464,11 +428,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -494,11 +458,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -524,11 +488,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -554,11 +518,11 @@
       "start": "2026-12-10T13:59:00+08:00",
       "end": "2026-12-17T13:59:00+08:00",
       "status": "即将开始",
-      "remain": "14天后",
+      "remain": "13天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 21.3,
+        "remainDays": 20.9,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -588,7 +552,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 35.3,
+        "remainDays": 34.9,
         "totalDays": 20.6
       },
       "hasSchedule": true,
@@ -646,6 +610,42 @@
         }
       ],
       "summary": "\"欢迎连接【什亭之箱】，老师。\" \n 无限制决战\"获刻玛\"即将开启，参与活动即可获得礼物选择盒、合成石、辅导手册及其他各类养成素材 \n  \n ■ 活动时间 \n • 赛季持续时间：10月30日 14:00 ~ 11月26日 03:59 \n  \n ■ 参加条件 \n • 通关任务（普通难度）5-1 \n  \n ■关于无限制决战…"
+    },
+    {
+      "id": "2001",
+      "title": "【预告】总力战：格里高利 • 室内战",
+      "header": "「总力战·格里高利 • 室内战」",
+      "banner": "./covers/ba-2001-133f0256.png",
+      "link": "https://bluearchive-cn.com/news/2001",
+      "start": "2026-11-20T00:00:00+08:00",
+      "end": "2026-11-26T13:59:00+08:00",
+      "status": "已结束",
+      "remain": "已结束",
+      "progress": 100.0,
+      "days": {
+        "elapsedDays": 6.6,
+        "remainDays": 0.0,
+        "totalDays": 6.6
+      },
+      "hasSchedule": true,
+      "kind": "done",
+      "fuzzy": false,
+      "category": "combat",
+      "allRanges": [
+        {
+          "label": "• 排名奖励结算时间",
+          "start": "2026-11-19T04:00:00+08:00",
+          "end": "2026-11-19T23:59:00+08:00",
+          "raw": " • 排名奖励结算时间：11月19日 04:00 ~ 11月19日 23:59"
+        },
+        {
+          "label": "• 排名奖励领取时间",
+          "start": "2026-11-20T00:00:00+08:00",
+          "end": "2026-11-26T13:59:00+08:00",
+          "raw": " • 排名奖励领取时间：11月20日 00:00 ~ 11月26日 13:59"
+        }
+      ],
+      "summary": "在基沃托斯某处的废弃地下圣堂，观测到了因扭曲的神秘而显现的人造天使格里高利。 \n 它是被称为“诸圣相通”的人造天使系列的完成形态，是在数秘会的实验中诞生的神秘怪物。 \n 直到现在，那个怪物仍然在地下圣堂中演奏着管风琴。没有人知道，在旋律的结尾等待着的会是什么…… \n  \n ■ 活动简介 \n • 总力战是与极其强大的首领…"
     }
   ]
 }
