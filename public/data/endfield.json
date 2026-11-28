@@ -1,17 +1,17 @@
 {
   "game": "终末地",
   "source": "https://endfield.hypergryph.com/news",
-  "fetchedAt": "2026-11-28T05:17:35.072450+08:00",
+  "fetchedAt": "2026-11-28T15:49:12.228989+08:00",
   "timezone": "Asia/Shanghai",
   "count": 18,
   "notes": [
     "当前版本开启估：2026-11-25T12:00:00+08:00",
     "1157 跳过：「穿越甚大蘑境与你相逢」版本研发通讯",
     "0419 跳过：特别答谢 | 致管理员的谢礼",
+    "6082 跳过：2027终末回响-镌宇留声 售票将于11月29日19:00开启",
     "0418 跳过：2027终末回响-镌宇留声 情报公开",
     "3890 跳过：「穿越甚大蘑境与你相逢」版本创作征集活动进行中",
-    "9324 跳过：「穿越甚大蘑境与你相逢」版本预下载与更新预告",
-    "1156 跳过：【游戏工具】智能推荐功能全新上线！"
+    "9324 跳过：「穿越甚大蘑境与你相逢」版本预下载与更新预告"
   ],
   "events": [
     {
@@ -23,11 +23,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-16T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天6时",
-      "progress": 13.0,
+      "remain": "剩17天20时",
+      "progress": 15.0,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 18.3,
+        "elapsedDays": 3.2,
+        "remainDays": 17.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -56,11 +56,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-23T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天6时",
-      "progress": 9.7,
+      "remain": "剩24天20时",
+      "progress": 11.3,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 3.2,
+        "remainDays": 24.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -90,11 +90,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-19T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩21天6时",
-      "progress": 11.3,
+      "remain": "剩20天20时",
+      "progress": 13.2,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 21.3,
+        "elapsedDays": 3.2,
+        "remainDays": 20.8,
         "totalDays": 24.0
       },
       "hasSchedule": true,
@@ -123,11 +123,11 @@
       "start": "2026-12-16T11:59:00+08:00",
       "end": "2026-12-30T11:59:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -155,11 +155,11 @@
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -188,11 +188,11 @@
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -221,11 +221,11 @@
       "start": "2026-12-02T12:00:00+08:00",
       "end": "2026-12-23T04:00:00+08:00",
       "status": "即将开始",
-      "remain": "4天后",
+      "remain": "3天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 24.9,
+        "remainDays": 24.5,
         "totalDays": 20.7
       },
       "hasSchedule": true,
@@ -253,11 +253,11 @@
       "start": "2026-12-27T12:00:00+08:00",
       "end": "2027-01-10T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "29天后",
+      "remain": "28天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 43.3,
+        "remainDays": 42.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -286,11 +286,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-23T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩25天6时",
-      "progress": 9.7,
+      "remain": "剩24天20时",
+      "progress": 11.3,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 3.2,
+        "remainDays": 24.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -319,11 +319,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-23T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天6时",
-      "progress": 9.7,
+      "remain": "剩24天20时",
+      "progress": 11.3,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 3.2,
+        "remainDays": 24.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -347,16 +347,16 @@
       "id": "5979-event-游离赛季",
       "title": "「游离赛季」",
       "header": "「游离赛季」",
-      "banner": "./covers/ef-event-5979-6770828948-2ce84c1c.jpg",
+      "banner": "./covers/ef-event-5979-6770828948-2f647625.png",
       "link": "https://endfield.hypergryph.com/news/5979",
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-16T11:59:00+08:00",
       "status": "进行中",
-      "remain": "剩18天6时",
-      "progress": 13.0,
+      "remain": "剩17天20时",
+      "progress": 15.0,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 18.3,
+        "elapsedDays": 3.2,
+        "remainDays": 17.8,
         "totalDays": 21.0
       },
       "hasSchedule": true,
@@ -385,11 +385,11 @@
       "start": "2026-11-25T12:00:00+08:00",
       "end": "2026-12-23T12:00:00+08:00",
       "status": "进行中",
-      "remain": "剩25天6时",
-      "progress": 9.7,
+      "remain": "剩24天20时",
+      "progress": 11.3,
       "days": {
-        "elapsedDays": 2.7,
-        "remainDays": 25.3,
+        "elapsedDays": 3.2,
+        "remainDays": 24.8,
         "totalDays": 28.0
       },
       "hasSchedule": true,
@@ -510,7 +510,7 @@
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 17.9,
+        "remainDays": 17.5,
         "totalDays": 7.0
       },
       "hasSchedule": true,
@@ -545,11 +545,11 @@
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -578,11 +578,11 @@
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -611,11 +611,11 @@
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -639,16 +639,16 @@
       "id": "5979-event-警觉赛季",
       "title": "「警觉赛季」",
       "header": "「警觉赛季」",
-      "banner": "./covers/ef-event-5979-233c078baa-cc77a215.jpg",
+      "banner": "./covers/ef-event-5979-233c078baa-7f973a48.jpg",
       "link": "https://endfield.hypergryph.com/news/5979",
       "start": "2026-12-16T12:00:00+08:00",
       "end": "2026-12-30T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "18天后",
+      "remain": "17天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 32.3,
+        "remainDays": 31.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
@@ -672,16 +672,16 @@
       "id": "5979-event-分拣吧管礼员",
       "title": "「分拣吧！管礼员」",
       "header": "「分拣吧！管礼员」",
-      "banner": "./covers/ef-event-5979-9b5ec96282-7f973a48.jpg",
+      "banner": "./covers/ef-event-5979-9b5ec96282-acbafa33.png",
       "link": "https://endfield.hypergryph.com/news/5979",
       "start": "2026-12-23T12:00:00+08:00",
       "end": "2027-01-06T12:00:00+08:00",
       "status": "即将开始",
-      "remain": "25天后",
+      "remain": "24天后",
       "progress": 0.0,
       "days": {
         "elapsedDays": 0.0,
-        "remainDays": 39.3,
+        "remainDays": 38.8,
         "totalDays": 14.0
       },
       "hasSchedule": true,
